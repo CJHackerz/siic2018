@@ -87,7 +87,7 @@
                                     <b>SIIC<span>.</span></b>
                                 </span>
                             </h1>
-                            <h2>Innovate | Innovate | Inspire</h2>
+                            <h2>Innovate | Incubate | Inspire</h2>
                             <div class="slider-btn">
                                 <a class="button active" href="#">Learn More</a>
                             </div>
@@ -351,11 +351,10 @@ SIIC is SRM's official and independent Incubation and Innovation center. We inte
                                 <div class="contact-form-wrapper">
                                     <div class="contact-form">
                                         <form id="minix-contact-form" action="" method="POST">
-                                            <input class="form-control" name="name" type="text" placeholder="Your Name*" required>
-                                            <input class="form-control" name="email" type="email" placeholder="Email Address*" required>
-                                            <input class="form-control" name="website" type="url" placeholder="Your Website*" required>
-                                            <textarea name="message" cols="30" rows="2" placeholder="Write Message*"></textarea>
-                                            <button class="button  form-btn" type="submit">SEND MESSAGE</button>
+                                            <input class="form-control" name="name" type="text" placeholder="Your Name" required>
+                                            <input class="form-control" name="email" type="email" placeholder="Email Address" required>
+                                            <textarea name="message" cols="30" rows="2" placeholder="Write Message" required></textarea>
+                                            <button class="button form-btn" type="submit">SEND MESSAGE</button>
                                             <p class="minix-send-message"></p>
                                         </form>
                                     </div>
@@ -369,13 +368,13 @@ SIIC is SRM's official and independent Incubation and Innovation center. We inte
         <!-- Start Footer Section -->
         <div class="clearfix"></div>
         <footer>
-            <div class="footer-bottom ptb-40 text-center">
+            <div class="footer-bottom ptb-30 text-center">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12 col-sm-12">
                             <div class="footer">
                                 <p class="copyright">
-                                    ALL RIGHTS RESERVED. © <a target="_blank" href="www.bigtechit.html">Webarch</a>
+                                    All rights reserved &copy; <a target="_blank" href="www.bigtechit.html">Webarch</a>
                                 </p>
                             </div>
                         </div>
@@ -388,13 +387,29 @@ SIIC is SRM's official and independent Incubation and Innovation center. We inte
     </div>
     <!-- End Main Wrapper -->
     <!-- ALL JQUERY  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
     <script src="js/vendor/jquery-1.12.0.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDdRm-dm4ImhzWxMOy1_TyY6cQ3ZnVpw9E"></script>
     <script src="js/minix-map.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
 </body>
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD81iwuCfGQVC8_rhwNYRaJBadTfuZNDyI&callback=initMap">
+</script>
+<script>
+     function initMap() {
+       var srm = {lat: 12.8231047, lng: 80.04528010000001};
+       var map = new google.maps.Map(document.getElementById('map'), {
+         zoom: 16,
+         center: srm
+       });
+       var marker = new google.maps.Marker({
+         position: srm,
+         map: map
+       });
+     }
 
+   </script>
 
 <!-- Mirrored from themecoffer.com/html/dot-preview/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 31 Mar 2018 11:39:51 GMT -->
 </html>
