@@ -46,7 +46,7 @@
                                 </button>
                                 <div class="homepage-menu-style-two mobile-menu">
                                     <ul class="main-menu ">
-                                        <li><a href="./aboutPage.php">About</a></li>
+                                        <li><a href="aboutPage.php">About</a></li>
                                         <li><a href="#contact">Contact</a></li>
                                         <li><a href="#">Blog</a></li>
                                         <li><a href="index.html#contact">Feedback</a></li>
@@ -60,7 +60,7 @@
                         <div class="mobile-menu-area">
                             <div class="mobile-menu">
                                 <ul>
-                                    <li ><a href="./aboutPage.php">About</a></li>
+                                    <li ><a href="aboutPage.php">About</a></li>
                                     <li><a href="#contact">Contact</a></li>
                                     <li><a href="#">Blog</a></li>
                                     <li><a href="index.html#contact">Feedback</a></li>
@@ -76,7 +76,30 @@
         </header>
         <!-- End Header Section -->
         <!-- Start Slider Area -->
-
+        <div id="home" class="slider-area bg-4" data-stellar-background-ratio="0.5">
+                    <div class="slider-main-wrapper slider-wrapper-two">
+                        <div class="container">
+                            <div class="row">
+                                <div class="slider-item">
+                                    <h1 class="cd-headline letters type is-full-width">
+                                        <span><span class="main-heading-logo"></span></span>
+                                        <span class="cd-words-wrapper">
+                                            <b class="is-visible">SIIC</b>
+                                            <b>SIIC<span>.</span></b>
+                                        </span>
+                                    </h1>
+                                    <h2>Innovate | Incubate | Inspire</h2>
+                                    <div class="slider-btn">
+                                        <a class="button active" href="#">Learn More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sheep-bottom">
+                        <img src="img/bg/shap.png" alt="">
+                    </div>
+                </div>
         <!-- End Slider Area -->
         <!-- Start Main Content Wrapper -->
         <div class="main-content-wrapper">
@@ -187,7 +210,7 @@ SIIC is SRM's official and independent Incubation and Innovation center. We inte
                                             </div>
                                             <div class="portfolio-details">
                                                 <div class="portfolio-details-inner">
-                                                    <h4><a href="javascript:void(0)" >SIC Facilities</a></h4>
+                                                    <h4><a href="javascript:void(0)" >SIIC Facilities</a></h4>
                                                     <ul class="portfolio-category">
                                                         <li><a href="javascript:void(0)">We have top notch world class facilities to serve you with.</a></li>
                                                     </ul>

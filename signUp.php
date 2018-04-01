@@ -57,7 +57,7 @@
                                 </button>
                                 <div class="homepage-menu-style-two mobile-menu">
                                     <ul class="main-menu ">
-                                        <li><a href="#about">About</a></li>
+                                        <li><a href="aboutPage.php">About</a></li>
                                         <li><a href="#contact">Contact</a></li>
                                         <li><a href="#">Blog</a></li>
                                         <li><a href="index.html#contact">Feedback</a></li>
@@ -71,11 +71,11 @@
                         <div class="mobile-menu-area">
                             <div class="mobile-menu">
                                 <ul>
-                                    <li class="active"><a href="#about">About</a></li>
+                                    <li><a href="aboutPage.php">About</a></li>
                                     <li><a href="#contact">Contact</a></li>
                                     <li><a href="#">Blog</a></li>
                                     <li><a href="index.html#contact">Feedback</a></li>
-                                    <li><a href="#">Sign Up</a></li>
+                                    <li class="active"><a href="#">Sign Up</a></li>
                                     <li><a href="#" style="color: #f00;">Become a Mentor</a></li>
                                 </ul>
                             </div>
