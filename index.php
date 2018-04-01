@@ -26,6 +26,7 @@
     <!-- End Preloader -->
     <!-- Start Main Wrapper -->
     <div class="main-wrapper">
+
         <!-- Start Header Section -->
         <header>
             <div id="sticky-header" class="header-area header-style-one gray-bg">
@@ -33,7 +34,7 @@
                     <div class="row">
                         <div class="col-md-3 col-sm-3">
                             <div class="logo">
-                                <a href="index.html"><h2>SIIC<span>.</span></h2></a>
+                                <a href="index.php"><h2>SIIC<span>.</span></h2></a>
                             </div>
                         </div>
                         <div class="col-md-9 col-sm-9 main-menu-wrapper">
@@ -45,7 +46,7 @@
                                 </button>
                                 <div class="homepage-menu-style-two mobile-menu">
                                     <ul class="main-menu ">
-                                        <li class="active"><a href="#about">About</a></li>
+                                        <li><a href="./aboutPage.php">About</a></li>
                                         <li><a href="#contact">Contact</a></li>
                                         <li><a href="#">Blog</a></li>
                                         <li><a href="index.html#contact">Feedback</a></li>
@@ -59,7 +60,7 @@
                         <div class="mobile-menu-area">
                             <div class="mobile-menu">
                                 <ul>
-                                    <li class="active"><a href="#about">About</a></li>
+                                    <li ><a href="./aboutPage.php">About</a></li>
                                     <li><a href="#contact">Contact</a></li>
                                     <li><a href="#">Blog</a></li>
                                     <li><a href="index.html#contact">Feedback</a></li>
@@ -75,30 +76,7 @@
         </header>
         <!-- End Header Section -->
         <!-- Start Slider Area -->
-        <div id="home" class="slider-area bg-4" data-stellar-background-ratio="0.5">
-            <div class="slider-main-wrapper slider-wrapper-two">
-                <div class="container">
-                    <div class="row">
-                        <div class="slider-item">
-                            <h1 class="cd-headline letters type is-full-width">
-                                <span><span class="main-heading-logo"></span></span>
-                                <span class="cd-words-wrapper">
-                                    <b class="is-visible">SIIC.</b>
-                                    <b>SIIC<span>.</span></b>
-                                </span>
-                            </h1>
-                            <h2>Innovate | Incubate | Inspire</h2>
-                            <div class="slider-btn">
-                                <a class="button active" href="#">Learn More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="sheep-bottom">
-                <img src="img/bg/shap.png" alt="">
-            </div>
-        </div>
+
         <!-- End Slider Area -->
         <!-- Start Main Content Wrapper -->
         <div class="main-content-wrapper">
