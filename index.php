@@ -24,10 +24,6 @@
         <div class="loader"></div>
     </div>
     <!-- End Preloader -->
-    <?php
-        require 'process/connect.php';
-        require "includes/nav.php";
-    ?>
     <!-- Start Main Wrapper -->
     <div class="main-wrapper">
         <!-- Start Header Section -->
