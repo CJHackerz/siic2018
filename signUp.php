@@ -1,3 +1,9 @@
+<?php
+    // session_start();
+    // if(isset($_SESSION['user'])) {
+    //     header('Location: ./profile.php');
+    // }
+?>
 <!doctype html>
 <html class="no-js" lang="zxx">
 <head>
@@ -28,6 +34,10 @@
     <!-- End Preloader -->
     <!-- Start Main Wrapper -->
     <div class="main-wrapper">
+        <?php
+//   require "process/connect.php";
+//   require "includes/nav.php";
+  ?>
         <!-- Start Header Section -->
         <header>
             <div id="sticky-header" class="header-area header-style-one gray-bg">
@@ -80,7 +90,8 @@
         <!-- Start Main Content Wrapper -->
         <div class="main-content-wrapper">
             <!-- multistep form -->
-            <form id="msform">
+            <div id="msform">
+            <form role="form" class="new_user" id="new_user" action="./process/process_register.php" enctype="multipart/form-data" accept-charset="UTF-8" method="post">
               <!-- progressbar -->
               <ul id="progressbar">
                 <li class="active">Account Setup</li>
@@ -91,32 +102,37 @@
               <fieldset>
                 <h2 class="fs-title">Create your account</h2>
                 <h3 class="fs-subtitle">This is step 1</h3>
-                <input type="text" name="name" placeholder="Name">
+                <input type="text" name="profile_name" placeholder="Name" required>
                 <!-- <input type="text" placeholder="test123"> -->
-                <input type="text" name="regno" placeholder="Registration Number" />
-                <input type="text" name="cpass" placeholder="Department"/>
-                <input type="button" name="next" class="next action-button" value="Next" />
+                <input type="text" name="profile_register" placeholder="Registration Number" required />
+                <input type="text" name="profile_department" placeholder="Department" required/>
+                <input type="text" name="profile_year" placeholder="Year[1-5]" required/>
+                <input type="date" name="profile_dob" placeholder="Date Of Birth" required/>
+                <input type="submit" name="" class="next action-button" value="Next" required />
               </fieldset>
               <fieldset>
-                <h2 class="fs-title">Social Profiles</h2>
-                <h3 class="fs-subtitle">Your presence on the social network</h3>
-                <input type="text" name="twitter" placeholder="Twitter" />
-                <input type="text" name="facebook" placeholder="Facebook" />
-                <input type="text" name="gplus" placeholder="Google Plus" />
+                <h2 class="fs-title">Create your Account</h2>
+                <h3 class="fs-subtitle">Step 2 out of 3</h3>
+                <input type="text" name="profile_address" placeholder="Address" required/>
+                <input type="text" name="profile_skills" placeholder="Skills" required/>
+                <input type="text" name="profile_hobbies" placeholder="Hobbies" required />
+                <input type="text" name="profile_achievements" placeholder="Achievements"  required />
+                <input type="text" name="profile_experience" placeholder="Experience" required />
                 <input type="button" name="previous" class="previous action-button" value="Previous" />
-                <input type="button" name="next" class="next action-button" value="Next" />
+                <input type="submit" name="next" class="next action-button" value="Next" />
               </fieldset>
               <fieldset>
-                <h2 class="fs-title">Personal Details</h2>
-                <h3 class="fs-subtitle">We will never sell it</h3>
-                <input type="text" name="fname" placeholder="First Name" />
-                <input type="text" name="lname" placeholder="Last Name" />
-                <input type="text" name="phone" placeholder="Phone" />
-                <textarea name="address" placeholder="Address"></textarea>
+                <h2 class="fs-title">Create your Account</h2>
+                <h3 class="fs-subtitle">Step 3 out of 3</h3>
+                <textarea name="profile_description" placeholder="Description/Bio" required></textarea>
+                <input type="email" name="user_email" placeholder="Email" required />
+                <input type="password" name="user_password" placeholder="Password" required/>
+                <input type="password" name="user_password_confirmation" placeholder="Re-enter Password" required />
                 <input type="button" name="previous" class="previous action-button" value="Previous" />
                 <input type="submit" name="submit" class="submit action-button" value="Submit" />
               </fieldset>
             </form>
+            </div>
 
         <!-- Start Footer Section -->
         <div class="clearfix"></div>
