@@ -1,3 +1,9 @@
+<?php
+    session_start();
+    if(isset($_SESSION['user'])) {
+        header('Location: ./profile.php');
+    }
+?>
 <!doctype html>
 <html class="no-js" lang="zxx">
 <head>
@@ -25,6 +31,10 @@
         <div class="loader"></div>
     </div>-->
     <!-- End Preloader -->
+    <?php
+          require "process/connect.php";
+          require "includes/nav.php";
+     ?>
     <!-- Start Main Wrapper -->
     <div class="main-wrapper">
         <!-- Start Header Section -->
