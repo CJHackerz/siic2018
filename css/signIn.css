@@ -21,6 +21,12 @@ body{
 	/*stacking fieldsets above each other*/
 	position: relative;
 }
+input::-webkit-input-placeholder{
+	color:grey;
+}
+input::-moz-placeholder{
+	color: grey;
+}
 /*Hide all except first fieldset*/
 #msform fieldset:not(:first-of-type) {
 	display: none;
