@@ -13,6 +13,10 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <style>
+body{
+    background-color:#;
+} </style>
 </head>
 
 <body>
@@ -145,6 +149,47 @@
 " It's indeed a great pleasure for me to announce about initiative SRM Innovation and Incubation center. This initiative is taken in order to develop and awaken the student's talents and feed them with the required support and facilities. I'm sure that SIIC will bring out the entrepreneurial skills and also to develop them for their future endeavors. "</p></center>
 </div>
 </div>
+ <!-- Start creative team -->
+ <div id="team" class="content-section ptb-100 text-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
+                            <div class="main-heading-content text-center">
+                                <h2>Core Team<span>.</span></h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="team-wrapper">
+                        
+                            <div class="col-md-4 col-sm-4 ">
+                                <div class="team-item">
+                                    <div class="team-thumb">
+                                        <img class="img-responsive" src="./img/team/ceo.jpg" alt="">
+                                        <ul class="team-social">
+                                            <li>
+                                                <a href="#"> <i class="fa fa-facebook"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"> <i class="fa fa-twitter"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"> <i class="fa fa-linkedin"></i></a>
+                                            </li>
+                                           
+                                        </ul>
+                                    </div>
+                                    <div class="team-content">
+                                        <h3>Nikunj Panchal</h3>
+                                        <span class="position">CEO</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End creative team -->
            
         <!-- Start Footer Section -->
         <div class="clearfix"></div>
