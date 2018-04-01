@@ -94,9 +94,9 @@
             <form role="form" class="new_user" id="new_user" action="./process/process_register.php" enctype="multipart/form-data" accept-charset="UTF-8" method="post">
               <!-- progressbar -->
               <ul id="progressbar">
-                <li class="active">Account Setup</li>
-                <li>Personal Details</li>
+                <li class="active">Personal Details</li>
                 <li>Your Profile</li>
+                <li>Account Setup</li>
               </ul>
               <!-- fieldsets -->
               <fieldset>
@@ -106,7 +106,7 @@
                 <!-- <input type="text" placeholder="test123"> -->
                 <input type="text" name="profile_register" placeholder="Registration Number" required />
                 <input type="text" name="profile_department" placeholder="Department" required/>
-                <input type="text" name="profile_year" placeholder="Year[1-5]" required/>
+                <input type="number" min=1 max=5 name="profile_year" placeholder="Year [ 1-5 ]" required/>
                 <input type="date" name="profile_dob" placeholder="Date Of Birth" required/>
                 <input type="submit" name="" class="next action-button" value="Next" required />
               </fieldset>
