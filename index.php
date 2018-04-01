@@ -20,9 +20,9 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
     <!-- Start Preloader -->
-    <div class="loader-wrapper">
+    <!--<div class="loader-wrapper">
         <div class="loader"></div>
-    </div>
+    </div>-->
     <!-- End Preloader -->
     <!-- Start Main Wrapper -->
     <div class="main-wrapper">
@@ -49,7 +49,7 @@
                                         <li><a href="#contact">Contact</a></li>
                                         <li><a href="#">Blog</a></li>
                                         <li><a href="index.html#contact">Feedback</a></li>
-                                        <li><a href="#">Sign Up</a></li>
+                                        <li><a href="signUp.php">Sign Up</a></li>
                                         <li><a href="#" style="color: #f00;">Become a Mentor</a></li>
                                     </ul>
                                 </div>
@@ -63,7 +63,7 @@
                                     <li><a href="#contact">Contact</a></li>
                                     <li><a href="#">Blog</a></li>
                                     <li><a href="index.html#contact">Feedback</a></li>
-                                    <li><a href="#">Sign Up</a></li>
+                                    <li><a href="signUp.php">Sign Up</a></li>
                                     <li><a href="#" style="color: #f00;">Become a Mentor</a></li>
                                 </ul>
                             </div>
