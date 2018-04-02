@@ -127,7 +127,7 @@ body{
                 </div>
             </div>
             <div class="row">
-                        <div class="col-md-4 col-sm-5 col-md-offset-1 " style="margin-top:-100px;">
+                        <div class="col-md-4 col-sm-5 col-md-offset-1 col-sm-offset-1 col-xs-offset-1 col-xs-10" style="margin-top:-100px;">
                             <article class="blog-post">
                                 <div class="post-thumbnail">
                                     <a href="#">
@@ -143,7 +143,7 @@ body{
                                 </div>
                             </article>
                         </div>
-                        <div class="col-md-5 col-sm-5 col-md-offset-1 ">
+                        <div class="col-md-5 col-sm-5 col-md-offset-1 col-sm-offset-1 col-xs-offset-1 col-xs-10">
                         <center>    <p>
 
 " It's indeed a great pleasure for me to announce about initiative SRM Innovation and Incubation center. This initiative is taken in order to develop and awaken the student's talents and feed them with the required support and facilities. I'm sure that SIIC will bring out the entrepreneurial skills and also to develop them for their future endeavors. "</p></center>
