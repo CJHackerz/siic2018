@@ -1,9 +1,3 @@
-<?php
-    session_start();
-    if(isset($_SESSION['user'])) {
-        header('Location: ./profile.php');
-    }
-?>
 <!doctype html>
 <html class="no-js" lang="zxx">
 <head>
@@ -34,7 +28,7 @@
     <!-- End Preloader -->
     <!-- Start Main Wrapper -->
     <div class="main-wrapper">
-        
+
         <!-- Start Header Section -->
         <?php include 'includes/nav.php' ?>
         <!-- End Header Section -->
