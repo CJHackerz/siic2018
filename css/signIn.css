@@ -8,6 +8,12 @@ body{
 	text-align: center;
 	position: relative;
 }
+input::-moz-placeholder{
+	color: red;
+}
+input::-webkit-input-placeholder{
+	color: red;
+}
 #msform fieldset {
 	background: white;
 	border: 0 none;
