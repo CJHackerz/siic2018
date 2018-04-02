@@ -30,61 +30,15 @@
 </head>
 
 <body>
-    <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+   
     
     <!-- Start Main Wrapper -->
     <div class="main-wrapper">
-        <!-- Start Header Section -->
-        <header>
-            <div id="sticky-header" class="header-area header-style-one gray-bg">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-3 col-sm-3">
-                            <div class="logo">
-                                <!-- insert SIIC logo -->
-                                <a href="index-2.html"><h2>Dot<span>.</span></h2></a>
-                            </div>
-                        </div>
-                        <div class="col-md-9 col-sm-9 main-menu-wrapper">
-                            <div class="main-menu-wrapper">
-                                <button class="hamburger hamburger--slider" type="button">
-                                    <span class="hamburger-box">
-                                    <span class="hamburger-inner"></span>
-                                    </span>
-                                </button>
-                                <div class="homepage-menu-style-two mobile-menu">
-                                    <ul class="main-menu ">
-                                        <li class="active"><a href="#home">Home</a></li>
-                                        <li><a href="#about">About</a></li>
-                                        <li><a href="#portfolio">Portfolio</a></li>
-                                        <li><a href="#team">Team</a></li>
-                                        <li><a href="#blog">Blog</a></li>
-                                        <li><a href="#contact">Contact</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Start Mobile Menu -->
-                        <div class="mobile-menu-area">
-                            <div class="mobile-menu">
-                                <ul>
-                                    <li class="active"><a href="#home">Home</a></li>
-                                    <li><a href="#about">About</a></li>
-                                    <li><a href="#team">Team</a></li>
-                                    <li><a href="#portfolio">Portfolio</a></li>
-                                    <li><a href="#blog">Blog</a></li>
-                                    <li><a href="#contact">Contact</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <!-- End Mobile Menu -->
-                    </div>
-                </div>
-            </div>
-        </header>
-        <!-- End Header Section -->
+        <!-- NAV BAR -->
+             <?php
+                include './includes/nav.php';
+            ?>
+        <!-- NAV BAR ENDS -->
  
         
        
@@ -109,7 +63,7 @@
                         </div>
                     </div>
                     <?php
-        $sql = "SELECT * from teams where team_id = '1'";
+        $sql = "SELECT * from teams where type = 'team'";
         $result = $conn->query($sql);
 
         if($result->num_rows > 0) {
@@ -152,34 +106,9 @@
 
 
              <!-- Start Footer Section -->
-        <div class="clearfix"></div>
-        <footer>
-            <div class="footer-bottom ptb-120 text-center">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12 col-sm-12">
-                            <div class="footer">
-                                <h2 class="footer-logo">
-                                    Dot<span>.</span>
-                                </h2>
-                                <div class="footer-social black">
-                                    <ul class="social-bookmarkas">
-                                        <li><a href="#"><i class="ti-facebook"></i></a></li>
-                                        <li><a href="#"><i class="ti-twitter"></i></a></li>
-                                        <li><a href="#"><i class="ti-linkedin"></i></a></li>
-                                        <li><a href="#"><i class="ti-google"></i></a></li>
-                                        <li><a href="#"><i class="ti-youtube"></i></a></li>
-                                    </ul>
-                                </div>
-                                <p class="copyright">
-                                    ALL RIGHTS RESERVED. © <a target="_blank" href="www.bigtechit.html">BIGRECHIT</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
+        <?php
+            include './includes/footer.php'
+        ?>
         <!-- end Footer Section -->
         <!-- End Main Content Wrapper -->
     </div>

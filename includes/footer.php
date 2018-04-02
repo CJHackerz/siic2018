@@ -1,14 +1,27 @@
-<footer class="cosmos">
-    <div class="container" style="width:100%; ">
-        <div class="row">
-            <div class="col-md-8 hidden-xs-down">
-                Site in Alpha
+<style>
+   .footer {
+   position: relative;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:#333;
+   color: white;
+   text-align: center;
+   }
+</style>
+<!-- Start Footer Section -->
+<div class="clearfix"></div>
+<div class="footer ptb-30 text-center">
+   <div class="container">
+      <div class="row">
+         <div class="col-md-12 col-sm-12">
+            <div class="footer">
+               <p class="copyright" style="color: #fff; ">
+                  &copy; Webarch 2018
+               </p>
             </div>
-            <div class="col-md-4 col-xs-12">
-                <a href="http://webarchsrm.com/">
-                    <img alt="rss feed" class="pull-right" src="./img/weblogo.png" />
-                </a>
-            </div>
-        </div>
-    </div>
-</footer>
+         </div>
+      </div>
+   </div>
+</div>
+<!-- end Footer Section -->
