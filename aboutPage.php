@@ -31,54 +31,7 @@
       <!-- Start Main Wrapper -->
       <div class="main-wrapper">
          <!-- Start Header Section -->
-         <header>
-            <div id="sticky-header" class="header-area header-style-one gray-bg">
-               <div class="container">
-                  <div class="row">
-                     <div class="col-md-3 col-sm-3">
-                        <div class="logo">
-                           <a href="index.html">
-                              <h2>SIIC<span>.</span></h2>
-                           </a>
-                        </div>
-                     </div>
-                     <div class="col-md-9 col-sm-9 main-menu-wrapper">
-                        <div class="main-menu-wrapper">
-                           <button class="hamburger hamburger--slider" type="button">
-                           <span class="hamburger-box">
-                           <span class="hamburger-inner"></span>
-                           </span>
-                           </button>
-                           <div class="homepage-menu-style-two mobile-menu">
-                              <ul class="main-menu ">
-                                 <li class="active"><a href="aboutPage.php">About</a></li>
-                                 <li><a href="#contact">Contact</a></li>
-                                 <li><a href="#">Blog</a></li>
-                                 <li><a href="index.php#contact">Feedback</a></li>
-                                 <li><a href="#">Sign Up</a></li>
-                                 <li><a href="#" style="color: #f00;">Become a Mentor</a></li>
-                              </ul>
-                           </div>
-                        </div>
-                     </div>
-                     <!-- Start Mobile Menu -->
-                     <div class="mobile-menu-area">
-                        <div class="mobile-menu">
-                           <ul>
-                              <li class="active"><a href="aboutPage.php">About</a></li>
-                              <li><a href="#contact">Contact</a></li>
-                              <li><a href="#">Blog</a></li>
-                              <li><a href="index.php#contact">Feedback</a></li>
-                              <li><a href="#">Sign Up</a></li>
-                              <li><a href="#" style="color: #f00;">Become a Mentor</a></li>
-                           </ul>
-                        </div>
-                     </div>
-                     <!-- End Mobile Menu -->
-                  </div>
-               </div>
-            </div>
-         </header>
+        <?php include 'includes/nav.php' ?>
          <!-- End Header Section -->
          <!-- Start Slider Area -->
          <!-- End Slider Area -->
@@ -153,9 +106,9 @@
                      </div>
                   </div>
                </div>
-               <div class="row">
+               <div class="row" align="center">
                   <div class="team-wrapper">
-                     <div class="col-md-4 col-sm-4 ">
+                     <div class="col-md-4 col-sm-4">
                         <div class="team-item">
                            <div class="team-thumb">
                               <img class="img-responsive" src="./img/team/ceo.jpg" alt="">
@@ -182,24 +135,7 @@
             </div>
          </div>
          <!-- End creative team -->
-         <!-- Start Footer Section -->
-         <div class="clearfix"></div>
-         <footer>
-            <div class="footer-bottom ptb-30 text-center">
-               <div class="container">
-                  <div class="row">
-                     <div class="col-md-12 col-sm-12">
-                        <div class="footer">
-                           <p class="copyright" style="color: #fff;">
-                              &copy; Webarch 2018
-                           </p>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </footer>
-         <!-- end Footer Section -->
+         <?php include 'includes/footer.php' ?>
          <!-- End Main Content Wrapper -->
       </div>
       <!-- End Main Wrapper -->
