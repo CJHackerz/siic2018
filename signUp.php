@@ -35,9 +35,8 @@
     <!-- Start Main Wrapper -->
     <div class="main-wrapper">
         <?php
-//   require "process/connect.php";
-//   require "includes/nav.php";
-  ?>
+        require "process/connect.php";
+        ?>
         <!-- Start Header Section -->
         <?php include 'includes/nav.php' ?>
         <!-- End Header Section -->
@@ -90,7 +89,7 @@
             </div>
 
         <?php include 'includes/footer.php' ?>
-    
+
         </div>
         <!-- End Main Content Wrapper -->
     </div>
@@ -102,9 +101,34 @@
     <script src="js/minix-map.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
-      <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </body>
+<?php
+// alerts
+if(isset($_GET['error'])) {
+    if($_GET['error'] == 'pass_match') {
+        ?>
+        <script type="text/javascript">
+            swal("Try again!", "Passwords do not match!", "error");
+        </script>
+        <?php
+    } else if($_GET['error'] == 'user_exists') {
+        ?>
+        <script type="text/javascript">
+            swal("Try again!", "User already exists!", "error");
+        </script>
+        <?php
+    } else if($_GET['error'] == 'invalid_email') {
+        ?>
+        <script type="text/javascript">
+            swal("Invalid email address!", "Make sure you DONT add @srmuniv.edu.in to your email!", "error");
+        </script>
+        <?php
+    }
+}
+?>
 <script type="text/javascript">
 
 
@@ -189,7 +213,6 @@ $(".previous").click(function(){
 $(".submit").click(function(){
 	return false;
 })
-
 
 </script>
 </html>

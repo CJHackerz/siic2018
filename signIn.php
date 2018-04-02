@@ -35,9 +35,8 @@
     <!-- Start Main Wrapper -->
     <div class="main-wrapper">
         <?php
-//   require "process/connect.php";
-//   require "includes/nav.php";
-  ?>
+         require "process/connect.php";
+          ?>
         <!-- Start Header Section -->
         <?php include 'includes/nav.php' ?>
         <!-- End Header Section -->
