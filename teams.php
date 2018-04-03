@@ -68,12 +68,12 @@
 
         if($result->num_rows > 0) {
             while ($row = $result->fetch_assoc()) {
-                echo        ' <div class="row" style="">
+                echo        ' <div class="row">
                 <div class="col-md-4 col-sm-6">
                     <article class="blog-post">
                         <div class="post-thumbnail">
                             <a href="./teampage.php?id=' . $row['team_id'] . '">
-                                <img class="img-responsive" src="./teams/img/' . $row['logo'] . '" alt="">
+                                <img  style="height:30rem; width:50rem" src="./teams/img/' . $row['logo'] . '" alt="">
                         </div>
                         <div class="post-content">
                             <div class="post-content-inner">
@@ -94,6 +94,8 @@
                     </div>
                 </div>
             </div>
+        </div>
+        </div>
 
 
 
