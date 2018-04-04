@@ -22,9 +22,11 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-    
-    <style>
 
+    <style>
+    body{
+        background-color: #f4f9fe;
+    }
         .personal-info{
             align:center;
         }
@@ -50,11 +52,11 @@
         include './includes/nav.php';
     ?>
 <!-- NAV BAR ENDS -->
-    
+
     <!-- Start Main Wrapper -->
     <div class="main-wrapper">
-               
-        
+
+
         <!-- Start Main Content Wrapper -->
         <div class="main-content-wrapper">
             <div id="about" class="content-section-area pt-120 pb-5">
@@ -76,7 +78,7 @@
 
         <!-- FORM -->
         <div class="col-md-8 personal-info">
-        
+
         <form class="form-horizontal" role="form" id="new_project" enctype="multipart/form-data" action="./process/process_new_project.php" accept-charset="UTF-8" method="post">
           <div class="form-group">
             <label class="col-lg-3 control-label"placeholder="Title" type="text" name="project_title" id="project_title">Title</label>
@@ -89,15 +91,15 @@
             <div class="col-lg-8">
             <textarea cols="80" rows="10" class="form-control bootsy_text_area" placeholder="Requirements" name="project_requirement" id="project_requirements"></textarea>
             </div>
-          
+
 
           <div class="form-group col-lg-8 file_input" >
           <label for="project_bp" class="control-label">Upload your Project report (4MB File Size Limit)(pdf, ppt, doc, docx)</label><br/>
                     <input type="file" accept=".pdf, .ppt, .doc, .docx" name="project_bp" id="project_bp"/><br/>
           </div>
           </div>
-          
-          
+
+
           <div class="form-group">
             <label class="col-md-3 control-label"></label>
             <div class="col-md-8">
@@ -118,8 +120,8 @@
 </script>
 
          <!--form ends-->
-         
-         
+
+
 
 
        <!-- Start Footer Section -->

@@ -2,7 +2,7 @@
     include './process/connect.php';
     include './process/utils.php';
 
-    
+
 ?>
 <!doctype html>
 <html class="no-js" lang="zxx">
@@ -22,9 +22,11 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-    
-    <style>
 
+    <style>
+    body{
+        background-color: #f4f9fe;
+    }
         .personal-info{
             align:center;
         }
@@ -50,11 +52,11 @@
         include './includes/nav.php';
     ?>
 <!-- NAV BAR ENDS -->
-    
+
     <!-- Start Main Wrapper -->
     <div class="main-wrapper">
-               
-        
+
+
         <!-- Start Main Content Wrapper -->
         <div class="main-content-wrapper">
             <div id="about" class="content-section-area pt-120 pb-5">
@@ -75,7 +77,7 @@
 
         <!-- FORM -->
         <div class="col-md-8 personal-info">
-        
+
         <form class="form-horizontal" role="form" id="new_research" enctype="multipart/form-data" action="./process/process_new_research.php" accept-charset="UTF-8" method="post">
           <div class="form-group">
             <label class="col-lg-3 control-label"placeholder="Title" type="text" name="project_title" id="project_title">Title</label>
@@ -88,7 +90,7 @@
             <div class="col-lg-8">
             <textarea cols="80" rows="10" class="form-control bootsy_text_area" name="project_requirement" id="project_requirements"></textarea>
             </div>
-          
+
 
           <div class="form-group">
             <label for="project_requirements" class="col-lg-3 control-label">Requirements</label>
@@ -96,8 +98,8 @@
             <textarea cols="80" rows="10" class="form-control bootsy_text_area" name="project_requirement" id="project_requirements"></textarea>
             </div>
           </div>
-          
-          
+
+
           <div class="form-group">
             <label class="col-md-3 control-label"></label>
             <div class="col-md-8">
@@ -118,8 +120,8 @@
 </script>
 
          <!--form ends-->
-         
-         
+
+
 
 
        <!-- Start Footer Section -->
