@@ -22,9 +22,11 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-    
-    <style>
 
+    <style>
+    body{
+    background-color: #f4f9fe;
+    }
         .personal-info{
             align:center;
         }
@@ -50,11 +52,11 @@
         include './includes/nav.php';
     ?>
 <!-- NAV BAR ENDS -->
-    
+
     <!-- Start Main Wrapper -->
     <div class="main-wrapper">
-               
-        
+
+
         <!-- Start Main Content Wrapper -->
         <div class="main-content-wrapper">
             <div id="about" class="content-section-area pt-120 pb-5">
@@ -75,7 +77,7 @@
 
         <!-- FORM -->
         <div class="col-md-8 personal-info">
-        
+
         <form class="form-horizontal" role="form" id="new_project" enctype="multipart/form-data" action="./process/process_new_project.php" accept-charset="UTF-8" method="post">
         <?php
                                 if($_SERVER['REQUEST_METHOD'] == 'GET') {
@@ -158,8 +160,8 @@
           </div>
 
           </div>
-          
-          
+
+
           <div class="form-group text-center" style="padding-left:25%">
             <label class="col-md-4 control-label"></label>
             <div class="col-md-8">
@@ -180,8 +182,8 @@
 </script>
 
          <!--form ends-->
-         
-         
+
+
 
 
        <!-- Start Footer Section -->
