@@ -48,32 +48,33 @@
               <fieldset>
                 <h2 class="fs-title">Create your account</h2>
                 <h3 class="fs-subtitle">This is step 1</h3>
-                <input type="text" name="profile_name" placeholder="Name" required>
+                <input type="file" name="profile_avatar" id="profile_avatar">
+                <input type="text" name="profile_name" id="profile_name" placeholder="Name" required>
                 <!-- <input type="text" placeholder="test123"> -->
-                <input type="text" name="profile_register" placeholder="Registration Number" required />
-                <input type="text" name="profile_department" placeholder="Department" required/>
-                <input type="number" min=1 max=5 name="profile_year" placeholder="Year [ 1-5 ]" required/>
-                <input type="date" name="profile_dob" placeholder="Date Of Birth" required/>
+                <input type="text" name="profile_register" id="profile_register" placeholder="Registration Number" required />
+                <input type="text" name="profile_department" id="profile_department" placeholder="Department" required/>
+                <input type="text" name="profile_year" min=1 max=5 id="profile_year" placeholder="Year[1-5]" required/>
+                <input type="date" name="profile_dob" id="profile_dob" placeholder="Date Of Birth" required/>
                 <input type="submit" name="" class="next action-button" value="Next" required />
               </fieldset>
               <fieldset>
                 <h2 class="fs-title">Create your Account</h2>
                 <h3 class="fs-subtitle">Step 2 out of 3</h3>
-                <input type="text" name="profile_address" placeholder="Address" required/>
-                <input type="text" name="profile_skills" placeholder="Skills" required/>
-                <input type="text" name="profile_hobbies" placeholder="Hobbies" required />
-                <input type="text" name="profile_achievements" placeholder="Achievements"  required />
-                <input type="text" name="profile_experience" placeholder="Experience" required />
+                <input type="text" name="profile_address" id="profile_address" placeholder="Address"/>
+                <input type="text" name="profile_skills" id="profile_skills" placeholder="Skills" required/>
+                <input type="text" name="profile_hobbies" id="profile_hobbies" placeholder="Hobbies" />
+                <input type="text" name="profile_achievements" id="profile_achievements" placeholder="Achievements" />
+                <input type="text" name="profile_experience" id="profile_experience" placeholder="Experience"/>
                 <input type="button" name="previous" class="previous action-button" value="Previous" />
                 <input type="submit" name="next" class="next action-button" value="Next" />
               </fieldset>
               <fieldset>
                 <h2 class="fs-title">Create your Account</h2>
                 <h3 class="fs-subtitle">Step 3 out of 3</h3>
-                <textarea name="profile_description" placeholder="Description/Bio" required></textarea>
-                <input type="email" name="user_email" placeholder="Email" required />
-                <input type="password" name="user_password" placeholder="Password" required/>
-                <input type="password" name="user_password_confirmation" placeholder="Re-enter Password" required />
+                <textarea name="profile_description" id="profile_description" placeholder="Description/Bio"></textarea>
+                <input type="email" name="user_email" id="user_email" placeholder="Email" required />
+                <input type="password" name="user_password" id="user_password" placeholder="Password" required/>
+                <input type="password" name="user_password_confirmation" id="user_password_confirmation" placeholder="Re-enter Password" required />
                 <input type="button" name="previous" class="previous action-button" value="Previous" />
                 <input type="submit" name="submit" class="submit action-button" value="Submit" />
               </fieldset>
