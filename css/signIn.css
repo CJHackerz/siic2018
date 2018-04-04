@@ -1,6 +1,8 @@
 body{
     background-color: #39CAF7;
 }
+
+
 /*form styles*/
 #msform {
 	width: 400px;
@@ -16,7 +18,7 @@ body{
 	padding: 20px 30px;
 	box-sizing: border-box;
 	width: 80%;
-	margin: 0 10%;
+	margin: 0 5%;
 
 	/*stacking fieldsets above each other*/
 	position: relative;
@@ -52,6 +54,9 @@ textarea::-webkit-input-placeholder{
 	font-size: 13px;
 	background: white;
 }
+ 
+
+
 /*buttons*/
 #msform .action-button {
 	width: 100px;
@@ -131,4 +136,29 @@ textarea::-webkit-input-placeholder{
 #progressbar li.active:before,  #progressbar li.active:after{
 	background: #27AE60;
 	color: white;
+}
+
+.email-adjust{
+	width: 50%!important;
+	margin-left: 0!important;
+	float: left;
+	border-top-right-radius: 0!important;
+	border-bottom-right-radius: 0!important;
+	/* padding-left: 0!important; */
+}
+
+.email-link{
+	display: inline-block;
+	padding: 15px;
+    border: 1px solid #ccc;
+	border-radius: 3px;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+    margin-bottom: 10px;
+    width: 50%;
+    box-sizing: border-box;
+    font-family: montserrat;
+    color: #2C3E50;
+    font-size: 13px;
+    background:#D8E2E2;
 }

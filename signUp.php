@@ -99,7 +99,7 @@
                 <li>Your Profile</li>
               </ul>
               <!-- fieldsets -->
-              <fieldset>
+              <fieldset >
                 <h2 class="fs-title">Create your account</h2>
                 <h3 class="fs-subtitle">This is step 1</h3>
                 <input type="text" name="profile_name" placeholder="Name" required>
@@ -109,6 +109,7 @@
                 <input type="text" name="profile_year" placeholder="Year[1-5]" required/>
                 <input type="date" name="profile_dob" placeholder="Date Of Birth" required/>
                 <input type="submit" name="" class="next action-button" value="Next" required />
+                <p>Already have an account? <a href="./signIn.php" style="text-decoration: none; color:"><strong>Sign in</strong></a></p>
               </fieldset>
               <fieldset>
                 <h2 class="fs-title">Create your Account</h2>
@@ -125,7 +126,8 @@
                 <h2 class="fs-title">Create your Account</h2>
                 <h3 class="fs-subtitle">Step 3 out of 3</h3>
                 <textarea name="profile_description" placeholder="Description/Bio" required></textarea>
-                <input type="email" name="user_email" placeholder="Email" required />
+                <input type="text" class="email-adjust" name="user_email" placeholder="Email" required />
+                <span class="email-link">@srmuniv.edu.in</span>
                 <input type="password" name="user_password" placeholder="Password" required/>
                 <input type="password" name="user_password_confirmation" placeholder="Re-enter Password" required />
                 <input type="button" name="previous" class="previous action-button" value="Previous" />
