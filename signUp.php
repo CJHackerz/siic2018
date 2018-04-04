@@ -77,10 +77,10 @@
                 <input type="text" class="email-adjust" name="user_email" id="user_email" placeholder="Email" required />
                 <span class="email-link">@srmuniv.edu.in</span>
                 <input type="password" name="user_password" placeholder="Password" id="user_password" required/>
-                <input type="password" name="user_password_confirmation" placeholder="Re-enter Password" required />
+                <input type="password" name="user_password_confirmation" id="user_password_confirmation" placeholder="Re-enter Password" required />
 
                 <input type="button" name="previous" class="previous action-button" value="Previous" />
-                <input type="submit" name="submit" class="submit action-button" value="Submit" />
+                <input type="submit" name="commit" class="submit action-button" value="Submit" />
               </fieldset>
             </form>
             </div>
