@@ -74,15 +74,10 @@
                 <h3 class="fs-subtitle">Step 3 out of 3</h3>
 
                 <textarea name="profile_description" placeholder="Description/Bio" required></textarea>
-                <input type="text" class="email-adjust" name="user_email" placeholder="Email" required />
+                <input type="text" class="email-adjust" name="user_email" id="user_email" placeholder="Email" required />
                 <span class="email-link">@srmuniv.edu.in</span>
-                <input type="password" name="user_password" placeholder="Password" required/>
+                <input type="password" name="user_password" placeholder="Password" id="user_password" required/>
                 <input type="password" name="user_password_confirmation" placeholder="Re-enter Password" required />
-
-                <textarea name="profile_description" id="profile_description" placeholder="Description/Bio"></textarea>
-                <input type="email" name="user_email" id="user_email" placeholder="Email" required />
-                <input type="password" name="user_password" id="user_password" placeholder="Password" required/>
-                <input type="password" name="user_password_confirmation" id="user_password_confirmation" placeholder="Re-enter Password" required />
 
                 <input type="button" name="previous" class="previous action-button" value="Previous" />
                 <input type="submit" name="submit" class="submit action-button" value="Submit" />
