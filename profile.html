@@ -9,7 +9,7 @@
     <meta name="author" content="">
 
     <link rel="shortcut icon" href="img/favicon.ico">
-    <title>Yash Tandon</title>
+    <title>SIIC - Profile</title>
 
     <!-- Global stylesheets -->
     <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
@@ -73,7 +73,7 @@
                   <a href="#" style="color:white;">SIIC</a>
               </div>
               <p class="mb-5" style="max-width: 500px;" >I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
-              
+
           </div>
       </section>
 

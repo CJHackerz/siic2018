@@ -3,10 +3,9 @@
    include './process/utils.php';
 
    $user = get_user();
-   ?>
+?>
 <!doctype html>
 <html class="no-js" lang="zxx">
-   <!-- Mirrored from themecoffer.com/html/dot-preview/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 31 Mar 2018 11:39:02 GMT -->
    <head>
       <meta charset="utf-8">
       <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -101,11 +100,9 @@
          integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
          crossorigin="anonymous"></script>
       <!--form ends-->
-      <!-- Start Footer Section -->
       <?php
          include './includes/footer.php'
          ?>
-      <!-- end Footer Section -->
       <!-- End Main Content Wrapper -->
       </div>
       <!-- End Main Wrapper -->
@@ -116,5 +113,4 @@
       <script src="js/plugins.js"></script>
       <script src="js/main.js"></script>
    </body>
-   <!-- Mirrored from themecoffer.com/html/dot-preview/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 31 Mar 2018 11:39:51 GMT -->
 </html>

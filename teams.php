@@ -6,7 +6,6 @@
    ?>
 <!doctype html>
 <html class="no-js" lang="zxx">
-   <!-- Mirrored from themecoffer.com/html/dot-preview/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 31 Mar 2018 11:39:02 GMT -->
    <head>
       <meta charset="utf-8">
       <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -29,7 +28,7 @@
          <!-- NAV BAR -->
          <?php
             include './includes/nav.php';
-            ?>
+         ?>
          <!-- NAV BAR ENDS -->
          <!-- DISPLAY TEAMS -->
          <div id="blog" class="content-section-area ptb-120  gray-bg">
@@ -87,5 +86,4 @@
       <script src="js/plugins.js"></script>
       <script src="js/main.js"></script>
    </body>
-   <!-- Mirrored from themecoffer.com/html/dot-preview/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 31 Mar 2018 11:39:51 GMT -->
 </html>

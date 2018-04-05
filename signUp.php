@@ -18,14 +18,7 @@
 </head>
 
 <body>
-    <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-    <!-- Start Preloader -->
-    <!--<div class="loader-wrapper">
-        <div class="loader"></div>
-    </div>-->
-    <!-- End Preloader -->
+    >
     <!-- Start Main Wrapper -->
     <div class="main-wrapper">
 
@@ -48,12 +41,12 @@
               <fieldset >
                 <h2 class="fs-title">Create your account</h2>
                 <h3 class="fs-subtitle">This is step 1</h3>
-                <input type="file" name="profile_avatar" id="profile_avatar">
+                <input type="file" name="profile_avatar" id="profile_avatar" value="Select your profile Photo">
                 <input type="text" name="profile_name" id="profile_name" placeholder="Name" required>
                 <!-- <input type="text" placeholder="test123"> -->
                 <input type="text" name="profile_register" id="profile_register" placeholder="Registration Number" required />
                 <input type="text" name="profile_department" id="profile_department" placeholder="Department" required/>
-                <input type="text" name="profile_year" min=1 max=5 id="profile_year" placeholder="Year[1-5]" required/>
+                <input type="number" name="profile_year" min="1" max="5" id="profile_year" placeholder="Year[1-5]" required/>
                 <input type="date" name="profile_dob" id="profile_dob" placeholder="Date Of Birth" required/>
                 <input type="submit" name="" class="next action-button" value="Next" required />
                 <p>Already have an account? <a href="./signIn.php" style="text-decoration: none; color:green;"><strong>Sign in</strong></a></p>
@@ -68,6 +61,7 @@
                 <input type="text" name="profile_experience" id="profile_experience" placeholder="Experience"/>
                 <input type="button" name="previous" class="previous action-button" value="Previous" />
                 <input type="submit" name="next" class="next action-button" value="Next" />
+                <p>Already have an account? <a href="./signIn.php" style="text-decoration: none; color:green;"><strong>Sign in</strong></a></p>
               </fieldset>
               <fieldset>
                 <h2 class="fs-title">Create your Account</h2>
@@ -81,6 +75,7 @@
 
                 <input type="button" name="previous" class="previous action-button" value="Previous" />
                 <input type="submit" name="commit" class="submit action-button" value="Submit" />
+                <p>Already have an account? <a href="./signIn.php" style="text-decoration: none; color:green;"><strong>Sign in</strong></a></p>
               </fieldset>
             </form>
             </div>
