@@ -19,12 +19,16 @@
     <link href="css/devicons/css/devicons.min.css" rel="stylesheet">
     <link href="css/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+
+
 </head>
 
 <body id="page-top">
+        
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary " id="sideNav">
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
+
         <!-- <span class="d-block d-lg-none  mx-0 px-0"><img src="img/logo-white.png" alt="" class="img-fluid"></span> -->
         <span class="d-none d-lg-block">
           <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
@@ -73,7 +77,7 @@
                   <a href="#" style="color:white;">SIIC</a>
               </div>
               <p class="mb-5" style="max-width: 500px;" >I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
-              
+
           </div>
       </section>
 
@@ -856,7 +860,7 @@
             </div>
         </div>
     </div>
-
+  <?php include 'includes/footer.php' ?>
 
     <!-- Global javascript -->
     <script src="js/jquery/jquery.min.js"></script>
