@@ -1,8 +1,7 @@
 <?php
+
    include './process/connect.php';
    include './process/utils.php';
-
-   $user = get_user();
    ?>
 <!doctype html>
 <html class="no-js" lang="zxx">
@@ -13,7 +12,7 @@
       <meta name="description" content="">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <!-- Favicon Icon Add -->
-      <link rel="shortcut icon" type="image/x-icon" href="img/favicon.html">
+      <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
       <!-- All STYLESHEET CSS -->
       <link rel="stylesheet" href="css/element.css">
       <link rel="stylesheet" href="style.css">
@@ -65,6 +64,7 @@
                       }
                   }
                   ?>
+
             </div>
          </div>
       </div>
