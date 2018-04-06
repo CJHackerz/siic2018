@@ -89,8 +89,10 @@
               <div class="col-12">
                 <h2 class="  text-center">EXPERIENCE</h2>
                 <div class="mb-5 heading-border"></div>
+                <p align = "right"><button type="button" class="btn btn-primary">Add Experience</button> </p>
               </div>
               <div class="resume-item col-md-6 col-sm-12 " >
+               
                 <div class="card mx-0 p-4 mb-5" style="border-color: #17a2b8; box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.21);">
                   <div class=" resume-content mr-auto">
                       <h4 class="mb-3"><i class="fa fa-globe mr-3 text-info"></i> Senior Web Developer</h4>
@@ -256,9 +258,12 @@
     ======================================================-->
       <section class=" d-flex flex-column" id="skills">
          <div class="p-lg-5 p-3 skill-cover">
-          <h3 class="text-center text-white">Coding Skills</h3>
+          <h3 class="text-center text-white">Skills</h3>
+          <p align = "right"><button type="button" class="btn btn-primary">Add New Skills</button> </p>
           <div class="row text-center my-auto ">
+          
               <div class="col-md-3 col-sm-6">
+              
                   <div class="skill-item">
                       <i class="fa fa-html5 fa-5x"></i>
                       <!-- <h2><span class="counter"> 84 </span><span>%</span></h2> -->
@@ -298,6 +303,7 @@
             <div class="col-12">
               <h2 class="  text-center">STARTUPS</h2>
               <div class="mb-5 heading-border"></div>
+              <p align = "right"><button type="button" class="btn btn-primary">Apply for Startups</button> </p>
             </div>
             <div class="resume-item col-md-6 col-sm-12 " >
               <div class="card mx-0 p-4 mb-5" style="border-color: #17a2b8; box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.21);">
@@ -351,6 +357,7 @@
             <div class="col-12">
               <h2 class="  text-center">TEAMS</h2>
               <div class="mb-5 heading-border"></div>
+              <p align = "right"><button type="button" class="btn btn-primary">Add Teams</button> </p>
             </div>
             <div class="resume-item col-md-6 col-sm-12 " >
               <div class="card mx-0 p-4 mb-5" style="border-color: #17a2b8; box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.21);">
