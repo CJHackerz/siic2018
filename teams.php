@@ -1,14 +1,12 @@
 <?php
     include './process/connect.php';
     include './process/utils.php';
-
-    $user = get_user();
 ?>
 <!doctype html>
 <html class="no-js" lang="zxx">
 
 
-<!-- Mirrored from themecoffer.com/html/dot-preview/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 31 Mar 2018 11:39:02 GMT -->
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -62,14 +60,15 @@
                             </div>
                         </div>
                     </div>
+                    </div>
                     <?php
         $sql = "SELECT * from teams where type = 'team'";
         $result = $conn->query($sql);
-
+            echo '<div style="padding-left:20px;padding-right:6rem;">';
         if($result->num_rows > 0) {
             while ($row = $result->fetch_assoc()) {
                 echo        ' <div class="row">
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-3 col-sm-6">
                     <article class="blog-post">
                         <div class="post-thumbnail">
                             <a href="./teampage.php?id=' . $row['team_id'] . '">
@@ -89,7 +88,7 @@
 
 
 
-
+                    </div>
     
                     </div>
                 </div>
