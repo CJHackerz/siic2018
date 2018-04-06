@@ -155,7 +155,9 @@
           <div class="row my-auto">
               <div class="col-12">
                 <h2 class="  text-center">PROJECTS</h2>
+               
                 <div class="mb-5 heading-border"></div>
+                <p align = "right"><button type="button" class="btn btn-primary">Add Projects</button> </p>
               </div>
               <!-- <div class="col-md-12">
                 <div class="port-head-cont">
