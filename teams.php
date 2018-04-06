@@ -23,6 +23,23 @@
     
     <style>
 
+      @media only screen and (max-width: 800px) {
+        
+        .blog-post{
+            margin:auto;
+            margin-right:20rem;
+            margin-left:20rem;
+            margin-bottom:50px;
+            
+           
+            }
+        img{
+            height:30rem;
+            width:50rem;
+        }
+        
+    }
+         
         
     </style>
 </head>
@@ -72,7 +89,7 @@
                     <article class="blog-post">
                         <div class="post-thumbnail">
                             <a href="./teampage.php?id=' . $row['team_id'] . '">
-                                <img  style="height:30rem; width:50rem" src="./teams/img/' . $row['logo'] . '" alt="">
+                                <img class="img-responsive" style="height:30rem; width:50rem" src="./teams/img/' . $row['logo'] . '" alt="">
                         </div>
                         <div class="post-content">
                             <div class="post-content-inner">
