@@ -9,7 +9,7 @@
     <meta name="author" content="">
 
     <link rel="shortcut icon" href="img/favicon.ico">
-    <title>Yash Tandon</title>
+    <title>SIIC - Profile</title>
 
     <!-- Global stylesheets -->
     <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">

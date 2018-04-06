@@ -1,12 +1,10 @@
 <?php
+
    include './process/connect.php';
    include './process/utils.php';
-
-   $user = get_user();
    ?>
 <!doctype html>
 <html class="no-js" lang="zxx">
-   <!-- Mirrored from themecoffer.com/html/dot-preview/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 31 Mar 2018 11:39:02 GMT -->
    <head>
       <meta charset="utf-8">
       <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -14,7 +12,7 @@
       <meta name="description" content="">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <!-- Favicon Icon Add -->
-      <link rel="shortcut icon" type="image/x-icon" href="img/favicon.html">
+      <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
       <!-- All STYLESHEET CSS -->
       <link rel="stylesheet" href="css/element.css">
       <link rel="stylesheet" href="style.css">
@@ -29,7 +27,7 @@
          <!-- NAV BAR -->
          <?php
             include './includes/nav.php';
-            ?>
+         ?>
          <!-- NAV BAR ENDS -->
          <!-- DISPLAY TEAMS -->
          <div id="blog" class="content-section-area ptb-120  gray-bg">
@@ -66,6 +64,7 @@
                       }
                   }
                   ?>
+
             </div>
          </div>
       </div>
@@ -87,5 +86,4 @@
       <script src="js/plugins.js"></script>
       <script src="js/main.js"></script>
    </body>
-   <!-- Mirrored from themecoffer.com/html/dot-preview/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 31 Mar 2018 11:39:51 GMT -->
 </html>
