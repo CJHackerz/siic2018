@@ -18,14 +18,24 @@
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href="css/devicons/css/devicons.min.css" rel="stylesheet">
     <link href="css/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style1.css" rel="stylesheet">
+      <!-- Favicon Icon Add -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    
 
 
 </head>
 
 <body id="page-top">
-        
+
+
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary " id="sideNav">
+    <div class="logo">
+                        <a href="index.php"><h2>SIIC<span>.</span></h2></a>
+                    </div>
+                </div>
 
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
 
@@ -60,6 +70,7 @@
             </ul>
         </div>
     </nav>
+    
 
     <div class="container-fluid p-0">
 
@@ -72,11 +83,11 @@
               <h1 class="mb-0"style="color: white;" >Johndon
                 <span class="text-primary">Bonsen</span>
               </h1>
-              <div class="subheading mb-5" >YEAR:<br>
+              <div class="subheading mb-5" >YEAR: 1<br>
                 DEPARTMENT:
                   <a href="#" style="color:white;">SIIC</a>
               </div>
-              <p class="mb-5" style="max-width: 500px;" >I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+              <p class="mb-5" style="max-width: 500px; color:white;" >I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
 
           </div>
       </section>
