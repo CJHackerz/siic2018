@@ -2,13 +2,13 @@
     include './process/connect.php';
     include './process/utils.php';
 
-    $user = get_user();
+    //$user = get_user();
 ?>
 <!doctype html>
 <html class="no-js" lang="zxx">
 
 
-<!-- Mirrored from themecoffer.com/html/dot-preview/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 31 Mar 2018 11:39:02 GMT -->
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -29,18 +29,25 @@
             align:center;
         }
 
-        @media only screen and (min-width: 500px) {
+@media only screen and (min-width: 800px) {
     .file_input {
-        padding-left:12rem;
+        padding-left:50%;
+    }
+    #project_bp {
+        padding-left:30%;
     }
 }
 
 
-@media only screen and (max-width: 600px) {
-    .file_input {
-        padding-left:3rem;
+@media only screen and (max-width: 800px) {
+    #project_bp {
+        padding-left:40%;
+    }
+    .sub-btn{
+        padding-right:25%;
     }
 }
+
     </style>
 </head>
 
@@ -91,17 +98,18 @@
             </div>
           
 
-          <div class="form-group col-lg-8 file_input" >
+          <div class="form-group text-center col-lg-13 file_input" >
           <label for="project_bp" class="control-label">Upload your Project report (4MB File Size Limit)(pdf, ppt, doc, docx)</label><br/>
                     <input type="file" accept=".pdf, .ppt, .doc, .docx" name="project_bp" id="project_bp"/><br/>
           </div>
           </div>
+          </div>
           
           
-          <div class="form-group">
-            <label class="col-md-3 control-label"></label>
+          <div class="form-group text-center sub-btn" style="padding-left:25%">
+            <label class="col-md-4 control-label"></label>
             <div class="col-md-8">
-              <input type="Submit" class="btn btn-primary" value="Save Changes">
+              <input type="Submit" class="btn btn-primary" value="Create Project">
               <span></span>
               <input type="reset" class="btn btn-default" value="Cancel">
             </div>

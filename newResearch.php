@@ -8,11 +8,11 @@
 <html class="no-js" lang="zxx">
 
 
-<!-- Mirrored from themecoffer.com/html/dot-preview/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 31 Mar 2018 11:39:02 GMT -->
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>New Project|SIIC</title>
+    <title>New Research|SIIC</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Favicon Icon Add -->
@@ -29,18 +29,24 @@
             align:center;
         }
 
-        @media only screen and (min-width: 500px) {
+        @media only screen and (min-width: 800px) {
     .file_input {
         padding-left:12rem;
     }
+    .sub-btn {
+        padding-left:25%;
+    }
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
     .file_input {
         padding-left:3rem;
     }
+    
+
 }
+
     </style>
 </head>
 
@@ -88,6 +94,7 @@
             <div class="col-lg-8">
             <textarea cols="80" rows="10" class="form-control bootsy_text_area" name="project_requirement" id="project_requirements"></textarea>
             </div>
+            </div>
           
 
           <div class="form-group">
@@ -98,15 +105,14 @@
           </div>
           
           
-          <div class="form-group">
-            <label class="col-md-3 control-label"></label>
+          <div class="form-group text-center sub-btn">
+            <label class="col-md-4 control-label"></label>
             <div class="col-md-8">
-              <input type="Submit" name="commit" class="btn btn-primary" value="Save Changes">
+              <input type="Submit" class="btn btn-primary" value="Create Research">
               <span></span>
               <input type="reset" class="btn btn-default" value="Cancel">
             </div>
           </div>
-        </form>
       </div>
   </div>
 </div>
