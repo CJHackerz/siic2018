@@ -1,5 +1,4 @@
 <?php
-
    include './process/connect.php';
    include './process/utils.php';
    ?>
@@ -43,7 +42,6 @@
                <?php
                   $sql = "SELECT * from teams where type = 'team'";
                   $result = $conn->query($sql);
-
                   if($result->num_rows > 0) {
                       while ($row = $result->fetch_assoc()) {
                           echo        ' <div class="row">

@@ -2,11 +2,14 @@
     include './process/connect.php';
     include './process/utils.php';
 
-    $user = get_user();
+    //$user = get_user();
 ?>
 
 <!doctype html>
 <html class="no-js" lang="zxx">
+
+
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -29,16 +32,22 @@
             align:center;
         }
 
-        @media only screen and (min-width: 500px) {
+        @media only screen and (min-width: 800px) {
     .file_input {
         padding-left:12rem;
     }
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
     .file_input {
         padding-left:3rem;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .create-button{
+        padding-right:25%;
     }
 }
     </style>
@@ -76,7 +85,7 @@
         <!-- FORM -->
         <div class="col-md-8 personal-info">
 
-        <form class="form-horizontal" role="form" id="new_project" enctype="multipart/form-data" action="./process/process_new_project.php" accept-charset="UTF-8" method="post">
+        <form class="form-horizontal" role="form" id="new_research" enctype="multipart/form-data" action="./dev/admin/process/process_new_team.php" accept-charset="UTF-8" method="post">
         <?php
                                 if($_SERVER['REQUEST_METHOD'] == 'GET') {
                                     if(isset($_GET['status'])) {
@@ -139,7 +148,7 @@
           <div class="form-group">
             <label class="col-lg-3 control-label"placeholder="Title" type="text" name="project_title" id="project_title">Contact no</label>
             <div class="col-lg-8">
-              <input class="form-control" type="number">
+              <input class="form-control" type="text">
             </div>
           </div>
 
@@ -160,7 +169,7 @@
           </div>
 
 
-          <div class="form-group text-center" style="padding-left:25%">
+          <div class="form-group text-center create-button" style="padding-left:25%">
             <label class="col-md-4 control-label"></label>
             <div class="col-md-8">
               <input type="Submit" class="btn btn-primary" value="Create">

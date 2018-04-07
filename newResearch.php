@@ -81,7 +81,7 @@
                   </div>
                   <div class="form-group">
                      <label class="col-md-3 control-label"></label>
-                     <div class="col-md-8">
+                     <div class="col-md-8" align="center">
                         <input type="Submit" name="commit" class="btn btn-primary" value="Save Changes">
                         <span></span>
                         <input type="reset" class="btn btn-default" value="Cancel">
