@@ -1,12 +1,18 @@
 <?php
    include './process/connect.php';
    include './process/utils.php';
+
    //  $user = get_user();
+
    if(isset($_GET["id"])) {
        session_start();
+
        $team_id = $_GET["id"];
+
        $sql = "SELECT * from teams where team_id = '$team_id'";
+
        $result = $conn->query($sql);
+
        $row = $result->fetch_assoc();
        $team_email     = $row['team_email'];
        $team_name      = $row["team_name"];
@@ -15,6 +21,7 @@
        $contact        = $row['contact'];
        $website        = $row['website'];
        $fb             = $row['fb'];
+
        if (strpos($website, 'http') === false) {
            $website = 'http://' . $website;
        }
