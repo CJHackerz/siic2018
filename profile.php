@@ -18,13 +18,27 @@
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href="css/devicons/css/devicons.min.css" rel="stylesheet">
     <link href="css/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style1.css" rel="stylesheet">
+      <!-- Favicon Icon Add -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    
+
+
 </head>
 
 <body id="page-top">
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary " id="sideNav">
+    <div class="logo">
+                        <a href="index.php"><h2>SIIC<span>.</span></h2></a>
+                    </div>
+                </div>
+
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
+
         <!-- <span class="d-block d-lg-none  mx-0 px-0"><img src="img/logo-white.png" alt="" class="img-fluid"></span> -->
         <span class="d-none d-lg-block">
           <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
@@ -56,6 +70,7 @@
             </ul>
         </div>
     </nav>
+    
 
     <div class="container-fluid p-0">
 
@@ -68,11 +83,11 @@
               <h1 class="mb-0"style="color: white;" >Johndon
                 <span class="text-primary">Bonsen</span>
               </h1>
-              <div class="subheading mb-5" >YEAR:<br>
+              <div class="subheading mb-5" >YEAR: 1<br>
                 DEPARTMENT:
                   <a href="#" style="color:white;">SIIC</a>
               </div>
-              <p class="mb-5" style="max-width: 500px;" >I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+              <p class="mb-5" style="max-width: 500px; color:white;" >I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
 
           </div>
       </section>
@@ -85,8 +100,10 @@
               <div class="col-12">
                 <h2 class="  text-center">EXPERIENCE</h2>
                 <div class="mb-5 heading-border"></div>
+                <p align = "right"><button type="button" class="btn btn-primary">Add Experience</button> </p>
               </div>
               <div class="resume-item col-md-6 col-sm-12 " >
+               
                 <div class="card mx-0 p-4 mb-5" style="border-color: #17a2b8; box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.21);">
                   <div class=" resume-content mr-auto">
                       <h4 class="mb-3"><i class="fa fa-globe mr-3 text-info"></i> Senior Web Developer</h4>
@@ -140,7 +157,9 @@
           <div class="row my-auto">
               <div class="col-12">
                 <h2 class="  text-center">PROJECTS</h2>
+               
                 <div class="mb-5 heading-border"></div>
+                <p align = "right"><button type="button" class="btn btn-primary">Add Projects</button> </p>
               </div>
               <!-- <div class="col-md-12">
                 <div class="port-head-cont">
@@ -250,9 +269,12 @@
     ======================================================-->
       <section class=" d-flex flex-column" id="skills">
          <div class="p-lg-5 p-3 skill-cover">
-          <h3 class="text-center text-white">Coding Skills</h3>
+          <h3 class="text-center text-white">Skills</h3>
+          <p align = "right"><button type="button" class="btn btn-primary">Add New Skills</button> </p>
           <div class="row text-center my-auto ">
+          
               <div class="col-md-3 col-sm-6">
+              
                   <div class="skill-item">
                       <i class="fa fa-html5 fa-5x"></i>
                       <!-- <h2><span class="counter"> 84 </span><span>%</span></h2> -->
@@ -292,6 +314,7 @@
             <div class="col-12">
               <h2 class="  text-center">STARTUPS</h2>
               <div class="mb-5 heading-border"></div>
+              <p align = "right"><button type="button" class="btn btn-primary">Apply for Startups</button> </p>
             </div>
             <div class="resume-item col-md-6 col-sm-12 " >
               <div class="card mx-0 p-4 mb-5" style="border-color: #17a2b8; box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.21);">
@@ -345,6 +368,7 @@
             <div class="col-12">
               <h2 class="  text-center">TEAMS</h2>
               <div class="mb-5 heading-border"></div>
+              <p align = "right"><button type="button" class="btn btn-primary">Add Teams</button> </p>
             </div>
             <div class="resume-item col-md-6 col-sm-12 " >
               <div class="card mx-0 p-4 mb-5" style="border-color: #17a2b8; box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.21);">
@@ -856,7 +880,7 @@
             </div>
         </div>
     </div>
-
+  <?php include 'includes/footer.php' ?>
 
     <!-- Global javascript -->
     <script src="js/jquery/jquery.min.js"></script>
