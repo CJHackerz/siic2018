@@ -145,7 +145,7 @@
           <div class="form-group">
             <label class="col-lg-3 control-label"placeholder="Title" type="text" name="project_title" id="project_title">Contact no</label>
             <div class="col-lg-8">
-              <input class="form-control" type="number">
+              <input class="form-control" type="text">
             </div>
           </div>
 
