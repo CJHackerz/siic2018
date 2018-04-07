@@ -18,15 +18,25 @@ body {
 		/* margin: 0 auto; */
 	}
 	#msform fieldset{
-		margin-left: 10%!important;
+		margin-left: 10% !important;
 		width: 100%;
 	}
 
 	.email-link{
-		padding-left: 2px!important;
+		padding-left: 2px !important;
 	}
-
-	
+    #msform fieldset {
+        background: white;
+        border: 0 none;
+        border-radius: 3px;
+        box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+        padding: 20px 30px;
+        width: 80%;
+        box-sizing: border-box;
+        margin: 0 5%;
+        /*stacking fieldsets above each other*/
+        position: relative;
+    }
 }
 
 input::-moz-placeholder {
@@ -44,7 +54,6 @@ input::-webkit-input-placeholder {
     box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
     padding: 20px 30px;
     box-sizing: border-box;
-    width: 80%;
     margin: 0 5%;
     /*stacking fieldsets above each other*/
     position: relative;

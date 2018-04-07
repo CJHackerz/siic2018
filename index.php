@@ -17,9 +17,9 @@
 
 <body>
     <!-- Start Preloader -->
-    <div class="loader-wrapper">
+    <!--<div class="loader-wrapper">
         <div class="loader"></div>
-    </div>
+    </div>-->
     <!-- End Preloader -->
     <!-- Start Main Wrapper -->
     <div class="main-wrapper">
