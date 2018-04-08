@@ -97,10 +97,10 @@
           <label for="">Are you registering as a Team or a Startup?</label>
                                 <br>
                                 <label class="radio-inline">
-                                    <input type="radio" name="userType" value="team"> Team
+                                    <input type="radio" name="userType" value="team"required /> Team
                                 </label>
                                 <label class="radio-inline">
-                                    <input type="radio" name="userType" value="startup"> Startup
+                                    <input type="radio" name="userType" value="startup"required /> Startup
                                 </label>
           </div>
           </div>
@@ -115,7 +115,7 @@
           <div class="form-group">
             <label class="col-lg-3 control-label"placeholder="Title" type="text" name="project_title" id="project_title">Team/Startup name</label>
             <div class="col-lg-8">
-              <input class="form-control" type="text" placeholder="Enter Startup Title">
+              <input class="form-control" type="text" placeholder="Enter Startup Title"required />
             </div>
           </div>
 
@@ -124,42 +124,42 @@
           <div class="form-group">
             <label for="project_requirements" class="col-lg-3 control-label">Description</label>
             <div class="col-lg-8">
-            <textarea cols="80" rows="10" class="form-control bootsy_text_area" placeholder="Write about your teams history, goals and achievements" name="project_requirement" id="project_requirements"></textarea>
+            <textarea cols="80" rows="10" class="form-control bootsy_text_area" placeholder="Write about your teams history, goals and achievements" name="project_requirement" id="project_requirements"required /></textarea>
             </div>
             </div>
 
             <div class="form-group">
             <label class="col-lg-3 control-label"placeholder="Title" type="text" name="project_title" id="project_title">Website Link</label>
             <div class="col-lg-8">
-              <input class="form-control" type="text">
+              <input class="form-control" type="text"required />
             </div>
           </div>
 
           <div class="form-group">
             <label class="col-lg-3 control-label" type="text" name="project_title" id="project_title">Facebook Link</label>
             <div class="col-lg-8">
-              <input class="form-control" type="text">
+              <input class="form-control" type="text"required />
             </div>
           </div>
 
           <div class="form-group">
             <label class="col-lg-3 control-label"placeholder="Title" type="text" name="project_title" id="project_title">Contact no</label>
             <div class="col-lg-8">
-              <input class="form-control" type="text">
+              <input class="form-control" type="text"required />
             </div>
           </div>
 
           <div class="form-group">
             <label class="col-lg-3 control-label"placeholder="Title" type="text" name="project_title" id="project_title">Team/Startup Email</label>
             <div class="col-lg-8">
-              <input class="form-control" type="text" placeholder="This is the email you will use to access your team account">
+              <input class="form-control" type="text" placeholder="This is the email you will use to access your team account"required />
             </div>
           </div>
 
           <div class="form-group">
             <label class="col-lg-3 control-label"placeholder="Title" type="password" name="project_title" id="project_title">Password</label>
             <div class="col-lg-8">
-              <input class="form-control" type="password">
+              <input class="form-control" type="password"required />
             </div>
           </div>
 

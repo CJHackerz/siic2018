@@ -86,13 +86,13 @@
           <div class="form-group">
             <label class="col-lg-3 control-label"placeholder="Title" type="text" name="project_title" id="project_title">Title</label>
             <div class="col-lg-8">
-              <input class="form-control" type="text" placeholder="Enter Research Title">
+              <input class="form-control" type="text" placeholder="Enter Research Title"required />
             </div>
           </div>
           <div class="form-group">
             <label for="project_requirements" class="col-lg-3 control-label">Report</label>
             <div class="col-lg-8">
-            <textarea cols="80" rows="10" class="form-control bootsy_text_area" name="project_requirement" id="project_requirements"></textarea>
+            <textarea cols="80" rows="10" class="form-control bootsy_text_area" name="project_requirement" id="project_requirements"required /></textarea>
             </div>
             </div>
           
@@ -100,7 +100,7 @@
           <div class="form-group">
             <label for="project_requirements" class="col-lg-3 control-label">Requirements</label>
             <div class="col-lg-8">
-            <textarea cols="80" rows="10" class="form-control bootsy_text_area" name="project_requirement" id="project_requirements"></textarea>
+            <textarea cols="80" rows="10" class="form-control bootsy_text_area" name="project_requirement" id="project_requirements"required /></textarea>
             </div>
           </div>
           
