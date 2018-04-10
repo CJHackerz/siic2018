@@ -160,7 +160,7 @@ SIIC is SRM's official and independent Incubation and Innovation center. We inte
                                     <div class="portfolio-item cat4 cat2">
                                         <div class="portfolio-item-content">
                                             <div class="item-thumbnail">
-                                                <img src="img/portfolio/p-1/6.jpg" alt="">
+                                                <img src="img/learnmore.jpg" alt="">
                                             </div>
                                             <div class="portfolio-details">
                                                 <div class="portfolio-details-inner">
@@ -175,7 +175,7 @@ SIIC is SRM's official and independent Incubation and Innovation center. We inte
                                     <div class="portfolio-item cat1 cat3 ">
                                         <div class="portfolio-item-content">
                                             <div class="item-thumbnail">
-                                                <img src="img/portfolio/p-1/7.jpg" alt="">
+                                                <img src="img/feedback.jpg" alt="">
                                             </div>
                                             <div class="portfolio-details">
                                                 <div class="portfolio-details-inner">
@@ -190,7 +190,7 @@ SIIC is SRM's official and independent Incubation and Innovation center. We inte
                                     <div class="portfolio-item cat4 cat2">
                                         <div class="portfolio-item-content">
                                             <div class="item-thumbnail">
-                                                <img src="img/portfolio/p-1/8.jpg" alt="">
+                                                <img src="img/bankofinventory.jpg" alt="">
                                             </div>
                                             <div class="portfolio-details">
                                                 <div class="portfolio-details-inner">
@@ -205,7 +205,7 @@ SIIC is SRM's official and independent Incubation and Innovation center. We inte
                                     <div class="portfolio-item cat4 cat2 ">
                                         <div class="portfolio-item-content">
                                             <div class="item-thumbnail">
-                                                <img src="img/portfolio/p-1/9.jpg" alt="">
+                                                <img src="img/insights.jpg" alt="">
                                             </div>
                                             <div class="portfolio-details">
                                                 <div class="portfolio-details-inner">
