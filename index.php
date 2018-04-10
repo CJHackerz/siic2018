@@ -65,48 +65,6 @@ SIIC is SRM's official and independent Incubation and Innovation center. We inte
                             </div>
                         </div>
                     </div>
-                    <div class="row about-homepage-2">
-                        <div class="col-md-3 col-sm-6">
-                            <div class="about-item">
-                                <div class="about-icon">
-                                    <i class="fa fa-hourglass-end" aria-hidden="true"></i>
-                                </div>
-                                <h3>Latest Web Design</h3>
-                                <p>It is a long established fact that a reader will be distracted by the readable content of. </p>
-                                <a class="readmore" href="#">Read More</a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="about-item">
-                                <div class="about-icon">
-                                    <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
-                                </div>
-                                <h3>Web Development</h3>
-                                <p>It is a long established fact that a reader will be distracted by the readable content of. </p>
-                                <a class="readmore" href="#">Read More</a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="about-item">
-                                <div class="about-icon">
-                                    <i class="fa fa-pie-chart" aria-hidden="true"></i>
-                                </div>
-                                <h3>Branding Identity</h3>
-                                <p>It is a long established fact that a reader will be distracted by the readable content of. </p>
-                                <a class="readmore" href="#">Read More</a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="about-item">
-                                <div class="about-icon">
-                                    <i class="fa fa-shield" aria-hidden="true"></i>
-                                </div>
-                                <h3>Best Support</h3>
-                                <p>It is a long established fact that a reader will be distracted by the readable content of. </p>
-                                <a class="readmore" href="#">Read More</a>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
             <!-- Start Portfolio Area -->
@@ -285,7 +243,7 @@ SIIC is SRM's official and independent Incubation and Innovation center. We inte
                                 <div class="get-in-tuch">
                                     <h2>Get In Touch<span>.</span></h2>
                                     <ul class="address-line">
-                                        <li><i class="fa fa-map-marker"></i>SIIC Address SRM Univ.... haha</li>
+                                        <li><i class="fa fa-map-marker"></i>SIIC Address</li>
                                         <li><i class="fa fa-user"></i>Nikunj Panchal</li>
                                         <li><i class="fa fa-envelope"></i>manager@srmiic.com</li>
                                         <li><i class="fa fa-phone"></i>+91 8148606827</li>
