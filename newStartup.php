@@ -69,11 +69,11 @@
                <div class="form-group">
                   <label class="col-lg-3 control-label"placeholder="Title" type="text" name="project_title" id="project_title">Title</label>
                   <div class="col-lg-8">
-                     <input class="form-control" type="text" placeholder="Enter Startup Title">
+                     <input class="form-control" type="text" placeholder="Enter Startup Title" required>
                   </div>
                   <div class="form-group text-center col-lg-13 file_input" >
                      <label for="project_bp" class="control-label">Upload your Start up idea (4MB File Size Limit)(pdf, ppt, doc, docx)</label><br/>
-                     <input type="file" accept=".pdf, .ppt, .doc, .docx" name="project_bp" id="project_bp"/><br/>
+                     <input type="file" accept=".pdf, .ppt, .doc, .docx" name="project_bp" id="project_bp" required/><br/>
                   </div>
                </div>
          </div>

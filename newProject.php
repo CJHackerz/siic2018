@@ -83,19 +83,19 @@
           <div class="form-group">
             <label class="col-lg-3 control-label"placeholder="Title" type="text" name="project_title" id="project_title">Title</label>
             <div class="col-lg-8">
-              <input class="form-control" type="text" placeholder="Enter Project Title">
+              <input class="form-control" type="text" placeholder="Enter Project Title" required>
             </div>
           </div>
           <div class="form-group">
             <label for="project_requirements" class="col-lg-3 control-label">Requirements</label>
             <div class="col-lg-8">
-            <textarea cols="80" rows="10" class="form-control bootsy_text_area" placeholder="Requirements" name="project_requirement" id="project_requirements"></textarea>
+            <textarea cols="80" rows="10" class="form-control bootsy_text_area" placeholder="Requirements" name="project_requirement" id="project_requirements" required></textarea>
             </div>
 
 
           <div class="form-group text-center col-lg-13 file_input" >
           <label for="project_bp" class="control-label">Upload your Project report (4MB File Size Limit)(pdf, ppt, doc, docx)</label><br/>
-                    <input type="file" accept=".pdf, .ppt, .doc, .docx" name="project_bp" id="project_bp"/><br/>
+                    <input type="file" accept=".pdf, .ppt, .doc, .docx" name="project_bp" id="project_bp" required/><br/>
           </div>
           </div>
           </div>
