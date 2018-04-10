@@ -2491,14 +2491,12 @@ ul.main-menu {
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
     z-index: 2;
-    opacity: 0;
+  
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    visibility: hidden;
+   
     -webkit-transition: .5s;
     transition: .5s;
-}
 
-.portfolio-item:hover .portfolio-details {
     opacity: 1;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
     visibility: visible;
@@ -2521,10 +2519,8 @@ ul.main-menu {
     visibility: hidden;
     width: 100%;
     z-index: 1;
-}
 
-.portfolio-item:hover .item-thumbnail::after {
-    opacity: 0.9;
+    opacity: 0.5;
     transition: all 0.3s ease 0s;
     visibility: visible;
 }
