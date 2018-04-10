@@ -1,9 +1,3 @@
-<?php
-    session_start();
-    if(isset($_SESSION['user'])) {
-        header('Location: ./profile.php');
-    }
-?>
 <!doctype html>
 <html class="no-js" lang="zxx">
 <head>
@@ -24,67 +18,12 @@
 </head>
 
 <body>
-    <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-    <!-- Start Preloader -->
-    <!--<div class="loader-wrapper">
-        <div class="loader"></div>
-    </div>-->
-    <!-- End Preloader -->
+    >
     <!-- Start Main Wrapper -->
     <div class="main-wrapper">
-        <?php
-//   require "process/connect.php";
-//   require "includes/nav.php";
-  ?>
+
         <!-- Start Header Section -->
-        <header>
-            <div id="sticky-header" class="header-area header-style-one gray-bg">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-3 col-sm-3">
-                            <div class="logo">
-                                <a href="index.html"><h2>SIIC<span>.</span></h2></a>
-                            </div>
-                        </div>
-                        <div class="col-md-9 col-sm-9 main-menu-wrapper">
-                            <div class="main-menu-wrapper">
-                                <button class="hamburger hamburger--slider" type="button">
-                                    <span class="hamburger-box">
-                                    <span class="hamburger-inner"></span>
-                                    </span>
-                                </button>
-                                <div class="homepage-menu-style-two mobile-menu">
-                                    <ul class="main-menu ">
-                                        <li class="active"><a href="#about">About</a></li>
-                                        <li><a href="#contact">Contact</a></li>
-                                        <li><a href="#">Blog</a></li>
-                                        <li><a href="index.html#contact">Feedback</a></li>
-                                        <li><a href="#">Sign Up</a></li>
-                                        <li><a href="#" style="color: #f00;">Become a Mentor</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Start Mobile Menu -->
-                        <div class="mobile-menu-area">
-                            <div class="mobile-menu">
-                                <ul>
-                                    <li class="active"><a href="#about">About</a></li>
-                                    <li><a href="#contact">Contact</a></li>
-                                    <li><a href="#">Blog</a></li>
-                                    <li><a href="index.html#contact">Feedback</a></li>
-                                    <li><a href="#">Sign Up</a></li>
-                                    <li><a href="#" style="color: #f00;">Become a Mentor</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <!-- End Mobile Menu -->
-                    </div>
-                </div>
-            </div>
-        </header>
+        <?php include 'includes/nav.php' ?>
         <!-- End Header Section -->
         <br><br>
         <!-- Start Main Content Wrapper -->
@@ -94,65 +33,55 @@
             <form role="form" class="new_user" id="new_user" action="./process/process_register.php" enctype="multipart/form-data" accept-charset="UTF-8" method="post">
               <!-- progressbar -->
               <ul id="progressbar">
-                <li class="active">Account Setup</li>
-                <li>Personal Details</li>
+                <li class="active">Personal Details</li>
                 <li>Your Profile</li>
+                <li>Account Setup</li>
               </ul>
               <!-- fieldsets -->
-              <fieldset>
+              <fieldset >
                 <h2 class="fs-title">Create your account</h2>
                 <h3 class="fs-subtitle">This is step 1</h3>
-                <input type="text" name="profile_name" placeholder="Name" required>
+                <input type="file" name="profile_avatar" id="profile_avatar" value="Select your profile Photo">
+                <input type="text" name="profile_name" id="profile_name" placeholder="Name" required>
                 <!-- <input type="text" placeholder="test123"> -->
-                <input type="text" name="profile_register" placeholder="Registration Number" required />
-                <input type="text" name="profile_department" placeholder="Department" required/>
-                <input type="text" name="profile_year" placeholder="Year[1-5]" required/>
-                <input type="date" name="profile_dob" placeholder="Date Of Birth" required/>
+                <input type="text" name="profile_register" id="profile_register" placeholder="Registration Number" required />
+                <input type="text" name="profile_department" id="profile_department" placeholder="Department" required/>
+                <input type="number" name="profile_year" min="1" max="5" id="profile_year" placeholder="Year[1-5]" required/>
+                <input type="date" name="profile_dob" id="profile_dob" placeholder="Date Of Birth" required/>
                 <input type="submit" name="" class="next action-button" value="Next" required />
+                <p>Already have an account? <a href="./signIn.php" style="text-decoration: none; color:green;"><strong>Sign in</strong></a></p>
               </fieldset>
               <fieldset>
                 <h2 class="fs-title">Create your Account</h2>
                 <h3 class="fs-subtitle">Step 2 out of 3</h3>
-                <input type="text" name="profile_address" placeholder="Address" required/>
-                <input type="text" name="profile_skills" placeholder="Skills" required/>
-                <input type="text" name="profile_hobbies" placeholder="Hobbies" required />
-                <input type="text" name="profile_achievements" placeholder="Achievements"  required />
-                <input type="text" name="profile_experience" placeholder="Experience" required />
+                <input type="text" name="profile_address" id="profile_address" placeholder="Address"/>
+                <input type="text" name="profile_skills" id="profile_skills" placeholder="Skills" required/>
+                <input type="text" name="profile_hobbies" id="profile_hobbies" placeholder="Hobbies" />
+                <input type="text" name="profile_achievements" id="profile_achievements" placeholder="Achievements" />
+                <input type="text" name="profile_experience" id="profile_experience" placeholder="Experience"/>
                 <input type="button" name="previous" class="previous action-button" value="Previous" />
                 <input type="submit" name="next" class="next action-button" value="Next" />
+                <p>Already have an account? <a href="./signIn.php" style="text-decoration: none; color:green;"><strong>Sign in</strong></a></p>
               </fieldset>
               <fieldset>
                 <h2 class="fs-title">Create your Account</h2>
                 <h3 class="fs-subtitle">Step 3 out of 3</h3>
+
                 <textarea name="profile_description" placeholder="Description/Bio" required></textarea>
-                <input type="email" name="user_email" placeholder="Email" required />
-                <input type="password" name="user_password" placeholder="Password" required/>
-                <input type="password" name="user_password_confirmation" placeholder="Re-enter Password" required />
+                <input type="text" class="email-adjust" name="user_email" id="user_email" placeholder="Email" required />
+                <span class="email-link">@srmuniv.edu.in</span>
+                <input type="password" name="user_password" placeholder="Password" id="user_password" required/>
+                <input type="password" name="user_password_confirmation" id="user_password_confirmation" placeholder="Re-enter Password" required />
+
                 <input type="button" name="previous" class="previous action-button" value="Previous" />
-                <input type="submit" name="submit" class="submit action-button" value="Submit" />
+                <input type="submit" name="commit" class="submit action-button" value="Submit" />
+                <p>Already have an account? <a href="./signIn.php" style="text-decoration: none; color:green;"><strong>Sign in</strong></a></p>
               </fieldset>
             </form>
             </div>
 
-        <!-- Start Footer Section -->
-        <div class="clearfix"></div>
+        <?php include 'includes/footer.php' ?>
 
-        <footer>
-            <div class="footer-bottom ptb-30 text-center">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12 col-sm-12">
-                            <div class="footer">
-                                <p class="copyright" style="color: #fff;">
-                                    &copy; Webarch 2018
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- end Footer Section -->
         </div>
         <!-- End Main Content Wrapper -->
     </div>
@@ -164,9 +93,34 @@
     <script src="js/minix-map.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
-      <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </body>
+<?php
+// alerts
+if(isset($_GET['error'])) {
+    if($_GET['error'] == 'pass_match') {
+        ?>
+        <script type="text/javascript">
+            swal("Try again!", "Passwords do not match!", "error");
+        </script>
+        <?php
+    } else if($_GET['error'] == 'user_exists') {
+        ?>
+        <script type="text/javascript">
+            swal("Try again!", "User already exists!", "error");
+        </script>
+        <?php
+    } else if($_GET['error'] == 'invalid_email') {
+        ?>
+        <script type="text/javascript">
+            swal("Invalid email address!", "Make sure you DONT add @srmuniv.edu.in to your email!", "error");
+        </script>
+        <?php
+    }
+}
+?>
 <script type="text/javascript">
 
 
@@ -251,7 +205,6 @@ $(".previous").click(function(){
 $(".submit").click(function(){
 	return false;
 })
-
 
 </script>
 </html>

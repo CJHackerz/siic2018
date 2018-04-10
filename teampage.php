@@ -120,7 +120,7 @@ height:20px;
    </li>
  </ul>
         </div>
-        <div class="w3-container">
+        <div class="w3-container" >
 
           <p><i class="fa fa-envelope fa-fw w3-margin-right "style="color:#3A6EE8; margin-top:20px;" ></i><?php echo $team_email; ?></p>
           <p><i class="fa fa-phone fa-fw w3-margin-right " style="color:#3A6EE8"></i><?php echo $contact; ?></p>
@@ -128,7 +128,7 @@ height:20px;
 
 
 
-         <div class="main-heading-content text-center" style="padding-bottom:-40px;"><h2><?php echo $team_name;?><span>.</span></h2></div>
+         <div class="main-heading-content text-center" ><h3><?php echo $team_name;?><span>.</span></h3></div>
         </div>
       </div><br>
 
