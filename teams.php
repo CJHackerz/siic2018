@@ -44,15 +44,15 @@
                   $result = $conn->query($sql);
                   if($result->num_rows > 0) {
                       while ($row = $result->fetch_assoc()) {
-                          echo        ' <div class="row">
-                          <div class="col-md-4 col-sm-6">
+                          echo        ' <div class="row-teams">
+                          <div class="col-md-3 col-sm-6" style="padding-bottom:30px;">
                               <article class="blog-post">
                                   <div class="post-thumbnail">
                                       <a href="./teampage.php?id=' . $row['team_id'] . '">
-                                          <img  style="height:30rem; width:50rem" src="./teams/img/' . $row['logo'] . '" alt="">
+                                          <img class="img-responsive" style="height:30rem; width:50rem" src="./teams/img/' . $row['logo'] . '" alt="">
                                   </div>
                                   <div class="post-content">
-                                      <div class="post-content-inner">
+                                      <div class="post-content-inner" style="width:100%; height:5rem;">
                                           <center><h3 ><a href="#">'.$row['team_name'].'</a></h3></center>
                                       </div>
                                   </div>
@@ -62,7 +62,9 @@
                       }
                   }
                   ?>
-
+            </div>
+            </div>
+            </div>
             </div>
          </div>
       </div>
