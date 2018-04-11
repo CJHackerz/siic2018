@@ -13,6 +13,11 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <style media="screen">
+        h4 > a, .portfolio-category > li > a {
+            color: #fff;
+        }
+    </style>
 </head>
 
 <body>
@@ -164,7 +169,7 @@ SIIC is SRM's official and independent Incubation and Innovation center. We inte
                                             </div>
                                             <div class="portfolio-details">
                                                 <div class="portfolio-details-inner">
-                                                    <h4><a href="javascript:void(0)" >Learn</a></h4>
+                                                    <h4><a href="javascript:void(0)">Learn</a></h4>
                                                     <ul class="portfolio-category">
                                                         <li><a href="javascript:void(0)">Explore projects and guidances from innovators</a></li>
                                                     </ul>

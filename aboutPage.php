@@ -20,7 +20,7 @@
       </style>
    </head>
    <body>
-      
+
       <!-- Start Main Wrapper -->
       <div class="main-wrapper">
          <!-- Start Header Section -->
@@ -70,12 +70,12 @@
                                     <a href="#">
                                         <img class="img-responsive" src="./img/boa/director.jpg" alt="">
                                     </a>
-                                    
+
                                 </div>
                                 <div class="post-content">
                                     <div class="post-content-inner">
                                        <center> <h3>Dr. C. Muthamizhchelvan</h3></center>
-                                        
+
                                     </div>
                                 </div>
                             </article>
