@@ -20,15 +20,38 @@
     <link href="css/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
     <link href="css/style1.css" rel="stylesheet">
       <!-- Favicon Icon Add -->
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
     <link rel="stylesheet" href="css/responsive.css">
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-    
+<style media="screen">
 
+.fa-1x {
+  font-size: 1.5rem;
+}
+.navbar-toggler.toggler-example {
+  cursor: pointer;
+}
+.dark-blue-text {
+  color: #0A38F5;
+}
+.dark-pink-text {
+  color: #AC003A;
+}
+.dark-amber-text {
+  color: #ff6f00;
+}
+.dark-teal-text {
+  color: #004d40;
+}
+
+</style>
 
 </head>
 
-<body id="page-top">
+<body >
+
+
+
 
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary " id="sideNav">
@@ -70,7 +93,7 @@
             </ul>
         </div>
     </nav>
-    
+
 
     <div class="container-fluid p-0">
 
@@ -103,7 +126,7 @@
                 <p align = "right"><button type="button" class="btn btn-primary">Add Experience</button> </p>
               </div>
               <div class="resume-item col-md-6 col-sm-12 " >
-               
+
                 <div class="card mx-0 p-4 mb-5" style="border-color: #17a2b8; box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.21);">
                   <div class=" resume-content mr-auto">
                       <h4 class="mb-3"><i class="fa fa-globe mr-3 text-info"></i> Senior Web Developer</h4>
@@ -157,9 +180,9 @@
           <div class="row my-auto">
               <div class="col-12">
                 <h2 class="  text-center">PROJECTS</h2>
-               
+
                 <div class="mb-5 heading-border"></div>
-                <p align = "right"><button type="button" class="btn btn-primary">Add Projects</button> </p>
+                <p align = "right"><button type="button" class="btn btn-primary">Add New Projects</button> </p>
               </div>
               <!-- <div class="col-md-12">
                 <div class="port-head-cont">
@@ -272,9 +295,9 @@
           <h3 class="text-center text-white">Skills</h3>
           <p align = "right"><button type="button" class="btn btn-primary">Add New Skills</button> </p>
           <div class="row text-center my-auto ">
-          
+
               <div class="col-md-3 col-sm-6">
-              
+
                   <div class="skill-item">
                       <i class="fa fa-html5 fa-5x"></i>
                       <!-- <h2><span class="counter"> 84 </span><span>%</span></h2> -->
