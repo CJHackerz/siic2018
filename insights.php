@@ -19,7 +19,7 @@
       <script src="js/vendor/modernizr-2.8.3.min.js"></script>
       <style>
        .img-responsive{
-            height:25rem; 
+            height:25rem;
             width:50rem;
         }
 
@@ -30,7 +30,7 @@
         }
     }
 
-       
+
       </style>
    </head>
    <body>
@@ -56,7 +56,7 @@
                           <div class="col-md-3 col-sm-6" style="padding-bottom:30px;">
                               <article class="blog-post">
                                   <div class="post-thumbnail">
-                                      <a href="#">
+                                      <a href="javascript:void(0)">
                                           <img class="img-responsive"  src="./teams/img/ST599b00a12e387.jpg" alt="">
                                   </div>
                                   <div class="post-content">
@@ -72,7 +72,7 @@
                           <div class="col-md-3 col-sm-6" style="padding-bottom:30px;">
                               <article class="blog-post">
                                   <div class="post-thumbnail">
-                                      <a href="#">
+                                      <a href="javascript:void(0)">
                                           <img class="img-responsive" src="./teams/img/ST5a054490149b6.jpg" alt="">
                                   </div>
                                   <div class="post-content">
@@ -88,7 +88,7 @@
                           <div class="col-md-3 col-sm-6" style="padding-bottom:30px;">
                               <article class="blog-post">
                                   <div class="post-thumbnail">
-                                      <a href="#">
+                                      <a href="javascript:void(0)">
                                           <img class="img-responsive" src="./teams/img/ST5991918d7949c.jpg" alt="">
                                   </div>
                                   <div class="post-content">
@@ -105,7 +105,7 @@
                           <div class="col-md-3 col-sm-6" style="padding-bottom:30px;">
                               <article class="blog-post">
                                   <div class="post-thumbnail">
-                                      <a href="#">
+                                      <a href="javascript:void(0)">
                                           <img class="img-responsive" src="./teams/img/ST5ac7c224055d9.jpg" alt="">
                                   </div>
                                   <div class="post-content">
