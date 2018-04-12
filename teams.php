@@ -18,6 +18,17 @@
       <link rel="stylesheet" href="css/responsive.css">
       <script src="js/vendor/modernizr-2.8.3.min.js"></script>
       <style>
+       .img-responsive{
+            height:25rem; 
+            width:50rem;
+        }
+
+      @media only screen and (max-width: 800px) {
+        .img-responsive{
+            height:35rem;
+            width:40rem;
+        }
+    }
       </style>
    </head>
    <body>
@@ -49,7 +60,7 @@
                               <article class="blog-post">
                                   <div class="post-thumbnail">
                                       <a href="./teampage.php?id=' . $row['team_id'] . '">
-                                          <img class="img-responsive" style="height:30rem; width:50rem" src="./teams/img/' . $row['logo'] . '" alt="">
+                                          <img class="img-responsive" src="./teams/img/' . $row['logo'] . '" alt="">
                                   </div>
                                   <div class="post-content">
                                       <div class="post-content-inner" style="width:100%; height:5rem;">
