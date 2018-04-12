@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>SIIC - Sign Up</title>
+    <title>SIIC - Sign Ip</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Favicon Icon Add -->
@@ -34,7 +34,7 @@
 
               <!-- fieldsets -->
               <fieldset>
-                <h2 class="fs-title">SignIn</h2>
+                <h2 class="fs-title">Sign In</h2>
                 <h3 class="fs-subtitle">Enter the details to sign in</h3>
                 <input type="email" name="user_email" placeholder="Email" required>
                 <!-- <input type="text" placeholder="test123"> -->

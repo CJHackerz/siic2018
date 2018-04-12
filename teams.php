@@ -1,8 +1,6 @@
 <?php
    include './process/connect.php';
    include './process/utils.php';
-
-   $user = get_user();
    ?>
 <!doctype html>
 <html class="no-js" lang="zxx">
@@ -13,7 +11,7 @@
       <meta name="description" content="">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <!-- Favicon Icon Add -->
-      <link rel="shortcut icon" type="image/x-icon" href="img/favicon.html">
+      <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
       <!-- All STYLESHEET CSS -->
       <link rel="stylesheet" href="css/element.css">
       <link rel="stylesheet" href="style.css">
@@ -36,7 +34,7 @@
                <div class="row">
                   <div class="col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
                      <div class="main-heading-content text-center">
-                        <h2>Teams<span>.</span></h2>
+                        <h2>100+ Teams<span>.</span></h2>
                         <p>Here are the following teams that can be joined. </p>
                      </div>
                   </div>
@@ -44,18 +42,17 @@
                <?php
                   $sql = "SELECT * from teams where type = 'team'";
                   $result = $conn->query($sql);
-
                   if($result->num_rows > 0) {
                       while ($row = $result->fetch_assoc()) {
-                          echo        ' <div class="row">
-                          <div class="col-md-4 col-sm-6">
+                          echo        ' <div class="row-teams">
+                          <div class="col-md-3 col-sm-6" style="padding-bottom:30px;">
                               <article class="blog-post">
                                   <div class="post-thumbnail">
                                       <a href="./teampage.php?id=' . $row['team_id'] . '">
-                                          <img  style="height:30rem; width:50rem" src="./teams/img/' . $row['logo'] . '" alt="">
+                                          <img class="img-responsive" style="height:30rem; width:50rem" src="./teams/img/' . $row['logo'] . '" alt="">
                                   </div>
                                   <div class="post-content">
-                                      <div class="post-content-inner">
+                                      <div class="post-content-inner" style="width:100%; height:5rem;">
                                           <center><h3 ><a href="#">'.$row['team_name'].'</a></h3></center>
                                       </div>
                                   </div>
@@ -65,6 +62,9 @@
                       }
                   }
                   ?>
+            </div>
+            </div>
+            </div>
             </div>
          </div>
       </div>

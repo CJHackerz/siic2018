@@ -13,6 +13,11 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <style media="screen">
+        h4 > a, .portfolio-category > li > a {
+            color: #fff;
+        }
+    </style>
 </head>
 
 <body>
@@ -62,48 +67,6 @@
                                 <h2>about Us<span>.</span></h2>
                                 <p>
 SIIC is SRM's official and independent Incubation and Innovation center. We integrate and develop an atmosphere for budding entrepreneurs and techies. Vision of SIIC is to make all the SRMites fit for the competitive entrepreneurial society. The Mission of SIIC is to Incubate each and every talented individual and validate their ideas for the betterment of the society. We at SIIC provide facilities like Fab lab access, Incubation Center, Bank of inventory, Internship opportunities and Financial assistance for start-ups and tech teams. The findings under SIIC are purely based on the viability and persistence of their ideas. Students with innovative and sustaining ideas can apply for SIIC's incubation and assistance, and rest will be given with a privilege of memberships and befits according to their category of membership.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row about-homepage-2">
-                        <div class="col-md-3 col-sm-6">
-                            <div class="about-item">
-                                <div class="about-icon">
-                                    <i class="fa fa-hourglass-end" aria-hidden="true"></i>
-                                </div>
-                                <h3>Latest Web Design</h3>
-                                <p>It is a long established fact that a reader will be distracted by the readable content of. </p>
-                                <a class="readmore" href="#">Read More</a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="about-item">
-                                <div class="about-icon">
-                                    <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
-                                </div>
-                                <h3>Web Development</h3>
-                                <p>It is a long established fact that a reader will be distracted by the readable content of. </p>
-                                <a class="readmore" href="#">Read More</a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="about-item">
-                                <div class="about-icon">
-                                    <i class="fa fa-pie-chart" aria-hidden="true"></i>
-                                </div>
-                                <h3>Branding Identity</h3>
-                                <p>It is a long established fact that a reader will be distracted by the readable content of. </p>
-                                <a class="readmore" href="#">Read More</a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="about-item">
-                                <div class="about-icon">
-                                    <i class="fa fa-shield" aria-hidden="true"></i>
-                                </div>
-                                <h3>Best Support</h3>
-                                <p>It is a long established fact that a reader will be distracted by the readable content of. </p>
-                                <a class="readmore" href="#">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -202,11 +165,11 @@ SIIC is SRM's official and independent Incubation and Innovation center. We inte
                                     <div class="portfolio-item cat4 cat2">
                                         <div class="portfolio-item-content">
                                             <div class="item-thumbnail">
-                                                <img src="img/portfolio/p-1/6.jpg" alt="">
+                                                <img src="img/learnmore.jpg" alt="">
                                             </div>
                                             <div class="portfolio-details">
                                                 <div class="portfolio-details-inner">
-                                                    <h4><a href="javascript:void(0)" >Learn</a></h4>
+                                                    <h4><a href="javascript:void(0)">Learn</a></h4>
                                                     <ul class="portfolio-category">
                                                         <li><a href="javascript:void(0)">Explore projects and guidances from innovators</a></li>
                                                     </ul>
@@ -217,7 +180,7 @@ SIIC is SRM's official and independent Incubation and Innovation center. We inte
                                     <div class="portfolio-item cat1 cat3 ">
                                         <div class="portfolio-item-content">
                                             <div class="item-thumbnail">
-                                                <img src="img/portfolio/p-1/7.jpg" alt="">
+                                                <img src="img/feedback.jpg" alt="">
                                             </div>
                                             <div class="portfolio-details">
                                                 <div class="portfolio-details-inner">
@@ -232,7 +195,7 @@ SIIC is SRM's official and independent Incubation and Innovation center. We inte
                                     <div class="portfolio-item cat4 cat2">
                                         <div class="portfolio-item-content">
                                             <div class="item-thumbnail">
-                                                <img src="img/portfolio/p-1/8.jpg" alt="">
+                                                <img src="img/bankofinventory.jpg" alt="">
                                             </div>
                                             <div class="portfolio-details">
                                                 <div class="portfolio-details-inner">
@@ -247,7 +210,7 @@ SIIC is SRM's official and independent Incubation and Innovation center. We inte
                                     <div class="portfolio-item cat4 cat2 ">
                                         <div class="portfolio-item-content">
                                             <div class="item-thumbnail">
-                                                <img src="img/portfolio/p-1/9.jpg" alt="">
+                                                <img src="img/insights.jpg" alt="">
                                             </div>
                                             <div class="portfolio-details">
                                                 <div class="portfolio-details-inner">
@@ -285,7 +248,7 @@ SIIC is SRM's official and independent Incubation and Innovation center. We inte
                                 <div class="get-in-tuch">
                                     <h2>Get In Touch<span>.</span></h2>
                                     <ul class="address-line">
-                                        <li><i class="fa fa-map-marker"></i>SIIC Address SRM Univ.... haha</li>
+                                        <li><i class="fa fa-map-marker"></i>SIIC Address</li>
                                         <li><i class="fa fa-user"></i>Nikunj Panchal</li>
                                         <li><i class="fa fa-envelope"></i>manager@srmiic.com</li>
                                         <li><i class="fa fa-phone"></i>+91 8148606827</li>

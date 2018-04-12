@@ -2,7 +2,7 @@
     include './process/connect.php';
     include './process/utils.php';
 
-    $user = get_user();
+    //$user = get_user();
 ?>
 <!doctype html>
 <html class="no-js" lang="zxx">
@@ -29,18 +29,25 @@
             align:center;
         }
 
-        @media only screen and (min-width: 500px) {
+@media only screen and (min-width: 800px) {
     .file_input {
-        padding-left:12rem;
+        padding-left:50%;
+    }
+    #project_bp {
+        padding-left:30%;
     }
 }
 
 
-@media only screen and (max-width: 600px) {
-    .file_input {
-        padding-left:3rem;
+@media only screen and (max-width: 800px) {
+    #project_bp {
+        padding-left:40%;
+    }
+    .sub-btn{
+        padding-right:25%;
     }
 }
+
     </style>
 </head>
 
@@ -76,27 +83,28 @@
           <div class="form-group">
             <label class="col-lg-3 control-label"placeholder="Title" type="text" name="project_title" id="project_title">Title</label>
             <div class="col-lg-8">
-              <input class="form-control" type="text" placeholder="Enter Project Title">
+              <input class="form-control" type="text" placeholder="Enter Project Title" required>
             </div>
           </div>
           <div class="form-group">
             <label for="project_requirements" class="col-lg-3 control-label">Requirements</label>
             <div class="col-lg-8">
-            <textarea cols="80" rows="10" class="form-control bootsy_text_area" placeholder="Requirements" name="project_requirement" id="project_requirements"></textarea>
+            <textarea cols="80" rows="10" class="form-control bootsy_text_area" placeholder="Requirements" name="project_requirement" id="project_requirements" required></textarea>
             </div>
 
 
-          <div class="form-group col-lg-8 file_input" >
+          <div class="form-group text-center col-lg-13 file_input" >
           <label for="project_bp" class="control-label">Upload your Project report (4MB File Size Limit)(pdf, ppt, doc, docx)</label><br/>
-                    <input type="file" accept=".pdf, .ppt, .doc, .docx" name="project_bp" id="project_bp"/><br/>
+                    <input type="file" accept=".pdf, .ppt, .doc, .docx" name="project_bp" id="project_bp" required/><br/>
+          </div>
           </div>
           </div>
 
 
-          <div class="form-group">
-            <label class="col-md-3 control-label"></label>
+          <div class="form-group text-center sub-btn" style="padding-left:25%">
+            <label class="col-md-4 control-label"></label>
             <div class="col-md-8">
-              <input type="Submit" class="btn btn-primary" value="Save Changes">
+              <input type="Submit" class="btn btn-primary" value="Create Project">
               <span></span>
               <input type="reset" class="btn btn-default" value="Cancel">
             </div>
