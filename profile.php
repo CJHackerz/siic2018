@@ -18,22 +18,29 @@
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href="css/devicons/css/devicons.min.css" rel="stylesheet">
     <link href="css/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
-    <link href="css/style1.css" rel="stylesheet">
+    <link href="css/style2.css" rel="stylesheet">
       <!-- Favicon Icon Add -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     
+<style type="text/css">
+  li{
+    
+float:right;
 
+  }
+
+</style>
 
 </head>
 
 <body id="page-top">
 
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary " id="sideNav">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary " style="width: 100%;">
     <div class="logo">
-                        <a href="index.php"><h2>SIIC<span>.</span></h2></a>
+                        <a href="index.php" style="margin-right: 20px;"><h2>SIIC<span>.</span></h2></a>
                     </div>
                 </div>
 
@@ -41,12 +48,12 @@
 
         <!-- <span class="d-block d-lg-none  mx-0 px-0"><img src="img/logo-white.png" alt="" class="img-fluid"></span> -->
         <span class="d-none d-lg-block">
-          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
+          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="" style="width:50px;">
         </span>
       </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+       <!--  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-        </button>
+        </button> -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav">
                 <li class="nav-item">
