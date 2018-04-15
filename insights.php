@@ -18,6 +18,19 @@
       <link rel="stylesheet" href="css/responsive.css">
       <script src="js/vendor/modernizr-2.8.3.min.js"></script>
       <style>
+       .img-responsive{
+            height:25rem;
+            width:50rem;
+        }
+
+      @media only screen and (max-width: 800px) {
+        .img-responsive{
+            height:35rem;
+            width:40rem;
+        }
+    }
+
+
       </style>
    </head>
    <body>
@@ -43,8 +56,8 @@
                           <div class="col-md-3 col-sm-6" style="padding-bottom:30px;">
                               <article class="blog-post">
                                   <div class="post-thumbnail">
-                                      <a href="#">
-                                          <img class="img-responsive" style="height:30rem; width:50rem" src="./teams/img/ST599b00a12e387.jpg" alt="">
+                                      <a href="javascript:void(0)">
+                                          <img class="img-responsive"  src="./teams/img/ST599b00a12e387.jpg" alt="">
                                   </div>
                                   <div class="post-content">
                                       <div class="post-content-inner" style="width:100%; height:5rem;">
@@ -59,8 +72,8 @@
                           <div class="col-md-3 col-sm-6" style="padding-bottom:30px;">
                               <article class="blog-post">
                                   <div class="post-thumbnail">
-                                      <a href="#">
-                                          <img class="img-responsive" style="height:30rem; width:50rem" src="./teams/img/ST5a054490149b6.jpg" alt="">
+                                      <a href="javascript:void(0)">
+                                          <img class="img-responsive" src="./teams/img/ST5a054490149b6.jpg" alt="">
                                   </div>
                                   <div class="post-content">
                                       <div class="post-content-inner" style="width:100%; height:5rem;">
@@ -75,8 +88,8 @@
                           <div class="col-md-3 col-sm-6" style="padding-bottom:30px;">
                               <article class="blog-post">
                                   <div class="post-thumbnail">
-                                      <a href="#">
-                                          <img class="img-responsive" style="height:30rem; width:50rem" src="./teams/img/ST5991918d7949c.jpg" alt="">
+                                      <a href="javascript:void(0)">
+                                          <img class="img-responsive" src="./teams/img/ST5991918d7949c.jpg" alt="">
                                   </div>
                                   <div class="post-content">
                                       <div class="post-content-inner" style="width:100%; height:5rem;">
@@ -92,8 +105,8 @@
                           <div class="col-md-3 col-sm-6" style="padding-bottom:30px;">
                               <article class="blog-post">
                                   <div class="post-thumbnail">
-                                      <a href="#">
-                                          <img class="img-responsive" style="height:30rem; width:50rem" src="./teams/img/ST5ac7c224055d9.jpg" alt="">
+                                      <a href="javascript:void(0)">
+                                          <img class="img-responsive" src="./teams/img/ST5ac7c224055d9.jpg" alt="">
                                   </div>
                                   <div class="post-content">
                                       <div class="post-content-inner" style="width:100%; height:5rem;">

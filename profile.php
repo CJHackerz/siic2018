@@ -18,22 +18,29 @@
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href="css/devicons/css/devicons.min.css" rel="stylesheet">
     <link href="css/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
-    <link href="css/style1.css" rel="stylesheet">
+    <link href="css/style2.css" rel="stylesheet">
       <!-- Favicon Icon Add -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-    
 
+<style type="text/css">
+  li{
+
+float:right;
+
+  }
+
+</style>
 
 </head>
 
 <body id="page-top">
 
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary " id="sideNav">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary " style="width: 100%;">
     <div class="logo">
-                        <a href="index.php"><h2>SIIC<span>.</span></h2></a>
+                        <a href="index.php" style="margin-right: 20px;"><h2>SIIC<span>.</span></h2></a>
                     </div>
                 </div>
 
@@ -41,12 +48,12 @@
 
         <!-- <span class="d-block d-lg-none  mx-0 px-0"><img src="img/logo-white.png" alt="" class="img-fluid"></span> -->
         <span class="d-none d-lg-block">
-          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
+          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="" style="width:50px;">
         </span>
       </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+       <!--  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-        </button>
+        </button> -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav">
                 <li class="nav-item">
@@ -70,7 +77,7 @@
             </ul>
         </div>
     </nav>
-    
+
 
     <div class="container-fluid p-0">
 
@@ -103,7 +110,7 @@
                 <p align = "right"><button type="button" class="btn btn-primary">Add Experience</button> </p>
               </div>
               <div class="resume-item col-md-6 col-sm-12 " >
-               
+
                 <div class="card mx-0 p-4 mb-5" style="border-color: #17a2b8; box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.21);">
                   <div class=" resume-content mr-auto">
                       <h4 class="mb-3"><i class="fa fa-globe mr-3 text-info"></i> Senior Web Developer</h4>
@@ -157,9 +164,9 @@
           <div class="row my-auto">
               <div class="col-12">
                 <h2 class="  text-center">PROJECTS</h2>
-               
+
                 <div class="mb-5 heading-border"></div>
-                <p align = "right"><button type="button" class="btn btn-primary">Add Projects</button> </p>
+                <p align = "right"><a href="newProject.php"><button type="button" class="btn btn-primary">Add Projects</button></a> </p>
               </div>
               <!-- <div class="col-md-12">
                 <div class="port-head-cont">
@@ -272,9 +279,9 @@
           <h3 class="text-center text-white">Skills</h3>
           <p align = "right"><button type="button" class="btn btn-primary">Add New Skills</button> </p>
           <div class="row text-center my-auto ">
-          
+
               <div class="col-md-3 col-sm-6">
-              
+
                   <div class="skill-item">
                       <i class="fa fa-html5 fa-5x"></i>
                       <!-- <h2><span class="counter"> 84 </span><span>%</span></h2> -->
@@ -314,7 +321,7 @@
             <div class="col-12">
               <h2 class="  text-center">STARTUPS</h2>
               <div class="mb-5 heading-border"></div>
-              <p align = "right"><button type="button" class="btn btn-primary">Apply for Startups</button> </p>
+              <p align = "right"><a href="newStartup.php"><button type="button" class="btn btn-primary">Apply for Startups</button> </a></p>
             </div>
             <div class="resume-item col-md-6 col-sm-12 " >
               <div class="card mx-0 p-4 mb-5" style="border-color: #17a2b8; box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.21);">
@@ -368,7 +375,7 @@
             <div class="col-12">
               <h2 class="  text-center">TEAMS</h2>
               <div class="mb-5 heading-border"></div>
-              <p align = "right"><button type="button" class="btn btn-primary">Add Teams</button> </p>
+              <p align = "right"><a href="newteam.php"><button type="button" class="btn btn-primary">Add Teams</button></a> </p>
             </div>
             <div class="resume-item col-md-6 col-sm-12 " >
               <div class="card mx-0 p-4 mb-5" style="border-color: #17a2b8; box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.21);">
