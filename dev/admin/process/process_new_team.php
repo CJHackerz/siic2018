@@ -15,8 +15,8 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
     $team_pass              =   md5(test_input($_POST['team_password']));
     $team_type              =   test_input($_POST['userType']);
     $team_contact           =   test_input($_POST['team_contact']);
-    $team_website           =   test_input($_POST['team_website']);
-    $team_fb                =   test_input($_POST['team_fb']);
+    $team_website           =   test_input($_POST['team_link']);
+    $team_fb                =   test_input($_POST['team_fb_link']);
     $errors = "";
 
     $file_name = $_FILES["team_logo"]['name'];
