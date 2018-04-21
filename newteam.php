@@ -86,7 +86,7 @@
         <div class="col-md-8 personal-info">
 
         <form class="form-horizontal" role="form" id="new_research" enctype="multipart/form-data" action="./dev/admin/process/process_new_team.php" accept-charset="UTF-8" method="post">
-      <!--   <?php
+      <!--   
                                 // if($_SERVER['REQUEST_METHOD'] == 'GET') {
                                 //     if(isset($_GET['status'])) {
                                 //         if($_GET['status'] == 'email_conf') {
