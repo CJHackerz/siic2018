@@ -2,8 +2,9 @@
 /*GENERAL STYLE*/
 
 body {
-    font-family: 'Open Sans', serif;
-    padding-top: 0;
+    font-family: 'Montserrat', sans-serif;
+
+    padding-top: 0px;
     color: #868e96;
 }
 
@@ -20,7 +21,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Saira Extra Condensed', serif;
+    font-family: 'Montserrat', serif;
     font-weight: 700;
     text-transform: uppercase;
     color: #343a40;
@@ -78,18 +79,20 @@ a:active {
 /*==================================================
                     NAV-BAR
 ====================================================*/
-  #sideNav .navbar-nav .nav-item .nav-link {
+  /* #sideNav .navbar-nav .nav-item .nav-link {
       font-weight: 600;
       text-transform: uppercase;
+      z-index: 3;
+      position: absolute;
   }
 
   @media (min-width: 992px) {
       #sideNav {
           text-align: center;
-          position: fixed;
-          top: 0;
+          position: absolute;
+          top: 50px;
           left: 0;
-          display: flex;
+          display: none;
           flex-direction: column;
           width: 17rem;
           height: 100vh;
@@ -121,7 +124,7 @@ a:active {
       #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
           display: block;
       }
-  }
+  } */
 
 /*==================================================
                   BUTTON (Generic)
