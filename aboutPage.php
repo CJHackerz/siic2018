@@ -20,7 +20,14 @@
       </style>
    </head>
    <body>
-
+      <!--[if lt IE 8]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      <![endif]-->
+      <!-- Start Preloader -->
+      <!--<div class="loader-wrapper">
+         <div class="loader"></div>
+         </div>-->
+      <!-- End Preloader -->
       <!-- Start Main Wrapper -->
       <div class="main-wrapper">
          <!-- Start Header Section -->
@@ -53,7 +60,6 @@
                            <h2>What does the SIIC do for startups?<span>.</span></h2>
                            <p>The SIIC is an incubator, and therefore, it does things like providing infrastructure, funding, mentorship, workspace and the overall nurturing that a team/startup requires. Straight from the inception of an idea to the emergence of said idea into an end result, the SIIC coaches teams/startups through the entire process.</p>
                         </div>
-<<<<<<< HEAD
                         <div class="main-heading-content text-center">
                            <h2>Who can join us?<span>.</span></h2>
                            <p>YOU. The mere fact that you have taken time to explore us is testimony enough that you have what we are looking for: aspirations. And trust us, we are here to nurture your aspirations. So come join us as we take a leap of faith into the future.
@@ -61,42 +67,6 @@
                         </div>
                         <div class="main-heading-content text-center">
                            <h2>Director's Message<span>.</span></h2>
-=======
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                        <div class="col-md-4 col-sm-5 col-md-offset-1 col-sm-offset-1 col-xs-offset-1 col-xs-10" style="margin-top:-100px;">
-                            <article class="blog-post">
-                                <div class="post-thumbnail">
-                                    <a href="#">
-                                        <img class="img-responsive" src="./img/boa/director.jpg" alt="">
-                                    </a>
-
-                                </div>
-                                <div class="post-content">
-                                    <div class="post-content-inner">
-                                       <center> <h3>Dr. C. Muthamizhchelvan</h3></center>
-
-                                    </div>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="col-md-5 col-sm-5 col-md-offset-1 col-sm-offset-1 col-xs-offset-1 col-xs-10">
-                        <center>    <p>
-
-" It's indeed a great pleasure for me to announce about initiative SRM Innovation and Incubation center. This initiative is taken in order to develop and awaken the student's talents and feed them with the required support and facilities. I'm sure that SIIC will bring out the entrepreneurial skills and also to develop them for their future endeavors. "</p></center>
-</div>
-</div>
- <!-- Start creative team -->
- <div id="team" class="content-section ptb-100 text-center">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
-                            <div class="main-heading-content text-center">
-                                <h2>Core Team<span>.</span></h2>
-                            </div>
->>>>>>> 02733d5e8d124034797fc44f5aa52d319fbed01d
                         </div>
                      </div>
                   </div>
@@ -147,6 +117,9 @@
                               <ul class="team-social">
                                  <li>
                                     <a href="#"> <i class="fa fa-facebook"></i></a>
+                                 </li>
+                                 <li>
+                                    <a href="#"> <i class="fa fa-twitter"></i></a>
                                  </li>
                                  <li>
                                     <a href="#"> <i class="fa fa-linkedin"></i></a>
