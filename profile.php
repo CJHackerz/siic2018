@@ -64,7 +64,11 @@
 <br>
 
 <?php include 'includes/footer.php' ?>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script src="js/vendor/jquery-1.12.0.min.js"></script>
+    <script src="js/minix-map.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
