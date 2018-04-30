@@ -29,7 +29,9 @@
     <!-- Start Main Wrapper -->
     <div class="main-wrapper">
         <!-- Start Header Section -->
-        <?php include 'includes/nav.php' ?>
+        <?php
+                        require 'process/connect.php';
+                        include 'includes/nav.php' ?>
         <!-- End Header Section -->
         <!-- Start Slider Area -->
         <div id="home" class="slider-area bg-4" data-stellar-background-ratio="0.5">

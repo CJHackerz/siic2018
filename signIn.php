@@ -1,9 +1,15 @@
+<?php
+    session_start();
+    if(isset($_SESSION['user'])) {
+        header('Location: ./profile.php');
+    }
+?>
 <!doctype html>
 <html class="no-js" lang="zxx">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>SIIC - Sign Ip</title>
+    <title>SIIC - Sign In</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Favicon Icon Add -->
@@ -23,6 +29,10 @@
     <div class="main-wrapper">
         <!-- Start Header Section -->
         <?php include 'includes/nav.php' ?>
+        <?php
+require "process/connect.php";
+
+?>
         <!-- End Header Section -->
         <br><br>
         <!-- Start Main Content Wrapper -->

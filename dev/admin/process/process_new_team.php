@@ -9,21 +9,29 @@ $mgClient = new Mailgun('key-28f57d982d256aa39f2fa195678151b3');
 $domain = "mail.srmiic.com";
 
 if($_SERVER['REQUEST_METHOD'] == 'POST') {
-    $team_name              =   test_input($_POST['team_name']);
+  if(isset($_POST['team_name']))
+  {
+    echo $_POST['team_name'];
+    $team_name              =   $_POST['team_name'];
+  }
+  else{
+    echo "hello";
+  }
     $team_desc              =   test_input($_POST['team_desc']);
     $team_email             =   test_input($_POST['team_email']);
-    $team_pass              =   md5(test_input($_POST['team_password']));
+    $team_passs              =   md5(test_input($_POST['team_password']));
     $team_type              =   test_input($_POST['userType']);
     $team_contact           =   test_input($_POST['team_contact']);
-    $team_website           =   test_input($_POST['team_website']);
-    $team_fb                =   test_input($_POST['team_fb']);
+    $team_website           =   test_input($_POST['team_link']);
+    $team_fb                =   test_input($_POST['team_fb_link']);
     $errors = "";
 
     $file_name = $_FILES["team_logo"]['name'];
     $file_size = $_FILES["team_logo"]['size'];
     $file_tmp  = $_FILES["team_logo"]['tmp_name'];
     $file_type = $_FILES["team_logo"]['type'];
-    $file_ext=strtolower(end(explode('.',$_FILES["team_logo"]['name'])));
+    $t=end(explode('.',$file_name));
+    $file_ext=strtolower($t);
     $extensions= array("jpeg","jpg","png");
 
     if(in_array($file_ext,$extensions)=== false){
@@ -39,12 +47,12 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
             die();
         }
 
-        $team_id = uniqid('ST');
+        //$team_id = uniqid('ST');
 
         $team_logo  = $team_id . "." . $file_ext;
 
         $sql = "INSERT INTO teams(team_id,team_name,password,description,team_email,logo, type, website, contact, fb)
-                VALUES('$team_id', '$team_name', '$team_pass','$team_desc','$team_email','$team_logo', '$team_type', '$team_website', '$team_contact', '$team_fb')";
+                VALUES('$team_id', '$team_name', '$team_password','$team_desc','$team_email','$team_logo', '$team_type', '$team_website', '$team_contact', '$team_fb_link')";
 
         $conn->query($sql);
         $mgClient->sendMessage($domain, array(
