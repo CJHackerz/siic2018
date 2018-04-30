@@ -39,7 +39,7 @@ require "process/connect.php";
         <div class="main-content-wrapper">
             <!-- multistep form -->
             <div id="msform" style="padding-bottom:0%;">
-            <form role="form" class="new_user" id="new_user" action="./process/process_register.php" enctype="multipart/form-data" accept-charset="UTF-8" method="post">
+            <form role="form" class="new_user" id="new_user" action="./process/process_login.php" enctype="multipart/form-data" accept-charset="UTF-8" method="post">
               <!-- progressbar -->
 
               <!-- fieldsets -->
