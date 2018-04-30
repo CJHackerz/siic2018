@@ -19,7 +19,7 @@
       <script src="js/vendor/modernizr-2.8.3.min.js"></script>
       <style>
        .img-responsive{
-            height:25rem; 
+            height:25rem;
             width:50rem;
         }
 

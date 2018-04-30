@@ -1,3 +1,18 @@
+<?php
+    include './process/connect.php';
+    include './process/utils.php';
+
+    $user = get_user();
+
+    $sql = "SELECT * from user_profiles where email='$user'";
+
+    $result = $conn->query($sql);
+
+    if($result->num_rows > 0) {
+        $row = $result->fetch_assoc();
+    }
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

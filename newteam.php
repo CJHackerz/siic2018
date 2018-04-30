@@ -86,7 +86,7 @@
         <div class="col-md-8 personal-info">
 
         <form class="form-horizontal" role="form" id="new_research" enctype="multipart/form-data" action="./dev/admin/process/process_new_team.php" accept-charset="UTF-8" method="post">
-      <!--   
+      <!--
                                 // if($_SERVER['REQUEST_METHOD'] == 'GET') {
                                 //     if(isset($_GET['status'])) {
                                 //         if($_GET['status'] == 'email_conf') {
@@ -110,13 +110,20 @@
 
         <div class="form-group">
             <label class="col-lg-3 control-label" for="team_logo">Team/Startup Logo</label>
-                <input class="col-lg-3" type="file" name="team_logo" id="team_logo"  required/>
+                <input class="col-lg-3" type="file" name="team_logo" id="team_logo"/>
         </div>
 
 
 
           <div class="form-group">
             <label class="col-lg-3 control-label"placeholder="Title" type="text" name="team_name" id="project_title">Team/Startup name</label>
+            <div class="col-lg-8">
+              <input class="form-control" type="text" placeholder="Enter Startup Title" required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="col-lg-3 control-label"placeholder="Title" type="text" name="team_id" id="project_title">Team Id</label>
             <div class="col-lg-8">
               <input class="form-control" type="text" placeholder="Enter Startup Title" required>
             </div>
@@ -179,8 +186,6 @@
           </div>
         </form>
       </div>
-  </div>
-</div>
 <hr>
 <script
   src="https://code.jquery.com/jquery-3.3.1.js"
