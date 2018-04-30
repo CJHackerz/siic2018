@@ -56,7 +56,7 @@
                 <input type="text" name="profile_department" id="profile_department" placeholder="Department" required/>
                 <input type="number" name="profile_year" min="1" max="5" id="profile_year" placeholder="Year[1-5]" required/>
                 <input type="date" name="profile_dob" id="profile_dob" placeholder="Date Of Birth" required/>
-                <input type="submit" name="" class="next action-button" value="Next" required />
+                <input type="button" name="" class="next action-button" value="Next" required />
                 <p>Already have an account? <a href="./signIn.php" style="text-decoration: none; color:green;"><strong>Sign in</strong></a></p>
               </fieldset>
               <fieldset>
@@ -68,7 +68,7 @@
                 <input type="text" name="profile_achievements" id="profile_achievements" placeholder="Achievements" />
                 <input type="text" name="profile_experience" id="profile_experience" placeholder="Experience"/>
                 <input type="button" name="previous" class="previous action-button" value="Previous" />
-                <input type="submit" name="next" class="next action-button" value="Next" />
+                <input type="button" name="next" class="next action-button" value="Next" />
                 <p>Already have an account? <a href="./signIn.php" style="text-decoration: none; color:green;"><strong>Sign in</strong></a></p>
               </fieldset>
               <fieldset>
