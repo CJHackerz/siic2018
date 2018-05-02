@@ -18,12 +18,14 @@
 </head>
 
 <body>
-    
+
     <!-- Start Main Wrapper -->
     <div class="main-wrapper">
 
         <!-- Start Header Section -->
-        <?php include 'includes/nav.php' ?>
+        <?php
+        require "process/connect.php";
+        include 'includes/nav.php' ?>
         <!-- End Header Section -->
         <br><br>
         <!-- Start Main Content Wrapper -->

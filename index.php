@@ -40,7 +40,7 @@
                                     <h1 class="cd-headline letters type is-full-width">
                                         <span><span class="main-heading-logo"></span></span>
                                         <span class="cd-words-wrapper">
-                                            <b class="is-visible">SIIC</b>
+                                            <b class="is-visible">SIIC<span>.</span></b>
                                             <b>SIIC<span>.</span></b>
                                         </span>
                                     </h1>

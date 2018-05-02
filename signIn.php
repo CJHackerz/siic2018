@@ -1,9 +1,17 @@
-<!doctype html>
+<?php
+    session_start();
+    if(isset($_SESSION['user'])) {
+        header('Location: ./profile.php');
+    }
+?>
+
+
+<!DOCTYPE html>
 <html class="no-js" lang="zxx">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>SIIC - Sign Ip</title>
+    <title>SIIC - Sign In</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Favicon Icon Add -->
@@ -23,14 +31,27 @@
     <div class="main-wrapper">
         <!-- Start Header Section -->
         <?php include 'includes/nav.php' ?>
+        <?php
+          require "process/connect.php";
+          ?>
         <!-- End Header Section -->
         <br><br>
         <!-- Start Main Content Wrapper -->
         <div class="main-content-wrapper">
             <!-- multistep form -->
             <div id="msform" style="padding-bottom:0%;">
-            <form role="form" class="new_user" id="new_user" action="./process/process_register.php" enctype="multipart/form-data" accept-charset="UTF-8" method="post">
+            <form role="form" class="new_user" id="new_user" action="./process/process_login.php" enctype="multipart/form-data" accept-charset="UTF-8" method="post">
               <!-- progressbar -->
+              <?php
+                                if(isset($_GET['error'])) {
+                                    if($_GET['error'] == 'true') {
+                                        echo '<div class="alert alert-danger" role="alert">Username or Password incorrect </div>';
+                                    }
+                                    if($_GET['error'] == 'not_validate') {
+                                        echo '<div class="alert alert-info" role="alert">Please Verify your email </div>';
+                                    }
+                                }
+                            ?>
 
               <!-- fieldsets -->
               <fieldset>
