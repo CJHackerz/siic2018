@@ -86,16 +86,16 @@
         <div class="col-md-8 personal-info">
 
         <form class="form-horizontal" role="form" id="new_research" enctype="multipart/form-data" action="./dev/admin/process/process_new_team.php" accept-charset="UTF-8" method="post">
-        <?php
-                                if($_SERVER['REQUEST_METHOD'] == 'GET') {
-                                    if(isset($_GET['status'])) {
-                                        if($_GET['status'] == 'email_conf') {
-                                            echo '<p style="color:red">This Email is already in use</p>';
+      <!--
+                                // if($_SERVER['REQUEST_METHOD'] == 'GET') {
+                                //     if(isset($_GET['status'])) {
+                                //         if($_GET['status'] == 'email_conf') {
+                                //             echo '<p style="color:red">This Email is already in use</p>';
                                         }
                                     }
                                 }
-        ?>
-          <div class="form-group">
+        ?> -->
+          <!-- <div class="form-group">
           <div class="col-lg-5 control-label">
           <label for="">Are you registering as a Team or a Startup?</label>
                                 <br>
@@ -106,17 +106,24 @@
                                     <input type="radio" name="userType" value="startup" required> Startup
                                 </label>
           </div>
-          </div>
+          </div> -->
 
         <div class="form-group">
             <label class="col-lg-3 control-label" for="team_logo">Team/Startup Logo</label>
-                <input class="col-lg-3" type="file" name="team_logo" id="team_logo"  required/>
+                <input class="col-lg-3" type="file" name="team_logo" id="team_logo"/>
         </div>
 
 
 
           <div class="form-group">
-            <label class="col-lg-3 control-label"placeholder="Title" type="text" name="project_title" id="project_title">Team/Startup name</label>
+            <label class="col-lg-3 control-label"placeholder="Title" type="text" name="team_name" id="project_title">Team/Startup name</label>
+            <div class="col-lg-8">
+              <input class="form-control" type="text" placeholder="Enter Startup Title" required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="col-lg-3 control-label"placeholder="Title" type="text" name="team_id" id="project_title">Team Id</label>
             <div class="col-lg-8">
               <input class="form-control" type="text" placeholder="Enter Startup Title" required>
             </div>
@@ -127,40 +134,40 @@
           <div class="form-group">
             <label for="project_requirements" class="col-lg-3 control-label">Description</label>
             <div class="col-lg-8">
-            <textarea cols="80" rows="10" class="form-control bootsy_text_area" placeholder="Write about your teams history, goals and achievements" name="project_requirement" id="project_requirements" required></textarea>
+            <textarea cols="80" rows="10" class="form-control bootsy_text_area" placeholder="Write about your teams history, goals and achievements" name="team_requirement" id="project_requirements" required></textarea>
             </div>
             </div>
 
             <div class="form-group">
-            <label class="col-lg-3 control-label"placeholder="Title" type="text" name="project_title" id="project_title">Website Link</label>
+            <label class="col-lg-3 control-label"placeholder="Title" type="text" name="team_link" id="project_title">Website Link</label>
             <div class="col-lg-8">
               <input class="form-control" type="text">
             </div>
           </div>
 
           <div class="form-group">
-            <label class="col-lg-3 control-label" type="text" name="project_title" id="project_title" required>Facebook Link</label>
+            <label class="col-lg-3 control-label" type="text" name="team_fb_link" id="team_fb_link" required>Facebook Link</label>
             <div class="col-lg-8">
               <input class="form-control" type="text">
             </div>
           </div>
 
           <div class="form-group">
-            <label class="col-lg-3 control-label"placeholder="Title" type="text" name="project_title" id="project_title" required>Contact no</label>
+            <label class="col-lg-3 control-label"placeholder="Title" type="text" name="team_contact" id="team_contact" required>Contact no</label>
             <div class="col-lg-8">
               <input class="form-control" type="text">
             </div>
           </div>
 
           <div class="form-group">
-            <label class="col-lg-3 control-label"placeholder="Title" type="text" name="project_title" id="project_title" required>Team/Startup Email</label>
+            <label class="col-lg-3 control-label"placeholder="Title" type="text" name="team_email" id="team_email" required>Team/Startup Email</label>
             <div class="col-lg-8">
               <input class="form-control" type="text" placeholder="This is the email you will use to access your team account">
             </div>
           </div>
 
           <div class="form-group">
-            <label class="col-lg-3 control-label"placeholder="Title" type="password" name="project_title" id="project_title" required>Password</label>
+            <label class="col-lg-3 control-label"placeholder="Title" type="password" name="team_password" id="team_password" required>Password</label>
             <div class="col-lg-8">
               <input class="form-control" type="password">
             </div>
@@ -179,8 +186,6 @@
           </div>
         </form>
       </div>
-  </div>
-</div>
 <hr>
 <script
   src="https://code.jquery.com/jquery-3.3.1.js"

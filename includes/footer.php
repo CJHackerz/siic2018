@@ -7,6 +7,7 @@
    background-color:#333;
    color: white;
    text-align: center;
+   z-index:12;
    }
 </style>
 <!-- Start Footer Section -->

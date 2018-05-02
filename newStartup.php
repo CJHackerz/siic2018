@@ -77,6 +77,16 @@
                   </div>
                </div>
          </div>
+         <?php
+                  if(isset($_GET['error'])) {
+                      if($_GET['error'] == 'ext') {
+                          echo '<div class="alert alert-danger" role="alert">Invalid Extension </div>';
+                      }
+                      if($_GET['error'] == 'size') {
+                          echo '<div class="alert alert-danger" role="alert">Size of the file should be less than 2 mb </div>';
+                      }
+                  }
+              ?>
          <div class="form-group text-center sub-btn" style="padding-left:25%">
          <label class="col-md-4 control-label"></label>
          <div class="col-md-8">
