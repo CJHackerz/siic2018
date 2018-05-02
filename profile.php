@@ -1,3 +1,7 @@
+<?php
+include './process/connect.php';
+include './process/utils.php';
+?>
 
 <!DOCTYPE html>
 <html lang="en">
