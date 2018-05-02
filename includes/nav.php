@@ -36,10 +36,8 @@
                             <?php
                             } else {
                             ?>
-                            <li><?php echo "<a href='./signIn.php'>Login</a>"; ?></li>
-
-                            <li><?php echo "<a href='./signIn.php'>LOGIN/SIGNUP</a>"; ?></li>
-                            <li><?php echo "<a href='./signIn.php'>Login</a>"; ?></li>
+                           <li><?php echo "<a href='./signIn.php'>LOGIN</a>"; ?></li>
+                           
 
                             <?php  }?>
                             <li><a href="./freelance.php">Freelance</a></li>
