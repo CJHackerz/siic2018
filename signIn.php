@@ -4,7 +4,9 @@
         header('Location: ./profile.php');
     }
 ?>
-<!doctype html>
+
+
+<!DOCTYPE html>
 <html class="no-js" lang="zxx">
 <head>
     <meta charset="utf-8">
@@ -30,9 +32,14 @@
         <!-- Start Header Section -->
         <?php include 'includes/nav.php' ?>
         <?php
+<<<<<<< HEAD
+          require "process/connect.php";
+          ?>
+=======
 require "process/connect.php";
 
 ?>
+>>>>>>> 16e0ac65f1c932789f023ebc8d168fab2deadce9
         <!-- End Header Section -->
         <br><br>
         <!-- Start Main Content Wrapper -->
@@ -41,6 +48,16 @@ require "process/connect.php";
             <div id="msform" style="padding-bottom:0%;">
             <form role="form" class="new_user" id="new_user" action="./process/process_login.php" enctype="multipart/form-data" accept-charset="UTF-8" method="post">
               <!-- progressbar -->
+              <?php
+                                if(isset($_GET['error'])) {
+                                    if($_GET['error'] == 'true') {
+                                        echo '<div class="alert alert-danger" role="alert">Username or Password incorrect </div>';
+                                    }
+                                    if($_GET['error'] == 'not_validate') {
+                                        echo '<div class="alert alert-info" role="alert">Please Verify your email </div>';
+                                    }
+                                }
+                            ?>
 
               <!-- fieldsets -->
               <fieldset>

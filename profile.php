@@ -1,7 +1,5 @@
-<?php
-include './process/connect.php';
-include './process/utils.php';
-?>
+
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -21,6 +19,7 @@ include './process/utils.php';
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+
     <style media="screen">
         h4 > a, .portfolio-category > li > a {
             color: #fff;
@@ -29,7 +28,7 @@ include './process/utils.php';
             {
             background-color:blue;
             }
-        
+
     </style>
 <body>
 <?php include 'includes/nav.php' ?>

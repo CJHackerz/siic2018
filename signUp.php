@@ -30,8 +30,8 @@
 
         <!-- Start Header Section -->
         <?php
-          require "process/connect.php";
-          include 'includes/nav.php' ?>
+        require "process/connect.php";
+        include 'includes/nav.php' ?>
         <!-- End Header Section -->
         <br><br>
         <!-- Start Main Content Wrapper -->
