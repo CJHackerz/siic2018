@@ -37,7 +37,6 @@
           ?>
 =======
 require "process/connect.php";
-
 ?>
 >>>>>>> 16e0ac65f1c932789f023ebc8d168fab2deadce9
         <!-- End Header Section -->

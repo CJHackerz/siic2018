@@ -36,15 +36,35 @@
                             <?php
                             } else {
                             ?>
+<<<<<<< HEAD
+<<<<<<< HEAD
                             <li><?php echo "<a href='./signIn.php'>Login</a>"; ?></li>
+=======
+                            <li><?php echo "<a href='./signIn.php'>LOGIN/SIGNUP</a>"; ?></li>
+>>>>>>> d682cc28c827888700e07527182c8c1a851a01c6
+=======
+                            <li><?php echo "<a href='./signIn.php'>Login</a>"; ?></li>
+>>>>>>> 16e0ac65f1c932789f023ebc8d168fab2deadce9
                             <?php  }?>
                             <li><a href="./freelance.php">Freelance</a></li>
                             <li><a href="http://mentor.srmiic.com/auth/signup.php"  style=" color: red;">Become a mentor</a></li>
 
                         </ul>
+<<<<<<< HEAD
+<<<<<<< HEAD
 
 
 
+=======
+                                
+
+                            
+>>>>>>> d682cc28c827888700e07527182c8c1a851a01c6
+=======
+
+
+
+>>>>>>> 16e0ac65f1c932789f023ebc8d168fab2deadce9
                         </div>
                     </div>
                 </div>
