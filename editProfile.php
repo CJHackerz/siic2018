@@ -2,56 +2,107 @@
     include './process/connect.php';
     include './process/utils.php';
 
-    $user = get_user();
-
-    $sql = "SELECT * from user_profiles where email='$user'";
-
-    $result = $conn->query($sql);
-
-    if($result->num_rows > 0) {
-        $row = $result->fetch_assoc();
-    }
+    //$user = get_user();
 ?>
+<!doctype html>
+<html class="no-js" lang="zxx">
 
-<!DOCTYPE html>
-<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Edit Profile|SIIC</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon Icon Add -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.html">
+    <!-- All STYLESHEET CSS -->
+    <link rel="stylesheet" href="css/element.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <style media="screen">
+    <style>
     body{
         background-color: #f4f9fe;
     }
+        .personal-info{
+            align:center;
+        }
+
+@media only screen and (min-width: 800px) {
+    .personal-info{
+        padding-left:15%;
+    }
+    .image{
+      padding-left:40%;
+    }
+
+}
+
+@media only screen and (min-width: 800px) {
+    .personal-info{
+        padding-left:15%;
+    }
+    .image{
+      padding-left:40%;
+    }
+}
+
+
+
+
     </style>
 </head>
+
 <body>
-<div class="container">
-    <h1>Edit Profile</h1>
-  	<hr>
-	<div class="row">
-      <!-- left column -->
-      <div class="col-md-3">
-        <div class="text-center">
+<!-- NAV BAR -->
+<?php
+        include './includes/nav.php';
+    ?>
+<!-- NAV BAR ENDS -->
+
+
+<!-- Start Main Wrapper -->
+<div class="main-wrapper">
+        <!-- Start Main Content Wrapper -->
+        <div class="main-content-wrapper">
+            <div id="about" class="content-section-area pt-120 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
+                            <div class="main-heading-content text-center">
+                                <h2>Edit Profile<span>.</span></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+      <!-- edit form column -->
+      <div class="col-md-9 personal-info">
+
+
+        <form class="form-horizontal" role="form">
+
+           <div class="form-group image">
+           <div class="col-md-8">
+           <div class="text-center">
           <img src="//placehold.it/100" class="avatar img-circle" alt="avatar">
           <br>
           <h6>Upload a different photo</h6>
 
           <input type="file" class="form-control">
-        </div>
-      </div>
+            </div>
+          </div>
+          </div>
 
-      <!-- edit form column -->
-      <div class="col-md-9 personal-info">
 
-        <h3>Personal info</h3>
-
-        <form class="form-horizontal" role="form">
           <div class="form-group">
             <label class="col-lg-3 control-label">First name:</label>
             <div class="col-lg-8">
@@ -129,6 +180,7 @@
             <div class="col-lg-8">
             <textarea cols="80" rows="10" class="form-control" name="profile_description" id="profile_description"></textarea>
           </div>
+          </div>
 
           <div class="form-group">
             <label class="col-md-3 control-label"></label>
@@ -147,5 +199,11 @@
   src="https://code.jquery.com/jquery-3.3.1.js"
   integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
   crossorigin="anonymous"></script>
+
+  <!-- footer -->
+  <?php
+            include './includes/footer.php'
+  ?>
+  
 </body>
 </html>
