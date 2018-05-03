@@ -45,10 +45,10 @@
         h4 > a, .portfolio-category > li > a {
             color: #fff;
         }
-        body
-            {
-            background-color:blue;
-            }
+        body{
+        background-color: #f4f9fe;
+    }
+
 
     </style>
 <body>
@@ -68,7 +68,19 @@
 <br>
 <br>
 <br>
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <br>
 <br>
 <br>
