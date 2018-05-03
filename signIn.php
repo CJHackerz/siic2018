@@ -62,6 +62,7 @@ require "process/connect.php";
                 <input type="password" name="user_password" placeholder="Password" required />
 
                 <input type="submit" name="" class="next action-button" value="SUBMIT" required />
+                <p>Don't have an account? <a href="./signUp.php" style="text-decoration: none; color:#53a846;"><strong>Register here</strong></a></p>
               </fieldset>
 
             </form>
