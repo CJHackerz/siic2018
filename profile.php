@@ -1,3 +1,27 @@
+<?php
+    include './process/connect.php';
+    include './process/utils.php';
+    $user = get_user();
+
+    $sql = "SELECT * from users where email = '$user'";
+
+    $result = $conn->query($sql);
+    $row = $result->fetch_assoc();
+
+        // Get user profile details
+        $sql = "SELECT * from user_profiles where email = '$user'";
+        $result = $conn->query($sql);
+        $row = $result->fetch_assoc();
+
+        $profile_name           =   $row['name'];
+        $profile_register       =   $row['register_no'];
+        $profile_department     =   $row['dept'];
+        $profile_year           =   $row['year'];
+        $profile_description    =   $row['description'];
+        $profile_avatar         =   $row['avatar'];
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -54,14 +78,7 @@
 <br>
 <br>
 <br>
-<br>
-<br><br>
-<br>
-<br>
 
-<br>
-<br>
-<br>
 
 <?php include 'includes/footer.php' ?>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>

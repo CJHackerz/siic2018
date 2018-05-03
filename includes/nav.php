@@ -1,3 +1,7 @@
+<?php
+
+  @session_start();
+?>
 <header>
     <div id="sticky-header" class="header-area header-style-one gray-bg">
         <div class="container">
@@ -36,8 +40,8 @@
                             <?php
                             } else {
                             ?>
-                           <li><?php echo "<a href='./signIn.php'>LOGIN</a>"; ?></li>
-                           
+                           <li><?php echo "<a href='./signIn.php'>Login</a>"; ?></li>
+
 
                             <?php  }?>
                             <li><a href="./freelance.php">Freelance</a></li>
