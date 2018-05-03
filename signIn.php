@@ -33,7 +33,6 @@
         <?php include 'includes/nav.php' ?>
         <?php
 require "process/connect.php";
-
 ?>
         <!-- End Header Section -->
         <br><br>

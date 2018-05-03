@@ -36,14 +36,14 @@
                             <?php
                             } else {
                             ?>
-                            <li><?php echo "<a href='./signIn.php'>Login</a>"; ?></li>
+                           <li><?php echo "<a href='./signIn.php'>LOGIN</a>"; ?></li>
+                           
+
                             <?php  }?>
                             <li><a href="./freelance.php">Freelance</a></li>
                             <li><a href="http://mentor.srmiic.com/auth/signup.php"  style=" color: red;">Become a mentor</a></li>
 
                         </ul>
-
-
 
                         </div>
                     </div>
