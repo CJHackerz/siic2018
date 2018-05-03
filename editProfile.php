@@ -204,6 +204,13 @@
   <?php
             include './includes/footer.php'
   ?>
+
+   <!-- ALL JQUERY  -->
+   <script src="js/vendor/jquery-1.12.0.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDdRm-dm4ImhzWxMOy1_TyY6cQ3ZnVpw9E"></script>
+    <script src="js/minix-map.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
   
 </body>
 </html>
