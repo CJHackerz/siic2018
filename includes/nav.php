@@ -21,7 +21,7 @@
                         <div class="homepage-menu-style-two mobile-menu">
                             <ul class="main-menu ">
                                 <li><a href="aboutPage.php">About</a></li>
-                                <li><a href="#contact">Contact</a></li>
+                                <li><a href="index.php#contact">Contact</a></li>
                                 <li><a href="blog.php">Blog</a></li>
                                 <li><a href="index.php#contact">Feedback</a></li>
                                 <?php
