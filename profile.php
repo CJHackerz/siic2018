@@ -18,9 +18,7 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
-</style>
+
 
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 
@@ -37,18 +35,25 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 <body>
 <?php include 'includes/nav.php' ?>
 
-<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px; margin-top:100px;}
+
+" id="mySidebar"><br>
   <div class="w3-container w3-row">
-    <div class="w3-col s4">
-      <img src="/w3images/avatar2.png" class="w3-circle w3-margin-right" style="width:46px">
+    <div class="w3-col s4" style="margin-left:20%;">
+      <img src="cbo.jpg" class="w3-circle w3-margin-right" style="width:130px;">
     </div>
-    <div class="w3-col s8 w3-bar">
-      <span>Welcome, <strong>Mike</strong></span><br>
+    </div>
+    <br>
+    <div class="w3-col s8 w3-bar" style="margin-left:20%">
+      <span style="margin-left:8%">Welcome, <strong>Mike</strong></span><br>
       <a href="#" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i></a>
       <a href="#" class="w3-bar-item w3-button"><i class="fa fa-user"></i></a>
       <a href="#" class="w3-bar-item w3-button"><i class="fa fa-cog"></i></a>
     </div>
-  </div>
+    <br>
+    <br>
+    <br>
+  
   <hr>
   <div class="w3-container">
     <h5>Dashboard</h5>
