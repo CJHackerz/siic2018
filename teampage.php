@@ -58,7 +58,7 @@
          margin-bottom:5px;
          border-radius:5px;
          }
-         .team_image_hover:hover .social_media_icons{
+         .social_media_icons{
          display: inline-block;
          }
          .fa-facebook{
@@ -95,7 +95,7 @@
                            <div style="font-size: 30px; text-align: center;" class='social_media_icons'>
                               <a href="<?php echo $fb; ?>" style="color:#3b5998"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                               <a href="#" style="color:#007bb5;"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                              <a href="<?php echo $website; ?>" style="color:#333;"><i class="fa fa-globe" aria-hidden="true"></i></a>
+                              <a href="<?php echo $website; ?>" style="color:#333;"><i class="fa fa-globe" aria-hidden="true" style="color: #fff;"></i></a>
                               <!--<i class="fa fa-phone" aria-hidden="true"></i>-->
                            </div>
                         </div>
