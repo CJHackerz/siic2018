@@ -10,6 +10,12 @@
     <title>Freelance|SIIC</title>
 
     <!-- css -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <!-- All STYLESHEET CSS -->
+    <link rel="stylesheet" href="css/element.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
     <link href="css/nivo-lightbox.css" rel="stylesheet" />
@@ -55,6 +61,11 @@ require "includes/nav.php";
 
 
     <!-- Core JavaScript Files -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script src="js/vendor/jquery-1.12.0.min.js"></script>
+    <script src="js/minix-map.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.sticky.js"></script>
