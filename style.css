@@ -2508,7 +2508,7 @@ ul.main-menu {
 }
 
 .item-thumbnail::after {
-    /*background: rgba(0, 0, 0, 0) linear-gradient(to right, #1fa2ff, #12d8fa, #a6ffcb) repeat scroll 0 0;*/
+    background: rgba(0, 0, 0, 0) linear-gradient(to right, #1fa2ff, #12d8fa, #a6ffcb) repeat scroll 0 0;
     content: "";
     height: 100%;
     left: 0;
@@ -2657,7 +2657,6 @@ ul.main-menu {
 .portfolio-details-two .portfolio-category>li:first-child {
     margin-left: -4px;
 }
-
 
 /*======================================
     11.0 CALL TO ACTION STYLE
