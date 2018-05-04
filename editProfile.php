@@ -2,7 +2,7 @@
     include './process/connect.php';
     include './process/utils.php';
 
-    //$user = get_user();
+    $user = get_user();
 ?>
 <!doctype html>
 <html class="no-js" lang="zxx">
@@ -106,13 +106,13 @@
           <div class="form-group">
             <label class="col-lg-3 control-label">First name:</label>
             <div class="col-lg-8">
-              <input class="form-control" type="text" value="Yash">
+              <input class="form-control" type="text" value="">
             </div>
           </div>
           <div class="form-group">
             <label class="col-lg-3 control-label">Last name:</label>
             <div class="col-lg-8">
-              <input class="form-control" type="text" value="Tandon">
+              <input class="form-control" type="text" value="">
             </div>
           </div>
           <div class="form-group">
@@ -211,6 +211,6 @@
     <script src="js/minix-map.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
-  
+
 </body>
 </html>
