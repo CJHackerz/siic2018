@@ -94,7 +94,7 @@
            <div class="col-md-8">
            <div class="text-center">
           <img src="//placehold.it/100" class="avatar img-circle" alt="avatar">
-          <br>
+          <br><br>
           <h6>Upload a different photo</h6>
 
           <input type="file" class="form-control">
@@ -211,6 +211,6 @@
     <script src="js/minix-map.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
-  
+
 </body>
 </html>
