@@ -3,7 +3,7 @@
   @session_start();
 ?>
 <header>
-    <div id="sticky-header" class="header-area header-style-one gray-bg">
+    <div id="sticky-header" class="header-area header-style-two gray-bg">
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-sm-3">
