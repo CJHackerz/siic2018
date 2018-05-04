@@ -53,7 +53,7 @@
          left:25%;
          text-align: center;
          opacity: 1;
-         background-color:grey;
+         /* background-color:grey; */
          height:47px;
          margin-bottom:5px;
          border-radius:5px;
@@ -92,7 +92,7 @@
                      <li class="list-group-item">
                         <div style="padding: 0px 0px 0px 0px;" align="center" class='team_image_hover'>
                            <img class="img-thumbnail" src="./teams/img/<?php echo $logo; ?>" alt="Team Logo"; height="100px" width="100%">
-                           <div style="font-size: 40px; text-align: center;" class='social_media_icons'>
+                           <div style="font-size: 30px; text-align: center;" class='social_media_icons'>
                               <a href="<?php echo $fb; ?>" style="color:#3b5998"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                               <a href="#" style="color:#007bb5;"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                               <a href="<?php echo $website; ?>" style="color:#333;"><i class="fa fa-globe" aria-hidden="true"></i></a>
