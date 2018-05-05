@@ -1,7 +1,7 @@
 <?php
    include './process/connect.php';
    include './process/utils.php';
-   //$user = get_user();
+   $user = get_user();
    ?>
 <!doctype html>
 <html class="no-js" lang="zxx">
@@ -19,6 +19,9 @@
       <link rel="stylesheet" href="css/responsive.css">
       <script src="js/vendor/modernizr-2.8.3.min.js"></script>
       <style>
+          body{
+          background-color: #f4f9fe;
+          }
          .personal-info{
          align:center;
          }

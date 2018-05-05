@@ -16,6 +16,10 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
         $row = $result->fetch_assoc();
         $status=$row['status'];
         if ($status=='set') {
+          $sql2 = "SELECT * from user_profiles WHERE email = '$user_email'";
+          $result2 = $conn->query($sql2);
+          $user_name = $result2->fetch_assoc();
+          $_SESSION["user_name"]  = $user_name['name'];
           $_SESSION["user"]       = $user_email;
           $_SESSION["user_id"]    = $row["uid"];
           $_SESSION["team"]       = "false";
