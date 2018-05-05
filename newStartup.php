@@ -19,6 +19,9 @@
       <link rel="stylesheet" href="css/responsive.css">
       <script src="js/vendor/modernizr-2.8.3.min.js"></script>
       <style>
+          body{
+          background-color: #f4f9fe;
+          }
          .personal-info{
          align:center;
          }
