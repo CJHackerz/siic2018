@@ -192,14 +192,14 @@
     /* ---------------------------------------------
         HEADER STICKY STYLE.
     --------------------------------------------- */
-    $(window).on('scroll', function() {
-        var wSize = $(window).width();
-        if (wSize > 1 && $(this).scrollTop() > 1) {
-            $('#sticky-header').addClass('sticky');
-        } else {
-            $('#sticky-header').removeClass('sticky');
-        }
-    });
+    // $(window).on('scroll', function() {
+    //     var wSize = $(window).width();
+    //     if (wSize > 1 && $(this).scrollTop() > 1) {
+    //         $('#sticky-header').addClass('sticky');
+    //     } else {
+    //         $('#sticky-header').removeClass('sticky');
+    //     }
+    // });
 
     /* ---------------------------------------------
      MENU HAMBURGER AND FULL SCREEN  OVERLAY.
