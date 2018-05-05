@@ -3,6 +3,21 @@
     include './process/utils.php';
 
     $user = get_user();
+    $sql    = "SELECT * from user_profiles WHERE email='$user'";
+    $result = $conn->query($sql);
+    $row    = $result->fetch_assoc();
+    $name   = $row['name'];
+    $email  = $row['email'];
+    $regno  = $row['register_no'];
+    $dept   = $row['dept'];
+    $year   = $row['year'];
+    $dob    = $row['dob'];
+    $address= $row['address'];
+    $skills = $row['skills'];
+    $hobbies= $row['hobbies'];
+    $achiev = $row['achievements'];
+    $exper  = $row['experience'];
+    $desc   = $row['description'];
 ?>
 <!doctype html>
 <html class="no-js" lang="zxx">
@@ -88,7 +103,7 @@
       <div class="col-md-9 personal-info">
 
 
-        <form class="form-horizontal" role="form">
+        <form class="form-horizontal" role="form" action="./process/process_edit_profile.php" enctype="multipart/form-data"  method="post">
 
            <div class="form-group image">
            <div class="col-md-8">
@@ -104,88 +119,88 @@
 
 
           <div class="form-group">
-            <label class="col-lg-3 control-label">First name:</label>
+            <label class="col-lg-3 control-label">Full name:</label>
             <div class="col-lg-8">
-              <input class="form-control" type="text" value="">
+              <input class="form-control" type="text"  name="profile_name" value="<?php echo $name ?>">
             </div>
           </div>
-          <div class="form-group">
+          <!-- <div class="form-group">
             <label class="col-lg-3 control-label">Last name:</label>
             <div class="col-lg-8">
               <input class="form-control" type="text" value="">
             </div>
-          </div>
+          </div> -->
           <div class="form-group">
             <label class="col-lg-3 control-label">Register Number:</label>
             <div class="col-lg-8">
-              <input class="form-control" type="text" value="">
+              <input class="form-control" type="text" name="profile_register" value="<?php echo $regno ?>">
             </div>
           </div>
           <div class="form-group">
             <label class="col-lg-3 control-label">Department:</label>
             <div class="col-lg-8">
-              <input class="form-control" type="text" value="">
+              <input class="form-control" type="text" name="profile_department" value="<?php echo $dept ?>">
             </div>
           </div>
           <div class="form-group">
             <label class="col-lg-3 control-label">Email:</label>
             <div class="col-lg-8">
-              <input class="form-control" type="text" value="@srmuniv.edu.in">
+              <input class="form-control" type="text" value="<?php echo $email ?>.@srmuniv.edu.in" disabled>
             </div>
           </div>
           <div class="form-group">
             <label class="col-lg-3 control-label">Year:</label>
             <div class="col-lg-8">
-              <input class="form-control" type="text" value="">
+              <input class="form-control" type="text" name="profile_year" value="<?php echo $year ?>">
             </div>
           </div>
           <div class="form-group">
             <label class="col-lg-3 control-label">Date Of Birth:</label>
             <div class="col-lg-8">
-              <input class="form-control" type="date" value="">
+              <input class="form-control" type="text" name="startup_datetime" value="<?php echo $dob ?>" disabled>
             </div>
           </div>
           <div class="form-group">
             <label class="col-lg-3 control-label">Address:</label>
             <div class="col-lg-8">
-              <input class="form-control" type="text" value="">
+              <input class="form-control" type="text" name="profile_address" value="<?php echo $address ?>">
             </div>
           </div>
           <div class="form-group">
             <label class="col-lg-3 control-label">Skills:</label>
             <div class="col-lg-8">
-              <input class="form-control" type="text" value="">
+              <input class="form-control" type="text" name="profile_skills" value="<?php echo $skills ?>">
             </div>
           </div>
           <div class="form-group">
             <label class="col-lg-3 control-label">Hobbies:</label>
             <div class="col-lg-8">
-              <input class="form-control" type="text" value="">
+              <input class="form-control" type="text" name="profile_hobbies" value="<?php echo $hobbies ?>">
             </div>
           </div>
           <div class="form-group">
             <label class="col-lg-3 control-label">Achievements:</label>
             <div class="col-lg-8">
-              <input class="form-control" type="text" value="">
+              <input class="form-control" type="text" name="profile_achievements" value="<?php echo $achiev ?>">
             </div>
           </div>
           <div class="form-group">
             <label class="col-lg-3 control-label">Experience:</label>
             <div class="col-lg-8">
-              <input class="form-control" type="text" value="">
+              <input class="form-control" type="text" name="profile_experience" value="<?php echo $exper ?>">
             </div>
           </div>
           <div class="form-group">
             <label class="col-lg-3 control-label">Description:</label>
             <div class="col-lg-8">
-            <textarea cols="80" rows="10" class="form-control" name="profile_description" id="profile_description"></textarea>
+            <textarea cols="80" rows="10" class="form-control" name="profile_description" id="profile_description" value="<?php echo $desc ?>"></textarea>
           </div>
           </div>
 
           <div class="form-group">
             <label class="col-md-3 control-label"></label>
             <div class="col-md-8">
-              <input type="button" class="btn btn-primary" value="Save Changes">
+              <input type="submit" class="btn btn-primary" value="Save Changes">
               <span></span>
               <input type="reset" class="btn btn-default" value="Cancel">
             </div>
