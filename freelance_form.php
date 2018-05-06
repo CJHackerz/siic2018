@@ -25,7 +25,7 @@
      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.4.2/chosen.css">
 </head>
 <style type="text/css">
-   
+
     .researchClass{
       font-family: 'Dosis', sans-serif;
      }
@@ -99,9 +99,12 @@
        vertical-align: middle;
   }
 
+label{
+    float: left;
+    color: #000;
+}
 
     </style>
-  }
 <body>
 
     <!-- Start Main Wrapper -->
@@ -126,9 +129,10 @@
               </ul>
               <!-- fieldsets -->
               <fieldset >
-                  
-                   <br>
+
+
       <div class="form-group">
+          <h2 class="fs-title">Freelance Form</h2>
                <label for="skills_email">Email Address</label>
                     <input type="email" name="skills_email" class="form-control" id="email"  placeholder="Enter Your Email Address" required>
   </div><br>
@@ -292,12 +296,12 @@
         </select>
 <br /><br />
                 <input type="button" name="" class="next action-button" value="Next" required />
-                <p>Already have an account? <a href="./signIn.php" style="text-decoration: none; color:green;"><strong>Sign in</strong></a></p>
+
               </fieldset>
               <fieldset>
-                <h2 class="fs-title">Create your Account</h2>
+                <h2 class="fs-title">Freelance Form</h2>
                 <h3 class="fs-subtitle">Step 2 out of 3</h3>
-                <label>3D MODELLING,ANALYSIS AND SIMULATION</label> <br>
+                <label>3D MODELLING, ANALYSIS AND SIMULATION</label> <br>
 <select id="3D Modelling, Analysis & Simulation" name="skills_threeD[]" placeholder="3D Modelling, Analysis & Simulation" class="js-example-placeholder-multiple" multiple="multiple" style="width:30vw;" tabindex="4">
           <option value="Fusion 360">Fusion 360</option>
           <option value="Catia">Catia</option>
@@ -441,10 +445,10 @@
 
                 <input type="button" name="previous" class="previous action-button" value="Previous" />
                 <input type="button" name="next" class="next action-button" value="Next" />
-                <p>Already have an account? <a href="./signIn.php" style="text-decoration: none; color:green;"><strong>Sign in</strong></a></p>
+
               </fieldset>
               <fieldset>
-                <h2 class="fs-title">Create your Account</h2>
+                <h2 class="fs-title">Freelance Form</h2>
                 <h3 class="fs-subtitle">Step 3 out of 3</h3>
 <label>WEBSITES,IT AND SOFTWARE</label> <br>
  <select id="Websites, IT & Software" name="skills_websites[]" placeholder="Websites, IT & Software" class="js-example-placeholder-multiple" multiple="multiple" style="width:30vw;" tabindex="4">
@@ -558,7 +562,6 @@
 
                 <input type="button" name="previous" class="previous action-button" value="Previous" />
                 <input type="submit" name="commit" class="submit action-button" value="Submit" />
-                <p>Already have an account? <a href="./signIn.php" style="text-decoration: none; color:green;"><strong>Sign in</strong></a></p>
               </fieldset>
             </form>
             </div>
@@ -688,7 +691,7 @@ $(".previous").click(function(){
 
 
 </script>
-    
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.4.2/chosen.jquery.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
 
