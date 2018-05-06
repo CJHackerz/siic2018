@@ -260,7 +260,7 @@ SIIC is SRM's official and independent Incubation and Innovation center. We inte
                                     </ul>
                                     <div class="footer-social">
                                         <ul class="social-bookmarkas">
-                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                            <li><a href="https://m.facebook.com/nikunj7panchal"><i class="fa fa-facebook"></i></a></li>
                                             <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
                                             <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
                                         </ul>

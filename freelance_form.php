@@ -25,7 +25,7 @@
      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.4.2/chosen.css">
 </head>
 <style type="text/css">
-   
+
     .researchClass{
       font-family: 'Dosis', sans-serif;
      }
@@ -126,7 +126,7 @@
               </ul>
               <!-- fieldsets -->
               <fieldset >
-                  
+
                    <br>
       <div class="form-group">
                <label for="skills_email">Email Address</label>
@@ -557,7 +557,7 @@
 <br /><br />
 
                 <input type="button" name="previous" class="previous action-button" value="Previous" />
-                <input type="submit" name="commit" class="submit action-button" value="Submit" />
+                <input type="submit" name="commit" value="Submit" />
                 <p>Already have an account? <a href="./signIn.php" style="text-decoration: none; color:green;"><strong>Sign in</strong></a></p>
               </fieldset>
             </form>
@@ -688,7 +688,7 @@ $(".previous").click(function(){
 
 
 </script>
-    
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.4.2/chosen.jquery.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
 
