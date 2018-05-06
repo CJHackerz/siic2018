@@ -557,7 +557,7 @@
 <br /><br />
 
                 <input type="button" name="previous" class="previous action-button" value="Previous" />
-                <input type="submit" name="commit" value="Submit" />
+                <input type="submit" name="commit" class="submit action-button" value="Submit" />
                 <p>Already have an account? <a href="./signIn.php" style="text-decoration: none; color:green;"><strong>Sign in</strong></a></p>
               </fieldset>
             </form>
