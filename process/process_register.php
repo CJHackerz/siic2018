@@ -79,14 +79,14 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
             $count=count($errors);
             $profile_avatar = $uid . "." . $file_ext;
             // If no errors in file
-            if ($count == 0) {
+            if ($errors == "") {
                 $sql = "INSERT INTO user_profiles(uid, email, name, avatar, register_no, dept, year, dob, description, address, skills, hobbies, achievements, experience)
                         VALUES('$uid', '$user_email', '$profile_name', '$profile_avatar', '$profile_register', '$profile_department', $profile_year, '$profile_dob', '$profile_description', '$profile_address', '$profile_skills', '$profile_hobbies', '$profile_achievements', '$profile_experience')";
                 if($conn->query($sql)) {
                     if(move_uploaded_file($file_tmp, "../profiles/img/" . $profile_avatar)) {
                         $flag = 1;
                     } else {
-                        $flag = 1;
+                        $flag = 0;
                     }
                 } else {
                     $sql = "INSERT INTO user_profiles(uid, email, name, register_no, dept,year,dob, description, address, skills, hobbies, achievements, experience)
