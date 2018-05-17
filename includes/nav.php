@@ -3,25 +3,25 @@
   @session_start();
 ?>
 <header>
-    <div id="sticky-header" class="header-area header-style-one gray-bg">
+    <div id="sticky-header" class="header-area header-style-two gray-bg sticky">
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-sm-3">
                     <div class="logo">
-                        <a href="index.php"><h2>SIIC<span>.</span></h2></a>
+                        <a href="index.php"><img src="./siiclogo.jpg" height="50px" width="50px" style="border-radius:100px;margin-right:10px;margin-bottom:10px;"><h2>SIIC<span>.</span></h2></a>
                     </div>
                 </div>
                 <div class="col-md-9 col-sm-9 main-menu-wrapper">
                     <div class="main-menu-wrapper">
-                        <button class="hamburger hamburger--slider" type="button">
-                            <span class="hamburger-box">
-                            <span class="hamburger-inner"></span>
-                            </span>
-                        </button>
-                        <div class="homepage-menu-style-two mobile-menu">
+                        <!-- <button class="hamburger hamburger--slider" type="button"> -->
+                            <!-- <span class="hamburger-box"> -->
+                            <!-- <span class="hamburger-inner"></span> -->
+                            <!-- </span> -->
+                        <!-- </button> -->
+                        <div >
                             <ul class="main-menu ">
                                 <li><a href="aboutPage.php">About</a></li>
-                                <li><a href="#contact">Contact</a></li>
+                                <li><a href="index.php#contact">Contact</a></li>
                                 <li><a href="blog.php">Blog</a></li>
                                 <li><a href="index.php#contact">Feedback</a></li>
                                 <?php
@@ -29,7 +29,7 @@
                             ?>
                             <li class="dropdown">
                                 <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">
-                                    <i class="fa fa-user fa-fw"></i> <?php echo $_SESSION["user"];?><i class="fa fa-caret-down"></i>
+                                    <i class="fa fa-user fa-fw"></i> <?php echo $_SESSION["user_name"];?><i class="fa fa-caret-down"></i>
                                 </a>
                                 <ul class="dropdown-menu dropdown-user">
                                     <li><a href="./editProfile.php">Edit Profile</a></li>
@@ -70,3 +70,4 @@
         </div>
     </div>
 </header>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>

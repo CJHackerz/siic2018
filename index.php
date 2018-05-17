@@ -1,4 +1,7 @@
 <!doctype html>
+<?php
+    require 'vendor/autoload.php';
+?>
 <html class="no-js" lang="zxx">
 <head>
     <meta charset="utf-8">
@@ -257,9 +260,9 @@ SIIC is SRM's official and independent Incubation and Innovation center. We inte
                                     </ul>
                                     <div class="footer-social">
                                         <ul class="social-bookmarkas">
-                                            <li><a href="#"><i class="ti-facebook"></i></a></li>
-                                            <li><a href="#"><i class="ti-linkedin"></i></a></li>
-                                            <li><a href="#"><i class="ti-google"></i></a></li>
+                                            <li><a href="https://m.facebook.com/nikunj7panchal"><i class="fa fa-facebook"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -267,10 +270,10 @@ SIIC is SRM's official and independent Incubation and Innovation center. We inte
                             <div class="col-md-7 col-sm-7">
                                 <div class="contact-form-wrapper">
                                     <div class="contact-form">
-                                        <form id="minix-contact-form" action="" method="POST">
+                                        <form id="minix-contact-form"  action="process/send_mail.php" method="POST">
                                             <input class="form-control" name="name" type="text" placeholder="Your Name" required>
                                             <input class="form-control" name="email" type="email" placeholder="Email Address" required>
-                                            <textarea name="message" cols="30" rows="2" placeholder="Write Message" required></textarea>
+                                            <textarea class="form-control" name="message" cols="30" rows="2" placeholder="Write Message" required></textarea>
                                             <button class="button form-btn" type="submit">SEND MESSAGE</button>
                                             <p class="minix-send-message"></p>
                                         </form>
@@ -310,5 +313,22 @@ SIIC is SRM's official and independent Incubation and Innovation center. We inte
        });
      }
 
-   </script>
+ </script>
+ <?php
+if(isset($_GET['mail'])) {
+    if($_GET['mail'] == 'sent') {
+?>
+<script type="text/javascript">
+swal("Nice!", "Message Sent !", "success");
+</script>
+<?php
+    } else {
+?>
+<script type="text/javascript">
+swal("Oops!", "Message not sent !", "error");
+</script>
+<?php
+    }
+}
+?>
 </html>

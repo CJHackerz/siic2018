@@ -1,6 +1,7 @@
 <?php
    include './process/connect.php';
    include './process/utils.php';
+   $user = get_user();
 ?>
 
 <!doctype html>

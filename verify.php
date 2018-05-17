@@ -48,29 +48,48 @@ if($_SERVER['REQUEST_METHOD'] == 'GET') {
     $authkey    = $_GET['authkey'];
     $uid        = $_GET['uid'];
     if(isset($_GET['reset'])) {
-        $result = $conn->query("SELECT * from user_resets where reset_key = '$authkey' and email = '$uid'");
+        $result = $conn->query("SELECT * from users where authkey = '$authkey' and uid = '$uid' and reset = 0");
 
         if($result->num_rows > 0) {
             ?>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6 col-md-offset-3">
-                        <div class="panel panel-default devise-bs">
-                            <div class="panel-body">
-                                <h1>Reset your password</h1>
-                                <label>Enter New password</label>
-                                <input type="password" id="pass1" class="form-control"></input>
-                                <label>Repeat password</label>
-                                <input type="password" id="pass2" class="form-control"></input>
 
-                                <input type="button" value="Reset Password" id="reset_sub" class="btn btn-primary rightBtn" />
+                              <form role="form" class="new_user" id="new_user" action="./process/process_forgot.php" accept-charset="UTF-8" method="POST">
+                                <input type="hidden" name="uid" class="form-control" value="<?php echo $_GET['uid'];?>" readonly/>
+                                  <?php
+                                  // alerts
+                                  if(isset($_GET['error'])) {
+                                      if($_GET['error'] == 'pass_match') {
+                                          echo '<div class="alert alert-danger" role="alert"><center>Password doesnt match</center></div>';
+                                      }
+                                  }
+                                  ?>
+                                  <div class="container">
+                                      <div class="row">
+                                          <div class="col-md-8 col-md-offset-2">
+                                              <div class="panel panel-default devise-bs">
+                                                  <div class="panel-body">
+                                                      <h1>Reset your password</h1>
+                                                      <label>Enter New password</label>
+                                                      <input type="password" name="user_password_forgot" class="form-control"></input>
+                                                      <label>Repeat password</label>
+                                                      <input type="password" name="user_password_confirmation_forgot" class="form-control"></input>
+
+                                                      <input type="submit" value="Reset Password"  class="btn btn-primary rightBtn" />
+
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                             </form>
 
                             </div>
-                        </div>
-                    </div>
-                </div>
             </div>
             <?php
+        } else {
+
         }
 
     } else {

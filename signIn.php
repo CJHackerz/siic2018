@@ -32,15 +32,15 @@
         <!-- Start Header Section -->
         <?php include 'includes/nav.php' ?>
         <?php
-require "process/connect.php";
-?>
+        require "process/connect.php";
+        ?>
         <!-- End Header Section -->
         <br><br>
         <!-- Start Main Content Wrapper -->
         <div class="main-content-wrapper">
             <!-- multistep form -->
             <div id="msform" style="padding-bottom:0%;">
-            <form role="form" class="new_user" id="new_user" action="./process/process_login.php" enctype="multipart/form-data" accept-charset="UTF-8" method="post">
+            <form role="form" style="margin-top:15%;" class="new_user" id="new_user" action="./process/process_login.php" enctype="multipart/form-data" accept-charset="UTF-8" method="post">
               <!-- progressbar -->
               <?php
                                 if(isset($_GET['error'])) {
@@ -62,6 +62,7 @@ require "process/connect.php";
                 <input type="password" name="user_password" placeholder="Password" required />
 
                 <input type="submit" name="" class="next action-button" value="SUBMIT" required />
+                <p>Don't have an account? <a href="./signUp.php" style="text-decoration: none; color:#53a846;"><strong>Register here</strong></a></p>
               </fieldset>
 
             </form>
