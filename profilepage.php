@@ -1,8 +1,7 @@
 ﻿<!DOCTYPE html>
 <html>
 <link rel="shortcut icon" href="logo.jpg" type="image/x-icon">
-<title>Deepshikha - Institute For Child Development and Mental Health 'a unit of 
-Purshree' | Ranchi | Jharkhand | India</title>
+<title></title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
