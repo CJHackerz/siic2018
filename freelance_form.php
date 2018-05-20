@@ -124,13 +124,14 @@
                      <h2 class="fs-title">Freelance Form</h2>
                      <h3 class="fs-subtitle">Step 1 out of 1</h3>
                      <br>
-                     <div class="form-group">
-                        <label for="skills_email">Email Address</label>
-                        <input type="email" name="skills_email" class="form-control" id="email"  placeholder="Enter Your Email Address" required>
-                     </div>
+
+                        <label for="skills_email">Email Address:</label>
+
+                    <input type="email" name="skills_email" class="form-control" id="email"  placeholder="Enter Your Email Address" required style="width:90%">
+
                      <br>
-                     <label>ARTS </label><br>
-                     <select id="arts" name="skills_arts[]" placeholder="Arts" class="js-example-placeholder-multiple" multiple="multiple" style="width:30vw;" tabindex="4">
+                     <label>ARTS       :</label>&nbsp&nbsp&nbsp&nbsp
+                     <select id="arts" name="skills_arts[]" placeholder="Arts" class="js-example-placeholder-multiple" multiple="multiple" style="width:90%;" tabindex="4">
                         <option value="Singing">Singing</option>
                         <option value="Dancing">Dancing</option>
                         <option value="Acting">Acting</option>
@@ -143,8 +144,9 @@
                         <option value="Sketching & painting">Sketching & painting</option>
                      </select>
                      <br /><br />
-                     <label>MEDIA</label> <br>
-                     <select id="Media" name="skills_media[]" placeholder="Media" class="js-example-placeholder-multiple" multiple="multiple" style="width:30vw;" tabindex="4">
+                     <label>MEDIA   :</label>
+                     <select id="Media" name="skills_media[]" placeholder="Media" class="js-example-placeholder-multiple" multiple="multiple" style="width:90%;" tabindex="4">
+
                         <option value="Photography">Photography</option>
                         <option value="Videography">Videography</option>
                         <option value="Cinematography">Cinematography</option>
@@ -163,8 +165,8 @@
                         <option value="Youtuber">Youtuber</option>
                      </select>
                      <br /><br />
-                     <label>CONTENT WRITING</label> <br>
-                     <select id="Content Writing" name="skills_content_writing[]" placeholder="Content Writing" class="js-example-placeholder-multiple" multiple="multiple" style="width:30vw;" tabindex="4">
+                     <label>CONTENT WRITING:</label>
+                     <select id="Content Writing" name="skills_content_writing[]" placeholder="Content Writing" class="js-example-placeholder-multiple" multiple="multiple" style="width:90%;" tabindex="4">
                         <option value="Blog Writing">Blog Writing</option>
                         <option value="Content Writing">Content Writing</option>
                         <option value="Article Writing">Article Writing</option>
@@ -185,8 +187,8 @@
                         <option value="Technical writing">Technical writing</option>
                      </select>
                      <br /><br />
-                     <label>GRAPHIC DESIGN</label> <br>
-                     <select id="Graphic Design" name="skills_graphic_design[]" placeholder="Graphic Design" class="js-example-placeholder-multiple" multiple="multiple" style="width:30vw;" tabindex="4">
+                     <label>GRAPHIC DESIGN:</label>&nbsp&nbsp
+                     <select id="Graphic Design" name="skills_graphic_design[]" placeholder="Graphic Design" class="js-example-placeholder-multiple" multiple="multiple" style="width:90%;" tabindex="4">
                         <option value="Adobe Photoshop">Adobe Photoshop</option>
                         <option value="Adobe Illustrator">Adobe Illustrator</option>
                         <option value="Adobe after effects">Adobe after effects</option>
@@ -210,8 +212,8 @@
                         <option value="Blender">Blender</option>
                      </select>
                      <br /><br />
-                     <label>CORPORATE</label> <br>
-                     <select id="Corporate" name="skills_corporate[]" placeholder="Corporate" class="js-example-placeholder-multiple" multiple="multiple" style="width:30vw;" tabindex="4">
+                     <label>CORPORATE:</label>&nbsp&nbsp
+                     <select id="Corporate" name="skills_corporate[]" placeholder="Corporate" class="js-example-placeholder-multiple" multiple="multiple" style="width:90%;" tabindex="4">
                         <option value="HR">HR</option>
                         <option value="PR">PR</option>
                         <option value="Finance">Finance</option>
@@ -236,8 +238,8 @@
                         <option value="Taxation">Taxation</option>
                      </select>
                      <br /><br />
-                     <label>SALES AND MARKETING</label> <br>
-                     <select id="Sales & Marketing" name="skills_sandm[]" placeholder="Sales & Marketing" class="js-example-placeholder-multiple" multiple="multiple" style="width:30vw;" tabindex="4">
+                     <label>SALES AND MARKETING:</label>
+                     <select id="Sales & Marketing" name="skills_sandm[]" placeholder="Sales & Marketing" class="js-example-placeholder-multiple" multiple="multiple" style="width:90%;" tabindex="4">
                         <option value="Digital Marketing">Digital Marketing</option>
                         <option value="Marketing">Marketing</option>
                         <option value="Sales">Sales</option>
@@ -255,8 +257,8 @@
                         <option value="Content Development">Content Development</option>
                      </select>
                      <br /><br />
-                     <label>MECHANICAL</label> <br>
-                     <select id="Mechanical" name="skills_mechanical[]" placeholder="Mechanical" class="js-example-placeholder-multiple" multiple="multiple" style="width:30vw;" tabindex="4">
+                     <label>MECHANICAL:</label> <br>
+                     <select id="Mechanical" name="skills_mechanical[]" placeholder="Mechanical" class="js-example-placeholder-multiple" multiple="multiple" style="width:90%;" tabindex="4">
                         <option value="IC Engines">IC Engines</option>
                         <option value="3D Printing">3D Printing</option>
                         <option value="Aeronautics">Aeronautics</option>
