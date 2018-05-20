@@ -1,117 +1,122 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html class="no-js" lang="zxx">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>SIIC - Sign In</title>
     <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>SIIC</title>
-
-    <!-- css -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-    <link href="css/nivo-lightbox.css" rel="stylesheet" />
-    <link href="css/nivo-lightbox-theme/default/default.css" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
-    <link href="css/animations.css" rel="stylesheet" />
-    <link href="css/style.css" rel="stylesheet">
-    <link href="./css/sweetalert.css" rel="stylesheet">
-    <link href="color/default.css" rel="stylesheet">
-    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
-    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon Icon Add -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <!-- All STYLESHEET CSS -->
+    <link rel="stylesheet" href="css/element.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/signIn.css">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
 </head>
-<style type="text/css">
-  .blogHead{
-    background: url(img/blog-bg.jpg);
-    max-height:304px;
-    width: 100%;
-    text-align: center;
-    color:white;
-  }
+<body>
+    <!-- Start Main Wrapper -->
+    <div class="main-wrapper">
+        <!-- Start Header Section -->
+        <?php include 'includes/nav.php' ?>
+        <?php
+        require "process/connect.php";
+        ?>
+        <!-- End Header Section -->
+        <br><br>
+        <!-- Start Main Content Wrapper -->
+        <div class="main-content-wrapper">
+            <!-- multistep form -->
+            <div id="msform" style="padding-bottom:0%;">
+            <form role="form" style="margin-top:15%;" class="new_user" id="new_user" action="./process/process_login.php" enctype="multipart/form-data" accept-charset="UTF-8" method="post">
+              <div id="page-content-wrapper">
+         <?php
+         if($_SERVER['REQUEST_METHOD'] == 'GET') {
+             $authkey    = $_GET['authkey'];
+             $uid        = $_GET['uid'];
+             if(isset($_GET['reset'])) {
+                 $result = $conn->query("SELECT * from user_resets where reset_key = '$authkey' and email = '$uid'");
+
+                 if($result->num_rows > 0) {
+                     ?>
+                     <div class="container">
+                         <div class="row">
+                             <div class="col-md-6 col-md-offset-3">
+                                 <div class="panel panel-default devise-bs">
+                                     <div class="panel-body">
+                                         <h1>Reset Password</h1>
+                                         <label>Enter New password</label>
+                                         <input type="password" id="pass1" class="form-control"></input>
+                                         <label>Retype password</label>
+                                         <input type="password" id="pass2" class="form-control"></input>
+
+                                         <input type="button" value="Reset Password" id="reset_sub" class="btn btn-primary rightBtn" />
+
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                     <?php
+                 }
+
+             } else {
+                 $sql = "SELECT * FROM users where authkey = '$authkey' AND uid = '$uid' AND status = 'unset'";
+
+                 $result = $conn->query($sql);
+
+                 if($result->num_rows > 0) {
+                     $sql = "UPDATE users set status = 'set' where uid = '$uid'";
+
+                     if($conn->query($sql)) {
+                         echo '<h1 align="center" style="font-size: 50px; padding: 100px;">Email Verification Successful!<br> You may continue to login to your account</h1>';
+                     } else {
+                         echo '<h1 align="center" style="font-size: 50px; padding: 100px;">Unable to process please try again later</h1>';
+                     }
+                 } else {
+                     echo '<h1 align="center" style="font-size: 50px; padding: 100px;">Invalid Credentials</h1>';
+                 }
+             }
+         }
+
+         ?>
 
 
-</style>
-
-<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
-    <div id="wrapper">
-        <div class="overlay"></div>
-<?php
-require "includes/nav.php";
-require './process/connect.php';
-?>
-<div id="page-content-wrapper">
-<?php
-if($_SERVER['REQUEST_METHOD'] == 'GET') {
-    $authkey    = $_GET['authkey'];
-    $uid        = $_GET['uid'];
-    if(isset($_GET['reset'])) {
-        $result = $conn->query("SELECT * from users where authkey = '$authkey' and uid = '$uid' and reset = 0");
-
-        if($result->num_rows > 0) {
-            ?>
-            <div class="container">
-                <div class="row">
-
-                              <form role="form" class="new_user" id="new_user" action="./process/process_forgot.php" accept-charset="UTF-8" method="POST">
-                                <input type="hidden" name="uid" class="form-control" value="<?php echo $_GET['uid'];?>" readonly/>
-                                  <?php
-                                  // alerts
-                                  if(isset($_GET['error'])) {
-                                      if($_GET['error'] == 'pass_match') {
-                                          echo '<div class="alert alert-danger" role="alert"><center>Password doesnt match</center></div>';
-                                      }
-                                  }
-                                  ?>
-                                  <div class="container">
-                                      <div class="row">
-                                          <div class="col-md-8 col-md-offset-2">
-                                              <div class="panel panel-default devise-bs">
-                                                  <div class="panel-body">
-                                                      <h1>Reset your password</h1>
-                                                      <label>Enter New password</label>
-                                                      <input type="password" name="user_password_forgot" class="form-control"></input>
-                                                      <label>Repeat password</label>
-                                                      <input type="password" name="user_password_confirmation_forgot" class="form-control"></input>
-
-                                                      <input type="submit" value="Reset Password"  class="btn btn-primary rightBtn" />
-
-                                                  </div>
-                                              </div>
-                                          </div>
-                                      </div>
-                                  </div>
-                             </form>
-
-                            </div>
+            </form>
             </div>
-            <?php
-        } else {
 
-        }
+        <?php include 'includes/footer.php' ?>
+        <style>
+           .footer {
+           position: fixed;
+           left: 0;
+           bottom: 0;
+           width: 100%;
+           background-color:#333;
+           color: white;
+           text-align: center;
+           }
+           .copyright{
+               margin-bottom: 1em;
+           }
+        </style>
+        </div>
+        <!-- End Main Content Wrapper -->
+    </div>
+    <!-- End Main Wrapper -->
 
-    } else {
-        $sql = "SELECT * FROM users where authkey = '$authkey' AND uid = '$uid' AND status = 'unset'";
+    <!-- ALL JQUERY  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script src="js/vendor/jquery-1.12.0.min.js"></script>
+    <script src="js/minix-map.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+      <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 
-        $result = $conn->query($sql);
-
-        if($result->num_rows > 0) {
-            $sql = "UPDATE users set status = 'set' where uid = '$uid'";
-
-            if($conn->query($sql)) {
-                echo '<h1 align="center" style="font-size: 50px; padding: 100px;">Email Verification Successful!<br> You may continue to login to your account</h1>';
-            } else {
-                echo '<h1 align="center" style="font-size: 50px; padding: 100px;">Unable to process please try again later</h1>';
-            }
-        } else {
-            echo '<h1 align="center" style="font-size: 50px; padding: 100px;">Invalid Credentials</h1>';
-        }
-    }
-}
-
-?>
 
 </div><!-- Page content wrapper ends -->
 </div><!-- wrapper ends -->

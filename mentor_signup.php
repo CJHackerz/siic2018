@@ -176,13 +176,8 @@ footer{
                             </div>
 
                             <div class="form-group col-md-12 col-lg-12 col-sm-12 col-xs-12">
-<<<<<<< HEAD:fr.php
-                                <label for="profile_hobbies">Total Years of Experience</label><br/>
-                                <input class="form-control" type="text" name="profile_hobbies" id="profile_hobbies" /><br/>
-=======
                                 <label for="profile_aoi">Areas of interests</label><br/>
                                 <input class="form-control" type="text" name="profile_aoi" id="profile_aoi" required/><br/>
->>>>>>> 7ee33431c190d3f53789a2c7a5ce29ba021370f3:mentor_signup.php
                             </div>
 
                             <div class="form-group col-md-12 col-lg-12 col-sm-12 col-xs-12">
@@ -210,13 +205,8 @@ footer{
                             </div> -->
 
                             <div class="form-group col-md-12 col-lg-12 col-sm-12 col-xs-12">
-<<<<<<< HEAD:fr.php
-                                <label for="phone_number">Contact no</label><br/>
-                                <input class="form-control" type="text" name="phone_number" id="phone_number" /><br/>
-=======
                                 <label for="phone_number">Phone number</label><br/>
                                 <input class="form-control" type="text" name="phone_number" id="phone_number" required/><br/>
->>>>>>> 7ee33431c190d3f53789a2c7a5ce29ba021370f3:mentor_signup.php
                             </div>
 
                             <div class="form-group col-md-7 col-lg-7 col-sm-12 col-xs-12">

@@ -145,7 +145,7 @@
           <div class="form-group">
             <label class="col-lg-3 control-label">Email:</label>
             <div class="col-lg-8">
-              <input class="form-control" type="text" value="<?php echo $email ?>.@srmuniv.edu.in" disabled>
+              <input class="form-control" type="text" value="<?php echo $email ?>" disabled>
             </div>
           </div>
           <div class="form-group">
