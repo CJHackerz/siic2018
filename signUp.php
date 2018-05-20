@@ -1,6 +1,7 @@
 <?php
     session_start();
-    if(isset($_SESSION['user'])) {
+    if(isset($_SESSION['user']) || isset($_COOKIE['useremail'])) {
+      setcookie('useremail',$_SESSION['user'],time() + (86400*7));
         header('Location: ./profile.php');
     }
 ?>
