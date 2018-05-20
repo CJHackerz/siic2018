@@ -1,0 +1,92 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+body, html {
+    height: 100%;
+    line-height: 1.8;
+}
+}
+.w3-bar .w3-button {
+    padding: 12px;
+   
+}
+#three-coders {
+
+	color: #10620D;
+}
+
+.chnge {
+	font-size: 11.5px;
+}
+.whitish {
+     color:white;
+	}
+#myBtn {
+   
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */ 
+    color: white;
+    opacity: 1;
+    font-size: 50px; *//* Increase font size */
+}
+
+.w3-top {
+	padding-bottom: 0;
+    height: 60px;
+    font-size: 25px;
+}
+.layer1 {
+	
+	background-image: url(112.jpg);
+	min-height: 100%;
+	background-attachment: fixed;
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 100px;
+}
+.layer2 {
+	
+	background-image: url(116.jpg);
+	min-height: 100%;
+	background-attachment: fixed;
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+	.layer3 {
+	
+	background-image: url(118.jpg);
+	min-height: 100%;
+	background-attachment: fixed;
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+	@media only screen and(max-width:1000px)
+	{
+
+		.layer1{
+
+			width:100%;
+		}
+		.text{
+			font-size: 18px;
+		}
+		.layer2{
+			width:100%;
+		}
+	}
+	@media only screen and(min-width:400px)
+	{
+
+		.layer1{
+
+			width:100%;
+		}
+		.text{
+			font-size: 20px;
+		}
+		.layer2{
+			width:100%;
+		}
+	}
