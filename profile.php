@@ -84,8 +84,12 @@
     <h5>Dashboard</h5>
   </div>
   <div class="w3-bar-block" style="font-size:18px;">
-
-    <a href="./editProfile.php" class="w3-bar-item w3-button w3-padding" ><i class="fal fa-edit"></i>  Edit Profile</a>
+      <style media="screen">
+          .fas{
+              padding: 7px;
+          }
+      </style>
+    <a href="./editProfile.php" class="w3-bar-item w3-button w3-padding" ><i class="fas fa-user-edit"></i> Edit Profile</a>
     <a id="viewProfile" onclick="viewProfile()" class="w3-bar-item w3-button w3-padding" ><i class="fas fa-info"></i> About</a>
     <a data-toggle="pill" class="w3-bar-item w3-button w3-padding" href="#menu2"><i class="fas fa-file"></i> Projects </a>
     <a class="w3-bar-item w3-button w3-padding"><i class="fas fa-users"></i>  Teams</a>
@@ -294,7 +298,7 @@
         // View Profile click
         function viewProfile() {
             var uid = $("#uid").val();
-            window.location = "./viewProfile.php?uid=" + uid;
+            window.location = "./profile.php?uid=" + uid;
         }
     </script>
 
