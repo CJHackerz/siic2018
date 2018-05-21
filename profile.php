@@ -80,9 +80,7 @@
       <span style="margin-left:6%"><button class="btn btn-primary rightBtn" onclick="location.href='./teams.php'">Join Team</button>
     </div>
   <br>
-  <div class="w3-container">
-    <h5>Dashboard</h5>
-  </div>
+
   <div class="w3-bar-block" style="font-size:18px;">
       <style media="screen">
           .fas{
@@ -182,8 +180,6 @@
 </div>
 
 </center>
-
-<!-- <?php include 'includes/footer.php' ?> -->
 
 <script type="text/javascript" src="js/hp_js.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
