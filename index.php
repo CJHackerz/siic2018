@@ -90,150 +90,57 @@ SIIC is SRM's official and independent Incubation and Innovation center. We inte
                     <!-- Start portfolio Wrapper -->
                     <div class="row">
                         <div class="col-lg-12">
-                            <div class="portfolio-content">
-                                <div class="portfolio portfolio-masonry portfolio-3-column portfolio-gutter">
-                                    <div class="portfolio-item cat1 cat3 ">
-                                        <div class="portfolio-item-content">
-                                            <div class="item-thumbnail">
-                                                <img src="img/portfolio/p-1/1.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio-details">
-                                                <div class="portfolio-details-inner">
-                                                    <h4><a href="javascript:void(0)">Tech Teams</a></h4>
-                                                    <ul class="portfolio-category">
-                                                        <li><a href="javascript:void(0)">We make mind blowing stuffs and amazing techies.</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="portfolio-item cat1 cat2 ">
-                                        <div class="portfolio-item-content">
-                                            <div class="item-thumbnail">
-                                                <img src="img/portfolio/p-1/2.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio-details">
-                                                <div class="portfolio-details-inner">
-                                                    <h4><a href="javascript:void(0)">SIIC Start-ups</a></h4>
-                                                    <ul class="portfolio-category">
-                                                        <li><a href="javascript:void(0)">We are developing Zero cool products for incredible people.</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="portfolio-item cat1 cat4 ">
-                                        <div class="portfolio-item-content">
-                                            <div class="item-thumbnail">
-                                                <img src="img/portfolio/p-1/3.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio-details">
-                                                <div class="portfolio-details-inner">
-                                                    <h4><a href="javascript:void(0)" >SIIC Facilities</a></h4>
-                                                    <ul class="portfolio-category">
-                                                        <li><a href="javascript:void(0)">We have top notch world class facilities to serve you with.</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="portfolio-item cat5 cat2 ">
-                                        <div class="portfolio-item-content">
-                                            <div class="item-thumbnail">
-                                                <img src="img/portfolio/p-1/4.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio-details">
-                                                <div class="portfolio-details-inner">
-                                                    <h4><a href="javascript:void(0)" >Announcements</a></h4>
-                                                    <ul class="portfolio-category">
-                                                        <li><a href="javascript:void(0)">Something Important!!</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="portfolio-item cat3 cat5 ">
-                                        <div class="portfolio-item-content">
-                                            <div class="item-thumbnail">
-                                                <img src="img/achievements.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio-details">
-                                                <div class="portfolio-details-inner">
-                                                    <h4><a href="javascript:void(0)" >Achievements</a></h4>
-                                                    <ul class="portfolio-category">
-                                                        <li><a href="javascript:void(0)">Catch a glimpse of our milestones.</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="portfolio-item cat4 cat2">
-                                        <div class="portfolio-item-content">
-                                            <div class="item-thumbnail">
-                                                <img src="img/learnmore.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio-details">
-                                                <div class="portfolio-details-inner">
-                                                    <h4><a href="javascript:void(0)">Learn</a></h4>
-                                                    <ul class="portfolio-category">
-                                                        <li><a href="javascript:void(0)">Explore projects and guidances from innovators</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="portfolio-item cat1 cat3 ">
-                                        <div class="portfolio-item-content">
-                                            <div class="item-thumbnail">
-                                                <img src="img/feedback.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio-details">
-                                                <div class="portfolio-details-inner">
-                                                    <h4><a href="javascript:void(0)" >Feedback</a></h4>
-                                                    <ul class="portfolio-category">
-                                                        <li><a href="javascript:void(0)">Help us to serve you better.</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="portfolio-item cat4 cat2">
-                                        <div class="portfolio-item-content">
-                                            <div class="item-thumbnail">
-                                                <img src="img/bankofinventory.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio-details">
-                                                <div class="portfolio-details-inner">
-                                                    <h4><a href="javascript:void(0)" >Bank of Inventory</a></h4>
-                                                    <ul class="portfolio-category">
-                                                        <li><a href="javascript:void(0)">Simply a tech library</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="portfolio-item cat4 cat2 ">
-                                        <div class="portfolio-item-content">
-                                            <div class="item-thumbnail">
-                                                <img src="img/insights.jpg" alt="">
-                                            </div>
-                                            <div class="portfolio-details">
-                                                <div class="portfolio-details-inner">
-                                                    <h4><a href="javascript:void(0)" >Insights</a></h4>
-                                                    <ul class="portfolio-category">
-                                                        <li><a href="javascript:void(0)">Have a look, what we have done till now!</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                            <div class="col-lg-3">
+                              <div class="item-thumbnail col-lg-8">
+
+                                               <img src="img/portfolio/p-1/2.jpg" alt="" height:60px;>
+
+                                         </div>
                             </div>
-                        </div>
-                    </div>
-                    <!-- End portfolio Wrapper -->
-                </div>
+                              <div class="col-lg-6">
+
+
+                                                 <h4 style="background-color:white;color: blue;"><a href="#">SIIC Start-ups</a></h4>
+
+                                                     <li><a href="#">We are developing Zero cool products for incredible people.</a></li>
+                                                 </ul>
+                                             </div>
+                                         </div>
+
+
+                              <div class="col-lg-12">
+                                <div class="col-lg-3">
+                                </div>
+                                <div class="col-lg-6">
+
+
+                                                   <h4 style="background-color:white;color: blue;"><a href="#">SIIC Start-ups</a></h4>
+
+                                                       <li><a href="#">We are developing Zero cool products for incredible people.</a></li>
+                                                   </ul>
+                                               </div>
+                                               <div class="col-lg-3">
+                                                 <div class="col-lg-4">
+                                                 </div>
+                                                 <div class="item-thumbnail col-lg-8">
+
+                                                                  <img src="img/portfolio/p-1/2.jpg" alt="" height:60px;>
+
+                                                            </div>
+                                               </div>
+                                </div>
+
+
+
+
+
+
+
+
+
             </div>
+            <br>
+            <br>
             <!-- End Portfolio Area -->
             <!-- Start Contact area -->
             <div class="contact-area gray-bg">
