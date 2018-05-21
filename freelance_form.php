@@ -121,7 +121,7 @@
                   </ul>
                   <!-- fieldsets -->
                   <fieldset >
-                     <h2 class="fs-title">Freelance Form</h2>
+                  <center>   <h2 class="fs-title">Freelance Form</h2></center>
                      <h3 class="fs-subtitle">Step 1 out of 1</h3>
                      <br>
 
@@ -292,8 +292,8 @@
                   <fieldset>
                      <h2 class="fs-title">Freelance Form</h2>
                      <h3 class="fs-subtitle">Step 2 out of 3</h3>
-                     <label>3D MODELLING, ANALYSIS AND SIMULATION</label> <br>
-                     <select id="3D Modelling, Analysis & Simulation" name="skills_threeD[]" placeholder="3D Modelling, Analysis & Simulation" class="js-example-placeholder-multiple" multiple="multiple" style="width:30vw;" tabindex="4">
+                     <label>3D MODELLING, ANALYSIS AND SIMULATION:</label>
+                     <select id="3D Modelling, Analysis & Simulation" name="skills_threeD[]" placeholder="3D Modelling, Analysis & Simulation" class="js-example-placeholder-multiple" multiple="multiple" style="width:90%;" tabindex="4">
                         <option value="Fusion 360">Fusion 360</option>
                         <option value="Catia">Catia</option>
                         <option value="SolidWorks">SolidWorks</option>
@@ -311,8 +311,8 @@
                         <option value="Option 15">Option 15</option>
                      </select>
                      <br /><br />
-                     <label>MANUFACTURING AND FABRICATION</label> <br>
-                     <select id="Manufacturing and Fabrication" name="skills_mandf[]" placeholder="Manufacturing and Fabrication" class="js-example-placeholder-multiple" multiple="multiple" style="width:30vw;border:none;" tabindex="4">
+                     <label>MANUFACTURING AND FABRICATION:</label>
+                     <select id="Manufacturing and Fabrication" name="skills_mandf[]" placeholder="Manufacturing and Fabrication" class="js-example-placeholder-multiple" multiple="multiple" style="width:90%;border:none;" tabindex="4">
                         <option value="Power tools">Power tools</option>
                         <option value="Welding">Welding</option>
                         <option value="Lathe machine">Lathe machine</option>
@@ -333,7 +333,7 @@
                      </select>
                      <br /><br />
                      <label>AUTOMATION</label> <br>
-                     <select id="Automation" name="skills_automation[]" placeholder="Automation" class="js-example-placeholder-multiple" multiple="multiple" style="width:30vw;" tabindex="4">
+                     <select id="Automation" name="skills_automation[]" placeholder="Automation" class="js-example-placeholder-multiple" multiple="multiple" style="width:90%;border:none;" tabindex="4">
                         <option value="IOT">IOT</option>
                         <option value="Sensors">Sensors</option>
                         <option value="Actuators">Actuators</option>
@@ -367,7 +367,7 @@
                      </select>
                      <br /><br />
                      <label>ELECTRONICS HARDWARE</label> <br>
-                     <select id="Electronics Hardware" name="skills_hardware[]" placeholder="Electronics Hardware" class="js-example-placeholder-multiple" multiple="multiple" style="width:30vw;" tabindex="4">
+                     <select id="Electronics Hardware" name="skills_hardware[]" placeholder="Electronics Hardware" class="js-example-placeholder-multiple" multiple="multiple" style="width:90%;border:none;" tabindex="4">
                         <option value="System integration">System integration</option>
                         <option value="System testing ,logging and debugging">System testing ,logging and debugging</option>
                         <option value="Electromechanics">Electromechanics</option>
@@ -394,7 +394,7 @@
                      </select>
                      <br /><br />
                      <label>ELECTRONICS EDA</label> <br>
-                     <select id="Electronics EDA" name="skills_EDA[]" placeholder="Electronics EDA" class="js-example-placeholder-multiple" multiple="multiple" style="width:30vw;" tabindex="4">
+                     <select id="Electronics EDA" name="skills_EDA[]" placeholder="Electronics EDA" class="js-example-placeholder-multiple" multiple="multiple" style="width:90%;border:none;" tabindex="4">
                         <option value="VLSI Design">VLSI Design</option>
                         <option value="Autodesk EAGLE">Autodesk EAGLE</option>
                         <option value="ALTIUM Designer">ALTIUM Designer</option>
@@ -416,7 +416,7 @@
                      </select>
                      <br /><br />
                      <label>GENERAL ENGINEERING</label> <br>
-                     <select id="General Engineering" name="skills_generalengg[]" placeholder="General Engineering" class="js-example-placeholder-multiple" multiple="multiple" style="width:30vw;" tabindex="4">
+                     <select id="General Engineering" name="skills_generalengg[]" placeholder="General Engineering" class="js-example-placeholder-multiple" multiple="multiple" style="width:90%;border:none;" tabindex="4">
                         <option value="Electronics">Electronics</option>
                         <option value="Automotive">Automotive</option>
                         <option value="Instumentation">Instumentation</option>
@@ -439,7 +439,7 @@
                      <h2 class="fs-title">Freelance Form</h2>
                      <h3 class="fs-subtitle">Step 3 out of 3</h3>
                      <label>WEBSITES,IT AND SOFTWARE</label> <br>
-                     <select id="Websites, IT & Software" name="skills_websites[]" placeholder="Websites, IT & Software" class="js-example-placeholder-multiple" multiple="multiple" style="width:30vw;" tabindex="4">
+                     <select id="Websites, IT & Software" name="skills_websites[]" placeholder="Websites, IT & Software" class="js-example-placeholder-multiple" multiple="multiple" style="width:90%;border:none;" tabindex="4">
                         <option value="PHP">PHP</option>
                         <option value="HTML">HTML</option>
                         <option value="Software Architecture">Software Architecture</option>
@@ -482,7 +482,7 @@
                      </select>
                      <br /><br />
                      <label>PROGRAMMING LANGUAGES</label> <br>
-                     <select id="Programming Languages" name="skills_proglang[]" placeholder="Programming Languages" class="js-example-placeholder-multiple" multiple="multiple" style="width:30vw;" tabindex="4">
+                     <select id="Programming Languages" name="skills_proglang[]" placeholder="Programming Languages" class="js-example-placeholder-multiple" multiple="multiple" style="width:90%;border:none;" tabindex="4">
                         <option value="SQL">SQL</option>
                         <option value="Java">Java</option>
                         <option value="Javascript">Javascript</option>
@@ -501,14 +501,14 @@
                      </select>
                      <br /><br />
                      <label>MOBILE AND DEVELOPMENT</label> <br>
-                     <select id="Mobile App Development" name="skills_mobappdev[]" placeholder="Mobile App Development" class="js-example-placeholder-multiple" multiple="multiple" style="width:30vw;" tabindex="4">
+                     <select id="Mobile App Development" name="skills_mobappdev[]" placeholder="Mobile App Development" class="js-example-placeholder-multiple" multiple="multiple" style="width:90%;border:none;" tabindex="4">
                         <option value="iOS">iOS</option>
                         <option value="Android">Android</option>
                         <option value="Windows">Windows</option>
                      </select>
                      <br /><br />
                      <label>INTERIOR AND ARCHITECTS</label> <br>
-                     <select id="Interior & Architects" name="skills_interior[]" placeholder="Interior & Architects" class="js-example-placeholder-multiple" multiple="multiple" style="width:30vw;" tabindex="4">
+                     <select id="Interior & Architects" name="skills_interior[]" placeholder="Interior & Architects" class="js-example-placeholder-multiple" multiple="multiple" style="width:90%;border:none;" tabindex="4">
                         <option value="Interior & Exterior Designing">Interior & Exterior Designing</option>
                         <option value="Crafting">Crafting</option>
                         <option value="Wall Painting">Wall Painting</option>
@@ -521,7 +521,7 @@
                      </select>
                      <br /><br />
                      <label>TRAINER</label> <br>
-                     <select id="Trainer" placeholder="Trainer" name="skills_trainer[]" class="js-example-placeholder-multiple" multiple="multiple" style="width:30vw;" tabindex="4">
+                     <select id="Trainer" placeholder="Trainer" name="skills_trainer[]" class="js-example-placeholder-multiple" multiple="multiple" style="width:90%;border:none;" tabindex="4">
                         <option value="Manufacturing Design">Manufacturing Design</option>
                         <option value="Trainer ( technology)">Trainer ( technology)</option>
                         <option value="Trainer( Business)">Trainer( Business)</option>
@@ -532,7 +532,7 @@
                      </select>
                      <br /><br />
                      <label>CERTIFIED BY</label> <br>
-                     <select id="Certified by" name="skills_certifiedby[]" placeholder="Certified by" class="js-example-placeholder-multiple" multiple="multiple" style="width:30vw;" tabindex="4">
+                     <select id="Certified by" name="skills_certifiedby[]" placeholder="Certified by" class="js-example-placeholder-multiple" multiple="multiple" style="width:90%;border:none;" tabindex="4">
                         <option value="AutoDesk certified designer">AutoDesk certified designer</option>
                         <option value="Dassault Systems Solid">Dassault Systems Solid</option>
                         <option value="CISCO certified professional network engineer">CISCO certified professional network engineer</option>
@@ -545,6 +545,7 @@
                      <input type="button" name="previous" class="previous action-button" value="Previous" />
                      <input type="submit" name="commit" class="submit action-button" value="Submit" />
                   </fieldset>
+                  <br>
                </form>
             </div>
             <?php include 'includes/footer.php' ?>
