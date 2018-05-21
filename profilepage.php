@@ -1,4 +1,4 @@
-﻿
+
 
   <?php
     include './process/connect.php';
@@ -89,54 +89,18 @@
     <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-users fa-fw"></i>  Teams</a>
     <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-users fa-fw"></i>  Startup</a>
     <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-users fa-fw"></i>  Your Request</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-users fa-fw"></i>  Edit Profile</a>
 
   </div>
 </nav>
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 
-<br><br>
-<br>
-<br><br>
-<br>
-<br>
-<br>
 
-<br><br>
-<br>
-<br>
-<br>
-<br><br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-   
+  
 
 
 <?php include 'includes/footer.php' ?>
+
 <script type="text/javascript" src="js/hp_js.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
@@ -145,7 +109,114 @@
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
   
-  
+    <input type="hidden" id="uid" value="<?php echo $user;?>">
+    <!-- Core JavaScript Files -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.sticky.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+  <script src="js/jquery.scrollTo.js"></script>
+  <script src="js/jquery.appear.js"></script>
+  <script src="js/stellar.js"></script>
+  <script src="js/nivo-lightbox.min.js"></script>
+
+    <script src="js/custom.js"></script>
+  <script src="js/css3-animate-it.js"></script>
+
+    <script src="js/sidenav.js"></script>
+
+    <?php
+        if(isset($_GET['submission'])) {
+            if($_GET["submission"] === 'success') {
+            ?>
+        <script>
+            swal("Success", "Your submission has been accepted", "success")
+        </script>
+    <?php
+            }
+        }
+    ?>
+
+    <script>
+        $( document ).ready(function() {
+            var uid = $("#uid").val();
+            // Research list
+            $.ajax({
+                type : 'GET',
+                url:  './process/get_research.php',
+                dataType : 'html',
+                data:  {
+                    id : uid
+                } ,
+                error : function(XMLHttpRequest, textStatus, errorThrown) {
+                alert('error'); },
+                success : function(data) {
+                    $("#researchList").html(data);
+                }
+            });
+
+            // Project list
+            $.ajax({
+                type : 'GET',
+                url:  './process/get_project.php',
+                dataType : 'html',
+                data:  {
+                    id : uid
+                } ,
+                error : function(XMLHttpRequest, textStatus, errorThrown) {
+                alert('error'); },
+                success : function(data) {
+                    $("#projectList").html(data);
+                }
+            });
+
+            // Startup List
+            $.ajax({
+                type : 'GET',
+                url:  './process/get_startup.php',
+                dataType : 'html',
+                data:  {
+                    id : uid
+                } ,
+                error : function(XMLHttpRequest, textStatus, errorThrown) {
+                alert('error'); },
+                success : function(data) {
+                    $("#startupList").html(data);
+                }
+            });
+        });
+
+        // User notifications
+        // function loadNotifs() {
+        //     var uid = $("#uid").val();
+        //     $.ajax({
+        //         type: "POST",
+        //         url: "./process/load_notifications.php",
+        //         data: {
+        //             id  :   uid
+        //         },
+        //         beforeSend: function() {
+        //             $('#notifList').html('<center>loading...</center>');
+        //         },
+        //         dataType: "html",
+        //         success: function(data) {
+        //             $("#notifList").html(data);
+        //         }
+        //     });
+        // }
+
+        function viewInstructions() {
+            swal("Congratulations!", "Your idea has been accepted. Contact +91 8148606827", 'info');
+        }
+    </script>
+
+    <script type="text/javascript">
+        // View Profile click
+        function viewProfile() {
+            var uid = $("#uid").val();
+            window.location = "./viewProfile.php?uid=" + uid;
+        }
+    </script>
 
 </script>
 </body>
