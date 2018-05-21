@@ -13,7 +13,7 @@
                 </div>
                 <div class="col-md-9 col-sm-9 main-menu-wrapper">
                     <div class="main-menu-wrapper">
-                        <!-- <button class="hamburger hamburger--slider" type="button"> -->
+                        <!-- <button class="hamburger hamburger-slider" type="button"> -->
                             <!-- <span class="hamburger-box"> -->
                             <!-- <span class="hamburger-inner"></span> -->
                             <!-- </span> -->
