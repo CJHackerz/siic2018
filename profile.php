@@ -41,8 +41,8 @@
     <link rel="stylesheet" href="css/element.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/responsive.css">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
-    <link rel="stylesheet" href="css/styleprofile.css"> 
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="css/styleprofile.css">
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
@@ -57,23 +57,23 @@
 
 
     </style>
-  
+
 
 <body>
-   <?php include 'includes/nav.php' ?> 
-  
+   <?php include 'includes/nav.php' ?>
+
 
  <nav class="w3-sidebar w3-bar-block  w3-collapse w3-top" style="position: absolute;z-index:3;width:300px;height:100%; background-color:#F4F9FE ;padding-top: 90px;" id="mySidebar1">
 
   <div class="w3-container w3-display-container w3-padding-16">
     <i onclick="w3_close1()" class="fa fa-remove w3-hide-large w3-button w3-display-topright"></i>
-    
+
   </div>
   <div class="w3-container w3-row" style="font-size:12px;">
     <div class="w3-col s4" style="margin-left:20%;">
       <img class="img-thumbnail" src="./profiles/img/<?php echo $profile_avatar;?>" alt="Profile Image" />
     </div>
-    </div> 
+    </div>
      <br>
     <div class="w3-bar-block" style="font-size:18px;">
       <span style="margin-left:8%">Welcome, <strong style="padding-top:3vh;"><?php echo $profile_name; ?></strong></span><br><br>
@@ -84,14 +84,14 @@
     <h5>Dashboard</h5>
   </div>
   <div class="w3-bar-block" style="font-size:18px;">
-    
+
     <a href="./editProfile.php" class="w3-bar-item w3-button w3-padding" ><i class="fal fa-edit"></i>  Edit Profile</a>
     <a id="viewProfile" onclick="viewProfile()" class="w3-bar-item w3-button w3-padding" ><i class="fas fa-info"></i> About</a>
     <a data-toggle="pill" class="w3-bar-item w3-button w3-padding" href="#menu2"><i class="fas fa-file"></i> Projects </a>
     <a class="w3-bar-item w3-button w3-padding"><i class="fas fa-users"></i>  Teams</a>
     <a data-toggle="pill"  class="w3-bar-item w3-button w3-padding" href="#menu3"><i class="fas fa-briefcase"></i>  Startup</a>
     <a data-toggle="pill"  class="w3-bar-item w3-button w3-padding" href="#menu4"><i class="fas fa-hand-pointer"></i> Your Request</a>
-    
+
 
   </div>
 </nav>
@@ -110,7 +110,7 @@
     <br>
 
     <div class="container container-fluid">
-        <div class="panel panel-default" style="margin-left: 15%; ">
+        <div class="panel panel-default" style="margin-left: 22%; max-width: 900px;">
             <div class="panel-body">
                 <div class="tab-content">
                     <!-- <div id="menu1" class="tab-pane tab-pane fade in active">
@@ -157,7 +157,7 @@
 
                         <a class="button active" data-method="get" href="./inventory.php">New Request</a>
                         <br>
-                        
+
                         <br><br>
                         <p><h6 style="text-align:center;">No Requests</h6></p>
                         <br><br>
@@ -176,7 +176,7 @@
     </div>
 </div>
 </div>
-  
+
 </center>
 
 <!-- <?php include 'includes/footer.php' ?> -->
@@ -188,7 +188,7 @@
     <script src="js/minix-map.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
-  
+
     <input type="hidden" id="uid" value="<?php echo $user;?>">
     <!-- Core JavaScript Files -->
     <script src="js/jquery.min.js"></script>
