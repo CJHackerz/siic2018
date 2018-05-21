@@ -54,7 +54,38 @@
                 <input type="text" name="profile_name" id="profile_name" placeholder="Name" required>
                 <!-- <input type="text" placeholder="test123"> -->
                 <input type="text" name="profile_register" id="profile_register" placeholder="Registration Number" required />
-                <input type="text" name="profile_department" id="profile_department" placeholder="Department" required/>
+                <select  name="profile_department" style=";margin-left:0px;margin-bottom:10px;padding:10px 0px 10px 63px" id="profile_department" placeholder="Department" required/>
+                    <option value="">Department</option>
+                    <option value="Department of Civil Engineering">Department of Civil Engineering</option>
+                    <option value="Department of Mechanical Engineering">Department of Mechanical Engineering</option>
+                    <option value="Department of Automobile Engineering">Department of Automobile Engineering</option>
+                    <option value="Department of Aerospace Engineering">Department of Aerospace Engineering</option>
+                    <option value="Department of Mechatronics">Department of Mechatronics</option>
+                    <option value="Department of Electronics & Communication">Department of Electronics & Communication</option>
+                    <option value="Department of Telecommunication">Department of Telecommunication</option>
+                    <option value="Department of Electrical and Electronics">Department of Electrical and Electronics</option>
+                    <option value="Department of Electronics & Instrumentation">Department of Electronics & Instrumentation</option>
+                    <option value="Department of Computer Science Engineering">Department of Computer Science Engineering</option>
+                    <option value="Department of Information Technology">Department of Information Technology</option>
+                    <option value="Department of Software Engineering">Department of Software Engineering</option>
+                    <option value="Department of Nanotechnology">Department of Nanotechnology</option>
+                    <option value="Department of Nuclear Engineering">Department of Nuclear Engineering</option>
+                    <option value="Department of Architecture and Interior Design">Department of Architecture and Interior Design</option>
+                    <option value="Department of Chemical Engineering">Department of Chemical Engineering</option>
+                    <option value="Department of Biotechnology">Department of Biotechnology</option>
+                    <option value="Department of Biomedical Engineering">Department of Biomedical Engineering</option>
+                    <option value="Department of Genetic Engineering">Department of Genetic Engineering</option>
+                    <option value="Department of Food Process Engineering">Department of Food Process Engineering</option>
+                    <option value="Department of Mathematics">Department of Mathematics</option>
+                    <option value="Department of Physics">Department of Physics</option>
+                    <option value="Department of Chemistry">Department of Chemistry</option>
+                    <option value="School of Business and Management">School of Management</option>
+                    <option value="College of Science and Humanities">College of Science and Humanities</option>
+                    <option value="Career Development Centre">Career Development Centre</option>
+                    <option value="School of Law">School of Law</option>
+                    <option value="College of Medicine">College of Medicine, Dental and Health Science</option>
+                    <option value="others">Others</option>
+                </select>
                 <input type="number" name="profile_year" min="1" max="5" id="profile_year" placeholder="Year[1-5]" required/>
                 <input type="date" name="profile_dob" id="profile_dob" placeholder="Date Of Birth" required/>
                 <input type="button" name="" class="next action-button" value="Next" required />

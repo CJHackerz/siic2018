@@ -3,38 +3,14 @@ body {
 }
 
 /*form styles*/
-
+@media screen and (min-width: 480px)
+{
 #msform {
-    width: 50%;
+    width: 60%;
     margin: 50px auto;
+    margin-top:8%;
     text-align: center;
     position: relative;
-}
-
-@media screen and (max-width: 480px) {
-    #msform {
-		/* background-color: lightgreen; */
-		width:100%;
-		/* margin: 0 auto; */
-	}
-	#msform fieldset{
-		margin-left: 15%!important;
-		width: 100%;
-	}
-
-	.email-link{
-		padding-left: 2px!important;
-	}
-
-	
-}
-
-input::-moz-placeholder {
-    color: red;
-}
-
-input::-webkit-input-placeholder {
-    color: red;
 }
 
 #msform fieldset {
@@ -48,6 +24,49 @@ input::-webkit-input-placeholder {
     margin: 0 15%;
     /*stacking fieldsets above each other*/
     position: relative;
+}
+
+}
+
+@media screen and (max-width: 480px) {
+    #msform {
+		/* background-color: lightgreen; */
+		width:100%;
+    margin-top: 28%!important;
+		/* margin: 0 auto; */
+	}
+	#msform fieldset{
+		 margin-left: 2%!important;
+     margin-right: 2%;
+		width: 96%;
+	}
+
+  #msform fieldset {
+      background: white;
+      border: 0 none;
+      border-radius: 3px;
+      box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+      padding: 20px 30px;
+      box-sizing: border-box;
+      /* width: 70%; */
+    /* margin: 0 15%; */
+      /*stacking fieldsets above each other*/
+      position: relative;
+  }
+
+	.email-link{
+		padding-left: 2px!important;
+	}
+
+
+}
+
+input::-moz-placeholder {
+    color: red;
+}
+
+input::-webkit-input-placeholder {
+    color: red;
 }
 
 input::-webkit-input-placeholder {
@@ -129,7 +148,7 @@ textarea::-webkit-input-placeholder {
     margin-bottom: 30px;
     overflow: hidden;
     /*CSS counters to number the steps*/
-    counter-reset: step;
+     counter-reset: step; */
     /* padding: 10px; */
 }
 
@@ -145,19 +164,18 @@ textarea::-webkit-input-placeholder {
 
 #progressbar li:before {
     content: counter(step);
-    counter-increment: step;
+  counter-increment: step;
     width: 20px;
     /* height: 20px; */
     line-height: 20px;
     display: block;
     font-size: 10px;
-    color: #333;
+    /* color: #333; */
     background: white;
     border-radius: 50%;
     /* padding: 10%; */
     margin: 0 auto 5px auto;
 }
-
 /*progressbar connectors*/
 
 #progressbar li:after {
