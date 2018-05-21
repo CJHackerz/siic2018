@@ -77,7 +77,7 @@
      <br>
     <div class="w3-bar-block" style="font-size:18px;">
       <span style="margin-left:8%">Welcome, <strong style="padding-top:3vh;"><?php echo $profile_name; ?></strong></span><br><br>
-      <span style="margin-left:6%"><button class="button active" onclick="location.href='./teams.php'">Join Team</button>
+      <span style="margin-left:6%"><button class="btn btn-primary rightBtn" onclick="location.href='./teams.php'">Join Team</button>
     </div>
   <br>
   <div class="w3-container">
@@ -96,7 +96,7 @@
   </div>
 </nav>
 
-#<center>
+<center>
   <ul class="nav nav-pills padInLaptop" style="padding-top: 15vh;">
 
        <!--  <li class="active"><a data-toggle="pill" href="#menu2">Project</a></li>
@@ -109,8 +109,8 @@
 
     <br>
 
-    <div class="container container-fluid" style="padding-right: 3.5vw;margin-left: 60px;">
-        <div class="panel panel-default">
+    <div class="container container-fluid">
+        <div class="panel panel-default" style="margin-left: 15%; ">
             <div class="panel-body">
                 <div class="tab-content">
                     <!-- <div id="menu1" class="tab-pane tab-pane fade in active">
@@ -130,7 +130,7 @@
                     <div id="menu2" class="tab-pane fade in active">
                         <!--<h3>Project</h3>-->
 
-                        <a class="btn btn-primary rightBtn" data-method="get" href="./newProject.php">Apply for Project</a>
+                        <a class="button active" data-method="get" href="./newProject.php">Apply for Project</a>
                         <br><br><br>
                         <div class="row">
                             <div id="projectList">
@@ -143,7 +143,7 @@
                     <div id="menu3" class="tab-pane fade">
                     <!--<h3>Startups</h3>-->
 
-                        <a class="btn btn-primary rightBtn" data-method="get" href="./newStartup.php">Apply for Startup</a>
+                        <a class="button active" data-method="get" href="./newStartup.php">Apply for Startup</a>
                         <br><br><br>
                         <div class="row">
                             <div id="startupList">
@@ -155,7 +155,7 @@
 
                     <div id="menu4" class="tab-pane fade">
 
-                        <a class="btn btn-primary rightBtn" data-method="get" href="./inventory.php">New Request</a>
+                        <a class="button active" data-method="get" href="./inventory.php">New Request</a>
                         <br>
                         
                         <br><br>
