@@ -1,6 +1,7 @@
 <?php
     session_start();
-    if(isset($_SESSION['user'])) {
+    if(isset($_SESSION['user']) || isset($_COOKIE['useremail'])) {
+      setcookie('useremail',$_SESSION['user'],time() + (86400*7));
         header('Location: ./profile.php');
     }
 ?>
@@ -40,7 +41,7 @@
         <div class="main-content-wrapper">
             <!-- multistep form -->
             <div id="msform" style="padding-bottom:0%;">
-            <form role="form" class="new_user" id="new_user" action="./process/process_login.php" enctype="multipart/form-data" accept-charset="UTF-8" method="post">
+            <form role="form" style="margin-top:15%;" class="new_user" id="new_user" action="./process/process_login.php" enctype="multipart/form-data" accept-charset="UTF-8" method="post">
               <!-- progressbar -->
               <?php
                                 if(isset($_GET['error'])) {
