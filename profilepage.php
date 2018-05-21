@@ -43,8 +43,6 @@
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
     <link rel="stylesheet" href="css/styleprofile.css"> 
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 
     <style media="screen">
@@ -71,115 +69,37 @@
   </div>
   <div class="w3-container w3-row" style="font-size:12px;">
     <div class="w3-col s4" style="margin-left:20%;">
-      <img class="img-thumbnail" src="./profiles/img/<?php echo $profile_avatar;?>" alt="Profile Image" />
+      <img src="cbo.jpg" class="w3-circle w3-margin-right" style="width:130px;">
     </div>
     </div> 
      <br>
     <div class="w3-bar-block" style="font-size:18px;">
-      <span style="margin-left:8%">Welcome, <strong style="padding-top:3vh;"><?php echo $profile_name; ?></strong></span><br><br>
-      <span style="margin-left:6%"><button class="button active" onclick="location.href='./teams.php'">Join Team</button>
+      <span style="margin-left:8%">Welcome, <strong>Mike</strong></span><br><br>
+      <span style="margin-left:6%"><button class="button active" onclick="joinTeam()">Join Team</button>
     </div>
   <br>
   <div class="w3-container">
     <h5>Dashboard</h5>
   </div>
   <div class="w3-bar-block" style="font-size:18px;">
-    
-    <a href="./editProfile.php" class="w3-bar-item w3-button w3-padding" ><i class="fal fa-edit"></i>  Edit Profile</a>
-    <a id="viewProfile" onclick="viewProfile()" class="w3-bar-item w3-button w3-padding" ><i class="fas fa-info"></i> About</a>
-    <a data-toggle="pill" class="w3-bar-item w3-button w3-padding" href="#menu2"><i class="fas fa-file"></i> Projects </a>
-    <a class="w3-bar-item w3-button w3-padding"><i class="fas fa-users"></i>  Teams</a>
-    <a data-toggle="pill"  class="w3-bar-item w3-button w3-padding" href="#menu3"><i class="fas fa-briefcase"></i>  Startup</a>
-    <a data-toggle="pill"  class="w3-bar-item w3-button w3-padding" href="#menu4"><i class="fas fa-hand-pointer"></i> Your Request</a>
-    
+    <a href="#" class="w3-bar-item w3-button w3-padding-16 w3-hide-large w3-dark-grey w3-hover-black" onclick="w3_close()" title="close menu"><i class="fa fa-remove fa-fw"></i>  Close Menu</a>
+
+    <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-users fa-fw"></i> About</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-eye fa-fw"></i> Project </a>
+    <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-users fa-fw"></i>  Teams</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-users fa-fw"></i>  Startup</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-users fa-fw"></i>  Your Request</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-users fa-fw"></i>  Edit Profile</a>
 
   </div>
 </nav>
 
-#<center>
-  <ul class="nav nav-pills padInLaptop" style="padding-top: 15vh;">
-
-       <!--  <li class="active"><a data-toggle="pill" href="#menu2">Project</a></li>
-        <li><a data-toggle="pill" href="#menu3">Startups</a></li>
-        <li><a data-toggle="pill" href="#menu4">Your Requests</a></li> -->
-        <!-- <li><a data-toggle="pill" href="#menu5" onclick="loadNotifs()">Notifications</a></li> -->
-    </ul>
 
 
-
-    <br>
-
-    <div class="container container-fluid" style="padding-right: 3.5vw;margin-left: 60px;">
-        <div class="panel panel-default">
-            <div class="panel-body">
-                <div class="tab-content">
-                    <!-- <div id="menu1" class="tab-pane tab-pane fade in active">
-
-                        <a class="btn btn-primary rightBtn" data-method="get" href="./newResearch.php">Apply for Research</a>
-                        <br><br><br>
-                        <div class="row">
-                            <div id="researchList"> -->
-                                <!--  Research list -->
-                            <!-- </div>
-                        </div>
-                        <br><br>
-
-                    </div> -->
-
-
-                    <div id="menu2" class="tab-pane fade in active">
-                        <!--<h3>Project</h3>-->
-
-                        <a class="btn btn-primary rightBtn" data-method="get" href="./newProject.php">Apply for Project</a>
-                        <br><br><br>
-                        <div class="row">
-                            <div id="projectList">
-                                <!-- Project list -->
-                            </div>
-                        </div>
-                        <br><br>
-                    </div>
-
-                    <div id="menu3" class="tab-pane fade">
-                    <!--<h3>Startups</h3>-->
-
-                        <a class="btn btn-primary rightBtn" data-method="get" href="./newStartup.php">Apply for Startup</a>
-                        <br><br><br>
-                        <div class="row">
-                            <div id="startupList">
-                                <!-- Startup list -->
-                            </div>
-                        </div>
-                        <br><br>
-                    </div>
-
-                    <div id="menu4" class="tab-pane fade">
-
-                        <a class="btn btn-primary rightBtn" data-method="get" href="./inventory.php">New Request</a>
-                        <br>
-                        
-                        <br><br>
-                        <p><h6 style="text-align:center;">No Requests</h6></p>
-                        <br><br>
-                    </div>
-
-                    <!-- <div id="menu5" class="tab-pane fade">
-
-                        <br><br><br>
-
-                        <div id="notifList">
-
-                        </div>
-                    </div> -->
-            </div>
-        </div>
-    </div>
-</div>
-</div>
   
-</center>
 
-<!-- <?php include 'includes/footer.php' ?> -->
+
+<?php include 'includes/footer.php' ?>
 
 <script type="text/javascript" src="js/hp_js.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
