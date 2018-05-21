@@ -141,12 +141,153 @@ textarea::-webkit-input-placeholder {
     color: #666;
     margin-bottom: 20px;
 }
+/* form2 */
+@media screen and (min-width: 480px)
+{
+#msform2 {
+    width: 73%;
+    margin: 50px auto;
+    margin-top:8%;
+    text-align: center;
+    position: relative;
+}
+
+#msform2 fieldset {
+    background: white;
+    border: 0 none;
+    border-radius: 3px;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+    padding: 20px 30px;
+    box-sizing: border-box;
+    width: 70%;
+    margin: 0 15%;
+    /*stacking fieldsets above each other*/
+    position: relative;
+}
+
+}
+
+@media screen and (max-width: 480px) {
+    #msform2 {
+		/* background-color: lightgreen; */
+		width:100%;
+    margin-top: 28%!important;
+		/* margin: 0 auto; */
+	}
+	#msform2 fieldset{
+		 margin-left: 2%!important;
+     margin-right: 2%;
+		width: 96%;
+	}
+
+  #msform2 fieldset {
+      background: white;
+      border: 0 none;
+      border-radius: 3px;
+      box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+      padding: 20px 30px;
+      box-sizing: border-box;
+      /* width: 70%; */
+    /* margin: 0 15%; */
+      /*stacking fieldsets above each other*/
+      position: relative;
+  }
+
+	.email-link{
+		padding-left: 2px!important;
+	}
+
+
+}
+
+input::-moz-placeholder {
+    color: red;
+}
+
+input::-webkit-input-placeholder {
+    color: red;
+}
+
+input::-webkit-input-placeholder {
+    color: grey;
+}
+
+input::-moz-placeholder {
+    color: grey;
+}
+
+textarea::-moz-placeholder {
+    color: grey;
+}
+
+textarea::-webkit-input-placeholder {
+    color: grey;
+}
+
+/*Hide all except first fieldset*/
+
+#msform2 fieldset:not(:first-of-type) {
+    display: none;
+}
+
+/*inputs*/
+
+#msform2 input,
+#msform2 textarea {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: montserrat;
+    color: #2C3E50;
+    font-size: 13px;
+    background: white;
+}
+
+/*buttons*/
+
+#msform2 .action-button {
+    width: 100px;
+    background: #27AE60;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 1px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px;
+}
+
+#msform2 .action-button:hover,
+#msform2 .action-button:focus {
+    box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
+}
+
+/*headings*/
+
+.fs-title {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #2C3E50;
+    margin-bottom: 10px;
+}
+
+.fs-subtitle {
+    font-weight: normal;
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 20px;
+}
 
 /*progressbar*/
 
 #progressbar {
     margin-bottom: 30px;
     overflow: hidden;
+    width:60%;
+    margin-left: 21%;
     /*CSS counters to number the steps*/
      counter-reset: step; */
     /* padding: 10px; */

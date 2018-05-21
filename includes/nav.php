@@ -32,7 +32,7 @@
                                     <i class="fa fa-user fa-fw"></i> <?php echo $_SESSION["user_name"];?><i class="fa fa-caret-down"></i>
                                 </a>
                                 <ul class="dropdown-menu dropdown-user">
-                                    <li><a href="./editProfile.php">Edit Profile</a></li>
+                                    <li><a href="./profile.php">View Profile</a></li>
                                     <li><a href="./process/process_logout.php">Logout</a></li>
                                 </ul>
                                 <!-- /.dropdown-user -->
