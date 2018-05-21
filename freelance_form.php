@@ -111,7 +111,7 @@
          <!-- Start Main Content Wrapper -->
          <div class="main-content-wrapper">
             <!-- multistep form -->
-            <div id="msform">
+            <div id="msform" style="width:60%">
                <form   action="./process/process_freelance.php" method="POST" enctype="multipart/form-data">
                   <!-- progressbar -->
                   <ul id="progressbar">
