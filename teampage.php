@@ -38,6 +38,7 @@
       <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+
       <!-- All STYLESHEET CSS -->
       <link rel="stylesheet" href="css/element.css">
       <link rel="stylesheet" href="style.css">
@@ -90,7 +91,7 @@
                <div class="w3-display-container" >
                   <ul class="list-group list-group-flush">
                      <li class="list-group-item">
-                        <div style="padding: 0px 0px 0px 0px;" align="center" class='team_image_hover'>
+                        <div style="padding: 0px 0px 0px 0px;" align="center" class='team_image_hover'><br></br><br></br>
                            <img class="img-thumbnail" src="./teams/img/<?php echo $logo; ?>" alt="Team Logo"; height="100px" width="100%">
                            <div style="font-size: 30px; text-align: center;" class='social_media_icons'>
                               <a href="<?php echo $fb; ?>" style="color:#3b5998"><i class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -189,7 +190,7 @@
             ?>
          <div class="w3-twothird" >
             <div class="w3-container w3-card w3-white w3-margin-bottom" style="border-radius:5px;">
-               <div class="main-heading-content text-center">
+               <div class="main-heading-content text-center"><br></br><br></br>
                   <h2 class=" w3-padding-16">Description<span>.</span></h2>
                </div>
                <div class="w3-container" style="margin-top:-20px">
@@ -205,7 +206,7 @@
                                 if($rows['status'] == 'ACCEPTED') {
                                     echo '<center><button class="button active" onclick="leaveTeam()">Leave</button></center>';
                                 } else {
-                                    echo '<center><button class="button active" onclick="joinTeam()">Join</button></center>';
+                                    echo '<center><button class="button active" onclick="joinTeam()">Join Team</button></center>';
                                 }
                             } else {
                                 echo '<center><button class="button active" onclick="joinTeam()">Join</button></center>';
