@@ -20,7 +20,57 @@
         h4 > a, .portfolio-category > li > a {
             color: #fff;
         }
+        .effect1{
+        background:linear-gradient(rgba(196,171,164,0.75),rgba(196,171,164,0.75)),url(img/portfolio/p-1/1.jpg);
+        }
+         .effect1 :hover{
+           background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(img/portfolio/p-1/1.jpg);
+         }
+         .effect2{
+         background:linear-gradient(rgba(136,161,164,0.45),rgba(136,161,164,0.75)),url(img/portfolio/p-1/2.jpg);
+         }
+          .effect2 :hover{
+            background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(img/portfolio/p-1/2.jpg);
+          }
+          .effect3{
+          background:linear-gradient(rgba(196,171,164,0.45),rgba(196,171,164,0.75)),url(img/portfolio/p-1/3.jpg);
+          }
+           .effect3 :hover{
+             background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(img/portfolio/p-1/3.jpg);
+           }
+           .effect4{
+           background:linear-gradient(rgba(196,171,164,0.45),rgba(196,171,164,0.75)),url(img/portfolio/p-1/4.jpg);
+           }
+            .effect4 :hover{
+              background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(img/portfolio/p-1/4.jpg);
+            }
+            .effect5{
+            background:linear-gradient(rgba(96,71,64,0.45),rgba(96,71,64,0.75)),url(img/achievements.jpg);
+            }
+             .effect5 :hover{
+               background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(img/achievements.jpg);
+             }
+             .effect6{
+             background:linear-gradient(rgba(196,171,164,0.45),rgba(196,171,164,0.75)),url(img/learnmore.jpg);
+             }
+              .effect6 :hover{
+                background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(img/learnmore.jpg);
+              }
+              .effect7{
+              background:linear-gradient(rgba(16,31,44,0.45),rgba(16,31,44,0.75)),url(img/feedback.jpg);
+              }
+               .effect7 :hover{
+                 background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(img/feedback.jpg);
+               }
+               .effect8{
+               background:linear-gradient(rgba(6,7,6,0.45),rgba(9,7,6,0.75)),url(img/insights.jpg);
+               }
+                .effect8 :hover{
+                  background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(img/portfolio/p-1/2.jpg);
+                }
     </style>
+
+
 </head>
 
 <body>
@@ -88,60 +138,109 @@ SIIC is SRM's official and independent Incubation and Innovation center. We inte
                         </div>
                     </div>
                     <!-- Start portfolio Wrapper -->
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="col-lg-3">
-                              <div class="item-thumbnail col-lg-8">
 
-                                               <img src="img/portfolio/p-1/2.jpg" alt="" height:60px;>
+                    <div class="row portfolio-content  ">
 
-                                         </div>
-                            </div>
-                              <div class="col-lg-6">
+                       <div class="col-lg-12 ">
+                           <div class="col-lg-6 col-md-6 col-sm-12  effect1" style="height:220px;;">
 
-
-                                                 <h4 style="background-color:white;color: blue;"><a href="#">SIIC Start-ups</a></h4>
-
-                                                     <li><a href="#">We are developing Zero cool products for incredible people.</a></li>
-                                                 </ul>
-                                             </div>
-                                         </div>
-
-
-                              <div class="col-lg-12">
-                                <div class="col-lg-3">
-                                </div>
-                                <div class="col-lg-6">
-
-
-                                                   <h4 style="background-color:white;color: blue;"><a href="#">SIIC Start-ups</a></h4>
-
-                                                       <li><a href="#">We are developing Zero cool products for incredible people.</a></li>
+                                              <div class="portfolio-details">
+                                               <div class="portfolio-details-inner" style="padding:15% 34%">
+                                                   <h4><a href="javascript:void(0)">Tech Teams</a></h4>
+                                                   <ul class="portfolio-category">
+                                                       <li><a href="javascript:void(0)">We make mind blowing stuffs and amazing techies.</a></li>
                                                    </ul>
                                                </div>
-                                               <div class="col-lg-3">
-                                                 <div class="col-lg-4">
-                                                 </div>
-                                                 <div class="item-thumbnail col-lg-8">
+                                             </div>
 
-                                                                  <img src="img/portfolio/p-1/2.jpg" alt="" height:60px;>
-
-                                                            </div>
+                           </div>
+                           <div class="col-lg-6 col-md-6 col-sm-12  effect2" style=" height:220px;; ">
+                                              <div class="portfolio-details">
+                                               <div class="portfolio-details-inner" style="padding:15% 34%">
+                                                   <h4><a href="javascript:void(0)">SIIC Start-ups</a></h4>
+                                                   <ul class="portfolio-category">
+                                                       <li><a href="javascript:void(0)">We are developing Zero cool products for incredible people.</a></li>
+                                                   </ul>
                                                </div>
-                                </div>
+                                           </div>
+                           </div>
+                       </div>
 
+                       <div class="col-lg-12">
+                           <div class="col-lg-8 col-md-8 col-sm-12  effect3" style="background-color:#84B79B; height:220px;;">
+                                        <div class="portfolio-details">
+                                              <div class="portfolio-details-inner" style="padding:11% 34%">
+                                                  <h4><a href="javascript:void(0)" >SIIC Facilities</a></h4>
+                                                  <ul class="portfolio-category">
+                                                      <li><a href="javascript:void(0)">We have top notch world class facilities to serve you with.</a></li>
+                                                  </ul>
+                                              </div>
+                                          </div>
+                           </div>
+                           <div class="col-lg-4  col-md-4 col-sm-12  effect4" style="background-color:#7E7582; height:220px;;">
+                                       <div class="portfolio-details">
+                                              <div class="portfolio-details-inner"style="padding:25% 34%">
+                                                  <h4><a href="javascript:void(0)" >Announcements</a></h4>
+                                                  <ul class="portfolio-category">
+                                                      <li><a href="javascript:void(0)">Something Important!!</a></li>
+                                                  </ul>
+                                              </div>
+                                          </div>
+                           </div>
+                       </div>
+                       <div class="col-lg-12 ">
+                           <div class="col-lg-6 col-md-6 col-sm-12 effect5" style="background-color:#7E97CF; height:220px;;">
+                             <div class="portfolio-details">
+                                                <div class="portfolio-details-inner" style="padding:15% 34%">
+                                                    <h4><a href="javascript:void(0)" >Achievements</a></h4>
+                                                    <ul class="portfolio-category">
+                                                        <li><a href="javascript:void(0)">Catch a glimpse of our milestones.</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                           </div>
+                           <div class="col-lg-6 col-md-6 col-sm-12  effect6" style="background-color:#C4ABA4; height:220px;;">
+                             <div class="portfolio-details">
+                                               <div class="portfolio-details-inner" style="padding:13% 34%">
+                                                   <h4><a href="javascript:void(0)">Learn</a></h4>
+                                                   <ul class="portfolio-category">
+                                                       <li><a href="javascript:void(0)">Explore projects and guidances from innovators</a></li>
+                                                   </ul>
+                                               </div>
+                                           </div>
+                           </div>
+                       </div>
+                       <div class="col-lg-12">
+                           <div class="col-lg-8 col-md-8 col-sm-12  effect7" style="background-color:#84B79B; height:220px;;">
+                             <div class="portfolio-details">
+                                               <div class="portfolio-details-inner" style="padding:13% 34%">
+                                                   <h4><a href="javascript:void(0)" >Feedback</a></h4>
+                                                   <ul class="portfolio-category">
+                                                       <li><a href="javascript:void(0)">Help us to serve you better.</a></li>
+                                                   </ul>
+                                               </div>
+                                           </div>
+                           </div>
+                           <div class="col-lg-4  col-md-4 col-sm-12 effect8" style="background-color:#7E7582; height:220px;;">
+                             <div class="portfolio-details">
+                                               <div class="portfolio-details-inner"  style="padding:23% 34%">
+                                                   <h4><a href="javascript:void(0)" >Insights</a></h4>
+                                                   <ul class="portfolio-category">
+                                                       <li><a href="javascript:void(0)">Have a look, what we have done till now!</a></li>
+                                                   </ul>
+                                               </div>
+                                           </div>
+                           </div>
+                       </div>
+                    </div>
 
-
-
-
-
-
-
-
+                <!-- portfolio wrapper end -->
             </div>
-            <br>
-            <br>
+            </div>
+
+
             <!-- End Portfolio Area -->
+
             <!-- Start Contact area -->
             <div class="contact-area gray-bg">
                 <div class="google-map-area">
