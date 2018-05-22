@@ -20,10 +20,10 @@
                         <!-- </button> -->
                         <div >
                             <ul class="main-menu ">
-                                <li><a href="aboutPage.php">About</a></li>
-                                <li><a href="index.php#contact">Contact</a></li>
-                                <li><a href="blog.php">Blog</a></li>
-                                <li><a href="index.php#contact">Feedback</a></li>
+                                <li><a href="aboutPage.php" style="font-size:14px">About</a></li>
+                                <li><a href="index.php#contact" style="font-size:14px">Contact</a></li>
+                                <li><a href="blog.php" style="font-size:14px">Blog</a></li>
+                                <li><a href="index.php#contact" style="font-size:14px">Feedback</a></li>
                                 <?php
                             if(isset($_SESSION["user"])) {
                             ?>
@@ -44,9 +44,9 @@
 
 
                             <?php  }?>
-                            <li><a href="./freelance.php">Freelance</a></li>
-                            <li><a href="./forum">Forum</a></li>
-                            <li><a href="http://mentor.srmiic.com/auth/signup.php"  style=" color: red;">Become a mentor</a></li>
+                            <li><a href="./freelance.php"style="font-size:14px">Freelance</a></li>
+                            <li><a href="./forum"style="font-size:14px;padding-left:5px">Forum</a></li>
+                            <li><a href="http://mentor.srmiic.com/auth/signup.php"  style=" color:red; font-size:14px">Become a mentor</a></li>
 
                         </ul>
 
