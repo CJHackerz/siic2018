@@ -54,8 +54,8 @@
                 <input type="text" name="profile_name" id="profile_name" placeholder="Name" required>
                 <!-- <input type="text" placeholder="test123"> -->
                 <input type="text" name="profile_register" id="profile_register" placeholder="Registration Number" required />
-                <select  name="profile_department" style=";margin-left:0px;margin-bottom:10px;padding:10px 0px 10px 63px" id="profile_department" placeholder="Department" required/>
-                    <option value="">Department</option>
+                <select  name="profile_department" style="width:100%;margin-left:0px;color: #91908c;margin-bottom:10px;padding:10px 0px 10px 10px" id="profile_department" placeholder="Department" required/>
+                    <option value="" >Department</option>
                     <option value="Department of Civil Engineering">Department of Civil Engineering</option>
                     <option value="Department of Mechanical Engineering">Department of Mechanical Engineering</option>
                     <option value="Department of Automobile Engineering">Department of Automobile Engineering</option>
