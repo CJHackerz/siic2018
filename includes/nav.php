@@ -45,6 +45,7 @@
 
                             <?php  }?>
                             <li><a href="./freelance.php">Freelance</a></li>
+                            <li><a href="./forum">Forum</a></li>
                             <li><a href="http://mentor.srmiic.com/auth/signup.php"  style=" color: red;">Become a mentor</a></li>
 
                         </ul>
@@ -81,6 +82,7 @@
 
                         <?php  }?>
                         <li><a href="./freelance.php">Freelance</a></li>
+                        <li><a href="./forum">Forum</a></li>
                         <li><a href="http://mentor.srmiic.com/auth/signup.php"  style=" color: red;">Become a mentor</a></li>
 
                     </ul>
