@@ -1,6 +1,6 @@
 <?php return array (
   'debug' => false,
-  'database' => 
+  'database' =>
   array (
     'driver' => 'mysql',
     'host' => 'localhost',
@@ -14,7 +14,7 @@
     'strict' => false,
   ),
   'url' => 'http://localhost/siic-2018/forum',
-  'paths' => 
+  'paths' =>
   array (
     'api' => 'api',
     'admin' => 'admin',
