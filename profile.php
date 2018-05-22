@@ -71,13 +71,14 @@
   </div>
   <div class="w3-container w3-row" style="font-size:12px;">
     <div class="w3-col s4" style="margin-left:20%;">
-      <img class="img-thumbnail" src="./profiles/img/<?php echo $profile_avatar;?>" alt="Profile Image" />
+      <!-- <img class="img-thumbnail" src="./profiles/img/<?php echo $profile_avatar;?>" alt="Profile Image" /> -->
     </div>
     </div>
      <br>
     <div class="w3-bar-block" style="font-size:18px;">
       <span style="margin-left:8%">Welcome, <strong style="padding-top:3vh;"><?php echo $profile_name; ?></strong></span><br><br>
       <span style="margin-left:6%"><button class="btn btn-primary rightBtn" onclick="location.href='./teams.php'">Join Team</button>
+        <img class="img-thumbnail" src="./img/<?php echo $profile_avatar;?>" alt="Profile Image" />
     </div>
   <br>
 
@@ -132,7 +133,7 @@
                     <div id="menu2" class="tab-pane fade in active">
                         <!--<h3>Project</h3>-->
 
-                        <a class="button active" data-method="get" href="./newProject.php">Apply for Project</a>
+                        <a class="button active" data-method="get" href="./newProject.php">Apply for Projects</a>
                         <br><br><br>
                         <div class="row">
                             <div id="projectList">
