@@ -142,7 +142,8 @@ SIIC is SRM's official and independent Incubation and Innovation center. We inte
                     <div class="row portfolio-content  ">
 
                        <div class="col-lg-12 ">
-                           <div class="col-lg-6 col-md-6 col-sm-12  effect1" style="height:220px;;">
+                           <div class="col-lg-6 col-md-6 col-sm-12 effect1 " style="height:220px;;">
+
 
                                               <div class="portfolio-details">
                                                <div class="portfolio-details-inner" style="padding:15% 34%">
@@ -178,6 +179,7 @@ SIIC is SRM's official and independent Incubation and Innovation center. We inte
                                           </div>
                            </div>
                            <div class="col-lg-4  col-md-4 col-sm-12  effect4" style="background-color:#7E7582; height:220px;;">
+                             
                                        <div class="portfolio-details">
                                               <div class="portfolio-details-inner"style="padding:25% 34%">
                                                   <h4><a href="javascript:void(0)" >Announcements</a></h4>
