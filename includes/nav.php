@@ -22,7 +22,7 @@
                             <ul class="main-menu ">
                                 <li><a href="aboutPage.php">About</a></li>
                                 <li><a href="index.php#contact">Contact</a></li>
-                                <li><a href="blog.php">Blog</a></li>
+                                <!--<li><a href="blog.php">Blog</a></li>-->
                                 <li><a href="index.php#contact">Feedback</a></li>
                                 <?php
                             if(isset($_SESSION["user"])) {
@@ -45,6 +45,7 @@
 
                             <?php  }?>
                             <li><a href="./freelance.php">Freelance</a></li>
+                            <li><a href="./forum">Forum</a></li>
                             <li><a href="http://mentor.srmiic.com/auth/signup.php"  style=" color: red;">Become a mentor</a></li>
 
                         </ul>
@@ -58,7 +59,7 @@
                         <ul class="main-menu ">
                             <li><a href="aboutPage.php">About</a></li>
                             <li><a href="index.php#contact">Contact</a></li>
-                            <li><a href="blog.php">Blog</a></li>
+                            <!--<li><a href="blog.php">Blog</a></li>-->
                             <li><a href="index.php#contact">Feedback</a></li>
                             <?php
                         if(isset($_SESSION["user"])) {
@@ -81,6 +82,7 @@
 
                         <?php  }?>
                         <li><a href="./freelance.php">Freelance</a></li>
+                        <li><a href="./forum">Forum</a></li>
                         <li><a href="http://mentor.srmiic.com/auth/signup.php"  style=" color: red;">Become a mentor</a></li>
 
                     </ul>
