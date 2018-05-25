@@ -20,6 +20,14 @@
         h4 > a, .portfolio-category > li > a {
             color: #fff;
         }
+        /* .sticky.header-area.header-style-two {
+        
+            background: black;
+        
+        } */
+        /* .header-style-six{
+            background: white;
+        } */
         .effect1{
         background:linear-gradient(rgba(196,171,164,0.75),rgba(196,171,164,0.75)),url(img/portfolio/p-1/1.jpg);
         }
@@ -309,6 +317,17 @@ SIIC is SRM's official and independent Incubation and Innovation center. We inte
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD81iwuCfGQVC8_rhwNYRaJBadTfuZNDyI&callback=initMap">
 </script>
 <script>
+     $('#sticky-header').removeClass('sticky');
+     $(window).on('scroll', function() {
+        var wSize = $(window).width();
+        if (wSize > 1 && $(this).scrollTop() > 1) {
+            $('#sticky-header').addClass('sticky');
+        } else {
+            $('#sticky-header').removeClass('sticky');
+        }
+    });
+    $('#sticky-header').removeClass('header-style-two');
+    $('#sticky-header').addClass('header-style-one');
      function initMap() {
        var srm = {lat: 12.8231047, lng: 80.04528010000001};
        var map = new google.maps.Map(document.getElementById('map'), {
