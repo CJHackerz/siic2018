@@ -29,6 +29,9 @@
         padding-right:10%;
         padding-left:5%;
     }
+    .new_user{
+        padding-bottom:20%;
+    }
 
 }
 
