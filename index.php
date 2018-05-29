@@ -21,35 +21,35 @@
             color: #fff;
         }
         /* .sticky.header-area.header-style-two {
-        
+
             background: black;
-        
+
         } */
         /* .header-style-six{
             background: white;
         } */
         .effect1{
-        background:linear-gradient(rgba(196,171,164,0.75),rgba(196,171,164,0.75)),url(img/portfolio/p-1/1.jpg);
+        background:linear-gradient(rgba(255,242,1,0.75),rgba(255,242,1,0.75)),url(img/portfolio/p-1/1.jpg);
         }
-         .effect1 :hover{
+         .effect1 :hover {
            background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(img/portfolio/p-1/1.jpg);
          }
          .effect2{
-         background:linear-gradient(rgba(136,161,164,0.45),rgba(136,161,164,0.75)),url(img/portfolio/p-1/2.jpg);
+         background:linear-gradient(rgba(99,187,244,0.45),rgba(99,187,244,0.75)),url(img/portfolio/p-1/2.jpg);
          }
           .effect2 :hover{
             background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(img/portfolio/p-1/2.jpg);
           }
           .effect3{
-          background:linear-gradient(rgba(196,171,164,0.45),rgba(196,171,164,0.75)),url(img/portfolio/p-1/3.jpg);
+          background:linear-gradient(rgba(38,187,220,0.45),rgba(38,187,220,0.75)),url(img/portfolio/p-1/3.jpg);
           }
            .effect3 :hover{
              background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(img/portfolio/p-1/3.jpg);
            }
            .effect4{
-           background:linear-gradient(rgba(196,171,164,0.45),rgba(196,171,164,0.75)),url(img/portfolio/p-1/4.jpg);
+           background:linear-gradient(rgba(222,87,102,0.45),rgba(222,87,102,0.75)),url(img/portfolio/p-1/4.jpg);
            }
-            .effect4 :hover{
+            .effect4 :hover {
               background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(img/portfolio/p-1/4.jpg);
             }
             .effect5{
@@ -71,7 +71,7 @@
                  background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(img/feedback.jpg);
                }
                .effect8{
-               background:linear-gradient(rgba(6,7,6,0.45),rgba(9,7,6,0.75)),url(img/insights.jpg);
+               background:linear-gradient(rgba(38,187,220,0.45),rgba(38,187,220,0.75)),url(img/insights.jpg);
                }
                 .effect8 :hover{
                   background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(img/portfolio/p-1/2.jpg);
@@ -187,7 +187,7 @@ SIIC is SRM's official and independent Incubation and Innovation center. We inte
                                           </div>
                            </div>
                            <div class="col-lg-4  col-md-4 col-sm-12  effect4" style="background-color:#7E7582; height:220px;;">
-                             
+
                                        <div class="portfolio-details">
                                               <div class="portfolio-details-inner"style="padding:25% 34%">
                                                   <h4><a href="javascript:void(0)" >Announcements</a></h4>
