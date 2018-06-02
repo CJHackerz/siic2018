@@ -29,52 +29,80 @@
             background: white;
         } */
         .effect1{
-        background:linear-gradient(rgba(255,242,1,0.75),rgba(255,242,1,0.75)),url(img/portfolio/p-1/1.jpg);
+        /* background:linear-gradient(rgba(255,242,1,0.75),rgba(255,242,1,0.75)),url(img/portfolio/p-1/1.jpg); */
+        background: linear-gradient(to right,#FFD401,#FFD401);
+
         }
          .effect1 :hover {
-           background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(img/portfolio/p-1/1.jpg);
+           /* background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(img/portfolio/p-1/1.jpg); */
+           /* linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0));
+         background-color: #FFD401; */
          }
          .effect2{
          background:linear-gradient(rgba(99,187,244,0.45),rgba(99,187,244,0.75)),url(img/portfolio/p-1/2.jpg);
+           background: linear-gradient(to right,#6AC0E3,#6AC0E3);
          }
           .effect2 :hover{
-            background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(img/portfolio/p-1/2.jpg);
+            /* background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(img/portfolio/p-1/2.jpg); */
+            /* linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0));
+          background-color: #6FC2E4; */
           }
           .effect3{
-          background:linear-gradient(rgba(38,187,220,0.45),rgba(38,187,220,0.75)),url(img/portfolio/p-1/3.jpg);
+          /* background:linear-gradient(rgba(38,187,220,0.45),rgba(38,187,220,0.75)),url(img/portfolio/p-1/3.jpg); */
+            background: linear-gradient(to right,#23BADC,#23BADC);
           }
-           .effect3 :hover{
-             background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(img/portfolio/p-1/3.jpg);
+           .effect3 :hover {
+             /* background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(img/portfolio/p-1/3.jpg); */
+             /* linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0));
+           background-color: #26BBDC; */
            }
            .effect4{
-           background:linear-gradient(rgba(222,87,102,0.45),rgba(222,87,102,0.75)),url(img/portfolio/p-1/4.jpg);
+           /* background:linear-gradient(rgba(222,87,102,0.45),rgba(222,87,102,0.75)),url(img/portfolio/p-1/4.jpg); */
+             background: linear-gradient(to right,#D55766,#D55766);
            }
-            .effect4 :hover {
-              background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(img/portfolio/p-1/4.jpg);
-            }
+            .effect4 :hover{
+              /* background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(img/portfolio/p-1/4.jpg); */
+              /* linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0));
+            background-color: #CA5766; */
+
+          }
             .effect5{
-            background:linear-gradient(rgba(96,71,64,0.45),rgba(96,71,64,0.75)),url(img/achievements.jpg);
+            /* background:linear-gradient(rgba(96,71,64,0.45),rgba(96,71,64,0.75)),url(img/achievements.jpg); */
+            background: linear-gradient(to right,#A59793,#A59793);
+
             }
-             .effect5 :hover{
-               background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(img/achievements.jpg);
+             .effect5 :hover {
+               /* background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(img/achievements.jpg); */
+
+            /* linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0));
+             background-color: #A59798; */
              }
              .effect6{
-             background:linear-gradient(rgba(196,171,164,0.45),rgba(196,171,164,0.75)),url(img/learnmore.jpg);
+             /* background:linear-gradient(rgba(196,171,164,0.45),rgba(196,171,164,0.75)),url(img/learnmore.jpg); */
+               background: linear-gradient(to right,#665766,#665766);
              }
               .effect6 :hover{
-                background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(img/learnmore.jpg);
+                /* background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(img/learnmore.jpg); */
+                /* linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0));
+                 background-color: #665766; */
               }
               .effect7{
-              background:linear-gradient(rgba(16,31,44,0.45),rgba(16,31,44,0.75)),url(img/feedback.jpg);
+              /* background:linear-gradient(rgba(16,31,44,0.45),rgba(16,31,44,0.75)),url(img/feedback.jpg); */
+               background: linear-gradient(to right,#666F78,#666F78);
               }
-               .effect7 :hover{
-                 background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(img/feedback.jpg);
+               .effect7 :hover {
+                 /* background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(img/feedback.jpg); */
+                 /* linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0));
+                  background-color: #666F78; */
                }
                .effect8{
-               background:linear-gradient(rgba(38,187,220,0.45),rgba(38,187,220,0.75)),url(img/insights.jpg);
+               /* background:linear-gradient(rgba(38,187,220,0.45),rgba(38,187,220,0.75)),url(img/insights.jpg); */
+               background: linear-gradient(to right,#8DDBED,#8DDBED);
                }
                 .effect8 :hover{
-                  background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(img/portfolio/p-1/2.jpg);
+                  /* background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(img/portfolio/p-1/2.jpg); */
+                  /* linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0));
+                   background-color: #8DDBED; */
                 }
     </style>
 
@@ -108,7 +136,7 @@
                                         </span>
                                     </h1>
                                     <h2>Innovate | Incubate | Inspire</h2>
-                                    <div class="slider-btn">
+                                    <div class="slider-btn" style="margin-left:15%;">
                                         <a class="button active" href="signUp.php">Learn More</a>
                                     </div>
                                 </div>

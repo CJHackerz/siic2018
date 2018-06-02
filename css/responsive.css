@@ -1,5 +1,5 @@
 /* -------------------------------------------------
-  Large Screen. 
+  Large Screen.
 ---------------------------------------------------*/
 
 @media (min-width: 1367px) and (max-width: 1920px) {
@@ -28,7 +28,7 @@
 }
 
 /* -------------------------------------------------
-  Laptop Screen 
+  Laptop Screen
 ---------------------------------------------------*/
 
 @media (min-width: 1170px) and (max-width: 1366px) {
@@ -82,7 +82,7 @@
 }
 
 /* -------------------------------------------------
-  Tablet Screen 
+  Tablet Screen
 ---------------------------------------------------*/
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -372,7 +372,9 @@
         top: 16px;
     }
     .slider-btn .button.active {
+      width:70%;
         margin-bottom: 20px;
+        margin-left: 5%;
     }
     .header-style-one.sticky {
         background: #fff;
@@ -707,7 +709,7 @@
 }
 
 /* -------------------------------------------------
-  Large Mobile :480px. 
+  Large Mobile :480px.
 ---------------------------------------------------*/
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
