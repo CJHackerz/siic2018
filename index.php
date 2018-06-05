@@ -217,7 +217,7 @@ SIIC is SRM's official and independent Incubation and Innovation center. We inte
                            <div class="col-lg-4  col-md-4 col-sm-12  effect4" style="background-color:#7E7582; height:220px;;">
 
                                        <div class="portfolio-details">
-                                              <div class="portfolio-details-inner"style="padding:25% 34%">
+                                              <div class="portfolio-details-inner"style="padding:25% 25%">
                                                   <h4><a href="javascript:void(0)" >Announcements</a></h4>
                                                   <ul class="portfolio-category">
                                                       <li><a href="javascript:void(0)">Something Important!!</a></li>
@@ -229,7 +229,7 @@ SIIC is SRM's official and independent Incubation and Innovation center. We inte
                        <div class="col-lg-12 ">
                            <div class="col-lg-6 col-md-6 col-sm-12 effect5" style="background-color:#7E97CF; height:220px;;">
                              <div class="portfolio-details">
-                                                <div class="portfolio-details-inner" style="padding:15% 34%">
+                                                <div class="portfolio-details-inner" style="padding:15% 25%">
                                                     <h4><a href="javascript:void(0)" >Achievements</a></h4>
                                                     <ul class="portfolio-category">
                                                         <li><a href="javascript:void(0)">Catch a glimpse of our milestones.</a></li>
@@ -259,16 +259,23 @@ SIIC is SRM's official and independent Incubation and Innovation center. We inte
                                                </div>
                                            </div>
                            </div>
+
                            <div class="col-lg-4  col-md-4 col-sm-12 effect8" style="background-color:#7E7582; height:220px;;">
+
                              <div class="portfolio-details">
+
                                                <div class="portfolio-details-inner"  style="padding:23% 34%">
-                                                   <h4><a href="javascript:void(0)" >Insights</a></h4>
+
+                                                   <h4><a href=" javascript:void(0)" >Insights</a></h4>
                                                    <ul class="portfolio-category">
                                                        <li><a href="javascript:void(0)">Have a look, what we have done till now!</a></li>
                                                    </ul>
                                                </div>
+
                                            </div>
+
                            </div>
+
                        </div>
                     </div>
 
