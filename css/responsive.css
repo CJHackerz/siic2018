@@ -263,6 +263,9 @@
     .container-wrapper {
         padding: 0;
     }
+    .dropdown-menu li {
+        background: black
+    }
 }
 
 /* -------------------------------------------------
@@ -372,7 +375,7 @@
         top: 16px;
     }
     .slider-btn .button.active {
-      width:70%;
+        width: 70%;
         margin-bottom: 20px;
         margin-left: 5%;
     }
@@ -706,6 +709,9 @@
     .mean-container a.meanmenu-reveal {
         color: black;
     }
+    .dropdown-menu li {
+        background: black
+    }
 }
 
 /* -------------------------------------------------
@@ -730,5 +736,8 @@
     }
     .mean-container a.meanmenu-reveal {
         color: black;
+    }
+    .dropdown-menu li {
+        background: black
     }
 }
