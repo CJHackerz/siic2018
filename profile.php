@@ -149,19 +149,19 @@
   
     <input type="radio" name="tabs" id="tab1" checked>
     <div class="tab-label-content" id="tab1-content">
-      <label for="tab1"><a  href="#menu2">Project</label></a>
+      <label for="tab1"><a data-toggle="pill" href="#menu2">Project</label></a>
       <div class="tab-content"></div>
     </div>
      
     <input type="radio" name="tabs" id="tab2">
     <div class="tab-label-content" id="tab2-content">
-      <label for="tab2"><a href="#menu3">Startup</label></a>
+      <label for="tab2"><a data-toggle="pill" href="#menu3">Startup</label></a>
       <div class="tab-content"></div>
     </div>
     
     <input type="radio" name="tabs" id="tab3">
     <div class="tab-label-content" id="tab3-content">
-      <label for="tab3"><a href="#menu4">Your Request</label></a>
+      <label for="tab3"><a data-toggle="pill" href="#menu4">Your Request</label></a>
       <div class="tab-content"></div>
     </div>
   
