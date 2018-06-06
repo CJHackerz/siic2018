@@ -8,7 +8,7 @@
             <div class="row">
                 <div class="col-md-3 col-sm-3">
                     <div class="logo">
-                        <a href="index.php"><img src="./siiclogo.jpg" height="50px" width="50px" style="border-radius:100px;margin-right:10px;margin-bottom:10px;"><h2>SIIC<span>.</span></h2></a>
+                        <a href="index.php"><img src="./siiclogo.jpg" height="50px" width="50px" style="border-radius:100px;margin-right:10px;margin-bottom:10px;"><h2>SIIC</h2></a>
                     </div>
                 </div>
                 <div class="col-md-9 col-sm-9 main-menu-wrapper">
@@ -66,7 +66,7 @@
                         ?>
                         <li class="dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">
-                                <i class="fa fa-user fa-fw"></i> <?php echo $_SESSION["user_name"];?><i class="fa fa-caret-down"></i>
+                                <i class="fa fa-user fa-fw"></i> <?php echo $_SESSION["user_name"];?>
                             </a>
                             <ul class="dropdown-menu dropdown-user">
                                 <li><a href="./editProfile.php">Edit Profile</a></li>
