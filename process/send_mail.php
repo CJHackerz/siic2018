@@ -4,7 +4,7 @@
 
     # Instantiate the client.
     $mgClient = new Mailgun('key-28f57d982d256aa39f2fa195678151b3');
-    $domain = "webarchsrm.com";
+    $domain = "mail.srmiic.com";
 
     if($_SERVER['REQUEST_METHOD'] == 'POST') {
         if(isset($_POST['name']) && isset($_POST['email']) && isset($_POST['message']))  {

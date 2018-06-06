@@ -188,7 +188,7 @@
     $("#headroom-active").headroom({
         tolerance: 5
     });
-
+    // $('#sticky-header').addClass('sticky');
     /* ---------------------------------------------
         HEADER STICKY STYLE.
     --------------------------------------------- */

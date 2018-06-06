@@ -15,12 +15,8 @@
 <div class="footer ptb-30 text-center">
    <div class="container">
       <div class="row">
-         <div class="col-md-12 col-sm-12">
-            <div class="footer">
-               <p class="copyright" style="color: #fff; ">
-                  &copy; Webarch 2018
-               </p>
-            </div>
+         <div>
+          <img src="./img/weblogo.png" height="38px" width="140px">
          </div>
       </div>
    </div>

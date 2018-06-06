@@ -22,7 +22,27 @@
     <link rel="stylesheet" href="css/signIn.css">
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<style>
+
+ @media only screen and (max-width: 800px) {
+    .upload-picture{
+        padding-right:10%;
+        padding-left:5%;
+    }
+    .new_user{
+        padding-bottom:20%;
+    }
+
+}
+
+@media only screen and (min-width: 800px) {
+    .upload-picture{
+        padding-right:67%;
+    }
+}
+   </style>
 </head>
+
 
 <body>
 
@@ -50,12 +70,13 @@
               <fieldset >
                 <h2 class="fs-title">Create your account</h2>
                 <h3 class="fs-subtitle">This is step 1</h3>
+                <label class="upload-picture">Upload your picture</label>
                 <input type="file" name="profile_avatar" id="profile_avatar" value="Select your profile Photo">
                 <input type="text" name="profile_name" id="profile_name" placeholder="Name" required>
                 <!-- <input type="text" placeholder="test123"> -->
                 <input type="text" name="profile_register" id="profile_register" placeholder="Registration Number" required />
-                <select  name="profile_department" style=";margin-left:0px;margin-bottom:10px;padding:10px 0px 10px 63px" id="profile_department" placeholder="Department" required/>
-                    <option value="">Department</option>
+                <select  name="profile_department" style="width:100%;margin-left:0px;color: #91908c;margin-bottom:10px;padding:10px 0px 10px 10px" id="profile_department" placeholder="Department" required/>
+                    <option value="" >Department</option>
                     <option value="Department of Civil Engineering">Department of Civil Engineering</option>
                     <option value="Department of Mechanical Engineering">Department of Mechanical Engineering</option>
                     <option value="Department of Automobile Engineering">Department of Automobile Engineering</option>

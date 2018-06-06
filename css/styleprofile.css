@@ -364,3 +364,6 @@ Sidebar
     visibility: visible;
   }
 }
+@media only screen and (max-width: 768px) {
+  .active{margin-left:0%;}
+}

@@ -19,13 +19,13 @@
                                                                 '<td>' . $row['user'] . '</td>' .
                                                                 '<td>' . $row['team'] . '</td>' .
                                                                 '<td>' . $row['project_status'] . '</td>' .
-                                                                '<td><button class="btn btn-primary" data-toggle="modal" data-target="#viewModal' . $row['project_id'] . '">View</button></tr>' .
+                                                                '<td><button class="btn btn-primary" data-toggle="modal" data-target="#viewModal' . $row['project_id'] . '">Views</button></tr>' .
                                                             '</tr>';
 
                                                     echo    '<div class="modal fade" id="viewModal' . $row['project_id'] . '" tabindex="-1" role="dialog" aria-hidden="true">
                                                                 <div class="modal-dialog">
                                                                     <div class="modal-content">
-                                                                        <form action="../process/process_project.php" method="post">
+                                                                        
                                                                             <div class="modal-header">
                                                                                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
                                                                                     &times;
@@ -83,14 +83,14 @@
                                                                 '<td>' . $row['user'] . '</td>' .
                                                                 '<td>' . $row['team'] . '</td>' .
                                                                 '<td>' . $row['project_status'] . '</td>' .
-                                                                '<td><button class="btn btn-primary" data-toggle="modal" data-target=""#viewModal' . $row['project_id'] . '">View</button></tr>' .
+                                                                '<td><button class="btn btn-primary" data-toggle="modal" data-target=""#viewModal' . $row['project_id'] . '">Views</button></tr>' .
                                                             '</tr>';
 
                                                     
                                                     echo    '<div class="modal fade" id="viewModal' . $row['project_id'] . '" tabindex="-1" role="dialog" aria-hidden="true">
                                                                 <div class="modal-dialog">
                                                                     <div class="modal-content">
-                                                                        <form action="../process/process_project.php" method="post">
+                                                                        
                                                                             <div class="modal-header">
                                                                                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
                                                                                     &times;
