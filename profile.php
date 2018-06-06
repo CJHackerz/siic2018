@@ -86,12 +86,54 @@
             border-width: 5px;
             border-style: solid;
             border-color: #09aacc;
-        
+
 
 }
+
+/* @media only screen and  (max-width: 1024px){
+
+  centre{
+
+    padding-left: 4%;
+  }
+  centre1{padding-left: 8%;}
+
+
+} */
     </style>
-}
+    <style>
+    .centre{
 
+      padding-left: 45%;
+    }
+    .centre1{padding-left:10%;}
+    .centre2{padding-left:43%;}
+    @media only screen and  (max-width: 900px){
+
+      .centre{
+
+        padding-left: 40%;    }
+      .centre1{padding-left: 0%;}
+      .centre2{padding-left: 36%;}
+    }
+
+  }
+
+    @media only screen and  (max-width: 400px){
+
+      .centre{
+
+        padding-left: 43%;
+      }
+      .centre1{padding-left: 8%;
+      }
+      .centre2{padding-left: 38%;}
+    }
+
+
+    </style>
+
+</head>
 
 <body>
    <?php include 'includes/nav.php' ?>
@@ -113,7 +155,7 @@
      -->
     <!--   <span style="margin-left:8%">Welcome, <strong style="padding-top:3vh;"><?php echo $profile_name; ?></strong></span><br><br>
       <span style="margin-left:6%"><button class="btn btn-primary rightBtn" onclick="location.href='./teams.php'">Join Team</button> -->
-     <!--    <img class="img-thumbnail" src="./img/<?php echo $profile_avatar;?>" alt="Profile Image" /> 
+     <!--    <img class="img-thumbnail" src="./img/<?php echo $profile_avatar;?>" alt="Profile Image" />
       <span style="margin-left:8%">Welcome, <strong style="padding-top:3vh;"><?php echo $profile_name; ?></strong></span><br><br>
       <span style="margin-left:6%"><button class="btn btn-primary rightBtn" onclick="location.href='./teams.php'">Join Team</button>
 
@@ -135,36 +177,41 @@
 
 
   </div> -->
-<!-- </nav> --> 
+<!-- </nav> -->
 
 <!-- <center> -->
- <ul style="padding-top: 25vh;width: 100%;">
-      
-        <img id="st" style="height: 100px; width: 100px;margin-left: 40vw;" class="img-thumbnail" src="./img/<?php echo $profile_avatar;?>" alt="Profile Image" /> 
-<ul style="font-size: 13px;margin-left: 39vw;">Welcome, <strong><?php echo $profile_name; ?></strong></ul>
-      <br> 
-      </ul> 
 
-<div class="tab-wrap" style="padding-top: 15vh;">
-  
+<div class="centre" >
+ <ul style="padding-top: 25vh;width: 100%;">
+
+        <img id="st" style="height: 100px; width: 100px;" class="img-thumbnail" src="./img/<?php echo $profile_avatar;?>" alt="Profile Image" /></ul>
+      </div>
+      <div class="centre2" >
+<ul  style="font-size: 13px;">Welcome, <strong><?php echo $profile_name; ?></strong></ul>
+      <br>
+
+    </div>
+
+<div class="tab-wrap centre1" style="padding-top: 15vh;">
+
     <input type="radio" name="tabs" id="tab1" checked>
     <div class="tab-label-content" id="tab1-content">
       <label for="tab1"><a data-toggle="pill" href="#menu2">Project</label></a>
       <div class="tab-content"></div>
     </div>
-     
+
     <input type="radio" name="tabs" id="tab2">
     <div class="tab-label-content" id="tab2-content">
       <label for="tab2"><a data-toggle="pill" href="#menu3">Startup</label></a>
       <div class="tab-content"></div>
     </div>
-    
+
     <input type="radio" name="tabs" id="tab3">
     <div class="tab-label-content" id="tab3-content">
       <label for="tab3"><a data-toggle="pill" href="#menu4">Your Request</label></a>
       <div class="tab-content"></div>
     </div>
-  
+
      <input type="radio" name="tabs" id="tab4">
      <div class="tab-label-content" id="tab4-content">
       <label for="tab4"><a href="./editProfile.php"  >Edit Profile</label></a>
@@ -180,9 +227,9 @@
       <label for="tab6"><a href="#" >Teams</label></a>
       <div class="tab-content"></div>
     </div>
-    
+
    <!--  <div class="slide"></div> -->
-  
+
 </div>
 
 
@@ -204,12 +251,11 @@
 
 
 
-   
 <!--  <ul class="nav nav-pills padInLaptop" style="padding-top: 25vh; overflow: hidden; white-space: nowrap;width: 100%;">
-      
-        <img style="height: 100px; width: 100px;margin-left: 46vw;" class="img-thumbnail" src="./img/<?php echo $profile_avatar;?>" alt="Profile Image" /> 
+
+        <img style="height: 100px; width: 100px;margin-left: 46vw;" class="img-thumbnail" src="./img/<?php echo $profile_avatar;?>" alt="Profile Image" />
 <ul style="margin-left: 10vw;font-size: 13px;margin-left: 46vw;">Welcome, <strong><?php echo $profile_name; ?></strong></ul>
-      <br>  
+      <br>
       <ul class="nav nav-pills padInLaptop" style="overflow: hidden;">
        <li id="bt" class="active" style="font-size: 11px;"><a data-toggle="pill" href="#menu2">Project</a></li>
         <li style="font-size: 11px;display: inline"><a data-toggle="pill" href="#menu3">Startups</a></li>
@@ -220,14 +266,14 @@
         </ul>
           <li>  <a href="./editProfile.php">Edit Profile</a></li>
     <li><a onclick="viewProfile()" >About</a></li> -->
-    
-           
+
+
         <!-- <li><a data-toggle="pill" href="#menu5" onclick="loadNotifs()">Notifications</a></li> -->
-    
 
 
 
-    
+
+
 
     <div class="container">
         <div class="panel panel-default" style="margin-left: 7%; max-width: 1000px;">
@@ -250,7 +296,7 @@
                     <div id="menu2" class="tab-pane fade in active">
                         <!--<h3>Project</h3>-->
 
-                        <a class="button active" data-method="get" href="./newProject.php">Apply for Projects</a>
+                        <a class="button active" data-method="get" href="./newProject.php" style="margin-left:35%">Apply for Projects</a>
                         <br><br><br>
                         <div class="row">
                             <div id="projectList">
