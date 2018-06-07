@@ -83,9 +83,8 @@
 #st{
 
             border-radius: 50%;
-            border-width: 5px;
-            border-style: solid;
-            border-color: #09aacc;
+            border-width: 0px;
+
 
 
 }
@@ -194,36 +193,36 @@
 
 <div class="tab-wrap centre1" style="padding-top: 15vh;">
 
-    <input type="radio" name="tabs" id="tab1" checked>
-    <div class="tab-label-content" id="tab1-content">
+    <input type="radio" name="tabs" id="tab1" >
+    <div class="tab-label-content" id="tab1-content" style="  border-bottom: 3px solid #3A6EE8; margin-right: 12px;">
       <label for="tab1"><a data-toggle="pill" href="#menu2">Project</label></a>
       <div class="tab-content"></div>
     </div>
 
     <input type="radio" name="tabs" id="tab2">
-    <div class="tab-label-content" id="tab2-content">
+    <div class="tab-label-content" id="tab2-content" style="  border-bottom: 3px solid #3A6EE8; margin-right: 12px;">
       <label for="tab2"><a data-toggle="pill" href="#menu3">Startup</label></a>
       <div class="tab-content"></div>
     </div>
 
     <input type="radio" name="tabs" id="tab3">
-    <div class="tab-label-content" id="tab3-content">
+    <div class="tab-label-content" id="tab3-content" style="  border-bottom: 3px solid #3A6EE8; margin-right: 12px;">
       <label for="tab3"><a data-toggle="pill" href="#menu4">Your Request</label></a>
       <div class="tab-content"></div>
     </div>
 
      <input type="radio" name="tabs" id="tab4">
-     <div class="tab-label-content" id="tab4-content">
+     <div class="tab-label-content" id="tab4-content" style="  border-bottom: 3px solid #3A6EE8; margin-right: 12px;">
       <label for="tab4"><a href="./editProfile.php"  >Edit Profile</label></a>
       <div class="tab-content"></div>
      </div>
      <input type="radio" name="tabs" id="tab5">
-     <div class="tab-label-content" id="tab5-content">
+     <div class="tab-label-content" id="tab5-content" style="  border-bottom: 3px solid #3A6EE8; margin-right: 12px;">
       <label for="tab5"><a id="viewProfile" onclick="viewProfile()" >About</label></a>
       <div class="tab-content"></div>
     </div>
     <input type="radio" name="tabs" id="tab6">
-     <div class="tab-label-content" id="tab6-content">
+     <div class="tab-label-content" id="tab6-content" style="  border-bottom: 3px solid #3A6EE8; margin-right: 12px;">
       <label for="tab6"><a href="#" >Teams</label></a>
       <div class="tab-content"></div>
     </div>

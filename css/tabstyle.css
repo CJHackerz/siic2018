@@ -59,7 +59,8 @@ input[type="radio"][name="tabs"]:first-of-type:checked ~ .slide {
 label {
   cursor: pointer;
   color: rgba(255, 255, 255, 0.8);
-  background-color: #00bcd4;
+  /* background-color: #00bcd4; */
+
   box-sizing: border-box;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -75,6 +76,8 @@ label {
   -webkit-transition: color 0.2s ease;
   transition: color 0.2s ease;
   width: 100%;
+
+
 }
 
 .slide {
@@ -90,6 +93,8 @@ label {
 
 .tab-label-content {
   width: 100%;
+
+
 }
 .tab-label-content .tab-content {
   position: absolute;
