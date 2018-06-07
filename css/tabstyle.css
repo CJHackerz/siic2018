@@ -58,7 +58,7 @@ input[type="radio"][name="tabs"]:first-of-type:checked ~ .slide {
 
 label {
   cursor: pointer;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(133, 133, 133, 0.8);
   /* background-color: #00bcd4; */
 
   box-sizing: border-box;

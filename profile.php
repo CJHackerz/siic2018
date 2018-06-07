@@ -42,7 +42,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/tabstyle.css">
-    <link rel="stylesheet" href="css/tabs.scss">
+    <!-- <link rel="stylesheet" href="css/tabs.scss"> -->
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="css/styleprofile.css">
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
@@ -107,28 +107,36 @@
     }
     .centre1{padding-left:10%;}
     .centre2{padding-left:43%;}
-    @media only screen and  (max-width: 900px){
-
-      .centre{
-
-        padding-left: 40%;    }
-      .centre1{padding-left: 0%;}
-      .centre2{padding-left: 36%;}
-    }
-
-  }
 
     @media only screen and  (max-width: 400px){
 
       .centre{
 
-        padding-left: 43%;
-      }
-      .centre1{padding-left: 8%;
-      }
-      .centre2{padding-left: 38%;}
+        margin-left: -4%;  }
+      .centre1{margin-left: 5%;}
+      .centre2{margin-left: -7%;}
+      .res1{
+      width: 100%;
+    text-align: center;;}
     }
 
+    @media only screen and  (max-width: 900px){
+
+      .centre{
+
+        padding-left: 38%;    }
+      .centre1{padding-left: 0%;}
+      .centre2{padding-left: 30%;}
+      .res1{
+      width: 100%;
+    text-align: center;;}
+    }
+
+    }
+
+
+
+.res1{margin-left: 35%;}
 
     </style>
 
@@ -179,7 +187,7 @@
 <!-- </nav> -->
 
 <!-- <center> -->
-
+<div class="main-wrapper">
 <div class="centre" >
  <ul style="padding-top: 25vh;width: 100%;">
 
@@ -193,9 +201,9 @@
 
 <div class="tab-wrap centre1" style="padding-top: 15vh;">
 
-    <input type="radio" name="tabs" id="tab1" >
+    <input type="radio" name="tabs" id="tab1">
     <div class="tab-label-content" id="tab1-content" style="  border-bottom: 3px solid #3A6EE8; margin-right: 12px;">
-      <label for="tab1"><a data-toggle="pill" href="#menu2">Project</label></a>
+      <label for="tab1"><a data-toggle="pill" href="#menu2" >Project</label></a>
       <div class="tab-content"></div>
     </div>
 
@@ -275,7 +283,7 @@
 
 
     <div class="container">
-        <div class="panel panel-default" style="margin-left: 7%; max-width: 1000px;">
+        <div class="panel panel-default res" >
             <div class="panel-body">
                 <div class="tab-content">
                     <!-- <div id="menu1" class="tab-pane tab-pane fade in active">
@@ -295,7 +303,7 @@
                     <div id="menu2" class="tab-pane fade in active">
                         <!--<h3>Project</h3>-->
 
-                        <a class="button active" data-method="get" href="./newProject.php" style="margin-left:35%">Apply for Projects</a>
+                        <a class="button active res1" data-method="get" href="./newProject.php">Apply for Projects</a>
                         <br><br><br>
                         <div class="row">
                             <div id="projectList">
