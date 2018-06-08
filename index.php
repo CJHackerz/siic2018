@@ -148,7 +148,7 @@
                         <div class="main-heading-content text-center">
                            <h2>about Us<span>.</span></h2>
                            <p>
-                              SIIC is SRM's official and independent Incubation and Innovation center. We integrate and develop an atmosphere for budding entrepreneurs and techies. Vision of SIIC is to make all the SRMites fit for the competitive entrepreneurial society. The Mission of SIIC is to Incubate each and every talented individual and validate their ideas for the betterment of the society. We at SIIC provide facilities like Fab lab access, Incubation Center, Bank of inventory, Internship opportunities and Financial assistance for start-ups and tech teams. The findings under SIIC are purely based on the viability and persistence of their ideas. Students with innovative and sustaining ideas can apply for SIIC's incubation and assistance, and rest will be given with a privilege of memberships and befits according to their category of membership.
+                              SIIC is SRM's official and independent Incubation and Innovation centre. We integrate and develop an atmosphere for budding entrepreneurs and techies. Vision of SIIC is to make all the SRMites fit for the competitive entrepreneurial society. The Mission of SIIC is to Incubate each and every talented individual and validate their ideas for the betterment of the society. We at SIIC provide facilities like Fab lab access, Incubation Centre, Bank of inventory, Internship opportunities and Financial assistance for start-ups and tech teams. The findings under SIIC are purely based on the viability and persistence of their ideas. Students with innovative and sustaining ideas can apply for SIIC's incubation and assistance, and rest will be given with a privilege of memberships and befits according to their category of membership.
                            </p>
                         </div>
                      </div>
@@ -199,27 +199,28 @@
                                  </ul>
                               </div>
                            </div>
-                        </div>
-                        <div class="col-lg-4  col-md-4 col-sm-12  effect4" style="background-color:#7E7582; height:220px;;">
-                           <div class="portfolio-details">
-                              <div class="portfolio-details-inner"style="padding:25% 34%">
-                                 <h4><a href="javascript:void(0)" >Announcements</a></h4>
-                                 <ul class="portfolio-category">
-                                    <li><a href="javascript:void(0)">Something Important!!</a></li>
-                                 </ul>
-                              </div>
+                           <div class="col-lg-4  col-md-4 col-sm-12  effect4" style="background-color:#7E7582; height:220px;;">
+
+                                       <div class="portfolio-details">
+                                              <div class="portfolio-details-inner"style="padding:25% 25%">
+                                                  <h4><a href="javascript:void(0)" >Announcements</a></h4>
+                                                  <ul class="portfolio-category">
+                                                      <li><a href="javascript:void(0)">Something Important!!</a></li>
+                                                  </ul>
+                                              </div>
+                                          </div>
                            </div>
-                        </div>
-                     </div>
-                     <div class="col-lg-12 ">
-                        <div class="col-lg-6 col-md-6 col-sm-12 effect5" style="background-color:#7E97CF; height:220px;;">
-                           <div class="portfolio-details">
-                              <div class="portfolio-details-inner" style="padding:15% 34%">
-                                 <h4><a href="javascript:void(0)" >Achievements</a></h4>
-                                 <ul class="portfolio-category">
-                                    <li><a href="javascript:void(0)">Catch a glimpse of our milestones.</a></li>
-                                 </ul>
-                              </div>
+                       </div>
+                       <div class="col-lg-12 ">
+                           <div class="col-lg-6 col-md-6 col-sm-12 effect5" style="background-color:#7E97CF; height:220px;;">
+                             <div class="portfolio-details">
+                                                <div class="portfolio-details-inner" style="padding:15% 25%">
+                                                    <h4><a href="javascript:void(0)" >Achievements</a></h4>
+                                                    <ul class="portfolio-category">
+                                                        <li><a href="javascript:void(0)">Catch a glimpse of our milestones.</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
                            </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12  effect6" style="background-color:#C4ABA4; height:220px;;">
@@ -243,21 +244,28 @@
                                  </ul>
                               </div>
                            </div>
-                        </div>
-                        <div class="col-lg-4  col-md-4 col-sm-12 effect8" style="background-color:#7E7582; height:220px;;">
-                           <div class="portfolio-details">
-                              <div class="portfolio-details-inner"  style="padding:23% 34%">
-                                 <h4><a href="javascript:void(0)" >Insights</a></h4>
-                                 <ul class="portfolio-category">
-                                    <li><a href="javascript:void(0)">Have a look, what we have done till now!</a></li>
-                                 </ul>
-                              </div>
+
+                           <div class="col-lg-4  col-md-4 col-sm-12 effect8" style="background-color:#7E7582; height:220px;;">
+
+                             <div class="portfolio-details">
+
+                                               <div class="portfolio-details-inner"  style="padding:23% 34%">
+
+                                                   <h4><a href=" javascript:void(0)" >Insights</a></h4>
+                                                   <ul class="portfolio-category">
+                                                       <li><a href="javascript:void(0)">Have a look, what we have done till now!</a></li>
+                                                   </ul>
+                                               </div>
+
+                                           </div>
+
                            </div>
-                        </div>
-                     </div>
-                  </div>
-                  <!-- portfolio wrapper end -->
-               </div>
+
+                       </div>
+                    </div>
+
+                <!-- portfolio wrapper end -->
+            </div>
             </div>
             <!-- End Portfolio Area -->
             <!-- Start Contact area -->
