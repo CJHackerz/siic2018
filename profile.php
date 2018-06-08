@@ -227,6 +227,12 @@
       <label for="tab6"><a data-toggle="pill" href="#menu5" >Teams</label></a>
       <div class="tab-content"></div>
     </div>
+    <input type="radio" name="tabs" id="tab6">
+     <div class="tab-label-content" id="tab6-content">
+      <label for="tab6"><a href="./teams.php" >Join Team</label></a>
+      <div class="tab-content"></div>
+    </div>
+
 
    <!--  <div class="slide"></div> -->
 
@@ -250,11 +256,7 @@
 
 
 
-<<<<<<< HEAD
-   
-=======
 
->>>>>>> 9791abf7059271767082ba8a66dc94cfe5c6dd0c
 <!--  <ul class="nav nav-pills padInLaptop" style="padding-top: 25vh; overflow: hidden; white-space: nowrap;width: 100%;">
 
         <img style="height: 100px; width: 100px;margin-left: 46vw;" class="img-thumbnail" src="./img/<?php echo $profile_avatar;?>" alt="Profile Image" />
