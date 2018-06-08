@@ -206,7 +206,7 @@
                          </div>
                            <div class="col-lg-4  col-md-4 col-sm-12  effect4" style="background-color:#7E7582; height:220px;;">
 
-                                       <div class="portfolio-details">
+                                       <div class="portfolio-details" onclick="window.location='announcements.php'">
                                               <div class="portfolio-details-inner"style="padding:25% 25%">
                                                   <h4><a href="javascript:void(0)" >Announcements</a></h4>
                                                   <ul class="portfolio-category">
