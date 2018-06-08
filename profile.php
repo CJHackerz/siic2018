@@ -149,19 +149,19 @@
   
     <input type="radio" name="tabs" id="tab1" checked>
     <div class="tab-label-content" id="tab1-content">
-      <label for="tab1"><a data-toggle="pill" href="#menu2">Project</label></a>
+      <label for="tab1"><a data-toggle="pill" href="#menu1">Project</label></a>
       <div class="tab-content"></div>
     </div>
      
     <input type="radio" name="tabs" id="tab2">
     <div class="tab-label-content" id="tab2-content">
-      <label for="tab2"><a data-toggle="pill" href="#menu3">Startup</label></a>
+      <label for="tab2"><a data-toggle="pill" href="#menu2">Startup</label></a>
       <div class="tab-content"></div>
     </div>
     
     <input type="radio" name="tabs" id="tab3">
     <div class="tab-label-content" id="tab3-content">
-      <label for="tab3"><a data-toggle="pill" href="#menu4">Your Request</label></a>
+      <label for="tab3"><a data-toggle="pill" href="#menu3">Your Request</label></a>
       <div class="tab-content"></div>
     </div>
   
@@ -172,19 +172,18 @@
      </div>
      <input type="radio" name="tabs" id="tab5">
      <div class="tab-label-content" id="tab5-content">
-      <label for="tab5"><a id="viewProfile" onclick="viewProfile()" >About</label></a>
+      <label for="tab5"><a data-toggle="pill" href="#menu4">About</label></a>
       <div class="tab-content"></div>
     </div>
     <input type="radio" name="tabs" id="tab6">
      <div class="tab-label-content" id="tab6-content">
-      <label for="tab6"><a href="#" >Teams</label></a>
+      <label for="tab6"><a data-toggle="pill" href="#menu5" >Teams</label></a>
       <div class="tab-content"></div>
     </div>
     
    <!--  <div class="slide"></div> -->
   
 </div>
-
 
 
 
@@ -247,7 +246,7 @@
                     </div> -->
 
 
-                    <div id="menu2" class="tab-pane fade in active">
+                    <div id="menu1" class="tab-pane fade in active">
                         <!--<h3>Project</h3>-->
 
                         <a class="button active" data-method="get" href="./newProject.php">Apply for Projects</a>
@@ -260,7 +259,7 @@
                         <br><br>
                     </div>
 
-                    <div id="menu3" class="tab-pane fade">
+                    <div id="menu2" class="tab-pane fade">
                     <!--<h3>Startups</h3>-->
 
                         <a class="button active" data-method="get" href="./newStartup.php">Apply for Startup</a>
@@ -273,7 +272,7 @@
                         <br><br>
                     </div>
 
-                    <div id="menu4" class="tab-pane fade">
+                    <div id="menu3" class="tab-pane fade">
 
                         <a class="button active" data-method="get" href="./inventory.php">New Request</a>
                         <br>
@@ -283,14 +282,47 @@
                         <br><br>
                     </div>
 
-                    <!-- <div id="menu5" class="tab-pane fade">
+                    <div id="menu5" class="tab-pane fade">
 
-                        <br><br><br>
+                      <br><br><br>
+                      <div class="row">
+                          <div id="">
 
-                        <div id="notifList">
+                          </div>
+                      </div>
+                      <br><br>
+                  </div>
 
-                        </div>
-                    </div> -->
+                  <div id="menu4" class="tab-pane fade">
+
+                      <br><br><br>
+                      <div class="row">
+                          <div id="">
+                              <?php
+                              $sql = "SELECT * from user_profiles where email = '$user'";
+                              $result = $conn->query($sql);
+                              $row = $result->fetch_assoc();
+                              $address=$row['address'];
+                              $skills=$row['skills'];
+                              $hobbies=$row['hobbies'];
+                              $achievements=$row['achievements'];
+                              $experience=$row['experience'];
+                              $description=$row['description'];
+                              echo "<p>Address :$address</p>";
+                              echo "<p>Skills :$skills</p>";
+                              echo "<p>Hobbies :$hobbies</p>";
+                              echo "<p>Achievements :$achievements</p>";
+                              echo "<p>Experience :$experience</p>";
+                              echo "<p>Description :$description</p>";
+
+
+                              ?>
+                          </div>
+                      </div>
+
+
+
+
             </div>
         </div>
     </div>
@@ -409,13 +441,13 @@
         }
     </script>
 
-    <script type="text/javascript">
+   <!--  <script type="text/javascript">
         // View Profile click
         function viewProfile() {
             var uid = $("#uid").val();
             window.location = "./profile.php?uid=" + uid;
         }
-    </script>
+    </script> -->
 
 </script>
 <!-- nav bar drop down script -->
