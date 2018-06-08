@@ -107,6 +107,7 @@
     }
     .centre1{padding-left:10%;}
     .centre2{padding-left:43%;}
+    .res1{margin-left: 38%;}
 
     @media only screen and  (max-width: 400px){
 
@@ -114,29 +115,31 @@
 
         margin-left: -4%;  }
       .centre1{margin-left: 5%;}
-      .centre2{margin-left: -7%;}
+      .centre2{margin-left: -4%;}
       .res1{
       width: 100%;
-    text-align: center;;}
+    text-align: center;
+    margin-left: 0%;
+  }
     }
 
     @media only screen and  (max-width: 900px){
 
       .centre{
 
-        padding-left: 38%;    }
+        padding-left: 32%;    }
       .centre1{padding-left: 0%;}
-      .centre2{padding-left: 30%;}
+      .centre2{padding-left: 24%;}
       .res1{
       width: 100%;
-    text-align: center;;}
+    text-align: center;
+  margin-left: 0%;}
     }
 
     }
 
 
 
-.res1{margin-left: 35%;}
 
     </style>
 
@@ -191,10 +194,10 @@
 <div class="centre" >
  <ul style="padding-top: 25vh;width: 100%;">
 
-        <img id="st" style="height: 100px; width: 100px;" class="img-thumbnail" src="./img/<?php echo $profile_avatar;?>" alt="Profile Image" /></ul>
+        <img id="st" style="height: 150px; width: 150px;" class="img-thumbnail" src="./img/<?php echo $profile_avatar;?>" alt="Profile Image" /></ul>
       </div>
       <div class="centre2" >
-<ul  style="font-size: 13px;">Welcome, <strong><?php echo $profile_name; ?></strong></ul>
+<ul  style="font-size: 18px;">Welcome, <strong><?php echo $profile_name; ?></strong></ul>
       <br>
 
     </div>
@@ -283,7 +286,7 @@
 
 
     <div class="container">
-        <div class="panel panel-default res" >
+        <div class="panel panel-default" >
             <div class="panel-body">
                 <div class="tab-content">
                     <!-- <div id="menu1" class="tab-pane tab-pane fade in active">
@@ -316,7 +319,7 @@
                     <div id="menu3" class="tab-pane fade">
                     <!--<h3>Startups</h3>-->
 
-                        <a class="button active" data-method="get" href="./newStartup.php">Apply for Startup</a>
+                        <a class="button active res1" data-method="get" href="./newStartup.php">Apply for Startup</a>
                         <br><br><br>
                         <div class="row">
                             <div id="startupList">
@@ -328,7 +331,7 @@
 
                     <div id="menu4" class="tab-pane fade">
 
-                        <a class="button active" data-method="get" href="./inventory.php">New Request</a>
+                        <a class="button active res1" data-method="get" href="./inventory.php">New Request</a>
                         <br>
 
                         <br><br>
