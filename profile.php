@@ -41,6 +41,8 @@
     <link rel="stylesheet" href="css/element.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/tabstyle.css">
+    <!-- <link rel="stylesheet" href="css/tabs.scss"> -->
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="css/styleprofile.css">
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
@@ -54,37 +56,123 @@
         body{
         background-color: #f4f9fe;
     }
+/*@media only screen and (min-width: 480px) and (max-width: 767px){
 
+    #navtop{
+    margin-left: 20%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+
+#navtop{
+    margin-left: 20%;
+  }
+    }*/
+
+@media only screen and  (max-width: 767px) {
+
+#bt{
+    margin-left: 0%;
+  }
+
+}
+#bt{
+
+    margin-left: 35%;"
+}
+#st{
+
+            border-radius: 50%;
+            border-width: 0px;
+
+
+
+}
+
+/* @media only screen and  (max-width: 1024px){
+
+  centre{
+
+    padding-left: 4%;
+  }
+  centre1{padding-left: 8%;}
+
+
+} */
+    </style>
+    <style>
+    .centre{
+
+      padding-left: 45%;
+    }
+    .centre1{padding-left:10%;}
+    .centre2{padding-left:43%;}
+
+    @media only screen and  (max-width: 400px){
+
+      .centre{
+
+        margin-left: -4%;  }
+      .centre1{margin-left: 5%;}
+      .centre2{margin-left: -7%;}
+      .res1{
+      width: 100%;
+    text-align: center;;}
+    }
+
+    @media only screen and  (max-width: 900px){
+
+      .centre{
+
+        padding-left: 38%;    }
+      .centre1{padding-left: 0%;}
+      .centre2{padding-left: 30%;}
+      .res1{
+      width: 100%;
+    text-align: center;;}
+    }
+
+    }
+
+
+
+.res1{margin-left: 35%;}
 
     </style>
 
+</head>
 
 <body>
    <?php include 'includes/nav.php' ?>
 
 
- <nav class="w3-sidebar w3-bar-block  w3-collapse w3-top" style="position: absolute;z-index:3;width:300px;height:100%; background-color:#F4F9FE ;padding-top: 90px;" id="mySidebar1">
+ <!--  <nav class="w3-sidebar w3-bar-block   w3-top" style="position: absolute;z-index:3;width:300px;height:100%; background-color:#F4F9FE ;padding-top: 90px;" id="mySidebar1"> -->
 
-  <div class="w3-container w3-display-container w3-padding-16">
+ <!--  <div class="w3-container w3-display-container w3-padding-16">
     <i onclick="w3_close1()" class="fa fa-remove w3-hide-large w3-button w3-display-topright"></i>
 
-  </div>
-  <div class="w3-container w3-row" style="font-size:12px;">
+  </div>  -->
+  <!-- <div class="w3-container w3-row" style="font-size:12px;">
     <div class="w3-col s4" style="margin-left:20%;">
       <img class="img-thumbnail" src="./profiles/img/<?php echo $profile_avatar;?>" alt="Profile Image" />
     </div>
-    </div>
-     <br>
-    <div class="w3-bar-block" style="font-size:18px;">
+    </div>  -->
+    <!--  <br>
+    <div class="w3-bar-block" style="font-size:18px;padding-top: 15vh;">
+     -->
+    <!--   <span style="margin-left:8%">Welcome, <strong style="padding-top:3vh;"><?php echo $profile_name; ?></strong></span><br><br>
+      <span style="margin-left:6%"><button class="btn btn-primary rightBtn" onclick="location.href='./teams.php'">Join Team</button> -->
+     <!--    <img class="img-thumbnail" src="./img/<?php echo $profile_avatar;?>" alt="Profile Image" />
       <span style="margin-left:8%">Welcome, <strong style="padding-top:3vh;"><?php echo $profile_name; ?></strong></span><br><br>
       <span style="margin-left:6%"><button class="btn btn-primary rightBtn" onclick="location.href='./teams.php'">Join Team</button>
-    </div>
-  <br>
 
-  <div class="w3-bar-block" style="font-size:18px;">
+    </div>
+  <br> -->
+
+ <!--  <div class="w3-bar-block" style="font-size:18px;">
       <style media="screen">
           .fas{
-              padding: 7px;
+              padding: 2px;
           }
       </style>
     <a href="./editProfile.php" class="w3-bar-item w3-button w3-padding" ><i class="fas fa-user-edit"></i> Edit Profile</a>
@@ -95,24 +183,107 @@
     <a data-toggle="pill"  class="w3-bar-item w3-button w3-padding" href="#menu4"><i class="fas fa-hand-pointer"></i> Your Request</a>
 
 
-  </div>
-</nav>
+  </div> -->
+<!-- </nav> -->
 
-<center>
-  <ul class="nav nav-pills padInLaptop" style="padding-top: 15vh;">
+<!-- <center> -->
+<div class="main-wrapper">
+<div class="centre" >
+ <ul style="padding-top: 25vh;width: 100%;">
 
-       <!--  <li class="active"><a data-toggle="pill" href="#menu2">Project</a></li>
-        <li><a data-toggle="pill" href="#menu3">Startups</a></li>
-        <li><a data-toggle="pill" href="#menu4">Your Requests</a></li> -->
+        <img id="st" style="height: 100px; width: 100px;" class="img-thumbnail" src="./img/<?php echo $profile_avatar;?>" alt="Profile Image" /></ul>
+      </div>
+      <div class="centre2" >
+<ul  style="font-size: 13px;">Welcome, <strong><?php echo $profile_name; ?></strong></ul>
+      <br>
+
+    </div>
+
+<div class="tab-wrap centre1" style="padding-top: 15vh;">
+
+
+    <div class="tab-label-content" id="tab1-content" style="  border-bottom: 3px solid #3A6EE8; margin-right: 12px;">
+      <label for="tab1"><a data-toggle="pill" href="#menu2" >Project</label></a>
+      <div class="tab-content"></div>
+    </div>
+
+
+    <div class="tab-label-content" id="tab2-content" style="  border-bottom: 3px solid #3A6EE8; margin-right: 12px;">
+      <label for="tab2"><a data-toggle="pill" href="#menu3">Startup</label></a>
+      <div class="tab-content"></div>
+    </div>
+
+
+    <div class="tab-label-content" id="tab3-content" style="  border-bottom: 3px solid #3A6EE8; margin-right: 12px;">
+      <label for="tab3"><a data-toggle="pill" href="#menu4">Your Request</label></a>
+      <div class="tab-content"></div>
+    </div>
+
+
+     <div class="tab-label-content" id="tab4-content" style="  border-bottom: 3px solid #3A6EE8; margin-right: 12px;">
+      <label for="tab4"><a href="./editProfile.php"  >Edit Profile</label></a>
+      <div class="tab-content"></div>
+     </div>
+
+     <div class="tab-label-content" id="tab5-content" style="  border-bottom: 3px solid #3A6EE8; margin-right: 12px;">
+      <label for="tab5"><a id="viewProfile" onclick="viewProfile()" >About</label></a>
+      <div class="tab-content"></div>
+    </div>
+    
+     <div class="tab-label-content" id="tab6-content" style="  border-bottom: 3px solid #3A6EE8; margin-right: 12px;">
+      <label for="tab6"><a href="#" >Teams</label></a>
+      <div class="tab-content"></div>
+    </div>
+
+   <!--  <div class="slide"></div> -->
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--  <ul class="nav nav-pills padInLaptop" style="padding-top: 25vh; overflow: hidden; white-space: nowrap;width: 100%;">
+
+        <img style="height: 100px; width: 100px;margin-left: 46vw;" class="img-thumbnail" src="./img/<?php echo $profile_avatar;?>" alt="Profile Image" />
+<ul style="margin-left: 10vw;font-size: 13px;margin-left: 46vw;">Welcome, <strong><?php echo $profile_name; ?></strong></ul>
+      <br>
+      <ul class="nav nav-pills padInLaptop" style="overflow: hidden;">
+       <li id="bt" class="active" style="font-size: 11px;"><a data-toggle="pill" href="#menu2">Project</a></li>
+        <li style="font-size: 11px;display: inline"><a data-toggle="pill" href="#menu3">Startups</a></li>
+        <li style="font-size: 11px;display: inline;"><a data-toggle="pill" href="#menu4">Your Requests</a></li>
+        <li style="font-size: 11px;display: inline"><a data-toggle="pill">Teams</a><li>
+        <li style="font-size: 11px;display: inline"><a href="./editProfile.php" data-toggle="pill" >Edit Profile</a></li>
+        <li style="font-size: 11px;display: inline"><a id="viewProfile" onclick="viewProfile()" data-toggle="pill" >About</a></li>
+        </ul>
+          <li>  <a href="./editProfile.php">Edit Profile</a></li>
+    <li><a onclick="viewProfile()" >About</a></li> -->
+
+
         <!-- <li><a data-toggle="pill" href="#menu5" onclick="loadNotifs()">Notifications</a></li> -->
-    </ul>
 
 
 
-    <br>
 
-    <div class="container container-fluid">
-        <div class="panel panel-default" style="margin-left: 22%; max-width: 900px;">
+
+
+    <div class="container">
+        <div class="panel panel-default res" >
             <div class="panel-body">
                 <div class="tab-content">
                     <!-- <div id="menu1" class="tab-pane tab-pane fade in active">
@@ -132,7 +303,7 @@
                     <div id="menu2" class="tab-pane fade in active">
                         <!--<h3>Project</h3>-->
 
-                        <a class="button active" data-method="get" href="./newProject.php">Apply for Project</a>
+                        <a class="button active res1" data-method="get" href="./newProject.php">Apply for Projects</a>
                         <br><br><br>
                         <div class="row">
                             <div id="projectList">
@@ -179,7 +350,8 @@
 </div>
 </div>
 
-</center>
+
+<!-- </center> -->
 
 <script type="text/javascript" src="js/hp_js.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -299,5 +471,7 @@
     </script>
 
 </script>
+<!-- nav bar drop down script -->
+<script src="js/plugins.js"></script>
 </body>
 </html>

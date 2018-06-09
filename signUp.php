@@ -22,7 +22,27 @@
     <link rel="stylesheet" href="css/signIn.css">
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<style>
+
+ @media only screen and (max-width: 800px) {
+    .upload-picture{
+        padding-right:10%;
+        padding-left:5%;
+    }
+    .new_user{
+        padding-bottom:20%;
+    }
+
+}
+
+@media only screen and (min-width: 800px) {
+    .upload-picture{
+        padding-right:67%;
+    }
+}
+   </style>
 </head>
+
 
 <body>
 
@@ -50,6 +70,7 @@
               <fieldset >
                 <h2 class="fs-title">Create your account</h2>
                 <h3 class="fs-subtitle">This is step 1</h3>
+                <label class="upload-picture">Upload your picture</label>
                 <input type="file" name="profile_avatar" id="profile_avatar" value="Select your profile Photo">
                 <input type="text" name="profile_name" id="profile_name" placeholder="Name" required>
                 <!-- <input type="text" placeholder="test123"> -->

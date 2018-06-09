@@ -3,12 +3,12 @@
   @session_start();
 ?>
 <header>
-    <div id="sticky-header" class="header-area header-style-two gray-bg sticky">
+    <div id="sticky-header" class="header-area header-style-two sticky gray-bg sticky">
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-sm-3">
                     <div class="logo">
-                        <a href="index.php"><img src="./siiclogo.jpg" height="50px" width="50px" style="border-radius:100px;margin-right:10px;margin-bottom:10px;"><h2>SIIC<span>.</span></h2></a>
+                        <a href="index.php"><img src="./siiclogo.jpg" height="50px" width="50px" style="border-radius:100px;margin-right:10px;margin-bottom:10px;"><h2>SIIC</h2></a>
                     </div>
                 </div>
                 <div class="col-md-9 col-sm-9 main-menu-wrapper">
@@ -20,10 +20,10 @@
                         <!-- </button> -->
                         <div >
                             <ul class="main-menu ">
-                                <li><a href="aboutPage.php" style="font-size:14px">About</a></li>
-                                <li><a href="index.php#contact" style="font-size:14px">Contact</a></li>
-                                <li><a href="blog.php" style="font-size:14px">Blog</a></li>
-                                <li><a href="index.php#contact" style="font-size:14px">Feedback</a></li>
+                                <li><a href="aboutPage.php">About</a></li>
+                                <li><a href="index.php#contact">Contact</a></li>
+                                <!--<li><a href="blog.php">Blog</a></li>-->
+                                <li><a href="index.php#contact">Feedback</a></li>
                                 <?php
                             if(isset($_SESSION["user"])) {
                             ?>
@@ -59,17 +59,17 @@
                         <ul class="main-menu ">
                             <li><a href="aboutPage.php">About</a></li>
                             <li><a href="index.php#contact">Contact</a></li>
-                            <li><a href="blog.php">Blog</a></li>
+                            <!--<li><a href="blog.php">Blog</a></li>-->
                             <li><a href="index.php#contact">Feedback</a></li>
                             <?php
                         if(isset($_SESSION["user"])) {
                         ?>
                         <li class="dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">
-                                <i class="fa fa-user fa-fw"></i> <?php echo $_SESSION["user_name"];?><i class="fa fa-caret-down"></i>
+                                <i class="fa fa-user fa-fw"></i> <?php echo $_SESSION["user_name"];?>
                             </a>
                             <ul class="dropdown-menu dropdown-user">
-                                <li><a href="./editProfile.php">Edit Profile</a></li>
+                                <li><a href="./profile.php">View Profile</a></li>
                                 <li><a href="./process/process_logout.php">Logout</a></li>
                             </ul>
                             <!-- /.dropdown-user -->

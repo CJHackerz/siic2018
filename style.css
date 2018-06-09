@@ -1119,7 +1119,7 @@ a.button {
 .button.active {
     background: #3a6ee8 none repeat scroll 0 0;
     border: 1px solid #3a6ee8;
-    margin-right: 15px;
+    margin-right: 200px;
 }
 
 .button.active:hover {
@@ -1289,7 +1289,7 @@ ul.main-menu {
     color: #fff;
     display: block;
     font-family: Montserrat;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 600;
     letter-spacing: 1px;
     padding: 40px 10px;
