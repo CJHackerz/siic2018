@@ -241,6 +241,7 @@ footer{
             <input type="text" name="profile_name" id="profile_name" placeholder="Name" required>
             <!-- <input type="text" placeholder="test123"> -->
           <!--  <input type="text" name="profile_desc" id="profile_register" placeholder="Registration Number" required />-->
+          <input type="text" name="title" id="profile_title" placeholder="Title" required>
 
             <textarea class="form-control" type="textarea" rows="5" columns="5" name="profile_desc" id="profile_name" required/>Description of the announcement/ Message you want to put up</textarea>
 
