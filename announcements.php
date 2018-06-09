@@ -20,6 +20,39 @@
 	<link href="color/default.css" rel="stylesheet">
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>SIIC - Sign Up</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon Icon Add -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <!-- All STYLESHEET CSS -->
+    <link rel="stylesheet" href="css/element.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/signIn.css">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<style>
+
+ @media only screen and (max-width: 800px) {
+    .upload-picture{
+        padding-right:10%;
+        padding-left:5%;
+    }
+    .new_user{
+        padding-bottom:20%;
+    }
+
+}
+
+@media only screen and (min-width: 800px) {
+    .upload-picture{
+        padding-right:67%;
+    }
+}
+   </style>
 
 </head>
 
@@ -58,7 +91,7 @@
                     <h5 style="margin-bottom: 0px;text-align: center; font-size: 30px;"> Announcements </h5><br><center><hr style="height: 4px;"></center>
                     <p style="margin-bottom: 0px;margin-left: 3px;font-family: 'Quicksand', sans-serif;">  </p>
                     <p style="font-family: 'Quicksand', sans-serif;font-weight: bold; text-align:justify;">
-                        <h5>What for announcemnets?</h5>
+                        <h5>What for announcements?</h5>
                         <p style="text-align: justify;">Anything upcoming in the college in the next few days .
                           Post it here. If you wanna spread anything in the college you can post it here.
                           Whether its a recruitment or a carnival or a information thats needs to be shared can go up here.
