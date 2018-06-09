@@ -252,6 +252,9 @@
                         <li>
                             <a href="teams.php"><i class="fa fa-users fa-fw"></i> Teams</a>
                         </li>
+                        <li>
+                            <a href="announcement.php"><i class="fa fa-users fa-fw"></i> Announcements</a>
+                        </li>
                     </ul>
                 </div>
                 <!-- /.sidebar-collapse -->
