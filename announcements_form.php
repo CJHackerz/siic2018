@@ -249,7 +249,7 @@ footer{
 
             <label for="form-control">Image if any (Maximum size of 2MB)(JPEG, JPG, PNG)</label><br/>
             <input type="file" accept=".jpeg, .jpg, .png" name="project_bp" id="profile_avatar"/>
-            <input type="button" name="" class="next action-button" value="Submit" required />
+            <input type="button" name="commit" class="next action-button" value="Submit" required />
 
           </fieldset>
 
