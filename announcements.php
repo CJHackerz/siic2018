@@ -22,7 +22,7 @@
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>SIIC - Sign Up</title>
+    <title>SIIC - Announcements</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Favicon Icon Add -->
@@ -35,6 +35,9 @@
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <style>
+body{
+  background-color: #ffffff;
+}
 
  @media only screen and (max-width: 800px) {
     .upload-picture{
@@ -70,6 +73,7 @@
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
 <div id="wrapper">
+
     <div class="overlay"></div>
     <?php
     require "process/connect.php";
