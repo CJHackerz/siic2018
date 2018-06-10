@@ -231,7 +231,7 @@ footer{
 
 
         <div id="msform2">
-        <form role="form" class="new_user" id="new_user" action="./process/process_register.php" enctype="multipart/form-data" accept-charset="UTF-8" method="post">
+        <form role="form" class="new_user" id="new_user" action="./process/process_announce.php" enctype="multipart/form-data" accept-charset="UTF-8" method="post">
           <!-- progressbar -->
 
           <!-- fieldsets -->
@@ -249,7 +249,7 @@ footer{
 
             <label for="form-control">Image if any (Maximum size of 2MB)(JPEG, JPG, PNG)</label><br/>
             <input type="file" accept=".jpeg, .jpg, .png" name="project_bp" id="profile_avatar"/>
-            <input type="button" name="commit" class="next action-button" value="Submit" required />
+            <input type="submit" name="commit" class="next action-button" value="Submit" required />
 
           </fieldset>
 
