@@ -44,9 +44,9 @@
 
 
                             <?php  }?>
-                            <li><a href="./freelance.php">Freelance</a></li>
-                            <li><a href="./forum">Forum</a></li>
-                            <li><a href="http://mentor.srmiic.com/auth/signup.php"  style=" color: red;">Become a mentor</a></li>
+                            <li><a href="./freelance.php"style="font-size:14px">Freelance</a></li>
+                            <li><a href="./forum"style="font-size:14px;padding-left:5px">Forum</a></li>
+                            <li><a href="http://mentor.srmiic.com/auth/signup.php"  style=" color:red; font-size:14px">Become a mentor</a></li>
 
                         </ul>
 

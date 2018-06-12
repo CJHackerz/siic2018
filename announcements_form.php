@@ -13,14 +13,72 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Sign Up|SIIC</title>
+    <title>Announcement Form|SIIC</title>
 
     <!-- css -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
     <link href="css/nivo-lightbox.css" rel="stylesheet" />
     <link href="css/nivo-lightbox-theme/default/default.css" rel="stylesheet" type="text/css" />
-    <link href="css/animations.css" rel="stylesheet" />
+    <link href="css/animations.css" rel="stylesheet" /><link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+	<link href="css/nivo-lightbox.css" rel="stylesheet" />
+	<link href="css/nivo-lightbox-theme/default/default.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+	<link href="css/animations.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet">
+	<link href="color/default.css" rel="stylesheet">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon Icon Add -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <!-- All STYLESHEET CSS -->
+    <link rel="stylesheet" href="css/element.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/signIn.css">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<style>
+body{
+  background-color: #42cbf4;
+}
+
+ @media only screen and (max-width: 800px) {
+    .upload-picture{
+        padding-right:10%;
+        padding-left:5%;
+    }
+    .new_user{
+        padding-bottom:20%;
+    }
+
+}
+
+@media only screen and (min-width: 800px) {
+    .upload-picture{
+        padding-right:67%;
+    }
+}
+   </style>
+
+</head>
+
+<style type="text/css">
+  .blogHead{
+    background: url(img/blog-bg.jpg);
+    max-height:304px;
+    width: 100%;
+    text-align: center;
+    color:white;
+  }
+
+
+</style>
     <link href="css/style.css" rel="stylesheet">
     <link href="color/default.css" rel="stylesheet">
         <link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet">
@@ -31,8 +89,8 @@
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-custom" style="padding: 0px;">
-    <div id="wrapper">
-        <div class="overlay"></div>
+  <  <div id="wrapper">
+        <div class="overlay"></div>-->
   <?php
   require "process/connect.php";
   require "includes/nav.php";
@@ -114,7 +172,7 @@ footer{
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <div class="panel panel-default devise-bs">
-                    <div class="panel-body">
+                  <!--  <div class="panel-body">
                         <form role="form" class="new_user" id="new_user" action="./process/process_announce.php" enctype="multipart/form-data" accept-charset="UTF-8" method="post">
 
 
@@ -156,10 +214,49 @@ footer{
                                 <input type="submit" name="commit" value="Submit" class="btn btn-primary rightBtn" />
                             </div>
                         </form>
-                    </div>
+                    </div>-->
+
+
+
+
+
+
+
+
+
                 </div>
             </div>
+
+
+
+
+        <div id="msform2">
+        <form role="form" class="new_user" id="new_user" action="./process/process_announce.php" enctype="multipart/form-data" accept-charset="UTF-8" method="post">
+          <!-- progressbar -->
+
+          <!-- fieldsets -->
+          <fieldset >
+            <h2 class="fs-title">Create your announcement</h2>
+
+            <input type="text" name="profile_name" id="profile_name" placeholder="Name" required>
+            <!-- <input type="text" placeholder="test123"> -->
+          <!--  <input type="text" name="profile_desc" id="profile_register" placeholder="Registration Number" required />-->
+          <input type="text" name="title" id="profile_title" placeholder="Title" required>
+
+            <textarea class="form-control" type="textarea" rows="5" columns="5" name="profile_desc" id="profile_name" required/>Description of the announcement/ Message you want to put up</textarea>
+
+
+
+            <label for="form-control">Image if any (Maximum size of 2MB)(JPEG, JPG, PNG)</label><br/>
+            <input type="file" accept=".jpeg, .jpg, .png" name="project_bp" id="profile_avatar"/>
+            <input type="submit" name="commit" class="next action-button" value="Submit" required />
+
+          </fieldset>
+
+        </form>
         </div>
+</div>
+
     </div>
 </div>
 </body>
