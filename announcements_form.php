@@ -95,7 +95,7 @@
           <div class="form-group">
             <label class="col-lg-3 control-label" placeholder="Name" type="text" name="name" id="name">Name</label>
             <div class="col-lg-8">
-              <input class="form-control" placeholder="Enter Team Name" type="text" required>
+              <input class="form-control" placeholder="Enter Your Name" type="text" required>
             </div>
           </div>
 
