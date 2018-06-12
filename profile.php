@@ -1,20 +1,14 @@
-
-
-  <?php
+<?php
     include './process/connect.php';
     include './process/utils.php';
     $user = get_user();
-
     $sql = "SELECT * from users where email = '$user'";
-
     $result = $conn->query($sql);
     $row = $result->fetch_assoc();
-
         // Get user profile details
         $sql = "SELECT * from user_profiles where email = '$user'";
         $result = $conn->query($sql);
         $row = $result->fetch_assoc();
-
         $profile_name           =   $row['name'];
         $profile_register       =   $row['register_no'];
         $profile_department     =   $row['dept'];
@@ -65,88 +59,33 @@
         background-color: #f4f9fe;
     }
 /*@media only screen and (min-width: 480px) and (max-width: 767px){
-
     #navtop{
     margin-left: 20%;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-
 #navtop{
     margin-left: 20%;
   }
     }*/
-
 @media only screen and  (max-width: 767px) {
-
 #bt{
     margin-left: 0%;
   }
-
 }
 #bt{
-
     margin-left: 35%;"
 }
 #st{
-
             border-radius: 50%;
-<<<<<<< HEAD
-            border-width: 5px;
-            border-style: solid;
-            border-color: #09aacc;
-=======
             border-width: 0px;
-
->>>>>>> 952a39f11e085f4dfd19cfb7039768bc56fdaed0
-
-
 }
-
 /* @media only screen and  (max-width: 1024px){
-
   centre{
-
     padding-left: 4%;
   }
   centre1{padding-left: 8%;}
-
-
 } */
-<<<<<<< HEAD
-    </style>
-    <style>
-    .centre{
-
-      padding-left: 45%;
-    }
-    .centre1{padding-left:10%;}
-    .centre2{padding-left:43%;}
-    @media only screen and  (max-width: 900px){
-
-      .centre{
-
-        padding-left: 40%;    }
-      .centre1{padding-left: 0%;}
-      .centre2{padding-left: 36%;}
-    }
-
-  }
-
-    @media only screen and  (max-width: 400px){
-
-      .centre{
-
-        padding-left: 43%;
-      }
-      .centre1{padding-left: 8%;
-      }
-      .centre2{padding-left: 38%;}
-    }
-
-
-    </style>
-=======
     </style>
     <style>
     .but{
@@ -154,19 +93,14 @@
      }
      .rig{font-size: 18px;
      }
-
     .centre{
-
       padding-left: 45%;
     }
     .centre1{margin-left:27%;}
     .centre2{padding-left:43%;}
     .res1{margin-left: 38%;}
-
     @media only screen and  (max-width: 900px){
-
       .centre{
-
         padding-left: 32%;    }
       .centre1{margin-left: 3%;}
       .centre2{padding-left: 24%;}
@@ -178,16 +112,11 @@
 padding-right: 12px;
   }
     }
-
     @media only screen and  (max-width: 400px){
-
       .centre{
-
         margin-left: -4%;  }
       .centre1{padding-left: 0%;}
-
       .centre2{margin-left: -4%;}
-
       .res1{
       width: 100%;
     text-align: center;
@@ -197,15 +126,6 @@ padding-right: 12px;
 padding-right: 8px;
   }
     }
-
-
-
->>>>>>> 952a39f11e085f4dfd19cfb7039768bc56fdaed0
-
-</head>
-
-
-
     </style>
 
 </head>
@@ -219,7 +139,6 @@ padding-right: 8px;
 
  <!--  <div class="w3-container w3-display-container w3-padding-16">
     <i onclick="w3_close1()" class="fa fa-remove w3-hide-large w3-button w3-display-topright"></i>
-
   </div>  -->
   <!-- <div class="w3-container w3-row" style="font-size:6px;">
     <div class="w3-col s4" style="margin-left:20%;">
@@ -234,7 +153,6 @@ padding-right: 8px;
      <!--    <img class="img-thumbnail" src="./img/<?php echo $profile_avatar;?>" alt="Profile Image" />
       <span style="margin-left:8%">Welcome, <strong style="padding-top:3vh;"><?php echo $profile_name; ?></strong></span><br><br>
       <span style="margin-left:6%"><button class="btn btn-primary rightBtn" onclick="location.href='./teams.php'">Join Team</button>
-
     </div>
   <br> -->
 
@@ -246,53 +164,15 @@ padding-right: 8px;
       </style>
     <a href="./editProfile.php" class="w3-bar-item w3-button w3-padding" ><i class="fas fa-user-edit"></i> Edit Profile</a>
     <a id="viewProfile" onclick="viewProfile()" class="w3-bar-item w3-button w3-padding" ><i class="fas fa-info"></i> About</a>
-    <a data-toggle="pill"  class="w3-bar-item w3-button w3-padding" href="#menu2"><i class="fas fa-file"></i> Projects </a>
-    <a class="w3-bar-item w3-button w3-padding"><i class="fas fa-users"></i>  Teams</a>
-    <a data-toggle="pill"   class="w3-bar-item w3-button w3-padding" href="#menu3"><i class="fas fa-briefcase"></i>  Startup</a>
+    <a data-toggle="pill"  class="w3-bar-item w3-button w3-padding" href="#menu2"><i class="fas fa-file"></i> Projects </a>
+    <a class="w3-bar-item w3-button w3-padding"><i class="fas fa-users"></i>  Teams</a>
+    <a data-toggle="pill"   class="w3-bar-item w3-button w3-padding" href="#menu3"><i class="fas fa-briefcase"></i>  Startup</a>
     <a data-toggle="pill"   class="w3-bar-item w3-button w3-padding" href="#menu4"><i class="fas fa-hand-pointer"></i> Your Request</a>
-
-
   </div> -->
 <!-- </nav> -->
 
 <!-- <center> -->
 
-<<<<<<< HEAD
-<div class="centre" >
- <ul style="padding-top: 25vh;width: 100%;">
-
-        <img id="st" style="height: 100px; width: 100px;" class="img-thumbnail" src="./img/<?php echo $profile_avatar;?>" alt="Profile Image" /></ul>
-      </div>
-      <div class="centre2" >
-<ul  style="font-size: 13px;">Welcome, <strong><?php echo $profile_name; ?></strong></ul>
-      <br>
-
-    </div>
-
-<div class="tab-wrap centre1" style="padding-top: 15vh;">
-
-    <input type="radio" name="tabs" id="tab1" checked>
-    <div class="tab-label-content" id="tab1-content">
-      <label for="tab1"><a data-toggle="pill" href="#menu1">Project</label></a>
-      <div class="tab-content"></div>
-    </div>
-
-    <input type="radio" name="tabs" id="tab2">
-    <div class="tab-label-content" id="tab2-content">
-      <label for="tab2"><a data-toggle="pill" href="#menu2">Startup</label></a>
-      <div class="tab-content"></div>
-    </div>
-
-    <input type="radio" name="tabs" id="tab3">
-    <div class="tab-label-content" id="tab3-content">
-      <label for="tab3"><a data-toggle="pill" href="#menu3">Your Request</label></a>
-      <div class="tab-content"></div>
-    </div>
-
-     <input type="radio" name="tabs" id="tab4">
-     <div class="tab-label-content" id="tab4-content">
-      <label for="tab4"><a href="./editProfile.php"  >Edit Profile</label></a>
-=======
 <div class="main-wrapper">
 <div class="centre" >
  <ul style="padding-top: 25vh;width: 100%;">
@@ -324,37 +204,19 @@ padding-right: 8px;
 
      <div class="tab-label-content" id="tab4-content" style=" width:110%">
       <label for="tab4" class="rig"><a href="./editProfile.php"  >Edit Profile</label></a>
->>>>>>> 952a39f11e085f4dfd19cfb7039768bc56fdaed0
       <div class="tab-content"></div>
      </div>
 
      <div class="tab-label-content" id="tab5-content">
-<<<<<<< HEAD
-      <label for="tab5"><a data-toggle="pill" href="#menu4">About</label></a>
-      <div class="tab-content"></div>
-    </div>
-    <input type="radio" name="tabs" id="tab6">
-     <div class="tab-label-content" id="tab6-content">
-      <label for="tab6"><a data-toggle="pill" href="#menu5" >Teams</label></a>
-=======
       <label for="tab5" class="rig"><a id="viewProfile" onclick="viewProfile()"  >About</label></a>
->>>>>>> 952a39f11e085f4dfd19cfb7039768bc56fdaed0
       <div class="tab-content"></div>
     </div>
 
      <div class="tab-label-content" id="tab6-content">
-<<<<<<< HEAD
-      <label for="tab6"><a href="./teams.php" >Join Team</label></a>
-      <div class="tab-content"></div>
-    </div>
-
-
-=======
       <label for="tab6" class="rig"><a href="#"  >Teams</label></a>
       <div class="tab-content"></div>
     </div>
 
->>>>>>> 952a39f11e085f4dfd19cfb7039768bc56fdaed0
    <!--  <div class="slide"></div> -->
 
 </div>
@@ -379,7 +241,6 @@ padding-right: 8px;
 
 
 <!--  <ul class="nav nav-pills padInLaptop" style="padding-top: 25vh; overflow: hidden; white-space: nowrap;width: 100%;">
-
         <img style="height: 100px; width: 100px;margin-left: 46vw;" class="img-thumbnail" src="./img/<?php echo $profile_avatar;?>" alt="Profile Image" />
 <ul style="margin-left: 10vw;font-size: 13px;margin-left: 46vw;">Welcome, <strong><?php echo $profile_name; ?></strong></ul>
       <br>
@@ -395,28 +256,18 @@ padding-right: 8px;
     <li><a onclick="viewProfile()" >About</a></li> -->
 
 
-<<<<<<< HEAD
-        <!-- <li><a data-toggle="pill" href="#menu5" onclick="loadNotifs()">Notifications</a></li> -->
-
-
-
-
-
-=======
         <!-- <li><a data-toggle="pill"  href="#menu5" onclick="loadNotifs()">Notifications</a></li> -->
 
 
 
 
 
->>>>>>> 952a39f11e085f4dfd19cfb7039768bc56fdaed0
 
     <div class="container">
         <div class="panel panel-default" >
             <div class="panel-body">
                 <div class="tab-content">
                     <!-- <div id="menu1" class="tab-pane tab-pane fade in active">
-
                         <a class="btn btn-primary rightBtn" data-method="get" href="./newResearch.php">Apply for Research</a>
                         <br><br><br>
                         <div class="row">
@@ -425,18 +276,13 @@ padding-right: 8px;
                             <!-- </div>
                         </div>
                         <br><br>
-
                     </div> -->
 
 
-                    <div id="menu1" class="tab-pane fade in active">
+                    <div id="menu2" class="tab-pane fade in active">
                         <!--<h3>Project</h3>-->
 
-<<<<<<< HEAD
-                        <a class="button active" data-method="get" href="./newProject.php" style="margin-left:35%">Apply for Projects</a>
-=======
                         <a class="button active res1" data-method="get" href="./newProject.php">Apply for Projects</a>
->>>>>>> 952a39f11e085f4dfd19cfb7039768bc56fdaed0
                         <br><br><br>
                         <div class="row">
                             <div id="projectList">
@@ -446,7 +292,7 @@ padding-right: 8px;
                         <br><br>
                     </div>
 
-                    <div id="menu2" class="tab-pane fade">
+                    <div id="menu3" class="tab-pane fade">
                     <!--<h3>Startups</h3>-->
 
                         <a class="button active res1" data-method="get" href="./newStartup.php">Apply for Startup</a>
@@ -459,7 +305,7 @@ padding-right: 8px;
                         <br><br>
                     </div>
 
-                    <div id="menu3" class="tab-pane fade">
+                    <div id="menu4" class="tab-pane fade">
 
                         <a class="button active res1" data-method="get" href="./inventory.php">New Request</a>
                         <br>
@@ -469,47 +315,11 @@ padding-right: 8px;
                         <br><br>
                     </div>
 
-                    <div id="menu5" class="tab-pane fade">
-
-                      <br><br><br>
-                      <div class="row">
-                          <div id="">
-
-                          </div>
-                      </div>
-                      <br><br>
-                  </div>
-
-                  <div id="menu4" class="tab-pane fade">
-
-                      <br><br><br>
-                      <div class="row">
-                          <div id="">
-                              <?php
-                              $sql = "SELECT * from user_profiles where email = '$user'";
-                              $result = $conn->query($sql);
-                              $row = $result->fetch_assoc();
-                              $address=$row['address'];
-                              $skills=$row['skills'];
-                              $hobbies=$row['hobbies'];
-                              $achievements=$row['achievements'];
-                              $experience=$row['experience'];
-                              $description=$row['description'];
-                              echo "<p>Address :$address</p>";
-                              echo "<p>Skills :$skills</p>";
-                              echo "<p>Hobbies :$hobbies</p>";
-                              echo "<p>Achievements :$achievements</p>";
-                              echo "<p>Experience :$experience</p>";
-                              echo "<p>Description :$description</p>";
-
-
-                              ?>
-                          </div>
-                      </div>
-
-
-
-
+                    <!-- <div id="menu5" class="tab-pane fade">
+                        <br><br><br>
+                        <div id="notifList">
+                        </div>
+                    </div> -->
             </div>
         </div>
     </div>
@@ -556,18 +366,14 @@ padding-right: 8px;
     ?>
     <script>
     var elements = document.getElementsByClassName("tab-label-content");
-
     for(var i = 0; i < elements.length;i++)
     {
     elements[i].onclick=function(){
     var cur= document.getElementsByClassName("but");
     cur[0].classList.remove("but");
-
-
     this.classList.add("but");
     };
     }
-
 </script>
 
     <script>
@@ -587,7 +393,6 @@ padding-right: 8px;
                     $("#researchList").html(data);
                 }
             });
-
             // Project list
             $.ajax({
                 type : 'GET',
@@ -602,7 +407,6 @@ padding-right: 8px;
                     $("#projectList").html(data);
                 }
             });
-
             // Startup List
             $.ajax({
                 type : 'GET',
@@ -618,7 +422,6 @@ padding-right: 8px;
                 }
             });
         });
-
         // User notifications
         // function loadNotifs() {
         //     var uid = $("#uid").val();
@@ -637,19 +440,18 @@ padding-right: 8px;
         //         }
         //     });
         // }
-
         function viewInstructions() {
             swal("Congratulations!", "Your idea has been accepted. Contact +91 8148606827", 'info');
         }
     </script>
 
-   <!--  <script type="text/javascript">
+    <script type="text/javascript">
         // View Profile click
         function viewProfile() {
             var uid = $("#uid").val();
             window.location = "./profile.php?uid=" + uid;
         }
-    </script> -->
+    </script>
 
 </script>
 <!-- nav bar drop down script -->

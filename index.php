@@ -203,16 +203,10 @@
                                  </ul>
                               </div>
                            </div>
-<<<<<<< HEAD
-                           <div class="col-lg-4  col-md-4 col-sm-12  effect4" style="background-color:#7E7582; height:220px;;">
-
-                                       <div class="portfolio-details">
-=======
                          </div>
                            <div class="col-lg-4  col-md-4 col-sm-12  effect4" style="background-color:#7E7582; height:220px;;">
 
                                        <div class="portfolio-details" onclick="window.location='announcements.php'">
->>>>>>> 952a39f11e085f4dfd19cfb7039768bc56fdaed0
                                               <div class="portfolio-details-inner"style="padding:25% 25%">
                                                   <h4><a href="javascript:void(0)" >Announcements</a></h4>
                                                   <ul class="portfolio-category">
@@ -255,18 +249,11 @@
                                  </ul>
                               </div>
                            </div>
-<<<<<<< HEAD
-
-                           <div class="col-lg-4  col-md-4 col-sm-12 effect8" style="background-color:#7E7582; height:220px;;">
-
-                             <div class="portfolio-details">
-=======
                          </div>
 
                            <div class="col-lg-4  col-md-4 col-sm-12 effect8" style="background-color:#7E7582; height:220px;;">
 
                              <div class="portfolio-details" onclick="window.location='insights.php'">
->>>>>>> 952a39f11e085f4dfd19cfb7039768bc56fdaed0
 
                                                <div class="portfolio-details-inner"  style="padding:23% 34%">
 
@@ -373,7 +360,6 @@
           map: map
         });
       }
-
    </script>
    <?php
       if(isset($_GET['mail'])) {
