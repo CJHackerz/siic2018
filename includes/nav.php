@@ -23,7 +23,7 @@
                                 <li><a href="aboutPage.php">About</a></li>
                                 <li><a href="index.php#contact">Contact</a></li>
                                 <!--<li><a href="blog.php">Blog</a></li>-->
-                                <li><a href="index.php#contact">Feedback</a></li>
+                                <li><a href="announcements.php">Announcements</a></li>
                                 <?php
                             if(isset($_SESSION["user"])) {
                             ?>
@@ -60,7 +60,7 @@
                             <li><a href="aboutPage.php">About</a></li>
                             <li><a href="index.php#contact">Contact</a></li>
                             <!--<li><a href="blog.php">Blog</a></li>-->
-                            <li><a href="index.php#contact">Feedback</a></li>
+                            <li><a href="announcements.php">Announcements</a></li>
                             <?php
                         if(isset($_SESSION["user"])) {
                         ?>

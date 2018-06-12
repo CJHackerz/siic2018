@@ -95,7 +95,7 @@
           <div class="form-group">
             <label class="col-lg-3 control-label" placeholder="Name" type="text" name="name" id="name">Name</label>
             <div class="col-lg-8">
-              <input class="form-control" placeholder="Name" type="text" required>
+              <input class="form-control" placeholder="Enter Team Name" type="text" required>
             </div>
           </div>
 
@@ -104,7 +104,7 @@
             <div class="form-group">
             <label class="col-lg-3 control-label" placeholder="Title" type="text" name="title" id="profile_title">Title</label>
             <div class="col-lg-8">
-              <input class="form-control" type="text" placeholder="Enter Project Title" required>
+              <input class="form-control" type="text" placeholder="Enter Announcement Title" required>
             </div>
           </div>
 

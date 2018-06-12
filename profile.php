@@ -179,8 +179,8 @@ padding-right: 8px;
 
         <img id="st" style="height: 150px; width: 150px;" class="img-thumbnail" src="./img/<?php echo $profile_avatar;?>" alt="Profile Image" /></ul>
     </div><br>
-      <div class="centre2" >
-<ul  style="font-size: 18px; ">Welcome, <strong><?php echo $profile_name; ?></strong></ul>
+      <di align="center">
+<ul  style="font-size: 18px;"><strong><?php echo $profile_name; ?></strong></ul>
       <br>
 
   </div><br>
