@@ -1,305 +1,163 @@
 <?php
     include './process/connect.php';
     include './process/utils.php';
-    $user = get_user();
-    ?>
 
-<!DOCTYPE html>
-<html lang="en">
+    $user = get_user();
+?>
+<!doctype html>
+<html class="no-js" lang="zxx">
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Announcement Form|SIIC</title>
-
-    <!-- css -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-    <link href="css/nivo-lightbox.css" rel="stylesheet" />
-    <link href="css/nivo-lightbox-theme/default/default.css" rel="stylesheet" type="text/css" />
-    <link href="css/animations.css" rel="stylesheet" /><link rel="stylesheet" href="css/bootstrap.min.css">
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-	<link href="css/nivo-lightbox.css" rel="stylesheet" />
-	<link href="css/nivo-lightbox-theme/default/default.css" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
-	<link href="css/animations.css" rel="stylesheet" />
-    <link href="css/style.css" rel="stylesheet">
-	<link href="color/default.css" rel="stylesheet">
-    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
-    <link rel="icon" href="./favicon.ico" type="image/x-icon">
-    <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Announcement Form|SIIC</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Favicon Icon Add -->
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.html">
     <!-- All STYLESHEET CSS -->
     <link rel="stylesheet" href="css/element.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/responsive.css">
-    <link rel="stylesheet" href="css/signIn.css">
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<style>
-body{
-  background-color: #42cbf4;
-}
 
- @media only screen and (max-width: 800px) {
-    .upload-picture{
-        padding-right:10%;
-        padding-left:5%;
+    <style>
+    body{
+        background-color: #f4f9fe;
     }
-    .new_user{
-        padding-bottom:20%;
-    }
-
-}
+        .personal-info{
+            align:center;
+        }
 
 @media only screen and (min-width: 800px) {
-    .upload-picture{
-        padding-right:67%;
+    .file_input {
+        padding-left:50%;
+    }
+    #project_bp {
+        padding-left:30%;
     }
 }
-   </style>
 
+
+@media only screen and (max-width: 800px) {
+    #project_bp {
+        padding-left:40%;
+    }
+    .sub-btn{
+        padding-right:25%;
+    }
+}
+
+    </style>
 </head>
 
-<style type="text/css">
-  .blogHead{
-    background: url(img/blog-bg.jpg);
-    max-height:304px;
-    width: 100%;
-    text-align: center;
-    color:white;
-  }
-
-
-</style>
-    <link href="css/style.css" rel="stylesheet">
-    <link href="color/default.css" rel="stylesheet">
-        <link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet">
-        <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
-        <link rel="icon" href="./favicon.ico" type="image/x-icon">
-
-
-</head>
-
-<body id="page-top" data-spy="scroll" data-target=".navbar-custom" style="padding: 0px;">
-  <  <div id="wrapper">
-        <div class="overlay"></div>-->
-  <?php
-  require "process/connect.php";
-  require "includes/nav.php";
-  ?>
-<div id="page-content-wrapper">
-<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
-<style>
- .researchClass{
-  font-family: 'Dosis', sans-serif;
- }
-  .form-control{
-    font-size: 14px;
-line-height: 1.6em;
-border: 1px solid #eee;
--webkit-box-shadow: none;
-box-shadow: none;
-border-radius: 2px;
-border-left: 4px solid #ffc400;
-  }
-
-  .form-control:focus{
-
-    background-color: #F5F5F5;
-    border: 1px solid #ffc400;
-    border-left: 4px solid #ffc400;
-    box-shadow:none;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    -webkit-transition: border 0.5s; /* Safari */
-    transition: border 0.5s;
-
-  }
-  hr{
-    width: 10%;
-    height: 8px;
-    background-color: #ffc400;
-  }
-  textarea:focus, input:focus{
-    outline: none;
-}
-
-.rightBtn{
-  float: right;
-  background-color: #ffc400;
-  border: 2px solid #ffc400;
-}
-.rightBtn:active{
-  background-color: #ffab00;
-  border: 2px solid #ffc400;
-}
-.rightBtn:hover{
-  background-color: #ffab00;
-  border: 2px solid #ffc400;
-}
-
-footer{
-  display: none;
-}
-.inputBox{
-  height: 40px;
-  font-size: 15px;
-
-}
-.inlineTxt{
-  display: inline;
-}
-.rightInlineTxt{
-  float: right;
-}
-
-</style>
-
-<br>
-<center> <h4></h4> </center>
-<center style="margin-top: -10px;"><hr></center>
-<div style="padding: 10px;" class="researchClass">
-
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-                <div class="panel panel-default devise-bs">
-                  <!--  <div class="panel-body">
-                        <form role="form" class="new_user" id="new_user" action="./process/process_announce.php" enctype="multipart/form-data" accept-charset="UTF-8" method="post">
+<body>
+<!-- NAV BAR -->
+    <?php
+        include './includes/nav.php';
+    ?>
+<!-- NAV BAR ENDS -->
 
 
 
-                            <div class="form-group col-md-12 col-lg-12 col-sm-12 col-xs-12">
-                                <label for="profile_name">Name</label><br/>
-                                <input class="form-control" type="text" name="profile_name" id="profile_name" required/><br/>
+ <?php
+        if(isset($_GET['error'])) {
+            if($_GET['error'] == 'ext') {
+                echo '<div class="alert alert-danger" role="alert">Invalid Extension </div>';
+            }
+            if($_GET['error'] == 'size') {
+                echo '<div class="alert alert-danger" role="alert">Size of the file should be less than 2 mb </div>';
+            }
+        }
+?>
+
+    <!-- Start Main Wrapper -->
+    <div class="main-wrapper">
+        <!-- Start Main Content Wrapper -->
+        <div class="main-content-wrapper">
+            <div id="about" class="content-section-area pt-120 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
+                            <div class="main-heading-content text-center">
+                                <h2>Create Your Announcement<span>.</span></h2>
                             </div>
-
-
-                            <div class="form-group col-md-12 col-lg-12 col-sm-12 col-xs-12">
-                                <label for="title">Title</label><br/>
-                                <input type="text" class="form-control" rows="5" columns="5" name="title" id="profile_title" required/><br/>
-                            </div>
-
-
-                            <div class="form-group col-md-12 col-lg-12 col-sm-12 col-xs-12">
-                                <label for="profile_desc">Description of the announcement/ Message you want to put up</label><br/>
-                                <textarea class="form-control" type="textarea" rows="5" columns="5" name="profile_desc" id="profile_name" required/></textarea><br/>
-                            </div>
-                            <div class="form-group col-md-12 col-lg-12 col-sm-12 col-xs-12">
-                                <label for="project_bp">Image if any (Maximum size of 2MB)(JPEG, JPG, PNG)</label><br/>
-                                <input type="file" accept=".jpeg, .jpg, .png" name="project_bp" id="profile_avatar"/>
-                            </div>
-
-                            <?php
-                                if(isset($_GET['error'])) {
-                                    if($_GET['error'] == 'ext') {
-                                        echo '<div class="alert alert-danger" role="alert">Invalid Extension </div>';
-                                    }
-                                    if($_GET['error'] == 'size') {
-                                        echo '<div class="alert alert-danger" role="alert">Size of the file should be less than 2 mb </div>';
-                                    }
-                                }
-                            ?>
-
-                            <div class="form-group col-md-12 col-lg-12 col-sm-12 col-xs-12">
-
-                                <input type="submit" name="commit" value="Submit" class="btn btn-primary rightBtn" />
-                            </div>
-                        </form>
-                    </div>-->
-
-
-
-
-
-
-
-
-
+                        </div>
+                    </div>
                 </div>
+            </div>
+        </div>
+
+        <!-- FORM -->
+        <div class="col-md-8 personal-info">
+
+        <form class="form-horizontal" role="form" id="new_user" action="./process/process_announce.php" enctype="multipart/form-data" accept-charset="UTF-8" method="post">
+          <div class="form-group">
+            <label class="col-lg-3 control-label" placeholder="Name" type="text" name="name" id="name">Name</label>
+            <div class="col-lg-8">
+              <input class="form-control" placeholder="Name" type="text" required>
+            </div>
+          </div>
+
+
+
+            <div class="form-group">
+            <label class="col-lg-3 control-label" placeholder="Title" type="text" name="title" id="profile_title">Title</label>
+            <div class="col-lg-8">
+              <input class="form-control" type="text" placeholder="Enter Project Title" required>
+            </div>
+          </div>
+
+
+
+          <div class="form-group">
+            <label for="project_requirements" class="col-lg-3 control-label">Description</label>
+            <div class="col-lg-8">
+            <textarea cols="80" rows="10" class="form-control bootsy_text_area" placeholder="Description of the announcement/ Message you want to put up" name="profile_desc" id="profile_name" required></textarea>
             </div>
 
 
 
-
-        <div id="msform2">
-        <form role="form" class="new_user" id="new_user" action="./process/process_announce.php" enctype="multipart/form-data" accept-charset="UTF-8" method="post">
-          <!-- progressbar -->
-
-          <!-- fieldsets -->
-          <fieldset >
-            <h2 class="fs-title">Create your announcement</h2>
-
-            <input type="text" name="profile_name" id="profile_name" placeholder="Name" required>
-            <!-- <input type="text" placeholder="test123"> -->
-          <!--  <input type="text" name="profile_desc" id="profile_register" placeholder="Registration Number" required />-->
-          <input type="text" name="title" id="profile_title" placeholder="Title" required>
-
-            <textarea class="form-control" type="textarea" rows="5" columns="5" name="profile_desc" id="profile_name" required/>Description of the announcement/ Message you want to put up</textarea>
+          <div class="form-group text-center col-lg-13 file_input" >
+          <label for="project_bp" class="control-label">Image if any (Maximum size of 2MB)(JPEG, JPG, PNG)</label><br/>
+                    <input type="file" accept=".pdf, .ppt, .doc, .docx" name="project_bp" id="project_bp" required/><br/>
+          </div>
+          </div>
+          </div>
 
 
-
-            <label for="form-control">Image if any (Maximum size of 2MB)(JPEG, JPG, PNG)</label><br/>
-            <input type="file" accept=".jpeg, .jpg, .png" name="project_bp" id="profile_avatar"/>
-            <input type="submit" name="commit" class="next action-button" value="Submit" required />
-
-          </fieldset>
-
+          <div class="form-group text-center sub-btn" style="padding-left:25%">
+            <label class="col-md-4 control-label"></label>
+            <div class="col-md-8">
+              <input type="Submit" class="btn btn-primary" value="Create Project">
+              <span></span>
+              <input type="reset" class="btn btn-default" value="Cancel">
+            </div>
+          </div>
         </form>
-        </div>
+      </div>
+  </div>
 </div>
+<hr>
+<script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous">
+</script>
 
+         <!--form ends-->
+
+       <?php
+            include './includes/footer.php'
+        ?>
+        <!-- End Main Content Wrapper -->
     </div>
-</div>
+    <!-- End Main Wrapper -->
+    <!-- ALL JQUERY  -->
+    <script src="js/vendor/jquery-1.12.0.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDdRm-dm4ImhzWxMOy1_TyY6cQ3ZnVpw9E"></script>
+    <script src="js/minix-map.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
 </body>
-
-<?php include 'includes/footer.php';?>
-</div><!-- Page content wrapper ends -->
-</div><!-- wrapper ends -->
-    <!-- Core JavaScript Files -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.sticky.js"></script>
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/jquery.scrollTo.js"></script>
-    <script src="js/jquery.appear.js"></script>
-    <script src="js/stellar.js"></script>
-    <script src="js/nivo-lightbox.min.js"></script>
-
-    <script src="js/custom.js"></script>
-    <script src="js/css3-animate-it.js"></script>
-    <script src="contactform/contactform.js"></script>
-
-    <script src="js/moment.js"></script>
-    <script src="js/bootstrap-datetimepicker.js"></script>
-    <script src="js/sidenav.js"></script>
-
-    <script type="text/javascript">
-        $(function () {
-            $('#profile_dob').datetimepicker({
-                format: 'DD-MM-YYYY',
-                useCurrent: true,
-                icons: {
-                    time        : 'fa fa-clock-o',
-                    date        : 'fa fa-calendar',
-                    up          : 'fa fa-arrow-up',
-                    down        : 'fa fa-arrow-down',
-                    previous    : 'fa fa-arrow-left',
-                    next        : 'fa fa-arrow-right',
-                    today       : 'glyphicon glyphicon-screenshot',
-                    clear       : 'fa fa-trash-o',
-                    close       : 'fa fa-times'
-                }
-            });
-        });
-    </script>
-
 </html>
