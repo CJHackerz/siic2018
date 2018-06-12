@@ -18,19 +18,16 @@
       <link rel="stylesheet" href="css/responsive.css">
       <script src="js/vendor/modernizr-2.8.3.min.js"></script>
       <style>
-       .img-responsive{
-            height:25rem;
-            width:50rem;
-        }
-
-      @media only screen and (max-width: 800px) {
-        .img-responsive{
-            height:35rem;
-            width:40rem;
-        }
-    }
-
-
+         .img-responsive{
+         height:25rem;
+         width:50rem;
+         }
+         @media only screen and (max-width: 800px) {
+         .img-responsive{
+         height:35rem;
+         width:40rem;
+         }
+         }
       </style>
    </head>
    <body>
@@ -39,7 +36,7 @@
          <!-- NAV BAR -->
          <?php
             include './includes/nav.php';
-         ?>
+            ?>
          <!-- NAV BAR ENDS -->
          <!-- DISPLAY TEAMS -->
          <div id="blog" class="content-section-area ptb-120  gray-bg">
@@ -52,76 +49,72 @@
                      </div>
                   </div>
                </div>
-                    <div class="row-teams">
-                          <div class="col-md-3 col-sm-6" style="padding-bottom:30px;">
+               <div class="row-teams">
+                  <div class="col-md-3 col-sm-6" style="padding-bottom:30px;">
+                     <article class="blog-post">
+                        <div class="post-thumbnail">
+                           <a href="javascript:void(0)">
+                              <img class="img-responsive"  src="./teams/img/ST599b00a12e387.jpg" alt="">
+                        </div>
+                        <div class="post-content">
+                        <div class="post-content-inner" style="width:100%; height:5rem;">
+                        <center><h3 ><a href="#">SRM ROBOCON</a></h3></center>
+                        </div>
+                        </div>
+                        </a>
+                     </article>
+                  </div>
+                  <div class="row-teams">
+                     <div class="col-md-3 col-sm-6" style="padding-bottom:30px;">
+                        <article class="blog-post">
+                           <div class="post-thumbnail">
+                              <a href="javascript:void(0)">
+                                 <img class="img-responsive" src="./teams/img/ST5a054490149b6.jpg" alt="">
+                           </div>
+                           <div class="post-content">
+                           <div class="post-content-inner" style="width:100%; height:5rem;">
+                           <center><h3 ><a href="#">SquarePig</a></h3></center>
+                           </div>
+                           </div>
+                           </a>
+                        </article>
+                     </div>
+                     <div class="row-teams">
+                        <div class="col-md-3 col-sm-6" style="padding-bottom:30px;">
+                           <article class="blog-post">
+                              <div class="post-thumbnail">
+                                 <a href="javascript:void(0)">
+                                    <img class="img-responsive" src="./teams/img/ST5991918d7949c.jpg" alt="">
+                              </div>
+                              <div class="post-content">
+                              <div class="post-content-inner" style="width:100%; height:5rem;">
+                              <center><h3 ><a href="#">Cambrionics Life Science</a></h3></center>
+                              </div>
+                              </div>
+                              </a>
+                           </article>
+                        </div>
+                        <div class="row-teams">
+                           <div class="col-md-3 col-sm-6" style="padding-bottom:30px;">
                               <article class="blog-post">
-                                  <div class="post-thumbnail">
-                                      <a href="javascript:void(0)">
-                                          <img class="img-responsive"  src="./teams/img/ST599b00a12e387.jpg" alt="">
-                                  </div>
-                                  <div class="post-content">
-                                      <div class="post-content-inner" style="width:100%; height:5rem;">
-                                          <center><h3 ><a href="#">SRM ROBOCON</a></h3></center>
-                                      </div>
-                                  </div>
-                                      </a>
+                                 <div class="post-thumbnail">
+                                    <a href="javascript:void(0)">
+                                       <img class="img-responsive" src="./teams/img/ST5ac7c224055d9.jpg" alt="">
+                                 </div>
+                                 <div class="post-content">
+                                 <div class="post-content-inner" style="width:100%; height:5rem;">
+                                 <center><h3 ><a href="#">Random_name</a></h3></center>
+                                 </div>
+                                 </div>
+                                 </a>
                               </article>
-                          </div>
-
-                    <div class="row-teams">
-                          <div class="col-md-3 col-sm-6" style="padding-bottom:30px;">
-                              <article class="blog-post">
-                                  <div class="post-thumbnail">
-                                      <a href="javascript:void(0)">
-                                          <img class="img-responsive" src="./teams/img/ST5a054490149b6.jpg" alt="">
-                                  </div>
-                                  <div class="post-content">
-                                      <div class="post-content-inner" style="width:100%; height:5rem;">
-                                          <center><h3 ><a href="#">SquarePig</a></h3></center>
-                                      </div>
-                                  </div>
-                                      </a>
-                              </article>
-                          </div>
-
-                    <div class="row-teams">
-                          <div class="col-md-3 col-sm-6" style="padding-bottom:30px;">
-                              <article class="blog-post">
-                                  <div class="post-thumbnail">
-                                      <a href="javascript:void(0)">
-                                          <img class="img-responsive" src="./teams/img/ST5991918d7949c.jpg" alt="">
-                                  </div>
-                                  <div class="post-content">
-                                      <div class="post-content-inner" style="width:100%; height:5rem;">
-                                          <center><h3 ><a href="#">Cambrionics Life Science</a></h3></center>
-                                      </div>
-                                  </div>
-                                      </a>
-                              </article>
-                          </div>
-
-
-                    <div class="row-teams">
-                          <div class="col-md-3 col-sm-6" style="padding-bottom:30px;">
-                              <article class="blog-post">
-                                  <div class="post-thumbnail">
-                                      <a href="javascript:void(0)">
-                                          <img class="img-responsive" src="./teams/img/ST5ac7c224055d9.jpg" alt="">
-                                  </div>
-                                  <div class="post-content">
-                                      <div class="post-content-inner" style="width:100%; height:5rem;">
-                                          <center><h3 ><a href="#">Random_name</a></h3></center>
-                                      </div>
-                                  </div>
-                                      </a>
-                              </article>
-                          </div>
-            </div>
-            </div>
-            </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
             </div>
          </div>
-      </div>
       </div>
       </div>
       <!-- End Latest Blog Area -->
