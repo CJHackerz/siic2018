@@ -34,6 +34,7 @@
          /* background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(img/portfolio/p-1/1.jpg); */
          /* linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0));
          background-color: #FFD401; */
+          cursor:pointer;
          }
          .effect2{
          background:linear-gradient(rgba(99,187,244,0.45),rgba(99,187,244,0.75)),url(img/portfolio/p-1/2.jpg);
@@ -43,6 +44,7 @@
          /* background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(img/portfolio/p-1/2.jpg); */
          /* linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0));
          background-color: #6FC2E4; */
+         cursor:pointer;
          }
          .effect3{
          /* background:linear-gradient(rgba(38,187,220,0.45),rgba(38,187,220,0.75)),url(img/portfolio/p-1/3.jpg); */
@@ -88,6 +90,7 @@
          /* background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(img/feedback.jpg); */
          /* linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0));
          background-color: #666F78; */
+          cursor:pointer;
          }
          .effect8{
          /* background:linear-gradient(rgba(38,187,220,0.45),rgba(38,187,220,0.75)),url(img/insights.jpg); */
@@ -97,6 +100,7 @@
          /* background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(img/portfolio/p-1/2.jpg); */
          /* linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0));
          background-color: #8DDBED; */
+         cursor:pointer;
          }
       </style>
    </head>
@@ -169,7 +173,7 @@
                   <div class="row portfolio-content  ">
                      <div class="col-lg-12 ">
                         <div class="col-lg-6 col-md-6 col-sm-12 effect1 " style="height:220px;;">
-                           <div class="portfolio-details">
+                           <div class="portfolio-details" onclick="window.location='teams.php'">
                               <div class="portfolio-details-inner" style="padding:15% 34%">
                                  <h4><a href="javascript:void(0)">Tech Teams</a></h4>
                                  <ul class="portfolio-category">
@@ -179,7 +183,7 @@
                            </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12  effect2" style=" height:220px;; ">
-                           <div class="portfolio-details">
+                           <div class="portfolio-details" onclick="window.location='newStartup.php'">
                               <div class="portfolio-details-inner" style="padding:15% 34%">
                                  <h4><a href="javascript:void(0)">SIIC Start-ups</a></h4>
                                  <ul class="portfolio-category">
@@ -199,9 +203,16 @@
                                  </ul>
                               </div>
                            </div>
+<<<<<<< HEAD
                            <div class="col-lg-4  col-md-4 col-sm-12  effect4" style="background-color:#7E7582; height:220px;;">
 
                                        <div class="portfolio-details">
+=======
+                         </div>
+                           <div class="col-lg-4  col-md-4 col-sm-12  effect4" style="background-color:#7E7582; height:220px;;">
+
+                                       <div class="portfolio-details" onclick="window.location='announcements.php'">
+>>>>>>> 952a39f11e085f4dfd19cfb7039768bc56fdaed0
                                               <div class="portfolio-details-inner"style="padding:25% 25%">
                                                   <h4><a href="javascript:void(0)" >Announcements</a></h4>
                                                   <ul class="portfolio-category">
@@ -222,7 +233,7 @@
                                                 </div>
                                             </div>
                            </div>
-                        </div>
+
                         <div class="col-lg-6 col-md-6 col-sm-12  effect6" style="background-color:#C4ABA4; height:220px;;">
                            <div class="portfolio-details">
                               <div class="portfolio-details-inner" style="padding:13% 34%">
@@ -236,7 +247,7 @@
                      </div>
                      <div class="col-lg-12">
                         <div class="col-lg-8 col-md-8 col-sm-12  effect7" style="background-color:#84B79B; height:220px;;">
-                           <div class="portfolio-details">
+                           <div class="portfolio-details" onclick="window.location='index.php#contact'">
                               <div class="portfolio-details-inner" style="padding:13% 34%">
                                  <h4><a href="javascript:void(0)" >Feedback</a></h4>
                                  <ul class="portfolio-category">
@@ -244,10 +255,18 @@
                                  </ul>
                               </div>
                            </div>
+<<<<<<< HEAD
 
                            <div class="col-lg-4  col-md-4 col-sm-12 effect8" style="background-color:#7E7582; height:220px;;">
 
                              <div class="portfolio-details">
+=======
+                         </div>
+
+                           <div class="col-lg-4  col-md-4 col-sm-12 effect8" style="background-color:#7E7582; height:220px;;">
+
+                             <div class="portfolio-details" onclick="window.location='insights.php'">
+>>>>>>> 952a39f11e085f4dfd19cfb7039768bc56fdaed0
 
                                                <div class="portfolio-details-inner"  style="padding:23% 34%">
 

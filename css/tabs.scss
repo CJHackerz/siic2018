@@ -65,8 +65,9 @@ input[type="radio"][name="tabs"] {
 
 label {
   cursor: pointer;
-  color: rgba(255,255,255,0.8);
-  background-color: $cyan;
+  // color: rgba(25,25,255,0.8);
+  // color:black;
+  // background-color: $cyan;
   box-sizing: border-box;
   display: inline-flex;
   align-items: center;
@@ -95,6 +96,7 @@ label {
     left: 16px;
     line-height: 130%;
     display: none;
+
   }
 }
 
@@ -121,7 +123,7 @@ label {
   white-space: nowrap;
   padding: 13px;
   box-sizing: border-box;
-  color: white;
+  color: black;
   transition: all 0.2s ease;
   font-family: Roboto, sans-serif;
   text-decoration: none;
