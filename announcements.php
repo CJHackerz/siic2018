@@ -10,6 +10,10 @@
     <title>Announcements|SIIC</title>
 
     <!-- css -->
+    <link rel="stylesheet" href="css/element.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
 	<link href="css/nivo-lightbox.css" rel="stylesheet" />
@@ -72,30 +76,37 @@ body{
 </style>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
-<div id="wrapper">
+  <?php
+     require 'process/connect.php';
+     include 'includes/nav.php' ?>
+
+<div id="main-wrapper">
+
 
     <div class="overlay"></div>
-    <?php
-    require "process/connect.php";
-    require "includes/nav.php";
-    ?>
+
     <div id="page-content-wrapper">
-        <div class="container container-fluid blogHead">
+        <!-- <div class="container blogHead">
 
           <div class="row" style="padding: 0px;">
             <h2 style="font-family: 'Quicksand', sans-serif;font-weight: bold;color:white;"></h2>
           </div>
 
+        </div> -->
+        <div class="container" style="margin-top:130px; margin-bottom:-30px;">
+            <div class="row">
+                <div class="col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
+                    <div class="main-heading-content text-center">
+                        <h2> Announcements<span>.</span></h2>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <div class="container-fluid" style="padding:30px 100px 30px 100px">
+        <div class="container">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
 
-                    <h5 style="margin-bottom: 0px;text-align: center; font-size: 30px;"> Announcements </h5><br><center><hr style="height: 4px;"></center>
-                    <p style="margin-bottom: 0px;margin-left: 3px;font-family: 'Quicksand', sans-serif;">  </p>
-                    <p style="font-family: 'Quicksand', sans-serif;font-weight: bold; text-align:justify;">
-                        <h5>What for announcements?</h5>
                         <p style="text-align: justify;">Anything upcoming in the college in the next few days .
                           Post it here. If you wanna spread anything in the college you can post it here.
                           Whether its a recruitment or a carnival or a information thats needs to be shared can go up here.
@@ -179,6 +190,11 @@ body{
 
 
     <!-- Core JavaScript Files -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script src="js/vendor/jquery-1.12.0.min.js"></script>
+    <script src="js/minix-map.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.sticky.js"></script>
@@ -188,7 +204,7 @@ body{
     <script src="js/stellar.js"></script>
     <script src="js/nivo-lightbox.min.js"></script>
     <script src="js/sidenav.js"></script>
-
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="js/custom.js"></script>
     <script src="js/css3-animate-it.js"></script>
 
