@@ -22,6 +22,9 @@
          height:25rem;
          width:50rem;
          }
+
+         
+
          @media only screen and (max-width: 800px) {
          .img-responsive{
          height:35rem;
@@ -58,11 +61,15 @@
                         </div>
                         <div class="post-content">
                         <div class="post-content-inner" style="width:100%; height:5rem;">
-                        <center><h3 ><a href="#">SRM ROBOCON</a></h3></center>
+                        <center><h3 ><a href="#">Team 1.618</a></h3></center>
                         </div>
                         </div>
                         </a>
                      </article>
+
+
+
+
                   </div>
                   <div class="row-teams">
                      <div class="col-md-3 col-sm-6" style="padding-bottom:30px;">
@@ -73,11 +80,14 @@
                            </div>
                            <div class="post-content">
                            <div class="post-content-inner" style="width:100%; height:5rem;">
-                           <center><h3 ><a href="#">SquarePig</a></h3></center>
+                           <center><h3 ><a href="#">UAV</a></h3></center>
                            </div>
                            </div>
                            </a>
                         </article>
+
+
+
                      </div>
                      <div class="row-teams">
                         <div class="col-md-3 col-sm-6" style="padding-bottom:30px;">
@@ -88,11 +98,14 @@
                               </div>
                               <div class="post-content">
                               <div class="post-content-inner" style="width:100%; height:5rem;">
-                              <center><h3 ><a href="#">Cambrionics Life Science</a></h3></center>
+                              <center><h3 ><a href="#">Witty Feed</a></h3></center>
                               </div>
                               </div>
                               </a>
                            </article>
+
+
+
                         </div>
                         <div class="row-teams">
                            <div class="col-md-3 col-sm-6" style="padding-bottom:30px;">
@@ -103,19 +116,411 @@
                                  </div>
                                  <div class="post-content">
                                  <div class="post-content-inner" style="width:100%; height:5rem;">
-                                 <center><h3 ><a href="#">Random_name</a></h3></center>
+                                 <center><h3 ><a href="#">SRMKZILLA</a></h3></center>
                                  </div>
                                  </div>
                                  </a>
                               </article>
+
+
+
+                              </div>
+                              <div class="row-teams">
+                           <div class="col-md-3 col-sm-6" style="padding-bottom:30px; padding-top:30px;">
+                              <article class="blog-post">
+                                 <div class="post-thumbnail">
+                                    <a href="javascript:void(0)">
+                                       <img class="img-responsive" src="./teams/img/random2.jpg" alt="">
+                                 </div>
+                                 <div class="post-content">
+                                 <div class="post-content-inner" style="width:100%; height:5rem;">
+                                 <center><h3 ><a href="#">SRM Team 1</a></h3></center>
+                                 </div>
+                                 </div>
+                                 </div>
+                                 </a>
+                              </article>
+
+
+                              </div>
+                              <div class="row-teams">
+                           <div class="col-md-3 col-sm-6" style="padding-bottom:30px; padding-top:30px;">
+                              <article class="blog-post">
+                                 <div class="post-thumbnail">
+                                    <a href="javascript:void(0)">
+                                       <img class="img-responsive" src="./teams/img/random3.png" alt="">
+                                 </div>
+                                 <div class="post-content">
+                                 <div class="post-content-inner" style="width:100%; height:5rem;">
+                                 <center><h3 ><a href="#">Fab Lab</a></h3></center>
+                                 </div>
+                                 </div>
+                                 </div>
+                                 </a>
+                              </article>
+
+
+                                  </div>
+                              <div class="row-teams">
+                           <div class="col-md-3 col-sm-6" style="padding-bottom:30px; padding-top:30px;">
+                              <article class="blog-post">
+                                 <div class="post-thumbnail">
+                                    <a href="javascript:void(0)">
+                                       <img class="img-responsive" src="./teams/img/random4.png" alt="">
+                                 </div>
+                                 <div class="post-content">
+                                 <div class="post-content-inner" style="width:100%; height:5rem;">
+                                 <center><h3 ><a href="#">SCRO</a></h3></center>
+                                 </div>
+                                 </div>
+                                 </div>
+                                 </a>
+                              </article>
+
+
+
+                                   </div>
+                              <div class="row-teams">
+                           <div class="col-md-3 col-sm-6" style="padding-bottom:30px; padding-top:30px;">
+                              <article class="blog-post">
+                                 <div class="post-thumbnail">
+                                    <a href="javascript:void(0)">
+                                       <img class="img-responsive" src="./teams/img/random5.png" alt="">
+                                 </div>
+                                 <div class="post-content">
+                                 <div class="post-content-inner" style="width:100%; height:5rem;">
+                                 <center><h3 ><a href="#">ROV</a></h3></center>
+                                 </div>
+                                 </div>
+                                 </div>
+                                 </a>
+                              </article>
+
+
+
+                                      </div>
+                              <div class="row-teams">
+                           <div class="col-md-3 col-sm-6" style="padding-bottom:30px; padding-top:30px;">
+                              <article class="blog-post">
+                                 <div class="post-thumbnail">
+                                    <a href="javascript:void(0)">
+                                       <img class="img-responsive" src="./teams/img/random6.jpg" alt="">
+                                 </div>
+                                 <div class="post-content">
+                                 <div class="post-content-inner" style="width:100%; height:5rem;">
+                                 <center><h3 ><a href="#">Rudra</a></h3></center>
+                                 </div>
+                                 </div>
+                                 </div>
+                                 </a>
+                              </article>
+
+
+
+                                       </div>
+                              <div class="row-teams">
+                           <div class="col-md-3 col-sm-6" style="padding-bottom:30px; padding-top:30px;">
+                              <article class="blog-post">
+                                 <div class="post-thumbnail">
+                                    <a href="javascript:void(0)">
+                                       <img class="img-responsive" src="./teams/img/random7.jpg" alt="">
+                                 </div>
+                                 <div class="post-content">
+                                 <div class="post-content-inner" style="width:100%; height:5rem;">
+                                 <center><h3 ><a href="#">Next-Tech</a></h3></center>
+                                 </div>
+                                 </div>
+                                 </div>
+                                 </a>
+                              </article>
+
+
+
+
+
+                                       </div>
+                              <div class="row-teams">
+                           <div class="col-md-3 col-sm-6" style="padding-bottom:30px; padding-top:30px;">
+                              <article class="blog-post">
+                                 <div class="post-thumbnail">
+                                    <a href="javascript:void(0)">
+                                       <img class="img-responsive" src="./teams/img/random8.jpg" alt="">
+                                 </div>
+                                 <div class="post-content">
+                                 <div class="post-content-inner" style="width:100%; height:5rem;">
+                                 <center><h3 ><a href="#">Robocon</a></h3></center>
+                                 </div>
+                                 </div>
+                                 </div>
+                                 </a>
+                              </article>
+
+
+
+
+
+                                       </div>
+                              <div class="row-teams">
+                           <div class="col-md-3 col-sm-6" style="padding-bottom:30px; padding-top:30px;">
+                              <article class="blog-post">
+                                 <div class="post-thumbnail">
+                                    <a href="javascript:void(0)">
+                                       <img class="img-responsive" src="./teams/img/random9.jpg" alt="">
+                                 </div>
+                                 <div class="post-content">
+                                 <div class="post-content-inner" style="width:100%; height:5rem;">
+                                 <center><h3 ><a href="#">Humanoid</a></h3></center>
+                                 </div>
+                                 </div>
+                                 </div>
+                                 </a>
+                              </article>
+
+
+
+
+
+
+                                       </div>
+                              <div class="row-teams">
+                           <div class="col-md-3 col-sm-6" style="padding-bottom:30px; padding-top:30px;">
+                              <article class="blog-post">
+                                 <div class="post-thumbnail">
+                                    <a href="javascript:void(0)">
+                                       <img class="img-responsive" src="./teams/img/random11.png" alt="">
+                                 </div>
+                                 <div class="post-content">
+                                 <div class="post-content-inner" style="width:100%; height:5rem;">
+                                 <center><h3 ><a href="#">Hybrutos</a></h3></center>
+                                 </div>
+                                 </div>
+                                 </div>
+                                 </a>
+                              </article>
+
+
+
+
+
+
+                                       </div>
+                              <div class="row-teams">
+                           <div class="col-md-3 col-sm-6" style="padding-bottom:30px; padding-top:30px;">
+                              <article class="blog-post">
+                                 <div class="post-thumbnail">
+                                    <a href="javascript:void(0)">
+                                       <img class="img-responsive" src="./teams/img/random12.png" alt="">
+                                 </div>
+                                 <div class="post-content">
+                                 <div class="post-content-inner" style="width:100%; height:5rem;">
+                                 <center><h3 ><a href="#">Canoe</a></h3></center>
+                                 </div>
+                                 </div>
+                                 </div>
+                                 </a>
+                              </article>
+
+
+
+
+
+                                       </div>
+                              <div class="row-teams">
+                           <div class="col-md-3 col-sm-6" style="padding-bottom:30px; padding-top:30px;">
+                              <article class="blog-post">
+                                 <div class="post-thumbnail">
+                                    <a href="javascript:void(0)">
+                                       <img class="img-responsive" src="./teams/img/random13.jpg" alt="">
+                                 </div>
+                                 <div class="post-content">
+                                 <div class="post-content-inner" style="width:100%; height:5rem;">
+                                 <center><h3 ><a href="#">Conrods</a></h3></center>
+                                 </div>
+                                 </div>
+                                 </div>
+                                 </a>
+                              </article>
+
+
+
+
+
+                                       </div>
+                              <div class="row-teams">
+                           <div class="col-md-3 col-sm-6" style="padding-bottom:30px; padding-top:30px;">
+                              <article class="blog-post">
+                                 <div class="post-thumbnail">
+                                    <a href="javascript:void(0)">
+                                       <img class="img-responsive" src="./teams/img/random14.jpg" alt="">
+                                 </div>
+                                 <div class="post-content">
+                                 <div class="post-content-inner" style="width:100%; height:5rem;">
+                                 <center><h3 ><a href="#">Camber Racing</a></h3></center>
+                                 </div>
+                                 </div>
+                                 </div>
+                                 </a>
+                              </article>
+
+
+
+
+                                       </div>
+                              <div class="row-teams">
+                           <div class="col-md-3 col-sm-6" style="padding-bottom:30px; padding-top:30px;">
+                              <article class="blog-post">
+                                 <div class="post-thumbnail">
+                                    <a href="javascript:void(0)">
+                                       <img class="img-responsive" src="./teams/img/random15.png" alt="">
+                                 </div>
+                                 <div class="post-content">
+                                 <div class="post-content-inner" style="width:100%; height:5rem;">
+                                 <center><h3 ><a href="#">AUV</a></h3></center>
+                                 </div>
+                                 </div>
+                                 </div>
+                                 </a>
+                              </article>
+
+
+
+
+
+                                       </div>
+                              <div class="row-teams">
+                           <div class="col-md-3 col-sm-6" style="padding-bottom:30px; padding-top:30px;">
+                              <article class="blog-post">
+                                 <div class="post-thumbnail">
+                                    <a href="javascript:void(0)">
+                                       <img class="img-responsive" src="./teams/img/random16.jpg" alt="">
+                                 </div>
+                                 <div class="post-content">
+                                 <div class="post-content-inner" style="width:100%; height:5rem;">
+                                 <center><h3 ><a href="#">ASV</a></h3></center>
+                                 </div>
+                                 </div>
+                                 </div>
+                                 </a>
+                              </article>
+
+
+
+
+                                       </div>
+                              <div class="row-teams">
+                           <div class="col-md-3 col-sm-6" style="padding-bottom:30px; padding-top:30px;">
+                              <article class="blog-post">
+                                 <div class="post-thumbnail">
+                                    <a href="javascript:void(0)">
+                                       <img class="img-responsive" src="./teams/img/random17.jpg" alt="">
+                                 </div>
+                                 <div class="post-content">
+                                 <div class="post-content-inner" style="width:100%; height:5rem;">
+                                 <center><h3 ><a href="#">42labs</a></h3></center>
+                                 </div>
+                                 </div>
+                                 </div>
+                                 </a>
+                              </article>
+
+
+
+
+
+                                       </div>
+                              <div class="row-teams">
+                           <div class="col-md-3 col-sm-6" style="padding-bottom:30px; padding-top:30px;">
+                              <article class="blog-post">
+                                 <div class="post-thumbnail">
+                                    <a href="javascript:void(0)">
+                                       <img class="img-responsive" src="./teams/img/random20.jpg" alt="">
+                                 </div>
+                                 <div class="post-content">
+                                 <div class="post-content-inner" style="width:100%; height:5rem;">
+                                 <center><h3 ><a href="#">Enigmatic Plodder</a></h3></center>
+                                 </div>
+                                 </div>
+                                 </div>
+                                 </a>
+                              </article>
+
+
+
+
+
+
+                                       </div>
+                              <div class="row-teams">
+                           <div class="col-md-3 col-sm-6" style="padding-bottom:30px; padding-top:30px;">
+                              <article class="blog-post">
+                                 <div class="post-thumbnail">
+                                    <a href="javascript:void(0)">
+                                       <img class="img-responsive" src="./teams/img/random21.jpg" alt="">
+                                 </div>
+                                 <div class="post-content">
+                                 <div class="post-content-inner" style="width:100%; height:5rem;">
+                                 <center><h3 ><a href="#">Dosamatic</a></h3></center>
+                                 </div>
+                                 </div>
+                                 </div>
+                                 </a>
+                              </article>
+
+
+
+
+
+                                       </div>
+                              <div class="row-teams">
+                           <div class="col-md-3 col-sm-6" style="padding-bottom:30px; padding-top:30px;">
+                              <article class="blog-post">
+                                 <div class="post-thumbnail">
+                                    <a href="javascript:void(0)">
+                                       <img class="img-responsive" src="./teams/img/random22.jpg" alt="">
+                                 </div>
+                                 <div class="post-content">
+                                 <div class="post-content-inner" style="width:100%; height:5rem;">
+                                 <center><h3 ><a href="#">4Ze</a></h3></center>
+                                 </div>
+                                 </div>
+                                 </div>
+                                 </a>
+                              </article>
+
+
+
+
+
+                                       </div>
+                              <div class="row-teams">
+                           <div class="col-md-3 col-sm-6" style="padding-bottom:30px; padding-top:30px;">
+                              <article class="blog-post">
+                                 <div class="post-thumbnail">
+                                    <a href="javascript:void(0)">
+                                       <img class="img-responsive" src="./teams/img/random23.jpg" alt="">
+                                 </div>
+                                 <div class="post-content">
+                                 <div class="post-content-inner" style="width:100%; height:5rem;">
+                                 <center><h3 ><a href="#">Elecruiser</a></h3></center>
+                                 </div>
+                                 </div>
+                                 </div>
+                                 </a>
+                              </article>
+
+
+
+
                            </div>
                         </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+            
+      
       </div>
       <!-- End Latest Blog Area -->
       <!-- Start Footer Section -->
