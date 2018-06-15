@@ -63,7 +63,7 @@
                   VALUES('$announce_id', '$title', '$desc','$name', '$user', '$team','$project_bp')";
 
                   if($conn->query($sql)) {
-                      move_uploaded_file($file_tmp, "../uploads/project/" . $project_bp);
+                      move_uploaded_file($file_tmp, "../uploads/announces/" . $project_bp);
                       $result = $mgClient->sendMessage($domain, array(
                       'from'    =>    'SRMIIC NoReply <noreply@srmiic.com>',
                       'to'      =>    'Hello User <' . $_SESSION['user'] . '>',

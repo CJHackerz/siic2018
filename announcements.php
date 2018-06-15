@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>About Us</title>
+    <title>Announcements</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Favicon Icon Add -->
@@ -104,6 +104,10 @@ body{
             <h5 style="margin-bottom: 0px;text-align: center; font-size: 30px;"> Latest Announces </h5><br><center><hr style="height: 4px;"></center>
             <br>
             <br>
+            <br>
+            <br>
+            <br>
+            <br>
             <?php
                 if(isset($_GET['error'])) {
                     if($_GET['error'] == 'success') {
@@ -121,22 +125,49 @@ body{
                   {
                   if($row['status']=='accepted')
                   {
-                    echo '
-                    <center><hr style="height: 4px;"></center>
-                    <center><h3> '.$row['announce_title'] .'</h3></center>
-                    <div class="row">';
-                      if(!empty($row['project_bp']))
-                      {
-                        echo '<div class="col-sm-4 col-md-4 col-lg-4 col-xs-12" style="text-align:center;">
-                            <a href="http://www.srmuniv.ac.in/dr-c-muthamizhchelvan"><img class="img-responsive img-circle" src="../uploads/project/" . '.$row['project_bp'].'" style="width: auto; height:200px;"></a>
+                    echo '<div class="row">
+                       <div class="col-md-4 col-sm-5 col-md-offset-1 " style="margin-top:-100px;">
+                          <article class="blog-post">';
+                          if(!empty($row['project_bp']))
+                          {
+                             echo '<div class="post-thumbnail">
 
-                        </div>';
-                      }
-                        echo '<div class="col-sm-8 col-md-8 col-lg-8 col-xs-12" style="text-align:justify">
-                            <p style=" font-style: italic;">" '.$row['announce_deescription'].' "</p>
-                            <p align="right" style=" font-style: italic;">-'.$row['name'].'</p>
-                        </div>
+                                <img style="margin:auto;" class="img-responsive" src="./uploads/announces/'.$row['project_bp'].'" alt="no image">
+
+                             </div>';
+                           }
+                             echo '<div class="post-content">
+                                <div class="post-content-inner">
+                                   <center>
+                                      <h3>'.$row['announce_title'].'</h3>
+                                   </center>
+                                </div>
+                             </div>
+                          </article>
+                       </div>
+                       <div class="col-md-5 col-sm-5 col-md-offset-1 ">
+                          <center>
+                             <p>
+                                '.$row['announce_deescription'].'
+                             </p>
+                          </center>
+                       </div>
+                       <div class="col-md-5 col-sm-5 col-md-offset-1 align="right" ">
+
+                             <p>
+                                '.$row['announce_deescription'].'
+                             </p>
+
+                       </div>
                     </div>';
+                    echo '<br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>';
+
                   }
                 }
               }
