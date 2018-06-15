@@ -70,7 +70,7 @@
               <fieldset >
                 <h2 class="fs-title">Create your account</h2>
                 <h3 class="fs-subtitle">This is step 1</h3>
-                <label class="upload-picture">Upload your picture</label>
+                <label class="upload-picture">Upload your picture (less than 2MB)</label>
                 <input type="file" accept=".jpeg, .jpg, .png" name="profile_avatar" id="profile_avatar" value="Select your profile Photo">
                 <input type="text" name="profile_name" id="profile_name" placeholder="Name" required>
                 <!-- <input type="text" placeholder="test123"> -->
