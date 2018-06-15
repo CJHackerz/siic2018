@@ -89,7 +89,7 @@
     </style>
     <style>
     .but{
-       border-bottom: 3px solid #3A6EE8;
+       border-bottom: 3px solid #F5BA54;
      }
      .rig{font-size: 18px;
      }
@@ -102,7 +102,7 @@
     @media only screen and  (max-width: 900px){
       .centre{
         padding-left: 32%;    }
-      .centre1{margin-left: 3%;}
+      .centre1{margin-left:12%;}
       .centre2{padding-left: 24%;}
       .res1{
       width: 100%;
