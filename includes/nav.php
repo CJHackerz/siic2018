@@ -1,6 +1,5 @@
 <?php
-
-  @session_start();
+    @session_start();
 ?>
 <header>
     <div id="sticky-header" class="header-area header-style-two sticky gray-bg sticky">

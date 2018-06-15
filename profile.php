@@ -177,7 +177,7 @@ padding-right: 8px;
 <div class="centre" >
  <ul style="padding-top: 25vh;width: 100%;">
 
-        <img id="st" style="height: 150px; width: 150px;" class="img-thumbnail" src="./img/<?php echo $profile_avatar;?>" alt="Profile Image" /></ul>
+        <img id="st" style="height: 150px; width: 150px;" class="img-thumbnail" src="./img/profiles/<?php echo $profile_avatar;?>" alt="Profile Image" /></ul>
     </div><br>
       <div class="centre2" >
 <ul  style="font-size: 18px; ">Welcome, <strong><?php echo $profile_name; ?></strong></ul>

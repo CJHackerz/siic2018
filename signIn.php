@@ -24,7 +24,11 @@
     <link rel="stylesheet" href="css/signIn.css">
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-
+    <style media="screen">
+    .ti-arrow-up:before {
+        content: none;
+    }
+    </style>
 </head>
 
 <body>
@@ -67,28 +71,23 @@
               </fieldset>
 
             </form>
-            </div>
-
-        <?php include 'includes/footer.php' ?>
-        <style>
-           .footer {
-           position: fixed;
-           left: 0;
-           bottom: 0;
-           width: 100%;
-           background-color:#333;
-           color: white;
-           text-align: center;
-           }
-           .copyright{
-               margin-bottom: 1em;
-           }
-        </style>
+        </div>
         </div>
         <!-- End Main Content Wrapper -->
     </div>
     <!-- End Main Wrapper -->
-
+    <?php include 'includes/footer.php' ?>
+    <style>
+       .footer {
+       position: fixed;
+       left: 0;
+       bottom: 0;
+       width: 100%;
+       background-color:#333;
+       color: white;
+       text-align: center;
+       }
+    </style>
     <!-- ALL JQUERY  -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
     <script src="js/vendor/jquery-1.12.0.min.js"></script>
