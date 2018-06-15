@@ -27,7 +27,7 @@
 
          @media only screen and (max-width: 800px) {
          .img-responsive{
-         height:35rem;
+         height:20rem;
          width:40rem;
          }
          }
@@ -56,7 +56,7 @@
                      <article class="blog-post">
                         <div class="post-thumbnail">
                            <a href="javascript:void(0)">
-                              <img class="img-responsive"  src="./teams/img/ST599b00a12e387.jpg" alt="">
+                              <img class="img-responsive"  src="./teams/img/random3.png" alt="">
                         </div>
                         <div class="post-content">
                         <div class="post-content-inner" style="width:100%; height:5rem;">
@@ -75,7 +75,7 @@
                         <article class="blog-post">
                            <div class="post-thumbnail">
                               <a href="javascript:void(0)">
-                                 <img class="img-responsive" src="./teams/img/ST5a054490149b6.jpg" alt="">
+                                 <img class="img-responsive" src="./teams/img/random3.png" alt="">
                            </div>
                            <div class="post-content">
                            <div class="post-content-inner" style="width:100%; height:5rem;">
@@ -93,7 +93,7 @@
                            <article class="blog-post">
                               <div class="post-thumbnail">
                                  <a href="javascript:void(0)">
-                                    <img class="img-responsive" src="./teams/img/ST5991918d7949c.jpg" alt="">
+                                    <img class="img-responsive" src="./teams/img/random3.png" alt="">
                               </div>
                               <div class="post-content">
                               <div class="post-content-inner" style="width:100%; height:5rem;">
@@ -111,7 +111,7 @@
                               <article class="blog-post">
                                  <div class="post-thumbnail">
                                     <a href="javascript:void(0)">
-                                       <img class="img-responsive" src="./teams/img/ST5ac7c224055d9.jpg" alt="">
+                                       <img class="img-responsive" src="./teams/img/random3.png" alt="">
                                  </div>
                                  <div class="post-content">
                                  <div class="post-content-inner" style="width:100%; height:5rem;">
@@ -129,7 +129,7 @@
                               <article class="blog-post">
                                  <div class="post-thumbnail">
                                     <a href="javascript:void(0)">
-                                       <img class="img-responsive" src="./teams/img/random2.jpg" alt="">
+                                       <img class="img-responsive" src="./teams/img/random3.png" alt="">
                                  </div>
                                  <div class="post-content">
                                  <div class="post-content-inner" style="width:100%; height:5rem;">
@@ -165,7 +165,7 @@
                               <article class="blog-post">
                                  <div class="post-thumbnail">
                                     <a href="javascript:void(0)">
-                                       <img class="img-responsive" src="./teams/img/random4.png" alt="">
+                                       <img class="img-responsive" src="./teams/img/random3.png" alt="">
                                  </div>
                                  <div class="post-content">
                                  <div class="post-content-inner" style="width:100%; height:5rem;">
@@ -184,7 +184,7 @@
                               <article class="blog-post">
                                  <div class="post-thumbnail">
                                     <a href="javascript:void(0)">
-                                       <img class="img-responsive" src="./teams/img/random5.png" alt="">
+                                       <img class="img-responsive" src="./teams/img/random3.png" alt="">
                                  </div>
                                  <div class="post-content">
                                  <div class="post-content-inner" style="width:100%; height:5rem;">
@@ -203,7 +203,7 @@
                               <article class="blog-post">
                                  <div class="post-thumbnail">
                                     <a href="javascript:void(0)">
-                                       <img class="img-responsive" src="./teams/img/random6.jpg" alt="">
+                                       <img class="img-responsive" src="./teams/img/random3.png" alt="">
                                  </div>
                                  <div class="post-content">
                                  <div class="post-content-inner" style="width:100%; height:5rem;">
@@ -222,7 +222,7 @@
                               <article class="blog-post">
                                  <div class="post-thumbnail">
                                     <a href="javascript:void(0)">
-                                       <img class="img-responsive" src="./teams/img/random7.jpg" alt="">
+                                       <img class="img-responsive" src="./teams/img/random3.png" alt="">
                                  </div>
                                  <div class="post-content">
                                  <div class="post-content-inner" style="width:100%; height:5rem;">
@@ -243,7 +243,7 @@
                               <article class="blog-post">
                                  <div class="post-thumbnail">
                                     <a href="javascript:void(0)">
-                                       <img class="img-responsive" src="./teams/img/random8.jpg" alt="">
+                                       <img class="img-responsive" src="./teams/img/random3.png" alt="">
                                  </div>
                                  <div class="post-content">
                                  <div class="post-content-inner" style="width:100%; height:5rem;">
@@ -264,7 +264,7 @@
                               <article class="blog-post">
                                  <div class="post-thumbnail">
                                     <a href="javascript:void(0)">
-                                       <img class="img-responsive" src="./teams/img/random9.jpg" alt="">
+                                       <img class="img-responsive" src="./teams/img/random3.png" alt="">
                                  </div>
                                  <div class="post-content">
                                  <div class="post-content-inner" style="width:100%; height:5rem;">
@@ -286,7 +286,7 @@
                               <article class="blog-post">
                                  <div class="post-thumbnail">
                                     <a href="javascript:void(0)">
-                                       <img class="img-responsive" src="./teams/img/random11.png" alt="">
+                                       <img class="img-responsive" src="./teams/img/random3.png" alt="">
                                  </div>
                                  <div class="post-content">
                                  <div class="post-content-inner" style="width:100%; height:5rem;">
@@ -308,7 +308,7 @@
                               <article class="blog-post">
                                  <div class="post-thumbnail">
                                     <a href="javascript:void(0)">
-                                       <img class="img-responsive" src="./teams/img/random12.png" alt="">
+                                       <img class="img-responsive" src="./teams/img/random3.png" alt="">
                                  </div>
                                  <div class="post-content">
                                  <div class="post-content-inner" style="width:100%; height:5rem;">
@@ -329,7 +329,7 @@
                               <article class="blog-post">
                                  <div class="post-thumbnail">
                                     <a href="javascript:void(0)">
-                                       <img class="img-responsive" src="./teams/img/random13.jpg" alt="">
+                                       <img class="img-responsive" src="./teams/img/random3.png" alt="">
                                  </div>
                                  <div class="post-content">
                                  <div class="post-content-inner" style="width:100%; height:5rem;">
@@ -350,7 +350,7 @@
                               <article class="blog-post">
                                  <div class="post-thumbnail">
                                     <a href="javascript:void(0)">
-                                       <img class="img-responsive" src="./teams/img/random14.jpg" alt="">
+                                       <img class="img-responsive" src="./teams/img/random3.png" alt="">
                                  </div>
                                  <div class="post-content">
                                  <div class="post-content-inner" style="width:100%; height:5rem;">
@@ -370,7 +370,7 @@
                               <article class="blog-post">
                                  <div class="post-thumbnail">
                                     <a href="javascript:void(0)">
-                                       <img class="img-responsive" src="./teams/img/random15.png" alt="">
+                                       <img class="img-responsive" src="./teams/img/random3.png" alt="">
                                  </div>
                                  <div class="post-content">
                                  <div class="post-content-inner" style="width:100%; height:5rem;">
@@ -391,7 +391,7 @@
                               <article class="blog-post">
                                  <div class="post-thumbnail">
                                     <a href="javascript:void(0)">
-                                       <img class="img-responsive" src="./teams/img/random16.jpg" alt="">
+                                       <img class="img-responsive" src="./teams/img/random3.png" alt="">
                                  </div>
                                  <div class="post-content">
                                  <div class="post-content-inner" style="width:100%; height:5rem;">
@@ -411,7 +411,7 @@
                               <article class="blog-post">
                                  <div class="post-thumbnail">
                                     <a href="javascript:void(0)">
-                                       <img class="img-responsive" src="./teams/img/random17.jpg" alt="">
+                                       <img class="img-responsive" src="./teams/img/random3.png" alt="">
                                  </div>
                                  <div class="post-content">
                                  <div class="post-content-inner" style="width:100%; height:5rem;">
@@ -432,7 +432,7 @@
                               <article class="blog-post">
                                  <div class="post-thumbnail">
                                     <a href="javascript:void(0)">
-                                       <img class="img-responsive" src="./teams/img/random20.jpg" alt="">
+                                       <img class="img-responsive" src="./teams/img/random3.png" alt="">
                                  </div>
                                  <div class="post-content">
                                  <div class="post-content-inner" style="width:100%; height:5rem;">
@@ -454,7 +454,7 @@
                               <article class="blog-post">
                                  <div class="post-thumbnail">
                                     <a href="javascript:void(0)">
-                                       <img class="img-responsive" src="./teams/img/random21.jpg" alt="">
+                                       <img class="img-responsive" src="./teams/img/random3.png" alt="">
                                  </div>
                                  <div class="post-content">
                                  <div class="post-content-inner" style="width:100%; height:5rem;">
@@ -475,7 +475,7 @@
                               <article class="blog-post">
                                  <div class="post-thumbnail">
                                     <a href="javascript:void(0)">
-                                       <img class="img-responsive" src="./teams/img/random22.jpg" alt="">
+                                       <img class="img-responsive" src="./teams/img/random3.png" alt="">
                                  </div>
                                  <div class="post-content">
                                  <div class="post-content-inner" style="width:100%; height:5rem;">
@@ -496,7 +496,7 @@
                               <article class="blog-post">
                                  <div class="post-thumbnail">
                                     <a href="javascript:void(0)">
-                                       <img class="img-responsive" src="./teams/img/random23.jpg" alt="">
+                                       <img class="img-responsive" src="./teams/img/random3.png" alt="">
                                  </div>
                                  <div class="post-content">
                                  <div class="post-content-inner" style="width:100%; height:5rem;">
