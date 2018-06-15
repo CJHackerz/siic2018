@@ -179,8 +179,8 @@ padding-right: 8px;
 
         <img id="st" style="height: 150px; width: 150px;" class="img-thumbnail" src="./img/profiles/<?php echo $profile_avatar;?>" alt="Profile Image" /></ul>
     </div><br>
-      <div class="centre2" >
-<ul  style="font-size: 18px; ">Welcome, <strong><?php echo $profile_name; ?></strong></ul>
+      <div align="center">
+<ul  style="font-size: 18px; "><strong><?php echo $profile_name; ?></strong></ul>
       <br>
 
   </div><br>
@@ -197,10 +197,10 @@ padding-right: 8px;
       <div class="tab-content"></div>
     </div>
 
-    <div class="tab-label-content" id="tab3-content" style="width:160%">
+    <!--<div class="tab-label-content" id="tab3-content" style="width:160%">
       <label for="tab3" class="rig"><a data-toggle="pill"  href="#menu4">Your Request</label></a>
       <div class="tab-content"></div>
-    </div>
+  </div>-->
 
      <div class="tab-label-content" id="tab4-content" style=" width:110%">
       <label for="tab4" class="rig"><a href="./editProfile.php"  >Edit Profile</label></a>
@@ -305,7 +305,7 @@ padding-right: 8px;
                         <br><br>
                     </div>
 
-                    <div id="menu4" class="tab-pane fade">
+                    <!--<div id="menu4" class="tab-pane fade">
 
                         <a class="button active res1" data-method="get" href="./inventory.php">New Request</a>
                         <br>
@@ -313,7 +313,7 @@ padding-right: 8px;
                         <br><br>
                         <p><h6 style="text-align:center;">No Requests</h6></p>
                         <br><br>
-                    </div>
+                    </div>-->
 
                     <!-- <div id="menu5" class="tab-pane fade">
                         <br><br><br>
