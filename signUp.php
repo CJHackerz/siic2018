@@ -71,11 +71,11 @@
                 <h2 class="fs-title">Create your account</h2>
                 <h3 class="fs-subtitle">This is step 1</h3>
                 <label class="upload-picture">Upload your picture</label>
-                <input type="file" name="profile_avatar" id="profile_avatar" value="Select your profile Photo">
+                <input type="file" accept=".jpeg, .jpg, .png" name="profile_avatar" id="profile_avatar" value="Select your profile Photo">
                 <input type="text" name="profile_name" id="profile_name" placeholder="Name" required>
                 <!-- <input type="text" placeholder="test123"> -->
                 <input type="text" name="profile_register" id="profile_register" placeholder="Registration Number" required />
-                <select  name="profile_department" style="width:100%;margin-left:0px;color: #91908c;margin-bottom:10px;padding:10px 0px 10px 10px" id="profile_department" placeholder="Department" required/>
+                <select name="profile_department" style="width:100%;margin-left:0px;color: #91908c;margin-bottom:10px;padding:10px 0px 10px 10px" id="profile_department" placeholder="Department" required/>
                     <option value="" >Department</option>
                     <option value="Department of Civil Engineering">Department of Civil Engineering</option>
                     <option value="Department of Mechanical Engineering">Department of Mechanical Engineering</option>
@@ -128,7 +128,7 @@
                 <h2 class="fs-title">Create your Account</h2>
                 <h3 class="fs-subtitle">Step 3 out of 3</h3>
 
-                <textarea name="profile_description" placeholder="Description/Bio" required></textarea>
+                <textarea name="profile_description" id="profile_description" placeholder="Description/Bio" required></textarea>
                 <input type="text" class="email-adjust" name="user_email" id="user_email" placeholder="Email" required />
                 <span class="email-link">@srmuniv.edu.in</span>
                 <input type="password" name="user_password" placeholder="Password" id="user_password" required/>

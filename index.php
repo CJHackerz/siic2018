@@ -335,6 +335,7 @@
       <script src="js/plugins.js"></script>
       <script src="js/main.js"></script>
    </body>
+   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
    <script async defer
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD81iwuCfGQVC8_rhwNYRaJBadTfuZNDyI&callback=initMap"></script>
    <script>
@@ -378,4 +379,21 @@
       }
       }
       ?>
+
+<?php
+	if($_SERVER['REQUEST_METHOD']=='GET')
+  	{
+    if (isset($_GET['isset'])) {
+      if($_GET['isset']=='new_user'){
+        ?>
+        	<script type="text/javascript">swal("Confirmation email has been sent to your email","", "success");</script>
+        <?php
+      }elseif ($_GET['isset']=='new_mentor') {
+          ?>
+          	<script type="text/javascript">swal("You have registered as a mentor!","You will be contacted soon via email", "success");</script>
+          <?php
+        }
+      }
+    }
+?>
 </html>

@@ -24,9 +24,10 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
         die();
     }
     $options = [
-        'cost' => 12,
-                  ];
-      $encrypt_pass = password_hash("$user_password", PASSWORD_BCRYPT, $options);
+      'cost' => 12,
+                ];
+    $encrypt_pass = password_hash("$user_password", PASSWORD_BCRYPT, $options);
+    //$reset_pass=$encrypt_pass;
     $sql = "SELECT * from users where email = '$user_email'";
     $result = $conn->query($sql);
     if($result->num_rows > 0) {
@@ -34,7 +35,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
         die();
     }
     $authkey = md5(uniqid());
-    $sql = "INSERT INTO users(uid, email, password, role,status, authkey) values('$uid', '$user_email', '$encrypt_pass', $role, 'unset', '$authkey')";
+    $sql = "INSERT INTO users(uid, email, password, role,status, authkey,reset) values('$uid', '$user_email', '$encrypt_pass', $role, 'unset', '$authkey','1')";
     if($conn->query($sql)) {
         // Send Verification Mailgun
         # Make the call to the client.
@@ -79,14 +80,14 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
             $count=count($errors);
             $profile_avatar = $uid . "." . $file_ext;
             // If no errors in file
-            if ($errors == "") {
+            if ($count == 0) {
                 $sql = "INSERT INTO user_profiles(uid, email, name, avatar, register_no, dept, year, dob, description, address, skills, hobbies, achievements, experience)
                         VALUES('$uid', '$user_email', '$profile_name', '$profile_avatar', '$profile_register', '$profile_department', $profile_year, '$profile_dob', '$profile_description', '$profile_address', '$profile_skills', '$profile_hobbies', '$profile_achievements', '$profile_experience')";
                 if($conn->query($sql)) {
                     if(move_uploaded_file($file_tmp, "../profiles/img/" . $profile_avatar)) {
                         $flag = 1;
                     } else {
-                        $flag = 0;
+                        $flag = 1;
                     }
                 } else {
                     $sql = "INSERT INTO user_profiles(uid, email, name, register_no, dept,year,dob, description, address, skills, hobbies, achievements, experience)
