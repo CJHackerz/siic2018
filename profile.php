@@ -197,10 +197,10 @@ padding-right: 8px;
       <div class="tab-content"></div>
     </div>
 
-    <!--<div class="tab-label-content" id="tab3-content" style="width:160%">
+    <!-- <div class="tab-label-content" id="tab3-content" style="width:160%">
       <label for="tab3" class="rig"><a data-toggle="pill"  href="#menu4">Your Request</label></a>
       <div class="tab-content"></div>
-  </div>-->
+  </div> -->
 
      <div class="tab-label-content" id="tab4-content" style=" width:110%">
       <label for="tab4" class="rig"><a href="./editProfile.php"  >Edit Profile</label></a>
@@ -208,12 +208,12 @@ padding-right: 8px;
      </div>
 
      <div class="tab-label-content" id="tab5-content">
-      <label for="tab5" class="rig"><a id="viewProfile" onclick="viewProfile()"  >About</label></a>
+      <label for="tab5" class="rig"><a data-toggle="pill" href="#menu5">About</label></a>
       <div class="tab-content"></div>
     </div>
 
      <div class="tab-label-content" id="tab6-content">
-      <label for="tab6" class="rig"><a href="#"  >Teams</label></a>
+      <label for="tab6" class="rig"><a data-toggle="pill" href="#menu6">Teams</label></a>
       <div class="tab-content"></div>
     </div>
 
@@ -305,7 +305,7 @@ padding-right: 8px;
                         <br><br>
                     </div>
 
-                    <!--<div id="menu4" class="tab-pane fade">
+                    <!-- <div id="menu4" class="tab-pane fade">
 
                         <a class="button active res1" data-method="get" href="./inventory.php">New Request</a>
                         <br>
@@ -313,13 +313,67 @@ padding-right: 8px;
                         <br><br>
                         <p><h6 style="text-align:center;">No Requests</h6></p>
                         <br><br>
-                    </div>-->
+                    </div> -->
 
                     <!-- <div id="menu5" class="tab-pane fade">
                         <br><br><br>
                         <div id="notifList">
                         </div>
                     </div> -->
+
+<div id="menu5" class="tab-pane fade">
+
+                      <!-- <br><br><br> -->
+                      <!-- <div class="row"> --><div class="card text-white bg-info mb-3" style="max-width: 18rem;">
+                        <div class="card-header">Your Details</div>
+                        <div class="card-body">
+                          
+                          <p class="card-text">
+                              <?php
+                              $sql = "SELECT * from user_profiles where email = '$user'";
+                              $result = $conn->query($sql);
+                              $row = $result->fetch_assoc();
+                              $address=$row['address'];
+                              $skills=$row['skills'];
+                              $hobbies=$row['hobbies'];
+                              $achievements=$row['achievements'];
+                              $experience=$row['experience'];
+                              $description=$row['description'];
+                              echo "<p>Address :$address</p>";
+                              echo "<p>Skills :$skills</p>";
+                              echo "<p>Hobbies :$hobbies</p>";
+                              echo "<p>Achievements :$achievements</p>";
+                              echo "<p>Experience :$experience</p>";
+                              echo "<p>Description :$description</p>";
+
+
+                              ?>
+                            </p>
+                          </div>
+                      </div>
+                      <br><br>
+                  </div>
+
+              <div id="menu6" class="tab-pane fade">
+
+                      <br><br><br>
+                      <div class="row">
+                          <div id="">
+
+                          </div>
+                      </div>
+                      <br><br>
+                  </div>
+
+
+
+
+
+
+
+
+
+
             </div>
         </div>
     </div>
