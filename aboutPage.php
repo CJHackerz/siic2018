@@ -116,13 +116,13 @@
                               <img class="img-responsive" src="./img/team/ceo.jpg" alt="">
                               <ul class="team-social">
                                  <li>
-                                    <a href="#"> <i class="fa fa-facebook"></i></a>
+                                    <a href="https://www.facebook.com/nikunj7panchal" target="_blank"> <i class="fa fa-facebook"></i></a>
                                  </li>
                                  <li>
-                                    <a href="#"> <i class="fa fa-linkedin"></i></a>
+                                    <a href="https://www.linkedin.com/in/nikunj7panchal/" target="_blank"> <i class="fa fa-linkedin"></i></a>
                                  </li>
                                  <li>
-                                    <a href="#"> <i class="fa fa-google-plus"></i></a>
+                                    <a href="mailto:nikunjpanchal.r@ktr.srmuniv.ac.in" target="_blank"> <i class="fa fa-envelope"></i></a>
                                  </li>
                               </ul>
                            </div>
