@@ -191,7 +191,8 @@
           <div class="form-group">
             <label class="col-lg-3 control-label">Description:</label>
             <div class="col-lg-8">
-            <textarea cols="80" rows="10" class="form-control" name="profile_description" id="profile_description" value="<?php echo $desc ?>"></textarea>
+            <!-- <textarea cols="80" rows="10" class="form-control" name="profile_description" id="profile_description" value="<?php echo $desc ?>"></textarea> -->
+            <input class="form-control" type="text" style="height:200px;width:420px;" name="profile_description" value="<?php echo $desc ?>">
           </div>
           </div>
 

@@ -214,7 +214,7 @@ padding-right: 8px;
     </div>
 
      <div class="tab-label-content" id="tab6-content">
-      <label for="tab6" class="rig"><a data-toggle="pill" href="#menu6">Teams</label></a>
+      <label for="tab6" class="rig"><a data-toggle="pill"  href="#menu6">Teams</label></a>
       <div class="tab-content"></div>
     </div>
 
@@ -322,14 +322,14 @@ padding-right: 8px;
                         </div>
                     </div> -->
 
-<div id="menu5" class="tab-pane fade">
+                   <div id="menu5" class="tab-pane fade">
 
                       <!-- <br><br><br> -->
-                      <!-- <div class="row"> --><div class="card text-white bg-info mb-3" style="max-width: 18rem;">
-                        <div class="card-header">Your Details</div>
-                        <div class="card-body">
+                      <div class="panel panel-info"><!-- <div class="card text-white bg-info mb-3" style="max-width: 18rem;"> -->
+                      <div class="panel-heading">Your Details</div>
+                        <div class="panel-body">
                           
-                          <p class="card-text">
+                          
                               <?php
                               $sql = "SELECT * from user_profiles where email = '$user'";
                               $result = $conn->query($sql);
@@ -349,11 +349,18 @@ padding-right: 8px;
 
 
                               ?>
-                            </p>
+                            
                           </div>
                       </div>
-                      <br><br>
-                  </div>
+                      
+
+
+
+<!-- <div class="panel panel-info">
+      <div class="panel-heading">Panel with panel-info class</div>
+      <div class="panel-body">Panel Content</div>
+    </div> -->
+
 
               <div id="menu6" class="tab-pane fade">
 
@@ -365,14 +372,6 @@ padding-right: 8px;
                       </div>
                       <br><br>
                   </div>
-
-
-
-
-
-
-
-
 
 
             </div>
