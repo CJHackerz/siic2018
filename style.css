@@ -1823,8 +1823,8 @@ ul.main-menu {
     /* fallback for old browsers */
     /* background: -webkit-linear-gradient(to right, #1fa2ff, #12d8fa, #a6ffcb);
     background: linear-gradient(to right, #1fa2ff, #12d8fa, #a6ffcb); */
-    background: -webkit-linear-gradient(to right, #E7C74F, #F4B254, #F4B955 );
-    background: linear-gradient(to right, #E7C74F, #F4B254, #F4B955);
+    background: -webkit-linear-gradient(to right, #E7C74F, #f4d455, #f4c655 );
+    background: linear-gradient(to right, #E7C74F, #f4d455, #f4c655);
     opacity: .8;
 }
 
