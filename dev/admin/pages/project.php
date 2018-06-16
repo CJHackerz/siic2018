@@ -147,7 +147,7 @@
                                                                       </div>
                                                                       <div class="form-group">
                                                                           <label>Report</label>
-                                                                          <textarea class="form-control" name="project_report" readonly>' . $row['project_report'] . '</textarea>
+                                                                          <textarea class="form-control" name="project_status" readonly>' . $row['project_status'] . '</textarea>
                                                                       </div>
                                                                       <div class="form-group">
                                                                           <label>Requirement</label>

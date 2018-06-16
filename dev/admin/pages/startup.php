@@ -136,7 +136,7 @@
                                                                                 </div>
                                                                                 <div class="form-group">
                                                                                     <label>Report</label>
-                                                                                    <textarea class="form-control" name="startup_report" readonly>' . $row['startup_report'] . '</textarea>
+                                                                                    <textarea class="form-control" name="startup_report" readonly>' . $row['startup_status'] . '</textarea>
                                                                                 </div>
                                                                                 <div class="form-group">
                                                                                     <label>Schedule</label>
@@ -202,7 +202,7 @@
                                                                                 </div>
                                                                                 <div class="form-group">
                                                                                     <label>Report</label>
-                                                                                    <textarea class="form-control" name="startup_report" readonly>' . $row['startup_report'] . '</textarea>
+                                                                                    <textarea class="form-control" name="startup_report" readonly>' . $row['startup_status'] . '</textarea>
                                                                                 </div>
                                                                                 <div class="form-group">
                                                                                     <label>Schedule</label>

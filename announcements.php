@@ -155,7 +155,7 @@ body{
                        <div class="col-md-5 col-sm-5 col-md-offset-1 align="right" ">
 
                              <p>
-                                '.$row['announce_deescription'].'
+                                '.$row['name'].'
                              </p>
 
                        </div>
