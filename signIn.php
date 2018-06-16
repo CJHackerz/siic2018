@@ -74,12 +74,11 @@
         </div>
         </div>
         <!-- End Main Content Wrapper -->
-    </div>
+    </div> <br><br><br>
     <!-- End Main Wrapper -->
     <?php include 'includes/footer.php' ?>
     <style>
        .footer {
-       position: fixed;
        left: 0;
        bottom: 0;
        width: 100%;
