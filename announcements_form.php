@@ -60,16 +60,7 @@
 
 
 
- <?php
-        if(isset($_GET['error'])) {
-            if($_GET['error'] == 'ext') {
-                echo '<div class="alert alert-danger" role="alert">Invalid Extension </div>';
-            }
-            if($_GET['error'] == 'size') {
-                echo '<div class="alert alert-danger" role="alert">Size of the file should be less than 2 mb </div>';
-            }
-        }
-?>
+
 
     <!-- Start Main Wrapper -->
     <div class="main-wrapper">
@@ -93,18 +84,18 @@
 
         <form class="form-horizontal" role="form" id="new_user" action="./process/process_announce.php" enctype="multipart/form-data" accept-charset="UTF-8" method="post">
           <div class="form-group">
-            <label class="col-lg-3 control-label" placeholder="Name" type="text" name="name" id="name">Name</label>
+            <label class="col-lg-3 control-label" placeholder="Name" type="text"  id="name">Name</label>
             <div class="col-lg-8">
-              <input class="form-control" placeholder="Enter Your Name" type="text" required>
+              <input class="form-control" placeholder="Enter Your Name" name="profile_name" type="text" required>
             </div>
           </div>
 
 
 
             <div class="form-group">
-            <label class="col-lg-3 control-label" placeholder="Title" type="text" name="title" id="profile_title">Title</label>
+            <label class="col-lg-3 control-label" placeholder="Title" type="text"  id="title">Title</label>
             <div class="col-lg-8">
-              <input class="form-control" type="text" placeholder="Enter Announcement Title" required>
+              <input class="form-control" type="text" name="title" placeholder="Enter Announcement Title" required>
             </div>
           </div>
 
@@ -120,16 +111,26 @@
 
           <div class="form-group text-center col-lg-13 file_input" >
           <label for="project_bp" class="control-label">Image if any (Maximum size of 2MB)(JPEG, JPG, PNG)</label><br/>
-                    <input type="file" accept=".pdf, .ppt, .doc, .docx" name="project_bp" id="project_bp" required/><br/>
+                    <input type="file" accept=".jpg, .jpeg, .png" name="project_bp" id="project_bp" required/><br/>
           </div>
           </div>
           </div>
+          <?php
+                                if(isset($_GET['error'])) {
+                                    if($_GET['error'] == 'ext') {
+                                        echo '<div class="alert alert-danger" role="alert">Invalid Extension </div>';
+                                    }
+                                    if($_GET['error'] == 'size') {
+                                        echo '<div class="alert alert-danger" role="alert">Size of the file should be less than 2 mb </div>';
+                                    }
+                                }
+                            ?>
 
 
           <div class="form-group text-center sub-btn" style="padding-left:25%">
             <label class="col-md-4 control-label"></label>
             <div class="col-md-8">
-              <input type="Submit" class="btn btn-primary" value="Create Project">
+              <input type="Submit" class="btn btn-primary" value="Submit">
               <span></span>
               <input type="reset" class="btn btn-default" value="Cancel">
             </div>

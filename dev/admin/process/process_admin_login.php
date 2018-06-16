@@ -7,7 +7,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
     $password   =   test_input($_POST['password']);
      $encrypt_pass = md5($password);
 
-    $sql = "SELECT * FROM admins where username = '$username' and password = '$password'";
+    $sql = "SELECT * FROM admins where username = '$username' and password = '$encrypt_pass'";
 
     $result = $conn->query($sql);
 
