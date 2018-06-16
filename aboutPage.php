@@ -15,7 +15,7 @@
       <script src="js/vendor/modernizr-2.8.3.min.js"></script>
       <style>
       body{
-           background-color: #f4f9fe;
+           background-color: #fefdf4;
       }
       </style>
    </head>
