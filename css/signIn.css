@@ -84,6 +84,28 @@ textarea::-moz-placeholder {
 textarea::-webkit-input-placeholder {
     color: grey;
 }
+input::-webkit-input-placeholder {
+  font-size: 14px;
+}
+
+input::-moz-placeholder {
+      font-size: 14px;
+}
+/* .webkit input[type="password"]
+{
+
+  /* font: large Verdana,sans-serif; */
+  /* letter-spacing: 1px; */
+  /* font-size: 18px; */
+/* } */
+ /* input[type="password"] */
+/* { */
+
+  /* font: large Verdana,sans-serif; */
+  /* letter-spacing: 1px; */
+  /* font-size: 24px; */
+
+/* } */
 
 /*Hide all except first fieldset*/
 
@@ -101,9 +123,9 @@ textarea::-webkit-input-placeholder {
     margin-bottom: 10px;
     width: 100%;
     box-sizing: border-box;
-    font-family: montserrat;
+  font-family: "Open Sans";
     color: #2C3E50;
-    font-size: 13px;
+    font-size: 15px;
     background: white;
 }
 
@@ -137,7 +159,7 @@ textarea::-webkit-input-placeholder {
 
 .fs-subtitle {
     font-weight: normal;
-    font-size: 13px;
+    font-size: 15px;
     color: #666;
     margin-bottom: 20px;
 }
@@ -240,9 +262,9 @@ textarea::-webkit-input-placeholder {
     margin-bottom: 10px;
     width: 100%;
     box-sizing: border-box;
-    font-family: montserrat;
+  font-family: "Open Sans";
     color: #2C3E50;
-    font-size: 13px;
+    font-size: 15px;
     background: white;
 }
 
@@ -276,7 +298,7 @@ textarea::-webkit-input-placeholder {
 
 .fs-subtitle {
     font-weight: normal;
-    font-size: 13px;
+    font-size: 15px;
     color: #666;
     margin-bottom: 20px;
 }
@@ -365,8 +387,8 @@ textarea::-webkit-input-placeholder {
     margin-bottom: 10px;
     width: 50%;
     box-sizing: border-box;
-    font-family: montserrat;
+  font-family: "Open Sans";
     color: #2C3E50;
-    font-size: 13px;
+    font-size: 15px;
     background: #D8E2E2;
 }
