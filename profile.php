@@ -48,6 +48,7 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="css/styleprofile.css">
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Amiko' rel='stylesheet'>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 
@@ -174,13 +175,13 @@ padding-right: 8px;
 <!-- <center> -->
 
 <div class="main-wrapper">
-<div class="centre" >
+<div align="center">
  <ul style="padding-top: 25vh;width: 100%;">
 
         <img id="st" style="height: 150px; width: 150px;" class="img-thumbnail" src="./img/profiles/<?php echo $profile_avatar;?>" alt="Profile Image" /></ul>
     </div><br>
       <div align="center">
-<ul  style="font-size: 18px; "><strong><?php echo $profile_name; ?></strong></ul>
+<ul  style="font-size: 20px; font-family: 'Amiko';"><strong><?php echo $profile_name; ?></strong></ul>
       <br>
 
   </div><br>

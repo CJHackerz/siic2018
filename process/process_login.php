@@ -36,11 +36,15 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
       else
       {
         $sql = "SELECT * FROM users where email = '$user_email'";
+        $sql3 = "SELECT * from user_profiles WHERE email = '$user_email'";
         $result = $conn->query($sql);
+        $result3 = $conn->query($sql3);
         $row  = $result->fetch_assoc();
+        $user_name = $result3->fetch_assoc();
         if(password_verify($user_password, $row['password']))
         {
           session_start();
+          $_SESSION["user_name"]  = $user_name['name'];
           $_SESSION["user"]       = $user_email;
           $_SESSION["user_id"]    = $row["uid"];
           $_SESSION["team"]       = "false";
@@ -79,11 +83,15 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
           else
           {
             $sql = "SELECT * FROM teams where team_email = '$user_email'";
+            $sql3 = "SELECT * from user_profiles WHERE email = '$user_email'";
             $result = $conn->query($sql);
+            $result3 = $conn->query($sql3);
             $row  = $result->fetch_assoc();
+            $user_name = $result3->fetch_assoc();
             if(password_verify($user_password, $row['password']))
             {
               session_start();
+              $_SESSION["user_name"]  = $user_name['name'];
               $_SESSION["user"]       = $user_email;
               $_SESSION["user_id"]    = $row["team_id"];
               $_SESSION["team"]       = "true";
