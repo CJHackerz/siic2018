@@ -57,7 +57,7 @@
             color: #fff;
         }
         body{
-        background-color: #f4f9fe;
+        background-color:  #fefdf4;
     }
 /*@media only screen and (min-width: 480px) and (max-width: 767px){
     #navtop{

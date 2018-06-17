@@ -79,7 +79,7 @@
          }
       </style>
    </head>
-   <body style="background-color:#F4F9FE" >
+   <body style="background-color: #fefdf4" >
       <?php include 'includes/nav.php' ?>
       <!-- Page Container -->
       <div class="w3-content w3-margin-top" style="max-width:1400px; position:relative; top:90px;">
