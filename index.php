@@ -146,7 +146,7 @@
          <!-- Start Main Content Wrapper -->
          <div class="main-content-wrapper">
             <div id="about" class="content-section-area ptb-120">
-               <div class="container">
+               <div class="container" style="background-color:#fefdf4;">
                   <div class="row">
                      <div class="col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
                         <div class="main-heading-content text-center">
