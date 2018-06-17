@@ -113,9 +113,9 @@
                <form   action="./process/process_freelance.php" method="POST" enctype="multipart/form-data">
                   <!-- progressbar -->
                   <ul id="progressbar">
-                     <li class="active">Personal Details</li>
-                     <li>Your Profile</li>
-                     <li>Account Setup</li>
+                     <li class="active" style="color:black;">Personal Details</li>
+                     <li style="color:black;">Your Profile</li>
+                     <li style="color:black;">Account Setup</li>
                   </ul>
                   <!-- fieldsets -->
                   <fieldset >
