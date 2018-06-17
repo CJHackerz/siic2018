@@ -18,6 +18,9 @@
       <link rel="stylesheet" href="css/responsive.css">
       <script src="js/vendor/modernizr-2.8.3.min.js"></script>
       <style>
+      body{
+          background-color:  #fefdf4;
+      }
        .img-responsive{
             height:25rem;
             width:50rem;
@@ -31,7 +34,7 @@
     }
       </style>
    </head>
-   <body>
+   <body style="background-color: #fefdf4;">
       <!-- Start Main Wrapper -->
       <div class="main-wrapper">
          <!-- NAV BAR -->
