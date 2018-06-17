@@ -17,7 +17,7 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
       <style media="screen">
       body{
-          background-color: #f4f9fe;
+          background-color:#fefdf4;
       }
       </style>
    </head>
