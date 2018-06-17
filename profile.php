@@ -359,7 +359,7 @@ padding-right: 8px;
             if($_GET["submission"] === 'success') {
             ?>
         <script>
-            swal("Success", "Your submission has been accepted", "success")
+            swal("Success", "Your project has been submitted", "success")
         </script>
     <?php
             }
@@ -442,7 +442,7 @@ padding-right: 8px;
         //     });
         // }
         function viewInstructions() {
-            swal("Congratulations!", "Your idea has been accepted. Contact +91 8148606827", 'info');
+            swal("Congratulations!", "Your idea has been submitted. Contact +91 8148606827", 'info');
         }
     </script>
 
