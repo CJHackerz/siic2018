@@ -102,6 +102,7 @@
          background-color: #8DDBED; */
          cursor:pointer;
          }
+         
       </style>
    </head>
    <body>
@@ -146,7 +147,7 @@
          <!-- Start Main Content Wrapper -->
          <div class="main-content-wrapper">
             <div id="about" class="content-section-area ptb-120">
-               <div class="container">
+               <div class="container" style="background-color:#fefdf4;">
                   <div class="row">
                      <div class="col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
                         <div class="main-heading-content text-center">
@@ -299,9 +300,9 @@
                               </ul>
                               <div class="footer-social">
                                  <ul class="social-bookmarkas">
-                                    <li><a href="https://m.facebook.com/nikunj7panchal"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                    <li><a href="https://www.facebook.com/srmiic/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/company/srm-innovation-and-incubation-centre/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                                    <li><a href="mailto:manager@srmiic.com"><i class="fa fa-envelope"></i></a></li>
                                  </ul>
                               </div>
                            </div>

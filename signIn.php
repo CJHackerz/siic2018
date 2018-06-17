@@ -60,8 +60,8 @@
 
               <!-- fieldsets -->
               <fieldset>
-                <h2 class="fs-title">Sign In</h2>
-                <h3 class="fs-subtitle">Enter the details to sign in</h3>
+                <h2 class="fs-title" style="font-family: Open Sans;">Sign In</h2>
+                <h3 class="fs-subtitle" style="font-family: Open Sans;">Enter the details to sign in</h3>
                 <input type="email" name="user_email" placeholder="Email" required>
                 <!-- <input type="text" placeholder="test123"> -->
                 <input type="password" name="user_password" placeholder="Password" required />

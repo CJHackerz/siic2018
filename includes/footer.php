@@ -16,7 +16,7 @@
    <div class="container">
       <div class="row">
          <div>
-          <img src="./img/weblogo.png" height="38px" width="140px">
+             <a href="https://webarchsrm.com" target="_blank"><img src="./img/weblogo.png" height="47px" width="175px"></a>
          </div>
       </div>
    </div>

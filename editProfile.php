@@ -39,7 +39,7 @@
 
     <style>
     body{
-        background-color: #f4f9fe;
+        background-color:#fefdf4;
     }
         .personal-info{
             align:center;
@@ -106,7 +106,7 @@
            <div class="form-group image">
            <div class="col-md-8">
            <div class="text-center">
-          <img src="./img/<?php echo $profile_avatar;?>" style="height: 100px; width: 100px;" class="avatar img-circle" alt="avatar" >
+          <img src="./img/profiles/<?php echo $profile_avatar;?>" style="height: 100px; width: 100px;" class="avatar img-circle" alt="avatar" >
           <br><br>
           <h6>Upload a different photo</h6>
 
