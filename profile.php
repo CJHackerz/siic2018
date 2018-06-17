@@ -185,7 +185,9 @@ padding-right: 8px;
       <br>
 
   </div><br>
-
+  <div style="margin-bottom:30px;margin-top:-20px;margin-left:9%;">
+    <a class="button active res1" data-method="get" href="./newProject.php">JOIN TEAM</a>
+</div>
 <div class="tab-wrap centre1" style="padding-top: 15vh;">
 
     <div class="tab-label-content but" id="tab1-content">

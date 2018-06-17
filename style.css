@@ -2567,7 +2567,7 @@ ul.main-menu {
 .portfolio-item-content {
     overflow: hidden;
     position: relative;
-    border: 1px solid#ddd;
+    border: 2px solid#ddd;
 }
 
 .portfolio-details {
@@ -2886,7 +2886,7 @@ ul.main-menu {
 }
 
 .post-thumbnail>a::after {
-    background: rgba(0, 0, 0, 0) linear-gradient(to right, #1fa2ff, #12d8fa, #a6ffcb) repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) linear-gradient(to right, #E7C74F,#ef9907, #e89c1b) repeat scroll 0 0;
     content: "";
     height: 100%;
     left: 0;
