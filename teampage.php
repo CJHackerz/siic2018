@@ -79,7 +79,7 @@
          }
       </style>
    </head>
-   <body style="background-color:#F4F9FE" >
+   <body style="background-color: #fefdf4" >
       <?php include 'includes/nav.php' ?>
       <!-- Page Container -->
       <div class="w3-content w3-margin-top" style="max-width:1400px; position:relative; top:90px;">
@@ -115,48 +115,44 @@
             <br>
             <!-- End Left Column -->
          </div>
-         <?php
-            if($_SESSION["team"] == "true") {
-                if($_SESSION['user_id'] == $_GET['id']) {
-                    // Show private content
-                    ?>
-         <a href="./editteam.php" class="btn btn-primary">Edit</a>
-         <ul class="nav nav-pills padInLaptop">
-            <li class="active"><a data-toggle="pill" href="#about-menu">About</a></li>
-            <!-- <li><a data-toggle="pill" href="#feed-menu">Feed</a></li> -->
-            <li><a data-toggle="pill" href="#notif-menu" onClick="loadNotifs()">Notifications</a></li>
-            <li><a data-toggle="pill" href="#request-menu" onClick="loadRequests()">Requests</a></li>
-         </ul>
+
+
          <!-- Right Column -->
          <div class="w3-twothird" >
             <div class="w3-container w3-card w3-white w3-margin-bottom" style="border-radius:5px;">
-               <div class="main-heading-content text-center">
-                  <h2 class=" w3-padding-16">Description<span>.</span></h2>
-               </div>
-               <div class="w3-container" style="margin-top:-20px">
-                  <p><?php echo $description; ?></p>
-                  <hr style="border-color:#3A6EE8">
-               </div>
-               <?php
-                  if(!empty($_SESSION['user']) && $_SESSION['team'] == 'false') {
-                            $sql = "SELECT * from team_members where uid = '" . $_SESSION['user_id'] . "' AND team_id = '$team_id'";
-                            $result = $conn->query($sql);
-                            if($result->num_rows > 0) {
-                                $rows = $result->fetch_assoc();
-                                if($rows['status'] == 'ACCEPTED') {
-                                    echo '<center><button class="button active" onclick="leaveTeam()">Leave</button></center>';
-                                } else {
-                                    echo '<center><button class="button active" onclick="joinTeam()">Join</button></center>';
-                                }
-                            } else {
-                                echo '<center><button class="button active" onclick="joinTeam()">Join</button></center>';
-                            }
-                        }
 
-                   ?>
-               <!-- End Grid -->
-            </div>
-            <div >
+              <?php
+                 if($_SESSION["team"] == "true") {
+                     if($_SESSION['user_id'] == $_GET['id']) {
+                         // Show private content
+                         ?>
+
+
+                         <ul class="nav nav-pills padInLaptop">
+                            <li class="active"><a data-toggle="pill" href="#about-menu">About</a></li>
+                            <!-- <li><a data-toggle="pill" href="#feed-menu">Feed</a></li> -->
+                            <li><a data-toggle="pill" href="#notif-menu" onClick="loadNotifs()">Notifications</a></li>
+                            <li><a data-toggle="pill" href="#request-menu" onClick="loadRequests()">Requests</a></li>
+                            <a href="./editteam.php" style="margin-top:5px;margin-left:10px;" class="btn btn-primary">Edit</a>
+                            <!-- <a data-toggle="pill" href="./editteam.php">Edit</a> -->
+                         </ul>
+                         <div id="about-menu" class="tab-pane tab-pane fade in active">
+                         <div class="main-heading-content text-center"><br></br><br></br>
+                            <h2 class=" w3-padding-16">Description<span>.</span></h2>
+                         </div>
+                         <div class="w3-container" style="margin-top:-20px">
+                            <p><?php echo $description; ?></p>
+                            <hr style="border-color:#3A6EE8">
+                         </div>
+                       </div>
+                       <div id="request-menu" style="margin-top:-100px;" class="tab-pane fade">
+                          <div class="row">
+                             <div id="requestList" onload="countRequests()">
+                                <!-- Notification list -->
+                             </div>
+                          </div>
+                          <br><br>
+                       </div>
                <div id="feed-menu" class="tab-pane fade">
                   <div class="row">
                      <div id="feedList" onload="loadFeed()">
@@ -173,63 +169,63 @@
                   </div>
                   <br><br>
                </div>
-               <div id="request-menu" class="tab-pane fade">
-                  <div class="row">
-                     <div id="requestList" onload="countRequests()">
-                        <!-- Notification list -->
-                     </div>
-                  </div>
-                  <br><br>
-               </div>
-            </div>
-         </div>
-         <?php
-            }
-            } else {
-            // Show public content
-            ?>
-         <div class="w3-twothird" >
-            <div class="w3-container w3-card w3-white w3-margin-bottom" style="border-radius:5px;">
-               <div class="main-heading-content text-center"><br></br><br></br>
-                  <h2 class=" w3-padding-16">Description<span>.</span></h2>
-               </div>
-               <div class="w3-container" style="margin-top:-20px">
-                  <p><?php echo $description; ?></p>
-                  <hr style="border-color:#3A6EE8">
-               </div>
-               <?php
-                  if(!empty($_SESSION['user']) && $_SESSION['team'] == 'false') {
-                            $sql = "SELECT * from team_members where uid = '" . $_SESSION['user_id'] . "' AND team_id = '$team_id'";
-                            $result = $conn->query($sql);
-                            if($result->num_rows > 0) {
-                                $rows = $result->fetch_assoc();
-                                if($rows['status'] == 'ACCEPTED') {
-                                    echo '<center><button class="button active" onclick="leaveTeam()">Leave</button></center>';
-                                } else {
-                                    echo '<center><button class="button active" onclick="joinTeam()">Join Team</button></center>';
-                                }
-                            } else {
-                                echo '<center><button class="button active" onclick="joinTeam()">Join</button></center>';
-                            }
-                        }
 
-                   ?>
-               <div id="feed-menu" class="tab-pane fade">
-                  <div class="row">
-                     <div id="feedList" onload="loadFeed()">
-                        <!--  Feed list -->
-                     </div>
-                  </div>
-                  <br><br>
-               </div>
+               <?php
+                  }
+                  } else {
+                  // Show public content
+                     if(!empty($_SESSION['user']) && $_SESSION['team'] == 'false') {
+                       ?>
+
+                       <div class="main-heading-content text-center"><br></br><br></br>
+                          <h2 class=" w3-padding-16">Description<span>.</span></h2>
+                       </div>
+                       <div class="w3-container" style="margin-top:-20px">
+                          <p><?php echo $description; ?></p>
+                          <hr style="border-color:#3A6EE8">
+                       </div>
+                       <?php
+                               $sql = "SELECT * from team_members where uid = '" . $_SESSION['user_id'] . "' AND team_id = '$team_id'";
+                               $result = $conn->query($sql);
+                               if($result->num_rows > 0) {
+                                   $rows = $result->fetch_assoc();
+                                   if($rows['status'] == 'ACCEPTED') {
+                                       echo '<center><button class="button active" onclick="leaveTeam()">Leave</button></center>';
+                                   } else {
+                                       echo '<center><button class="button active" onclick="joinTeam()">Join</button></center>';
+                                   }
+                               } else {
+                                   echo '<center><button class="button active" onclick="joinTeam()">Join</button></center>';
+                               }
+                           }
+                           else {
+                             echo'
+                             <div class="main-heading-content text-center"><br></br><br></br>
+                                <h2 class=" w3-padding-16">Description<span>.</span></h2>
+                             </div>
+                             <div class="w3-container" style="margin-top:-20px">
+                                <p>'. $description.' </p>
+                                <hr style="border-color:#3A6EE8">
+                             </div>';
+                           }
+
+                      ?>
+               <!-- End Grid -->
             </div>
+
+
             <?php
                }
                ?>
          </div>
+         <input type="hidden" id="uid" value="<?php echo $_SESSION['user'];?>">
+       <input type="hidden" id="tid" value="<?php echo $_GET['id'];?>">
+
+       </div>
+       <?php include 'includes/footer.php' ?>
          <!-- End Page Container -->
       </div>
-      <?php include 'includes/footer.php' ?>
+
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
       <script src="js/vendor/jquery-1.12.0.min.js"></script>
       <script src="js/minix-map.js"></script>
@@ -238,5 +234,146 @@
       <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
       <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+      <?php
+        if(isset($_GET['stat'])) {
+            if($_GET["stat"] === 'nc') {
+            ?>
+        <script>
+            swal("Success", "Congratulations you have created a new team!", "success")
+        </script>
+    <?php
+            }
+        }
+    ?>
+
+    <script>
+        $( document ).ready(function() {
+            var uid = $("#uid").val();
+            var tid = $("#tid").val();
+
+            loadRequests();
+        });
+
+        function joinTeam() {
+            var uid = $("#uid").val();
+            var tid = $("#tid").val();
+            $.ajax({
+                type: "post",
+                url: "./process/join_team.php",
+                data: {
+                    id: uid,
+                    team_id : tid
+                },
+                dataType: "json",
+                success : function(data) {
+                    if(data.status == 'success'){
+                        swal('Request Sent', '', 'success');
+                    }else if(data.status == 'error'){
+                        swal('Request Already Sent or You are already a member', '', 'error');
+                    }
+                }
+            });
+        }
+        // function loadFeed() {
+        //     var tid = $("#tid").val();
+        //     console.log("Loading feed");
+        //     $.ajax({
+        //         type: "post",
+        //         url: "./process/team/load_feed.php",
+        //         data: {
+        //             id  :   tid
+        //         },
+        //         dataType: "html",
+        //         success: function(data) {
+        //             $("#feedList").html(data);
+        //         }
+        //     });
+        // }
+        //
+        // function countNotifs() {
+        //     console.log('countNotifs : ');
+        // }
+        //
+        // function loadNotfs() {
+        //     var tid = $("#tid").val();
+        //     console.log("Loading notifications");
+        //     $.ajax({
+        //         type: "post",
+        //         url: "./process/team/load_notifs.php",
+        //         data: {
+        //             id  :   tid
+        //         },
+        //         dataType: "html",
+        //         success: function(data) {
+        //             $("#notifList").html(data);
+        //         }
+        //     });
+        // }
+        //
+        // function countRequests() {
+        //     console.log('countNotifs : ');
+        // }
+
+        function loadRequests() {
+            var tid = $("#tid").val();
+            console.log("Loading requests");
+            $.ajax({
+                type: "POST",
+                url: "./process/team/load_requests.php",
+                data: {
+                    id  :   tid
+                },
+                beforeSend: function() {
+                    $('#requestList').html('<center>loading...</center>');
+                },
+                dataType: "html",
+                success: function(data) {
+                    $("#requestList").html(data);
+                }
+            });
+        }
+
+        function acceptRequest(accept_email) {
+            console.log(accept_email);
+            $.ajax({
+                type: "POST",
+                url: "./process/team/process_member_request.php",
+                data: {
+                    email: accept_email,
+                    type : 'accept'
+                },
+                dataType: 'json',
+                success: function(data) {
+                    if(data.status == 'success') {
+                        console.log("accepted : " + accept_email);
+                    }
+                },
+                complete() {
+                    loadRequests();
+                }
+            });
+        }
+
+        function rejectRequest(reject_email) {
+            console.log(reject_email);
+            $.ajax({
+                type: "POST",
+                url: "./process/team/process_member_request.php",
+                data: {
+                    email: reject_email,
+                    type : 'reject'
+                },
+                dataType: 'json',
+                success: function(data) {
+                    if(data.status == 'success') {
+                        console.log("reject : " + reject_email);
+                    }
+                },
+                complete() {
+                    loadRequests();
+                }
+            });
+        }
+    </script>
    </body>
 </html>

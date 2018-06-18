@@ -57,7 +57,7 @@
             color: #fff;
         }
         body{
-        background-color: #f4f9fe;
+        background-color:  #fefdf4;
     }
 /*@media only screen and (min-width: 480px) and (max-width: 767px){
     #navtop{
@@ -412,7 +412,7 @@ padding-right: 8px;
             if($_GET["submission"] === 'success') {
             ?>
         <script>
-            swal("Success", "Your submission has been accepted", "success")
+            swal("Success", "Your project has been submitted", "success")
         </script>
     <?php
             }
@@ -495,7 +495,7 @@ padding-right: 8px;
         //     });
         // }
         function viewInstructions() {
-            swal("Congratulations!", "Your idea has been accepted. Contact +91 8148606827", 'info');
+            swal("Congratulations!", "Your idea has been submitted. Contact +91 8148606827", 'info');
         }
     </script>
 

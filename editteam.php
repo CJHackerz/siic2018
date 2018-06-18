@@ -2,8 +2,10 @@
     include './process/connect.php';
     include './process/utils.php';
 
+    include './includes/nav.php';
 
-    session_start();
+
+    // session_start();
 
     if($_SESSION['team'] != 'true') {
         echo "Not a valid account";
@@ -31,99 +33,160 @@
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="zxx">
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Edit Profile|SIIC</title>
     <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon Icon Add -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.html">
+    <!-- All STYLESHEET CSS -->
+    <link rel="stylesheet" href="css/element.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 
-    <title>Edit Team|SIIC</title>
+    <style>
+    body{
+        background-color: #f4f9fe;
+    }
+        .personal-info{
+            align:center;
+        }
 
-    <!-- css -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-	<link href="css/nivo-lightbox.css" rel="stylesheet" />
-	<link href="css/nivo-lightbox-theme/default/default.css" rel="stylesheet" type="text/css" />
-	<link href="css/animations.css" rel="stylesheet" />
-    <link href="css/style.css" rel="stylesheet">
-	<link href="color/default.css" rel="stylesheet">
-    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
-    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+@media only screen and (min-width: 800px) {
+    .personal-info{
+        padding-left:15%;
+    }
+    .image{
+      padding-left:40%;
+    }
 
+}
+
+@media only screen and (min-width: 800px) {
+    .personal-info{
+        padding-left:15%;
+    }
+    .image{
+      padding-left:40%;
+    }
+}
+
+    </style>
 </head>
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-custom" style="padding: 0px;">
-    <div id="wrapper">
-        <div class="overlay"></div>
+
+<body>
+<!-- NAV BAR -->
 <?php
-require "process/connect.php";
-require "includes/nav.php";
-?>
+        include './includes/nav.php';
+    ?>
+<!-- NAV BAR ENDS -->
 
-    <!-- /Navigation -->
-<div id="page-content-wrapper">
-<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
-<br>
-<center> <h4>Edit Team</h4> </center>
-<center style="margin-top: -10px;"><hr></center>
 
-<div style="padding: 10px;" class="researchClass">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 col-md-offset-3">
-                <div class="panel panel-default devise-bs">
-                    <div class="panel-body">
-                        <form class="new_research" id="new_research" enctype="multipart/form-data" action="./process/process_edit_team.php" accept-charset="UTF-8" method="post">
-
-                            <!-- <label for="team_logo">Team/Startup Logo</label><br/>
-                            <input type="file" name="team_logo" id="team_logo"  required/> -->
-                            <br>
-                            <label for="team_name">Team/Startup Name</label><br/>
-                            <input class="form-control" type="text" name="team_name" id="team_name" required value="<?php echo $team_name; ?>"/><br/>
-
-                            <label for="team_desc">Description</label><br/>
-                            <small style="color:#666;">Write about your teams history, goals and achievements</small>
-                            <textarea cols="80" rows="10" class="form-control" name="team_desc" id="team_desc" required><?php echo $team_desc; ?></textarea>
-
-                            <label for="team_website">Website Link</label><br/>
-                            <input class="form-control" type="text" name="team_website" id="team_website" required value="<?php echo $website; ?>"/><br/>
-
-                            <label for="team_fb">Facebook Link</label><br/>
-                            <input class="form-control" type="text" name="team_fb" id="team_fb" value="<?php echo $fb; ?>"/><br/>
-
-                            <label for="team_contact">Contact No</label><br/>
-                            <input class="form-control" type="number" name="team_contact" id="team_contact" required value="<?php echo $contact; ?>"/><br/>
-
-                            <input type="submit" name="commit" value="Save" class="btn btn-primary rightBtn" />
-                        </form>
+<!-- Start Main Wrapper -->
+<div class="main-wrapper">
+        <!-- Start Main Content Wrapper -->
+        <div class="main-content-wrapper">
+            <div id="about" class="content-section-area pt-120 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
+                            <div class="main-heading-content text-center">
+                                <h2>Edit Team Profile<span>.</span></h2>
+                            </div>
+                        </div>
                     </div>
                 </div>
-
             </div>
         </div>
-    </div>
-</div>
+
+
+
+
+
+
+      <!-- edit form column -->
+      <div class="col-md-9 personal-info">
+
+
+        <form class="form-horizontal" role="form" action="./process/process_edit_profile.php" enctype="multipart/form-data"  method="post">
+
+           
+
+
+          <div class="form-group">
+            <label class="col-lg-3 control-label">Team/Startup Name</label>
+            <div class="col-lg-8">
+              <input class="form-control" type="text"  name="team_name" value="<?php echo $team_name ?>">
+            </div>
+          </div>
+          <!-- <div class="form-group">
+            <label class="col-lg-3 control-label">Last name:</label>
+            <div class="col-lg-8">
+              <input class="form-control" type="text" value="">
+            </div>
+          </div> -->
+          <div class="form-group">
+            <label class="col-lg-3 control-label">Website link</label>
+            <div class="col-lg-8">
+              <input class="form-control" type="text" name="team_website" value="<?php echo $website ?>">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-lg-3 control-label">Facebook link</label>
+            <div class="col-lg-8">
+              <input class="form-control" type="text" name="team_fb" value="<?php echo $fb ?>">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-lg-3 control-label">Contact no</label>
+            <div class="col-lg-8">
+              <input class="form-control" name="team_contact" type="text" value="<?php echo $contact ?>" >
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-lg-3 control-label">Description:</label>
+            <div class="col-lg-8">
+              <small style="color:#666;">Write about your teams history, goals and achievements</small>
+            <textarea cols="80" rows="10" class="form-control" name="team_desc" id="team_desc" value="<?php echo $team_desc ?>"></textarea>
+          </div>
+          </div>
+
+          <div class="form-group">
+            <label class="col-md-3 control-label"></label>
+            <div class="col-md-8">
+              <input type="submit" class="btn btn-primary" value="Save Changes">
+              <span></span>
+              <input type="reset" class="btn btn-default" value="Cancel">
+            </div>
+          </div>
+        </form>
+      </div>
+  </div>
+<hr>
+<script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+
+  <!-- footer -->
+  <?php
+            include './includes/footer.php'
+  ?>
 </body>
+   <!-- ALL JQUERY  -->
+   <script src="js/vendor/jquery-1.12.0.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDdRm-dm4ImhzWxMOy1_TyY6cQ3ZnVpw9E"></script>
+    <script src="js/minix-map.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
 
-<?php include 'includes/footer.php';?>
-</div><!-- Page content wrapper ends -->
-</div><!-- wrapper ends -->
-    <!-- Core JavaScript Files -->
-    <script src="./js/jquery.min.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
-	<script src="./js/jquery.sticky.js"></script>
-    <script src="./js/jquery.easing.min.js"></script>
-	<script src="./js/jquery.scrollTo.js"></script>
-	<script src="./js/jquery.appear.js"></script>
-	<script src="./js/stellar.js"></script>
-	<script src="./js/nivo-lightbox.min.js"></script>
 
-    <script src="./js/custom.js"></script>
-	<script src="./js/css3-animate-it.js"></script>
-    <script src="contactform/contactform.js"></script>
-    <script src="js/sidenav.js"></script>
 
 
 </html>

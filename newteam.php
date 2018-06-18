@@ -26,7 +26,7 @@
 
     <style>
     body{
-    background-color: #f4f9fe;
+    background-color:#fefdf4;
     }
         .personal-info{
             align:center;

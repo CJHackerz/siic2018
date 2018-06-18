@@ -39,7 +39,7 @@
 
     <style>
     body{
-        background-color: #f4f9fe;
+        background-color:#fefdf4;
     }
         .personal-info{
             align:center;
@@ -207,7 +207,6 @@
         </form>
       </div>
   </div>
-</div>
 <hr>
 <script
   src="https://code.jquery.com/jquery-3.3.1.js"

@@ -62,9 +62,9 @@
             <form role="form" class="new_user" id="new_user" action="./process/process_register.php" enctype="multipart/form-data" accept-charset="UTF-8" method="post">
               <!-- progressbar -->
               <ul id="progressbar">
-                <li class="active">Personal Details</li>
-                <li>Your Profile</li>
-                <li>Account Setup</li>
+                <li class="active" style="color:black;">Personal Details</li>
+                <li style="color:black;">Your Profile</li>
+                <li style="color:black;">Account Setup</li>
               </ul>
               <!-- fieldsets -->
               <fieldset >

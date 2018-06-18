@@ -23,7 +23,7 @@
 
     <style>
     body{
-        background-color: #f4f9fe;
+        background-color:#fefdf4;
     }
         .personal-info{
             align:center;
@@ -81,9 +81,9 @@
 
         <form class="form-horizontal" role="form" id="new_project" enctype="multipart/form-data" action="./process/process_new_project.php" accept-charset="UTF-8" method="post">
           <div class="form-group">
-            <label class="col-lg-3 control-label"placeholder="Title" type="text" name="project_title" id="project_title">Title</label>
+            <label class="col-lg-3 control-label" placeholder="Title" type="text" name="project_title" id="project_title">Title</label>
             <div class="col-lg-8">
-              <input class="form-control" type="text" placeholder="Enter Project Title" required>
+              <input class="form-control" type="text" placeholder="Enter Project Title" name="project_title" id="project_title" required>
             </div>
           </div>
           <div class="form-group">
