@@ -128,7 +128,7 @@ padding-right: 8px;
    <?php include 'includes/nav.php' ?>
 
 
- 
+
 
 <div class="main-wrapper">
 <div align="center">
@@ -154,7 +154,7 @@ padding-right: 8px;
       <div class="tab-content"></div>
     </div>
 
-    
+
 
      <div class="tab-label-content" id="tab4-content" style=" width:110%">
       <label for="tab4" class="rig"><a href="./editProfile.php"  >Edit Profile</label></a>
@@ -162,21 +162,14 @@ padding-right: 8px;
      </div>
 
      <div class="tab-label-content" id="tab5-content">
-<<<<<<< HEAD
-      <label for="tab5" class="rig"><a data-toggle="pill" href="#menu5">About</label></a>
-=======
-      <label for="tab5" class="rig"><a id="viewProfile" onclick="viewProfile()"  >About</label></a>
->>>>>>> a04a27f8869f6a039b1860a5c5b081e413a17eb6
-      <div class="tab-content"></div>
+<label for="tab5" class="rig"><a data-toggle="pill" href="#menu5">About</label></a>
+        <div class="tab-content"></div>
     </div>
 
      <div class="tab-label-content" id="tab6-content">
-<<<<<<< HEAD
+
       <label for="tab6" class="rig"><a data-toggle="pill"  href="#menu6">Teams</label></a>
-=======
-      <label for="tab6" class="rig"><a href="#"  >Teams</label></a>
->>>>>>> a04a27f8869f6a039b1860a5c5b081e413a17eb6
-      <div class="tab-content"></div>
+<div class="tab-content"></div>
     </div>
 
    <!--  <div class="slide"></div> -->
@@ -211,7 +204,7 @@ padding-right: 8px;
         <div class="panel panel-default" >
             <div class="panel-body">
                 <div class="tab-content">
-                    
+
 
                     <div id="menu2" class="tab-pane fade in active">
                         <!--<h3>Project</h3>-->
@@ -238,19 +231,10 @@ padding-right: 8px;
                         </div>
                         <br><br>
                     </div>
+                    <!-- </div> -->
 
-<<<<<<< HEAD
-           
-=======
-                    </div>
->>>>>>> a04a27f8869f6a039b1860a5c5b081e413a17eb6
 
-                    <!-- <div id="menu5" class="tab-pane fade">
-                        <br><br><br>
-                        <div id="notifList">
-                        </div>
-                    </div> -->
-<<<<<<< HEAD
+
 
                    <div id="menu5" class="tab-pane fade">
 
@@ -258,8 +242,8 @@ padding-right: 8px;
                       <div class="panel panel-info"><!-- <div class="card text-white bg-info mb-3" style="max-width: 18rem;"> -->
                       <div class="panel-heading"><strong>Your Details</strong></div>
                         <div class="panel-body">
-                          
-                          
+
+
                               <?php
                               $sql = "SELECT * from user_profiles where email = '$user'";
                               $result = $conn->query($sql);
@@ -279,10 +263,10 @@ padding-right: 8px;
 
 
                               ?>
-                            
+
                           </div>
                       </div>
-                      
+
 
 
 
@@ -301,8 +285,7 @@ padding-right: 8px;
                   </div>
 
 
-=======
->>>>>>> a04a27f8869f6a039b1860a5c5b081e413a17eb6
+
             </div>
         </div>
     </div>
@@ -405,7 +388,7 @@ padding-right: 8px;
                 }
             });
         });
-        
+
         function viewInstructions() {
             swal("Congratulations!", "Your idea has been submitted. Contact +91 8148606827", 'info');
         }
