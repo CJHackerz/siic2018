@@ -91,6 +91,7 @@
     <style>
     .but{
        border-bottom: 3px solid #F5BA54;
+       padding-bottom: 12px;
      }
      .rig{font-size: 18px;
      }
@@ -186,37 +187,37 @@ padding-right: 8px;
 
   </div><br>
   <div style="margin-bottom:30px;margin-top:-20px;margin-left:9%;">
-    <a class="button active res1" data-method="get" href="./newProject.php">JOIN TEAM</a>
+    <a class="button active res1"  href="./teampage.php">JOIN TEAM</a>
 </div>
 <div class="tab-wrap centre1" style="padding-top: 15vh;">
 
-    <div class="tab-label-content but" id="tab1-content">
-      <label for="tab1" class="rig"><a data-toggle="pill"  href="#menu2" >Project</label></a>
+    <div class="tab-label-content " id="tab1-content" >
+      <label for="tab1" class="rig"><a data-toggle="pill" class="xyz but" href="#menu2" >Project</label></a>
       <div class="tab-content"></div>
     </div>
 
     <div class="tab-label-content " id="tab2-content" >
-      <label for="tab2" class="rig"><a data-toggle="pill"   href="#menu3">Startup</label></a>
+      <label for="tab2" class="rig"><a data-toggle="pill" class="xyz"  href="#menu3">Startup</label></a>
       <div class="tab-content"></div>
     </div>
 
     <!--<div class="tab-label-content" id="tab3-content" style="width:160%">
-      <label for="tab3" class="rig"><a data-toggle="pill"  href="#menu4">Your Request</label></a>
+      <label for="tab3" class="rig"><a data-toggle="pill" class="xyz"  href="#menu4">Your Request</label></a>
       <div class="tab-content"></div>
   </div>-->
 
      <div class="tab-label-content" id="tab4-content" style=" width:110%">
-      <label for="tab4" class="rig"><a href="./editProfile.php"  >Edit Profile</label></a>
+      <label for="tab4" class="rig"><a    class="xyz"  href="./editProfile.php"  >Edit Profile</label></a>
       <div class="tab-content"></div>
      </div>
 
      <div class="tab-label-content" id="tab5-content">
-      <label for="tab5" class="rig"><a id="viewProfile" onclick="viewProfile()"  >About</label></a>
+      <label for="tab5" class="rig"><a    class="xyz" id="viewProfile" onclick="viewProfile()"  >About</label></a>
       <div class="tab-content"></div>
     </div>
 
      <div class="tab-label-content" id="tab6-content">
-      <label for="tab6" class="rig"><a href="#"  >Teams</label></a>
+      <label for="tab6" class="rig"><a     class="xyz"  href="#"  >Teams</label></a>
       <div class="tab-content"></div>
     </div>
 
@@ -368,7 +369,7 @@ padding-right: 8px;
         }
     ?>
     <script>
-    var elements = document.getElementsByClassName("tab-label-content");
+    var elements = document.getElementsByClassName("xyz");
     for(var i = 0; i < elements.length;i++)
     {
     elements[i].onclick=function(){

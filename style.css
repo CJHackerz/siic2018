@@ -2567,7 +2567,7 @@ ul.main-menu {
 .portfolio-item-content {
     overflow: hidden;
     position: relative;
-    border: 2px solid#ddd;
+    border: 3px solid #fefdf4;
 }
 
 .portfolio-details {
