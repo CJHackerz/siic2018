@@ -59,15 +59,7 @@
         body{
         background-color:  #fefdf4;
     }
-/*@media only screen and (min-width: 480px) and (max-width: 767px){
-    #navtop{
-    margin-left: 20%;
-  }
-}
-@media (min-width: 768px) and (max-width: 991px) {
-#navtop{
-    margin-left: 20%;
-  }
+
     }*/
 @media only screen and  (max-width: 767px) {
 #bt{
@@ -136,43 +128,7 @@ padding-right: 8px;
    <?php include 'includes/nav.php' ?>
 
 
- <!--  <nav class="w3-sidebar w3-bar-block   w3-top" style="position: absolute;z-index:3;width:300px;height:100%; background-color:#F4F9FE ;padding-top: 90px;" id="mySidebar1"> -->
-
- <!--  <div class="w3-container w3-display-container w3-padding-16">
-    <i onclick="w3_close1()" class="fa fa-remove w3-hide-large w3-button w3-display-topright"></i>
-  </div>  -->
-  <!-- <div class="w3-container w3-row" style="font-size:6px;">
-    <div class="w3-col s4" style="margin-left:20%;">
-      <img class="img-thumbnail" src="./profiles/img/<?php echo $profile_avatar;?>" alt="Profile Image" />
-    </div>
-    </div>  -->
-    <!--  <br>
-    <div class="w3-bar-block" style="font-size:18px;padding-top: 15vh;">
-     -->
-    <!--   <span style="margin-left:8%">Welcome, <strong style="padding-top:3vh;"><?php echo $profile_name; ?></strong></span><br><br>
-      <span style="margin-left:6%"><button class="btn btn-primary rightBtn" onclick="location.href='./teams.php'">Join Team</button> -->
-     <!--    <img class="img-thumbnail" src="./img/<?php echo $profile_avatar;?>" alt="Profile Image" />
-      <span style="margin-left:8%">Welcome, <strong style="padding-top:3vh;"><?php echo $profile_name; ?></strong></span><br><br>
-      <span style="margin-left:6%"><button class="btn btn-primary rightBtn" onclick="location.href='./teams.php'">Join Team</button>
-    </div>
-  <br> -->
-
- <!--  <div class="w3-bar-block" >
-      <style media="screen">
-          .fas{
-              padding: 2px;
-          }
-      </style>
-    <a href="./editProfile.php" class="w3-bar-item w3-button w3-padding" ><i class="fas fa-user-edit"></i> Edit Profile</a>
-    <a id="viewProfile" onclick="viewProfile()" class="w3-bar-item w3-button w3-padding" ><i class="fas fa-info"></i> About</a>
-    <a data-toggle="pill"  class="w3-bar-item w3-button w3-padding" href="#menu2"><i class="fas fa-file"></i> Projects </a>
-    <a class="w3-bar-item w3-button w3-padding"><i class="fas fa-users"></i>  Teams</a>
-    <a data-toggle="pill"   class="w3-bar-item w3-button w3-padding" href="#menu3"><i class="fas fa-briefcase"></i>  Startup</a>
-    <a data-toggle="pill"   class="w3-bar-item w3-button w3-padding" href="#menu4"><i class="fas fa-hand-pointer"></i> Your Request</a>
-  </div> -->
-<!-- </nav> -->
-
-<!-- <center> -->
+ 
 
 <div class="main-wrapper">
 <div align="center">
@@ -198,10 +154,7 @@ padding-right: 8px;
       <div class="tab-content"></div>
     </div>
 
-    <!-- <div class="tab-label-content" id="tab3-content" style="width:160%">
-      <label for="tab3" class="rig"><a data-toggle="pill"  href="#menu4">Your Request</label></a>
-      <div class="tab-content"></div>
-  </div> -->
+    
 
      <div class="tab-label-content" id="tab4-content" style=" width:110%">
       <label for="tab4" class="rig"><a href="./editProfile.php"  >Edit Profile</label></a>
@@ -209,12 +162,20 @@ padding-right: 8px;
      </div>
 
      <div class="tab-label-content" id="tab5-content">
+<<<<<<< HEAD
       <label for="tab5" class="rig"><a data-toggle="pill" href="#menu5">About</label></a>
+=======
+      <label for="tab5" class="rig"><a id="viewProfile" onclick="viewProfile()"  >About</label></a>
+>>>>>>> a04a27f8869f6a039b1860a5c5b081e413a17eb6
       <div class="tab-content"></div>
     </div>
 
      <div class="tab-label-content" id="tab6-content">
+<<<<<<< HEAD
       <label for="tab6" class="rig"><a data-toggle="pill"  href="#menu6">Teams</label></a>
+=======
+      <label for="tab6" class="rig"><a href="#"  >Teams</label></a>
+>>>>>>> a04a27f8869f6a039b1860a5c5b081e413a17eb6
       <div class="tab-content"></div>
     </div>
 
@@ -241,24 +202,6 @@ padding-right: 8px;
 
 
 
-<!--  <ul class="nav nav-pills padInLaptop" style="padding-top: 25vh; overflow: hidden; white-space: nowrap;width: 100%;">
-        <img style="height: 100px; width: 100px;margin-left: 46vw;" class="img-thumbnail" src="./img/<?php echo $profile_avatar;?>" alt="Profile Image" />
-<ul style="margin-left: 10vw;font-size: 13px;margin-left: 46vw;">Welcome, <strong><?php echo $profile_name; ?></strong></ul>
-      <br>
-      <ul class="nav nav-pills padInLaptop" style="overflow: hidden;">
-       <li id="bt" class="active" style="font-size: 11px;"><a data-toggle="pill"  href="#menu2">Project</a></li>
-        <li style="font-size: 11px;display: inline"><a data-toggle="pill"  href="#menu3">Startups</a></li>
-        <li style="font-size: 11px;display: inline;"><a data-toggle="pill"  href="#menu4">Your Requests</a></li>
-        <li style="font-size: 11px;display: inline"><a data-toggle="pill" >Teams</a><li>
-        <li style="font-size: 11px;display: inline"><a href="./editProfile.php" data-toggle="pill"  >Edit Profile</a></li>
-        <li style="font-size: 11px;display: inline"><a id="viewProfile" onclick="viewProfile()" data-toggle="pill"  >About</a></li>
-        </ul>
-          <li>  <a href="./editProfile.php">Edit Profile</a></li>
-    <li><a onclick="viewProfile()" >About</a></li> -->
-
-
-        <!-- <li><a data-toggle="pill"  href="#menu5" onclick="loadNotifs()">Notifications</a></li> -->
-
 
 
 
@@ -268,17 +211,7 @@ padding-right: 8px;
         <div class="panel panel-default" >
             <div class="panel-body">
                 <div class="tab-content">
-                    <!-- <div id="menu1" class="tab-pane tab-pane fade in active">
-                        <a class="btn btn-primary rightBtn" data-method="get" href="./newResearch.php">Apply for Research</a>
-                        <br><br><br>
-                        <div class="row">
-                            <div id="researchList"> -->
-                                <!--  Research list -->
-                            <!-- </div>
-                        </div>
-                        <br><br>
-                    </div> -->
-
+                    
 
                     <div id="menu2" class="tab-pane fade in active">
                         <!--<h3>Project</h3>-->
@@ -306,21 +239,18 @@ padding-right: 8px;
                         <br><br>
                     </div>
 
-                    <!-- <div id="menu4" class="tab-pane fade">
-
-                        <a class="button active res1" data-method="get" href="./inventory.php">New Request</a>
-                        <br>
-
-                        <br><br>
-                        <p><h6 style="text-align:center;">No Requests</h6></p>
-                        <br><br>
-                    </div> -->
+<<<<<<< HEAD
+           
+=======
+                    </div>
+>>>>>>> a04a27f8869f6a039b1860a5c5b081e413a17eb6
 
                     <!-- <div id="menu5" class="tab-pane fade">
                         <br><br><br>
                         <div id="notifList">
                         </div>
                     </div> -->
+<<<<<<< HEAD
 
                    <div id="menu5" class="tab-pane fade">
 
@@ -356,10 +286,7 @@ padding-right: 8px;
 
 
 
-<!-- <div class="panel panel-info">
-      <div class="panel-heading">Panel with panel-info class</div>
-      <div class="panel-body">Panel Content</div>
-    </div> -->
+
 
 
               <div id="menu6" class="tab-pane fade">
@@ -374,6 +301,8 @@ padding-right: 8px;
                   </div>
 
 
+=======
+>>>>>>> a04a27f8869f6a039b1860a5c5b081e413a17eb6
             </div>
         </div>
     </div>
@@ -476,24 +405,7 @@ padding-right: 8px;
                 }
             });
         });
-        // User notifications
-        // function loadNotifs() {
-        //     var uid = $("#uid").val();
-        //     $.ajax({
-        //         type: "POST",
-        //         url: "./process/load_notifications.php",
-        //         data: {
-        //             id  :   uid
-        //         },
-        //         beforeSend: function() {
-        //             $('#notifList').html('<center>loading...</center>');
-        //         },
-        //         dataType: "html",
-        //         success: function(data) {
-        //             $("#notifList").html(data);
-        //         }
-        //     });
-        // }
+        
         function viewInstructions() {
             swal("Congratulations!", "Your idea has been submitted. Contact +91 8148606827", 'info');
         }
