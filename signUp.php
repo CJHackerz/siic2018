@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/signIn.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <style>
@@ -68,8 +69,8 @@
               </ul>
               <!-- fieldsets -->
               <fieldset >
-                <h2 class="fs-title" style="font-family: Open Sans;">Create your account</h2>
-                <h3 class="fs-subtitle" style="font-family: Open Sans;">This is step 1</h3>
+                <h2 class="fs-title" style="font-family: 'Open Sans', sans-serif;">Create your account</h2>
+                <h3 class="fs-subtitle" style="font-family: 'Open Sans', sans-serif;">This is step 1</h3>
                 <label class="upload-picture">Upload your picture (less than 2MB)</label>
                 <input type="file" accept=".jpeg, .jpg, .png" name="profile_avatar" id="profile_avatar" value="Select your profile Photo">
                 <input type="text" name="profile_name" id="profile_name" placeholder="Name" required>
@@ -113,8 +114,8 @@
                 <p>Already have an account? <a href="./signIn.php" style="text-decoration: none; color:green;"><strong>Sign in</strong></a></p>
               </fieldset>
               <fieldset>
-                <h2 class="fs-title" style="font-family: Open Sans;">Create your Account</h2>
-                <h3 class="fs-subtitle" style="font-family: Open Sans;">Step 2 out of 3</h3>
+                <h2 class="fs-title" style="font-family: 'Open Sans', sans-serif;">Create your Account</h2>
+                <h3 class="fs-subtitle" style="font-family: 'Open Sans', sans-serif;">Step 2 out of 3</h3>
                 <input type="text" name="profile_address" id="profile_address" placeholder="Address"/>
                 <input type="text" name="profile_skills" id="profile_skills" placeholder="Skills" required/>
                 <input type="text" name="profile_hobbies" id="profile_hobbies" placeholder="Hobbies" />
@@ -125,8 +126,8 @@
                 <p>Already have an account? <a href="./signIn.php" style="text-decoration: none; color:green;"><strong>Sign in</strong></a></p>
               </fieldset>
               <fieldset>
-                <h2 class="fs-title" style="font-family: Open Sans;">Create your Account</h2>
-                <h3 class="fs-subtitle" style="font-family: Open Sans;">Step 3 out of 3</h3>
+                <h2 class="fs-title" style="font-family: 'Open Sans', sans-serif;">Create your Account</h2>
+                <h3 class="fs-subtitle" style="font-family: 'Open Sans', sans-serif;">Step 3 out of 3</h3>
 
                 <textarea name="profile_description" id="profile_description" placeholder="Description/Bio" required></textarea>
                 <input type="text" class="email-adjust" name="user_email" id="user_email" placeholder="Email" required />

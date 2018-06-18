@@ -123,7 +123,7 @@ input::-moz-placeholder {
     margin-bottom: 10px;
     width: 100%;
     box-sizing: border-box;
-  font-family: "Open Sans";
+  font-family: 'Open Sans', sans-serif;
     color: #2C3E50;
     font-size: 15px;
     background: white;
@@ -262,7 +262,7 @@ textarea::-webkit-input-placeholder {
     margin-bottom: 10px;
     width: 100%;
     box-sizing: border-box;
-  font-family: "Open Sans";
+  font-family: 'Open Sans', sans-serif;
     color: #2C3E50;
     font-size: 15px;
     background: white;

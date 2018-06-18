@@ -18,6 +18,7 @@
     <!-- Favicon Icon Add -->
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
     <!-- All STYLESHEET CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="css/element.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/responsive.css">
@@ -60,8 +61,8 @@
 
               <!-- fieldsets -->
               <fieldset>
-                <h2 class="fs-title" style="font-family: Open Sans;">Sign In</h2>
-                <h3 class="fs-subtitle" style="font-family: Open Sans;">Enter the details to sign in</h3>
+                <h2 class="fs-title" style="font-family: 'Open Sans', sans-serif;">Sign In</h2>
+                <h3 class="fs-subtitle" style="font-family: 'Open Sans', sans-serif;">Enter the details to sign in</h3>
                 <input type="email" name="user_email" placeholder="Email" required>
                 <!-- <input type="text" placeholder="test123"> -->
                 <input type="password" name="user_password" placeholder="Password" required />
