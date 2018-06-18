@@ -326,7 +326,7 @@ padding-right: 8px;
 
                       <!-- <br><br><br> -->
                       <div class="panel panel-info"><!-- <div class="card text-white bg-info mb-3" style="max-width: 18rem;"> -->
-                      <div class="panel-heading">Your Details</div>
+                      <div class="panel-heading"><strong>Your Details</strong></div>
                         <div class="panel-body">
                           
                           
