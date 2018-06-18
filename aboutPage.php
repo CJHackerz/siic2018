@@ -107,7 +107,7 @@
                </article>
 
 
-               
+
             </div>
             <div class="col-md-5 col-sm-5 col-md-offset-1 ">
                <center>
@@ -157,7 +157,7 @@
 
 
 
-        
+
                <div class="row board-of-advisory" align="center">
                   <div class="team-wrapper">
                      <div class="col-md-4 col-sm-4">
@@ -202,8 +202,8 @@
 
 
 
-        
-        
+
+
 
 
 
@@ -248,7 +248,7 @@
                   </div>
                </div>
 
-                
+
                 <div class="row core-team" align="center">
                   <div class="team-wrapper">
                      <div class="col-md-4 col-sm-4">
@@ -364,10 +364,10 @@
                      </div>
                      <h4>JOIN US:</h4>
                      <br>
-                     <h5>Technical:</h5> 
+                     <h5>Technical:</h5>
 
                      <h6>The master in the campus is  hiring the best techies to turn them into the best minds.</h6>
-    
+
                      <ul>
 
                         <li>Server</li>
@@ -377,10 +377,10 @@
                      <br>
                      <br>
 
-                     <h5>Design:</h5> 
+                     <h5>Design:</h5>
 
                      <h6>Looking for a challenging job to develope your designing skills, we are here to help you out</h6>
-    
+
                      <ul>
 
                         <li>Graphics</li>
@@ -390,10 +390,10 @@
                      <br>
                      <br>
 
-                     <h5>Content:</h5> 
+                     <h5>Content:</h5>
 
                      <h6>We welcome explorers, and brainy storytellers</h6>
-    
+
                      <ul>
 
                         <li>Writers</li>
@@ -404,10 +404,10 @@
                      <br>
 
 
-                      <h5>Publicity:</h5> 
+                      <h5>Publicity:</h5>
 
                      <h6>Do you live at Facebook, Twitter, Instagram? If yes, then join us.</h6>
-    
+
                      <ul>
 
                         <li>Social media marketer</li>
@@ -419,10 +419,10 @@
 
 
 
-                     <h5>Business:</h5> 
+                     <h5>Business:</h5>
 
                      <h6>We invite the intellects to work with utmost freedom.</h6>
-    
+
                      <ul>
 
                         <li>HR</li>
@@ -440,7 +440,7 @@
 
 
 
-            
+
          <!-- End creative team -->
 
          </div>
