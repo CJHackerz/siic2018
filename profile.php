@@ -157,51 +157,13 @@ padding-right: 8px;
       <div class="tab-content"></div>
     </div>
 
-
-
-     <div class="tab-label-content" id="tab4-content" style=" width:110%">
-      <label for="tab4" class="rig"><a    class="xyz"  href="./editProfile.php"  >Edit Profile</label></a>
+    <div class="tab-label-content " id="tab3-content" >
+      <label for="tab3" class="rig"><a data-toggle="pill" class="xyz"  href="#menu4">Research</label></a>
       <div class="tab-content"></div>
-     </div>
-
-     <div class="tab-label-content" id="tab5-content">
-<label for="tab5" class="rig"><a data-toggle="pill" href="#menu5">About</label></a>
-        <div class="tab-content"></div>
-    </div>
-
-     <div class="tab-label-content" id="tab6-content">
-
-      <label for="tab6" class="rig"><a data-toggle="pill"  href="#menu6">Teams</label></a>
-<div class="tab-content"></div>
-    </div>
+  </div>
 
    <!--  <div class="slide"></div> -->
-
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     <div class="container">
         <div class="panel panel-default" >
@@ -229,6 +191,19 @@ padding-right: 8px;
                         <br><br><br>
                         <div class="row">
                             <div id="startupList">
+                                <!-- Startup list -->
+                            </div>
+                        </div>
+                        <br><br>
+                    </div>
+
+                    <div id="menu4" class="tab-pane fade">
+                    <!--<h3>Research</h3>-->
+
+                        <a class="button active res1" data-method="get" href="./newResearch.php">Apply for Research</a>
+                        <br><br><br>
+                        <div class="row">
+                            <div id="researchList">
                                 <!-- Startup list -->
                             </div>
                         </div>
