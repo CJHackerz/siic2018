@@ -59,7 +59,7 @@
                      <article class="blog-post">
                         <div class="post-thumbnail">
                            <a href="javascript:void(0)">
-                              <img class="img-responsive"  src="./teams/img/random3.png" alt="">
+                              <img class="img-responsive"  src="./teams/img/1.618.jpeg" alt="">
                         </div>
                         <div class="post-content">
                         <div class="post-content-inner" style="width:100%; height:5rem;">
@@ -78,7 +78,7 @@
                         <article class="blog-post">
                            <div class="post-thumbnail">
                               <a href="javascript:void(0)">
-                                 <img class="img-responsive" src="./teams/img/random3.png" alt="">
+                                 <img class="img-responsive" src="./teams/img/srm_uav.png" alt="">
                            </div>
                            <div class="post-content">
                            <div class="post-content-inner" style="width:100%; height:5rem;">
@@ -168,7 +168,7 @@
                               <article class="blog-post">
                                  <div class="post-thumbnail">
                                     <a href="javascript:void(0)">
-                                       <img class="img-responsive" src="./teams/img/random3.png" alt="">
+                                       <img class="img-responsive" src="./teams/img/scro.png" alt="">
                                  </div>
                                  <div class="post-content">
                                  <div class="post-content-inner" style="width:100%; height:5rem;">
@@ -206,7 +206,7 @@
                               <article class="blog-post">
                                  <div class="post-thumbnail">
                                     <a href="javascript:void(0)">
-                                       <img class="img-responsive" src="./teams/img/random3.png" alt="">
+                                       <img class="img-responsive" src="./teams/img/rudra.png" alt="">
                                  </div>
                                  <div class="post-content">
                                  <div class="post-content-inner" style="width:100%; height:5rem;">
@@ -225,7 +225,7 @@
                               <article class="blog-post">
                                  <div class="post-thumbnail">
                                     <a href="javascript:void(0)">
-                                       <img class="img-responsive" src="./teams/img/random3.png" alt="">
+                                       <img class="img-responsive" src="./teams/img/next_tech.png" alt="">
                                  </div>
                                  <div class="post-content">
                                  <div class="post-content-inner" style="width:100%; height:5rem;">
@@ -246,7 +246,7 @@
                               <article class="blog-post">
                                  <div class="post-thumbnail">
                                     <a href="javascript:void(0)">
-                                       <img class="img-responsive" src="./teams/img/random3.png" alt="">
+                                       <img class="img-responsive" src="./teams/img/srm_robocon.jpeg" alt="">
                                  </div>
                                  <div class="post-content">
                                  <div class="post-content-inner" style="width:100%; height:5rem;">
@@ -267,7 +267,7 @@
                               <article class="blog-post">
                                  <div class="post-thumbnail">
                                     <a href="javascript:void(0)">
-                                       <img class="img-responsive" src="./teams/img/random3.png" alt="">
+                                       <img class="img-responsive" src="./teams/img/humanoid.png" alt="">
                                  </div>
                                  <div class="post-content">
                                  <div class="post-content-inner" style="width:100%; height:5rem;">
@@ -289,7 +289,7 @@
                               <article class="blog-post">
                                  <div class="post-thumbnail">
                                     <a href="javascript:void(0)">
-                                       <img class="img-responsive" src="./teams/img/random3.png" alt="">
+                                       <img class="img-responsive" src="./teams/img/hybrutos_racing.jpeg" alt="">
                                  </div>
                                  <div class="post-content">
                                  <div class="post-content-inner" style="width:100%; height:5rem;">
@@ -311,7 +311,7 @@
                               <article class="blog-post">
                                  <div class="post-thumbnail">
                                     <a href="javascript:void(0)">
-                                       <img class="img-responsive" src="./teams/img/random3.png" alt="">
+                                       <img class="img-responsive" src="./teams/img/concrete_canoe_racing.jpeg" alt="">
                                  </div>
                                  <div class="post-content">
                                  <div class="post-content-inner" style="width:100%; height:5rem;">
@@ -332,7 +332,7 @@
                               <article class="blog-post">
                                  <div class="post-thumbnail">
                                     <a href="javascript:void(0)">
-                                       <img class="img-responsive" src="./teams/img/random3.png" alt="">
+                                       <img class="img-responsive" src="./teams/img/conrods.png" alt="">
                                  </div>
                                  <div class="post-content">
                                  <div class="post-content-inner" style="width:100%; height:5rem;">
@@ -353,7 +353,7 @@
                               <article class="blog-post">
                                  <div class="post-thumbnail">
                                     <a href="javascript:void(0)">
-                                       <img class="img-responsive" src="./teams/img/random3.png" alt="">
+                                       <img class="img-responsive" src="./teams/img/camber_racing.jpeg" alt="">
                                  </div>
                                  <div class="post-content">
                                  <div class="post-content-inner" style="width:100%; height:5rem;">
@@ -373,7 +373,7 @@
                               <article class="blog-post">
                                  <div class="post-thumbnail">
                                     <a href="javascript:void(0)">
-                                       <img class="img-responsive" src="./teams/img/random3.png" alt="">
+                                       <img class="img-responsive" src="./teams/img/srm_auv.png" alt="">
                                  </div>
                                  <div class="post-content">
                                  <div class="post-content-inner" style="width:100%; height:5rem;">
@@ -394,7 +394,7 @@
                               <article class="blog-post">
                                  <div class="post-thumbnail">
                                     <a href="javascript:void(0)">
-                                       <img class="img-responsive" src="./teams/img/random3.png" alt="">
+                                       <img class="img-responsive" src="./teams/img/srm_asv.png" alt="">
                                  </div>
                                  <div class="post-content">
                                  <div class="post-content-inner" style="width:100%; height:5rem;">
@@ -414,7 +414,7 @@
                               <article class="blog-post">
                                  <div class="post-thumbnail">
                                     <a href="javascript:void(0)">
-                                       <img class="img-responsive" src="./teams/img/random3.png" alt="">
+                                       <img class="img-responsive" src="./teams/img/42labs.jpeg" alt="">
                                  </div>
                                  <div class="post-content">
                                  <div class="post-content-inner" style="width:100%; height:5rem;">
@@ -435,7 +435,7 @@
                               <article class="blog-post">
                                  <div class="post-thumbnail">
                                     <a href="javascript:void(0)">
-                                       <img class="img-responsive" src="./teams/img/random3.png" alt="">
+                                       <img class="img-responsive" src="./teams/img/enigmatic_plodder.jpeg" alt="">
                                  </div>
                                  <div class="post-content">
                                  <div class="post-content-inner" style="width:100%; height:5rem;">
@@ -478,7 +478,7 @@
                               <article class="blog-post">
                                  <div class="post-thumbnail">
                                     <a href="javascript:void(0)">
-                                       <img class="img-responsive" src="./teams/img/random3.png" alt="">
+                                       <img class="img-responsive" src="./teams/img/4ze_racing.png" alt="">
                                  </div>
                                  <div class="post-content">
                                  <div class="post-content-inner" style="width:100%; height:5rem;">
@@ -499,7 +499,7 @@
                               <article class="blog-post">
                                  <div class="post-thumbnail">
                                     <a href="javascript:void(0)">
-                                       <img class="img-responsive" src="./teams/img/random3.png" alt="">
+                                       <img class="img-responsive" src="./teams/img/the_elecruisers.jpeg" alt="">
                                  </div>
                                  <div class="post-content">
                                  <div class="post-content-inner" style="width:100%; height:5rem;">
