@@ -1,13 +1,12 @@
 <?php
     include './process/connect.php';
     include './process/utils.php';
-$user = get_user();
-    $sql = "SELECT * from users where email = '$user'";
-    $result = $conn->query($sql);
-    $row = $result->fetch_assoc();
+    $user = get_user();
     $user_email = $_GET["uid"];
 
-    $sql = "SELECT * from user_profiles where email = '$user'";
+
+
+    $sql = "SELECT * from user_profiles where email = '$user_email'";
 
     $result = $conn->query($sql);
     $row = $result->fetch_assoc();
@@ -177,7 +176,7 @@ padding-right: 8px;
 
 
                               <?php
-                              $sql = "SELECT * from user_profiles where email = '$user'";
+                              $sql = "SELECT * from user_profiles where email = '$user_email'";
                               $result = $conn->query($sql);
                               $row = $result->fetch_assoc();
                               $address=$row['address'];
