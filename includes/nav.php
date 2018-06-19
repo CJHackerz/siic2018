@@ -35,7 +35,7 @@
                                 </a>
                                 <ul class="dropdown-menu dropdown-user">
                                     <li><a href="./profile.php">Dashboard</a></li>
-                                    <li><a href="./viewProfile.php">View Profile</a></li>
+                                    <li><a href="./viewProfile.php?uid=<?php echo $_SESSION['user'] ?>">View Profile</a></li>
                                     <li><a href="./editProfile.php">Edit Profile</a></li>
                                     <li><a href="./process/process_logout.php">Logout</a></li>
                                 </ul>
