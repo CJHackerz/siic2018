@@ -78,6 +78,21 @@
          font-size:20px;
          }
       </style>
+      <style>
+
+      .resp{margin-left:39%;}
+      @media only screen and  (max-width: 900px){
+
+        .resp{margin-left:31%;}
+      }
+      @media only screen and  (max-width: 400px){
+
+        .resp{margin-left:29%;}
+      }
+
+          /* padding-right: 10%;} */
+
+      </style>
    </head>
    <body style="background-color: #fefdf4" >
       <?php include 'includes/nav.php' ?>
@@ -144,12 +159,12 @@
                             if($result->num_rows > 0) {
                                 $rows = $result->fetch_assoc();
                                 if($rows['status'] == 'ACCEPTED') {
-                                    echo '<center><button class="button active" onclick="leaveTeam()">Leave</button></center>';
+                                    echo '<div class="resp"><button class="button active" onclick="leaveTeam()">Leave</button></div>';
                                 } else {
-                                    echo '<center><button class="button active" onclick="joinTeam()">Join</button></center>';
+                                    echo '<div class="resp"><button class="button active" onclick="joinTeam()">Join</button></div>';
                                 }
                             } else {
-                                echo '<center><button class="button active" onclick="joinTeam()">Join</button></center>';
+                                echo '<div class="resp"><button class="button active" onclick="joinTeam()">Join</button></div>';
                             }
                         }
 
@@ -204,12 +219,12 @@
                             if($result->num_rows > 0) {
                                 $rows = $result->fetch_assoc();
                                 if($rows['status'] == 'ACCEPTED') {
-                                    echo '<center><button class="button active" onclick="leaveTeam()">Leave</button></center>';
+                                    echo '<div class="resp"><button class="button active" onclick="leaveTeam()">Leave</button></div>';
                                 } else {
-                                    echo '<center><button class="button active" onclick="joinTeam()">Join Team</button></center>';
+                                    echo '<div class="resp"><button class="button active" onclick="joinTeam()">Join Team</button></div>';
                                 }
                             } else {
-                                echo '<center><button class="button active" onclick="joinTeam()">Join</button></center>';
+                                echo '<div class="resp"><button class="button active" onclick="joinTeam()">Join</button></div>';
                             }
                         }
 
