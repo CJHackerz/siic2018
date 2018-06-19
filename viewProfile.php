@@ -191,7 +191,7 @@ padding-right: 8px;
                               echo "<p>Hobbies :$hobbies</p>";
                               echo "<p>Achievements :$achievements</p>";
                               echo "<p>Experience :$experience</p>";
-                              echo "<p>Description :$description</p>";
+                               echo "<p>Description :$description</p>";
 
 
                               ?>
@@ -200,7 +200,7 @@ padding-right: 8px;
                       </div>
 
 
-
+<!--
                          <div id="menu3" class="tab-pane fade">
 
                       <br><br><br>
@@ -210,11 +210,63 @@ padding-right: 8px;
                           </div>
                       </div>
                       <br><br>
-                  </div>
+                  </div> -->
 
 
 
             </div>
+            <div id="menu3" class="tab-pane fade ">
+            
+
+               <div class="panel-body">
+
+
+                 <?php
+                    $user_id = $_SESSION['user_id'];
+                    $sql = "SELECT  * from teams INNER JOIN team_members ON teams.team_id=team_members.team_id and team_members.uid='$user_id' and team_members.status='accepted'";
+                    // $sql = "SELECT * from teams where type = 'team'";
+                    // $sql1= "SELECT * from team_members where uid = '$user_id'";
+                    $result = $conn->query($sql);
+                    if($result->num_rows > 0) {
+                        while ($row = $result->fetch_assoc()) {
+                            echo        ' <div class="row-teams">
+                            <div class="col-md-3 col-sm-6" style="padding-bottom:30px;">
+                                <article class="blog-post">
+                                    <div class="post-thumbnail">
+                                        <a href="./teampage.php?id=' . $row['team_id'] . '">
+                                            <img class="img-responsive" src="./teams/img/' . $row['logo'] . '" alt="">
+                                    </div>
+                                    <div class="post-content">
+                                        <div class="post-content-inner" style="width:100%; height:5rem;">
+                                            <center><h3 ><a href="#">'.$row['team_name'].'</a></h3></center>
+                                        </div>
+                                    </div>
+                                        </a>
+                                </article>
+                            </div>';
+                        }
+                    }
+                    ?>
+
+                 </div>
+             </div>
+
+
+<!--
+                <div id="menu3" class="tab-pane fade">
+
+             <br><br><br>
+             <div class="row">
+                 <div id="">
+
+                 </div>
+             </div>
+             <br><br>
+         </div> -->
+
+
+
+
         </div>
     </div>
 </div>

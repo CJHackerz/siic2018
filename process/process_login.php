@@ -91,7 +91,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
             if(password_verify($user_password, $row['password']))
             {
               session_start();
-              $_SESSION["user_name"]  = $row['team_name'];
+              $_SESSION["user_name"]  = $user_name['name'];
               $_SESSION["user"]       = $user_email;
               $_SESSION["user_id"]    = $row["team_id"];
               $_SESSION["team"]       = "true";
