@@ -513,6 +513,731 @@
 
 
 
+                              
+                              </div>
+                              <div class="row-teams">
+                           <div class="col-md-3 col-sm-6" style="padding-bottom:30px; padding-top:30px;">
+                              <article class="blog-post">
+                                 <div class="post-thumbnail">
+                                    <a href="javascript:void(0)">
+                                       <img class="img-responsive" src="./teams/img/aakash.jpeg" alt="">
+                                 </div>
+                                 <div class="post-content">
+                                 <div class="post-content-inner" style="width:100%; height:5rem;">
+                                 <center><h3 ><a href="#">Aakash Research Labs</a></h3></center>
+                                 </div>
+                                 </div>
+                                 </div>
+                                 </a>
+                              </article>
+
+
+
+
+
+                                         </div>
+                              <div class="row-teams">
+                           <div class="col-md-3 col-sm-6" style="padding-bottom:30px; padding-top:30px;">
+                              <article class="blog-post">
+                                 <div class="post-thumbnail">
+                                    <a href="javascript:void(0)">
+                                       <img class="img-responsive" src="./teams/img/aura_labs.jpeg" alt="">
+                                 </div>
+                                 <div class="post-content">
+                                 <div class="post-content-inner" style="width:100%; height:5rem;">
+                                 <center><h3 ><a href="#">Aura Labs</a></h3></center>
+                                 </div>
+                                 </div>
+                                 </div>
+                                 </a>
+                              </article>
+
+
+
+
+                                            </div>
+                              <div class="row-teams">
+                           <div class="col-md-3 col-sm-6" style="padding-bottom:30px; padding-top:30px;">
+                              <article class="blog-post">
+                                 <div class="post-thumbnail">
+                                    <a href="javascript:void(0)">
+                                       <img class="img-responsive" src="./teams/img/auto_creed_racing.jpeg" alt="">
+                                 </div>
+                                 <div class="post-content">
+                                 <div class="post-content-inner" style="width:100%; height:5rem;">
+                                 <center><h3 ><a href="#">Auto Creed Racing</a></h3></center>
+                                 </div>
+                                 </div>
+                                 </div>
+                                 </a>
+                              </article>
+
+
+
+
+
+                                    </div>
+                              <div class="row-teams">
+                           <div class="col-md-3 col-sm-6" style="padding-bottom:30px; padding-top:30px;">
+                              <article class="blog-post">
+                                 <div class="post-thumbnail">
+                                    <a href="javascript:void(0)">
+                                       <img class="img-responsive" src="./teams/img/blooming_beacon.jpeg" alt="">
+                                 </div>
+                                 <div class="post-content">
+                                 <div class="post-content-inner" style="width:100%; height:5rem;">
+                                 <center><h3 ><a href="#">Blooming Beacon</a></h3></center>
+                                 </div>
+                                 </div>
+                                 </div>
+                                 </a>
+                              </article>
+
+
+
+
+
+
+                                 </div>
+                              <div class="row-teams">
+                           <div class="col-md-3 col-sm-6" style="padding-bottom:30px; padding-top:30px;">
+                              <article class="blog-post">
+                                 <div class="post-thumbnail">
+                                    <a href="javascript:void(0)">
+                                       <img class="img-responsive" src="./teams/img/books_bite.jpeg" alt="">
+                                 </div>
+                                 <div class="post-content">
+                                 <div class="post-content-inner" style="width:100%; height:5rem;">
+                                 <center><h3 ><a href="#">Books Bite</a></h3></center>
+                                 </div>
+                                 </div>
+                                 </div>
+                                 </a>
+                              </article>
+
+
+
+
+
+
+                              </div>
+                              <div class="row-teams">
+                           <div class="col-md-3 col-sm-6" style="padding-bottom:30px; padding-top:30px;">
+                              <article class="blog-post">
+                                 <div class="post-thumbnail">
+                                    <a href="javascript:void(0)">
+                                       <img class="img-responsive" src="./teams/img/enactus.jpeg" alt="">
+                                 </div>
+                                 <div class="post-content">
+                                 <div class="post-content-inner" style="width:100%; height:5rem;">
+                                 <center><h3 ><a href="#">Enactus SRM</a></h3></center>
+                                 </div>
+                                 </div>
+                                 </div>
+                                 </a>
+                              </article>
+
+
+
+
+
+                              </div>
+                              <div class="row-teams">
+                           <div class="col-md-3 col-sm-6" style="padding-bottom:30px; padding-top:30px;">
+                              <article class="blog-post">
+                                 <div class="post-thumbnail">
+                                    <a href="javascript:void(0)">
+                                       <img class="img-responsive" src="./teams/img/engineers_without_borders.png" alt="">
+                                 </div>
+                                 <div class="post-content">
+                                 <div class="post-content-inner" style="width:100%; height:5rem;">
+                                 <center><h3 ><a href="#">Engineers without borders (SRM University Chapter)</a></h3></center>
+                                 </div>
+                                 </div>
+                                 </div>
+                                 </a>
+                              </article>
+
+
+
+
+
+
+                              </div>
+                              <div class="row-teams">
+                           <div class="col-md-3 col-sm-6" style="padding-bottom:30px; padding-top:30px;">
+                              <article class="blog-post">
+                                 <div class="post-thumbnail">
+                                    <a href="javascript:void(0)">
+                                       <img class="img-responsive" src="./teams/img/etros.png" alt="">
+                                 </div>
+                                 <div class="post-content">
+                                 <div class="post-content-inner" style="width:100%; height:5rem;">
+                                 <center><h3 ><a href="#">Team Etros</a></h3></center>
+                                 </div>
+                                 </div>
+                                 </div>
+                                 </a>
+                              </article>
+
+
+
+
+
+                              </div>
+                              <div class="row-teams">
+                           <div class="col-md-3 col-sm-6" style="padding-bottom:30px; padding-top:30px;">
+                              <article class="blog-post">
+                                 <div class="post-thumbnail">
+                                    <a href="javascript:void(0)">
+                                       <img class="img-responsive" src="./teams/img/full_throttle.jpeg" alt="">
+                                 </div>
+                                 <div class="post-content">
+                                 <div class="post-content-inner" style="width:100%; height:5rem;">
+                                 <center><h3 ><a href="#">Team Full Throttle</a></h3></center>
+                                 </div>
+                                 </div>
+                                 </div>
+                                 </a>
+                              </article>
+
+
+
+
+
+                              </div>
+                              <div class="row-teams">
+                           <div class="col-md-3 col-sm-6" style="padding-bottom:30px; padding-top:30px;">
+                              <article class="blog-post">
+                                 <div class="post-thumbnail">
+                                    <a href="javascript:void(0)">
+                                       <img class="img-responsive" src="./teams/img/gen-y.jpeg" alt="">
+                                 </div>
+                                 <div class="post-content">
+                                 <div class="post-content-inner" style="width:100%; height:5rem;">
+                                 <center><h3 ><a href="#">GEN-Y</a></h3></center>
+                                 </div>
+                                 </div>
+                                 </div>
+                                 </a>
+                              </article>
+
+
+
+
+                              </div>
+                              <div class="row-teams">
+                           <div class="col-md-3 col-sm-6" style="padding-bottom:30px; padding-top:30px;">
+                              <article class="blog-post">
+                                 <div class="post-thumbnail">
+                                    <a href="javascript:void(0)">
+                                       <img class="img-responsive" src="./teams/img/genhybrid.jpeg" alt="">
+                                 </div>
+                                 <div class="post-content">
+                                 <div class="post-content-inner" style="width:100%; height:5rem;">
+                                 <center><h3 ><a href="#">Gen Hybrid</a></h3></center>
+                                 </div>
+                                 </div>
+                                 </div>
+                                 </a>
+                              </article>
+
+
+
+
+
+                              </div>
+                              <div class="row-teams">
+                           <div class="col-md-3 col-sm-6" style="padding-bottom:30px; padding-top:30px;">
+                              <article class="blog-post">
+                                 <div class="post-thumbnail">
+                                    <a href="javascript:void(0)">
+                                       <img class="img-responsive" src="./teams/img/hindi_semantic_SE.jpeg" alt="">
+                                 </div>
+                                 <div class="post-content">
+                                 <div class="post-content-inner" style="width:100%; height:5rem;">
+                                 <center><h3 ><a href="#">Hindi Semantic Search Engine</a></h3></center>
+                                 </div>
+                                 </div>
+                                 </div>
+                                 </a>
+                              </article>
+
+
+
+
+                              </div>
+                              <div class="row-teams">
+                           <div class="col-md-3 col-sm-6" style="padding-bottom:30px; padding-top:30px;">
+                              <article class="blog-post">
+                                 <div class="post-thumbnail">
+                                    <a href="javascript:void(0)">
+                                       <img class="img-responsive" src="./teams/img/humanFOX.jpeg" alt="">
+                                 </div>
+                                 <div class="post-content">
+                                 <div class="post-content-inner" style="width:100%; height:5rem;">
+                                 <center><h3 ><a href="#">Human FOX</a></h3></center>
+                                 </div>
+                                 </div>
+                                 </div>
+                                 </a>
+                              </article>
+
+
+
+
+                              </div>
+                              <div class="row-teams">
+                           <div class="col-md-3 col-sm-6" style="padding-bottom:30px; padding-top:30px;">
+                              <article class="blog-post">
+                                 <div class="post-thumbnail">
+                                    <a href="javascript:void(0)">
+                                       <img class="img-responsive" src="./teams/img/i-club.jpeg" alt="">
+                                 </div>
+                                 <div class="post-content">
+                                 <div class="post-content-inner" style="width:100%; height:5rem;">
+                                 <center><h3 ><a href="#">I-Club</a></h3></center>
+                                 </div>
+                                 </div>
+                                 </div>
+                                 </a>
+                              </article>
+
+
+
+
+
+                              </div>
+                              <div class="row-teams">
+                           <div class="col-md-3 col-sm-6" style="padding-bottom:30px; padding-top:30px;">
+                              <article class="blog-post">
+                                 <div class="post-thumbnail">
+                                    <a href="javascript:void(0)">
+                                       <img class="img-responsive" src="./teams/img/infi-alpha_hyperloop.jpeg" alt="">
+                                 </div>
+                                 <div class="post-content">
+                                 <div class="post-content-inner" style="width:100%; height:5rem;">
+                                 <center><h3 ><a href="#">SRM Infi-Alpha Hyperloop</a></h3></center>
+                                 </div>
+                                 </div>
+                                 </div>
+                                 </a>
+                              </article>
+
+
+
+
+                               </div>
+                              <div class="row-teams">
+                           <div class="col-md-3 col-sm-6" style="padding-bottom:30px; padding-top:30px;">
+                              <article class="blog-post">
+                                 <div class="post-thumbnail">
+                                    <a href="javascript:void(0)">
+                                       <img class="img-responsive" src="./teams/img/infieon_supermileage.jpeg" alt="">
+                                 </div>
+                                 <div class="post-content">
+                                 <div class="post-content-inner" style="width:100%; height:5rem;">
+                                 <center><h3 ><a href="#">SRM Infieon Supermileage</a></h3></center>
+                                 </div>
+                                 </div>
+                                 </div>
+                                 </a>
+                              </article>
+
+
+
+
+                              </div>
+                              <div class="row-teams">
+                           <div class="col-md-3 col-sm-6" style="padding-bottom:30px; padding-top:30px;">
+                              <article class="blog-post">
+                                 <div class="post-thumbnail">
+                                    <a href="javascript:void(0)">
+                                       <img class="img-responsive" src="./teams/img/ishrae.jpeg" alt="">
+                                 </div>
+                                 <div class="post-content">
+                                 <div class="post-content-inner" style="width:100%; height:5rem;">
+                                 <center><h3 ><a href="#">ISHRAE (SRM STUDENT CHAPTER)</a></h3></center>
+                                 </div>
+                                 </div>
+                                 </div>
+                                 </a>
+                              </article>
+
+
+
+
+                              </div>
+                              <div class="row-teams">
+                           <div class="col-md-3 col-sm-6" style="padding-bottom:30px; padding-top:30px;">
+                              <article class="blog-post">
+                                 <div class="post-thumbnail">
+                                    <a href="javascript:void(0)">
+                                       <img class="img-responsive" src="./teams/img/kjp_automation.png" alt="">
+                                 </div>
+                                 <div class="post-content">
+                                 <div class="post-content-inner" style="width:100%; height:5rem;">
+                                 <center><h3 ><a href="#">KJP AUTOMATION</a></h3></center>
+                                 </div>
+                                 </div>
+                                 </div>
+                                 </a>
+                              </article>
+
+
+
+
+                              </div>
+                              <div class="row-teams">
+                           <div class="col-md-3 col-sm-6" style="padding-bottom:30px; padding-top:30px;">
+                              <article class="blog-post">
+                                 <div class="post-thumbnail">
+                                    <a href="javascript:void(0)">
+                                       <img class="img-responsive" src="./teams/img/mectrasys.png" alt="">
+                                 </div>
+                                 <div class="post-content">
+                                 <div class="post-content-inner" style="width:100%; height:5rem;">
+                                 <center><h3 ><a href="#">MECTRASYS</a></h3></center>
+                                 </div>
+                                 </div>
+                                 </div>
+                                 </a>
+                              </article>
+
+
+
+
+
+                              </div>
+                              <div class="row-teams">
+                           <div class="col-md-3 col-sm-6" style="padding-bottom:30px; padding-top:30px;">
+                              <article class="blog-post">
+                                 <div class="post-thumbnail">
+                                    <a href="javascript:void(0)">
+                                       <img class="img-responsive" src="./teams/img/papipate.png" alt="">
+                                 </div>
+                                 <div class="post-content">
+                                 <div class="post-content-inner" style="width:100%; height:5rem;">
+                                 <center><h3 ><a href="#">PAPIPATE</a></h3></center>
+                                 </div>
+                                 </div>
+                                 </div>
+                                 </a>
+                              </article>
+
+
+
+                              </div>
+                              <div class="row-teams">
+                           <div class="col-md-3 col-sm-6" style="padding-bottom:30px; padding-top:30px;">
+                              <article class="blog-post">
+                                 <div class="post-thumbnail">
+                                    <a href="javascript:void(0)">
+                                       <img class="img-responsive" src="./teams/img/project_team.jpeg" alt="">
+                                 </div>
+                                 <div class="post-content">
+                                 <div class="post-content-inner" style="width:100%; height:5rem;">
+                                 <center><h3 ><a href="#">The Project Team</a></h3></center>
+                                 </div>
+                                 </div>
+                                 </div>
+                                 </a>
+                              </article>
+
+
+
+                              
+                              </div>
+                              <div class="row-teams">
+                           <div class="col-md-3 col-sm-6" style="padding-bottom:30px; padding-top:30px;">
+                              <article class="blog-post">
+                                 <div class="post-thumbnail">
+                                    <a href="javascript:void(0)">
+                                       <img class="img-responsive" src="./teams/img/recon_subsea.png" alt="">
+                                 </div>
+                                 <div class="post-content">
+                                 <div class="post-content-inner" style="width:100%; height:5rem;">
+                                 <center><h3 ><a href="#">Recon Subsea</a></h3></center>
+                                 </div>
+                                 </div>
+                                 </div>
+                                 </a>
+                              </article>
+
+
+
+
+                              </div>
+                              <div class="row-teams">
+                           <div class="col-md-3 col-sm-6" style="padding-bottom:30px; padding-top:30px;">
+                              <article class="blog-post">
+                                 <div class="post-thumbnail">
+                                    <a href="javascript:void(0)">
+                                       <img class="img-responsive" src="./teams/img/slatepencil.png" alt="">
+                                 </div>
+                                 <div class="post-content">
+                                 <div class="post-content-inner" style="width:100%; height:5rem;">
+                                 <center><h3 ><a href="#">SLATEPENCIL</a></h3></center>
+                                 </div>
+                                 </div>
+                                 </div>
+                                 </a>
+                              </article>
+
+
+
+                              </div>
+                              <div class="row-teams">
+                           <div class="col-md-3 col-sm-6" style="padding-bottom:30px; padding-top:30px;">
+                              <article class="blog-post">
+                                 <div class="post-thumbnail">
+                                    <a href="javascript:void(0)">
+                                       <img class="img-responsive" src="./teams/img/solareon.jpeg" alt="">
+                                 </div>
+                                 <div class="post-content">
+                                 <div class="post-content-inner" style="width:100%; height:5rem;">
+                                 <center><h3 ><a href="#">Team Solareon</a></h3></center>
+                                 </div>
+                                 </div>
+                                 </div>
+                                 </a>
+                              </article>
+
+
+
+
+
+
+                              </div>
+                              <div class="row-teams">
+                           <div class="col-md-3 col-sm-6" style="padding-bottom:30px; padding-top:30px;">
+                              <article class="blog-post">
+                                 <div class="post-thumbnail">
+                                    <a href="javascript:void(0)">
+                                       <img class="img-responsive" src="./teams/img/srm_aeromodeling_club.png" alt="">
+                                 </div>
+                                 <div class="post-content">
+                                 <div class="post-content-inner" style="width:100%; height:5rem;">
+                                 <center><h3 ><a href="#">SRM Aeromodeling Club</a></h3></center>
+                                 </div>
+                                 </div>
+                                 </div>
+                                 </a>
+                              </article>
+
+
+
+
+
+                              </div>
+                              <div class="row-teams">
+                           <div class="col-md-3 col-sm-6" style="padding-bottom:30px; padding-top:30px;">
+                              <article class="blog-post">
+                                 <div class="post-thumbnail">
+                                    <a href="javascript:void(0)">
+                                       <img class="img-responsive" src="./teams/img/srm_vaimaanix.png" alt="">
+                                 </div>
+                                 <div class="post-content">
+                                 <div class="post-content-inner" style="width:100%; height:5rem;">
+                                 <center><h3 ><a href="#">SRM Vaimaanix</a></h3></center>
+                                 </div>
+                                 </div>
+                                 </div>
+                                 </a>
+                              </article>
+
+
+
+
+                              </div>
+                              <div class="row-teams">
+                           <div class="col-md-3 col-sm-6" style="padding-bottom:30px; padding-top:30px;">
+                              <article class="blog-post">
+                                 <div class="post-thumbnail">
+                                    <a href="javascript:void(0)">
+                                       <img class="img-responsive" src="./teams/img/srmbyag.jpeg" alt="">
+                                 </div>
+                                 <div class="post-content">
+                                 <div class="post-content-inner" style="width:100%; height:5rem;">
+                                 <center><h3 ><a href="#">SRMBYAG</a></h3></center>
+                                 </div>
+                                 </div>
+                                 </div>
+                                 </a>
+                              </article>
+
+
+
+
+
+                              </div>
+                              <div class="row-teams">
+                           <div class="col-md-3 col-sm-6" style="padding-bottom:30px; padding-top:30px;">
+                              <article class="blog-post">
+                                 <div class="post-thumbnail">
+                                    <a href="javascript:void(0)">
+                                       <img class="img-responsive" src="./teams/img/srmsat.jpeg" alt="">
+                                 </div>
+                                 <div class="post-content">
+                                 <div class="post-content-inner" style="width:100%; height:5rem;">
+                                 <center><h3 ><a href="#">SRMSAT team</a></h3></center>
+                                 </div>
+                                 </div>
+                                 </div>
+                                 </a>
+                              </article>
+
+
+
+
+
+                              </div>
+                              <div class="row-teams">
+                           <div class="col-md-3 col-sm-6" style="padding-bottom:30px; padding-top:30px;">
+                              <article class="blog-post">
+                                 <div class="post-thumbnail">
+                                    <a href="javascript:void(0)">
+                                       <img class="img-responsive" src="./teams/img/talaash_magazine.jpeg" alt="">
+                                 </div>
+                                 <div class="post-content">
+                                 <div class="post-content-inner" style="width:100%; height:5rem;">
+                                 <center><h3 ><a href="#">Talaash Magazine</a></h3></center>
+                                 </div>
+                                 </div>
+                                 </div>
+                                 </a>
+                              </article>
+
+
+
+
+                              </div>
+                              <div class="row-teams">
+                           <div class="col-md-3 col-sm-6" style="padding-bottom:30px; padding-top:30px;">
+                              <article class="blog-post">
+                                 <div class="post-thumbnail">
+                                    <a href="javascript:void(0)">
+                                       <img class="img-responsive" src="./teams/img/talhat.png" alt="">
+                                 </div>
+                                 <div class="post-content">
+                                 <div class="post-content-inner" style="width:100%; height:5rem;">
+                                 <center><h3 ><a href="#">Talhat</a></h3></center>
+                                 </div>
+                                 </div>
+                                 </div>
+                                 </a>
+                              </article>
+
+
+
+
+                              </div>
+                              <div class="row-teams">
+                           <div class="col-md-3 col-sm-6" style="padding-bottom:30px; padding-top:30px;">
+                              <article class="blog-post">
+                                 <div class="post-thumbnail">
+                                    <a href="javascript:void(0)">
+                                       <img class="img-responsive" src="./teams/img/tech-a-mania.jpeg" alt="">
+                                 </div>
+                                 <div class="post-content">
+                                 <div class="post-content-inner" style="width:100%; height:5rem;">
+                                 <center><h3 ><a href="#">Tech-a-Mania</a></h3></center>
+                                 </div>
+                                 </div>
+                                 </div>
+                                 </a>
+                              </article>
+
+
+
+
+
+                              </div>
+                              <div class="row-teams">
+                           <div class="col-md-3 col-sm-6" style="padding-bottom:30px; padding-top:30px;">
+                              <article class="blog-post">
+                                 <div class="post-thumbnail">
+                                    <a href="javascript:void(0)">
+                                       <img class="img-responsive" src="./teams/img/volta_motors.jpeg" alt="">
+                                 </div>
+                                 <div class="post-content">
+                                 <div class="post-content-inner" style="width:100%; height:5rem;">
+                                 <center><h3 ><a href="#">Volta Motors</a></h3></center>
+                                 </div>
+                                 </div>
+                                 </div>
+                                 </a>
+                              </article>
+
+
+
+
+
+                              </div>
+                              <div class="row-teams">
+                           <div class="col-md-3 col-sm-6" style="padding-bottom:30px; padding-top:30px;">
+                              <article class="blog-post">
+                                 <div class="post-thumbnail">
+                                    <a href="javascript:void(0)">
+                                       <img class="img-responsive" src="./teams/img/webarch.jpeg" alt="">
+                                 </div>
+                                 <div class="post-content">
+                                 <div class="post-content-inner" style="width:100%; height:5rem;">
+                                 <center><h3 ><a href="#">Webarch</a></h3></center>
+                                 </div>
+                                 </div>
+                                 </div>
+                                 </a>
+                              </article>
+
+
+
+
+                              </div>
+                              <div class="row-teams">
+                           <div class="col-md-3 col-sm-6" style="padding-bottom:30px; padding-top:30px;">
+                              <article class="blog-post">
+                                 <div class="post-thumbnail">
+                                    <a href="javascript:void(0)">
+                                       <img class="img-responsive" src="./teams/img/yjunk.jpeg" alt="">
+                                 </div>
+                                 <div class="post-content">
+                                 <div class="post-content-inner" style="width:100%; height:5rem;">
+                                 <center><h3 ><a href="#">YJUNK</a></h3></center>
+                                 </div>
+                                 </div>
+                                 </div>
+                                 </a>
+                              </article>
+
+
+
+
+
+
+                              </div>
+                              <div class="row-teams">
+                           <div class="col-md-3 col-sm-6" style="padding-bottom:30px; padding-top:30px;">
+                              <article class="blog-post">
+                                 <div class="post-thumbnail">
+                                    <a href="javascript:void(0)">
+                                       <img class="img-responsive" src="./teams/img/zipy_rides.jpeg" alt="">
+                                 </div>
+                                 <div class="post-content">
+                                 <div class="post-content-inner" style="width:100%; height:5rem;">
+                                 <center><h3 ><a href="#">Zipy Rides</a></h3></center>
+                                 </div>
+                                 </div>
+                                 </div>
+                                 </a>
+                              </article>
+
+
+
+
+
+
+
                            </div>
                         </div>
                     </div>
