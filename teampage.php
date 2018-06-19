@@ -207,9 +207,7 @@
             </div>
 
 
-            <?php
-               }
-               ?>
+
          </div>
          <input type="hidden" id="uid" value="<?php echo $_SESSION['user'];?>">
        <input type="hidden" id="tid" value="<?php echo $_GET['id'];?>">
@@ -232,7 +230,7 @@
             if($_GET["stat"] === 'nc') {
             ?>
         <script>
-            swal("Success", "Congratulations you have created a new team!", "success")
+            swal("Success", "Congratulations you have created a new team!", "success");
         </script>
     <?php
             }

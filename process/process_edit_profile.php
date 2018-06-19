@@ -70,7 +70,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
                         achievements = '$profile_achievements', experience = '$profile_experience' WHERE email='$user' ";
 
                 if($conn->query($sql1)) {
-                    move_uploaded_file($file_tmp, "../profiles/img/" . $profile_avatar);
+                    move_uploaded_file($file_tmp, "../img/profiles/" . $profile_avatar);
 
                    header('Location: ../profile.php');
                 } else {
