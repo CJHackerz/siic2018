@@ -1,28 +1,30 @@
 <?php
     include './process/connect.php';
     include './process/utils.php';
-    $user = get_user();
+$user = get_user();
     $sql = "SELECT * from users where email = '$user'";
     $result = $conn->query($sql);
     $row = $result->fetch_assoc();
-        // Get user profile details
-        $sql = "SELECT * from user_profiles where email = '$user'";
-        $result = $conn->query($sql);
-        $row = $result->fetch_assoc();
-        $profile_name           =   $row['name'];
-        $profile_register       =   $row['register_no'];
-        $profile_department     =   $row['dept'];
-        $profile_year           =   $row['year'];
-        $profile_description    =   $row['description'];
-        $profile_avatar         =   $row['avatar'];
-?>
+    $user_email = $_GET["uid"];
 
+    $sql = "SELECT * from user_profiles where email = '$user'";
+
+    $result = $conn->query($sql);
+    $row = $result->fetch_assoc();
+
+    $profile_name           =   $row['name'];
+    $profile_register       =   $row['register_no'];
+    $profile_department     =   $row['dept'];
+    $profile_year           =   $row['year'];
+    $profile_description    =   $row['description'];
+    $profile_avatar         =   $row['avatar'];
+?>
 
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
+   <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -41,6 +43,8 @@
         content: none;
     }
     </style>
+
+    <!-- css -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/tabstyle.css">
@@ -52,7 +56,8 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 
-    <style media="screen">
+
+<style media="screen">
         h4 > a, .portfolio-category > li > a {
             color: #fff;
         }
@@ -124,16 +129,14 @@ padding-right: 8px;
 
 </head>
 
-<body>
 
-   <?php include 'includes/nav.php' ?>
-
-
-
-
+  <?php
+  require "includes/nav.php";
+  ?>
+    <!-- /Navigation -->
 <div class="main-wrapper">
 <div align="center">
- <ul style="padding-top: 25vh;width: 100%;">
+ <ul style="padding-top: 20vh;width: 100%;">
 
         <img id="st" style="height: 150px; width: 150px;" class="img-thumbnail" src="./img/profiles/<?php echo $profile_avatar;?>" alt="Profile Image" /></ul>
     </div><br>
@@ -148,24 +151,15 @@ padding-right: 8px;
 <div class="tab-wrap centre1" style="padding-top: 15vh;">
 
     <div class="tab-label-content " id="tab1-content" >
-      <label for="tab1" class="rig"><a data-toggle="pill" class="xyz but" href="#menu2" >Project</label></a>
+      <label for="tab1" class="rig"><a data-toggle="pill" class="xyz but" href="#menu2" >About</label></a>
       <div class="tab-content"></div>
     </div>
 
     <div class="tab-label-content " id="tab2-content" >
-      <label for="tab2" class="rig"><a data-toggle="pill" class="xyz"  href="#menu3">Startup</label></a>
+      <label for="tab2" class="rig"><a data-toggle="pill" class="xyz"  href="#menu3">Teams</label></a>
       <div class="tab-content"></div>
     </div>
 
-    <div class="tab-label-content " id="tab3-content" >
-      <label for="tab3" class="rig"><a data-toggle="pill" class="xyz"  href="#menu4">Research</label></a>
-      <div class="tab-content"></div>
-  </div>
-   
-   <!-- <div class="tab-label-content " id="tab3-content" >
-      <label for="tab3" class="rig"><a data-toggle="pill" class="xyz"  onclick="viewProfile()">View Profile</label></a>
-      <div class="tab-content"></div>
-  </div> -->
 
    <!--  <div class="slide"></div> -->
 </div>
@@ -175,54 +169,8 @@ padding-right: 8px;
             <div class="panel-body">
                 <div class="tab-content">
 
-
-                    <div id="menu2" class="tab-pane fade in active">
-                        <!--<h3>Project</h3>-->
-
-                        <a class="button active res1" data-method="get" href="./newProject.php">Apply for Projects</a>
-                        <br><br><br>
-                        <div class="row">
-                            <div id="projectList">
-                                <!-- Project list -->
-                            </div>
-                        </div>
-                        <br><br>
-                    </div>
-
-                    <div id="menu3" class="tab-pane fade">
-                    <!--<h3>Startups</h3>-->
-
-                        <a class="button active res1" data-method="get" href="./newStartup.php">Apply for Startup</a>
-                        <br><br><br>
-                        <div class="row">
-                            <div id="startupList">
-                                <!-- Startup list -->
-                            </div>
-                        </div>
-                        <br><br>
-                    </div>
-
-
-                   
-                  <div id="menu4" class="tab-pane fade">
-                        <!--<h3>Project</h3>-->
-
-                        <a class="button active res1" data-method="get" href="./newReseacrh.php">Apply for Research</a>
-                        <br><br><br>
-                        <div class="row">
-                            <div id="researchList">
-                                <!-- Research list -->
-                            </div>
-                        </div>
-                        <br><br>
-                    </div>
-
-
-
-                   <div id="menu5" class="tab-pane fade">
-
-                      <!-- <br><br><br> -->
-                      <div class="panel panel-info"><!-- <div class="card text-white bg-info mb-3" style="max-width: 18rem;"> -->
+                     <div id="menu2" class="tab-pane fade in active">
+                      <div class="panel panel-info">
                       <div class="panel-heading"><strong>Your Details</strong></div>
                         <div class="panel-body">
 
@@ -252,7 +200,7 @@ padding-right: 8px;
 
 
 
-              <div id="menu6" class="tab-pane fade">
+                         <div id="menu3" class="tab-pane fade">
 
                       <br><br><br>
                       <div class="row">
@@ -270,11 +218,12 @@ padding-right: 8px;
     </div>
 </div>
 </div>
-<?php include 'includes/footer.php' ?>
 
-<!-- </center> -->
-
-<script type="text/javascript" src="js/hp_js.js"></script>
+    <!-- <input type="hidden" id="uid" value="<?php echo $user;?>"> -->
+    <?php include 'includes/footer.php';?>
+<!-- wrapper ends -->
+    <!-- Core JavaScript Files -->
+    <script type="text/javascript" src="js/hp_js.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 <script src="js/vendor/jquery-1.12.0.min.js"></script>
@@ -320,69 +269,18 @@ padding-right: 8px;
     };
     }
 </script>
-
-    <script>
-        $( document ).ready(function() {
-            var uid = $("#uid").val();
-            // Research list
-            $.ajax({
-                type : 'GET',
-                url:  './process/get_research.php',
-                dataType : 'html',
-                data:  {
-                    id : uid
-                } ,
-                error : function(XMLHttpRequest, textStatus, errorThrown) {
-                alert('error'); },
-                success : function(data) {
-                    $("#researchList").html(data);
-                }
-            });
-            // Project list
-            $.ajax({
-                type : 'GET',
-                url:  './process/get_project.php',
-                dataType : 'html',
-                data:  {
-                    id : uid
-                } ,
-                error : function(XMLHttpRequest, textStatus, errorThrown) {
-                alert('error'); },
-                success : function(data) {
-                    $("#projectList").html(data);
-                }
-            });
-            // Startup List
-            $.ajax({
-                type : 'GET',
-                url:  './process/get_startup.php',
-                dataType : 'html',
-                data:  {
-                    id : uid
-                } ,
-                error : function(XMLHttpRequest, textStatus, errorThrown) {
-                alert('error'); },
-                success : function(data) {
-                    $("#startupList").html(data);
-                }
-            });
-        });
-
-        function viewInstructions() {
+<script>
+    function viewInstructions() {
             swal("Congratulations!", "Your idea has been submitted. Contact +91 8148606827", 'info');
         }
     </script>
 
-    <script type="text/javascript">
-        // View Profile click
-        function viewProfile() {
-            var uid = $("#uid").val();
-            window.location = "./viewProfile.php?uid=" + uid;
-        }
-    </script>
+    
 
 </script>
 <!-- nav bar drop down script -->
 <script src="js/plugins.js"></script>
+
 </body>
+
 </html>
