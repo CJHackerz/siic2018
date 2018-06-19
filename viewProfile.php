@@ -215,7 +215,8 @@ padding-right: 8px;
 
             </div>
             <div id="menu3" class="tab-pane fade ">
-
+              <div class="panel panel-info">
+              <div class="panel-heading"><strong>Joined Teams</strong></div>
 
                <div class="panel-body">
 
@@ -249,6 +250,7 @@ padding-right: 8px;
 
                  </div>
              </div>
+           </div>
 
 
 <!--
