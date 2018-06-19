@@ -59,7 +59,6 @@
         body{
         background-color:  #fefdf4;
     }
-
     }*/
 @media only screen and  (max-width: 767px) {
 #bt{
@@ -161,11 +160,6 @@ padding-right: 8px;
       <label for="tab3" class="rig"><a data-toggle="pill" class="xyz"  href="#menu4">Research</label></a>
       <div class="tab-content"></div>
   </div>
-   
-   <!-- <div class="tab-label-content " id="tab3-content" >
-      <label for="tab3" class="rig"><a data-toggle="pill" class="xyz"  onclick="viewProfile()">View Profile</label></a>
-      <div class="tab-content"></div>
-  </div> -->
 
    <!--  <div class="slide"></div> -->
 </div>
@@ -202,70 +196,18 @@ padding-right: 8px;
                         <br><br>
                     </div>
 
+                    <div id="menu4" class="tab-pane fade">
+                    <!--<h3>Research</h3>-->
 
-                   
-                  <div id="menu4" class="tab-pane fade">
-                        <!--<h3>Project</h3>-->
-
-                        <a class="button active res1" data-method="get" href="./newReseacrh.php">Apply for Research</a>
+                        <a class="button active res1" data-method="get" href="./newResearch.php">Apply for Research</a>
                         <br><br><br>
                         <div class="row">
                             <div id="researchList">
-                                <!-- Research list -->
+                                <!-- Startup list -->
                             </div>
                         </div>
                         <br><br>
                     </div>
-
-
-
-                   <div id="menu5" class="tab-pane fade">
-
-                      <!-- <br><br><br> -->
-                      <div class="panel panel-info"><!-- <div class="card text-white bg-info mb-3" style="max-width: 18rem;"> -->
-                      <div class="panel-heading"><strong>Your Details</strong></div>
-                        <div class="panel-body">
-
-
-                              <?php
-                              $sql = "SELECT * from user_profiles where email = '$user'";
-                              $result = $conn->query($sql);
-                              $row = $result->fetch_assoc();
-                              $address=$row['address'];
-                              $skills=$row['skills'];
-                              $hobbies=$row['hobbies'];
-                              $achievements=$row['achievements'];
-                              $experience=$row['experience'];
-                              $description=$row['description'];
-                              echo "<p>Address :$address</p>";
-                              echo "<p>Skills :$skills</p>";
-                              echo "<p>Hobbies :$hobbies</p>";
-                              echo "<p>Achievements :$achievements</p>";
-                              echo "<p>Experience :$experience</p>";
-                              echo "<p>Description :$description</p>";
-
-
-                              ?>
-
-                          </div>
-                      </div>
-
-
-
-              <div id="menu6" class="tab-pane fade">
-
-                      <br><br><br>
-                      <div class="row">
-                          <div id="">
-
-                          </div>
-                      </div>
-                      <br><br>
-                  </div>
-
-
-
-            </div>
         </div>
     </div>
 </div>
@@ -367,7 +309,6 @@ padding-right: 8px;
                 }
             });
         });
-
         function viewInstructions() {
             swal("Congratulations!", "Your idea has been submitted. Contact +91 8148606827", 'info');
         }
@@ -377,7 +318,7 @@ padding-right: 8px;
         // View Profile click
         function viewProfile() {
             var uid = $("#uid").val();
-            window.location = "./viewProfile.php?uid=" + uid;
+            window.location = "./profile.php?uid=" + uid;
         }
     </script>
 

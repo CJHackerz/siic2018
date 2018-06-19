@@ -125,6 +125,9 @@ padding-right: 12px;
 padding-right: 8px;
   }
     }
+    ul, p{
+        color: #000;
+    }
     </style>
 
 </head>
@@ -145,9 +148,7 @@ padding-right: 8px;
       <br>
 
   </div><br>
-  <div style="margin-bottom:30px;margin-top:-20px;margin-left:9%;">
-    <a class="button active res1"  href="./teampage.php">JOIN TEAM</a>
-</div>
+
 <div class="tab-wrap centre1" style="padding-top: 15vh;">
 
     <div class="tab-label-content " id="tab1-content" >
@@ -275,7 +276,7 @@ padding-right: 8px;
         }
     </script>
 
-    
+
 
 </script>
 <!-- nav bar drop down script -->
