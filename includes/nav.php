@@ -44,7 +44,7 @@
                             <?php
                             } else {
                             ?>
-                           <li><?php echo "<a href='./signIn.php'>Login</a>"; ?></li>
+                           <li><?php echo "<a href='./signIn.php'>Login/Register</a>"; ?></li>
 
 
                             <?php  }?>
@@ -86,7 +86,7 @@
                         <?php
                         } else {
                         ?>
-                       <li><?php echo "<a href='./signIn.php'>Login</a>"; ?></li>
+                       <li><?php echo "<a href='./signIn.php'>Login/Register</a>"; ?></li>
 
 
                         <?php  }?>
