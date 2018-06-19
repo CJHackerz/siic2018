@@ -102,15 +102,15 @@
          background-color: #8DDBED; */
          cursor:pointer;
          }
-         
+
 
       </style>
    </head>
    <body>
       <!-- Start Preloader -->
-      <!--<div class="loader-wrapper">
+      <div class="loader-wrapper">
          <div class="loader"></div>
-         </div>-->
+         </div>
       <!-- End Preloader -->
       <!-- Start Main Wrapper -->
       <div class="main-wrapper">
