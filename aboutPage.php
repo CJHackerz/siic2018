@@ -33,6 +33,7 @@
       }
 
 
+
       </style>
    </head>
    <body>
@@ -145,6 +146,7 @@
 
                            <div class="team-content">
                               <h3>Professor Prabir K. Bagchi</h3>
+                              <span class="position">Vice Chancellor</span>
                            </div>
 
 
@@ -169,6 +171,7 @@
 
                            <div class="team-content">
                               <h3>Mr.V. Thirumurugan</h3>
+                              <span class="position">Associate Director Campus Life</span>
                            </div>
 
 
@@ -186,12 +189,13 @@
                      <div class="col-md-4 col-sm-4">
                         <div class="team-item">
                            <div class="team-thumb">
-                              <img class="img-responsive" src="./img/boa/gopal.jpg" alt="">
+                              <img class="img-responsive DOA" src="./img/boa/gopal.jpg" alt="" width="400">
                            </div>
 
 
                            <div class="team-content">
                               <h3>Dr. T.V. Gopal</h3>
+                              <span class="position">Director of Admissions</span>
                            </div>
 
 
