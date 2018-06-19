@@ -84,14 +84,23 @@
        border-bottom: 3px solid #F5BA54;
        padding-bottom: 12px;
      }
+     .cenbut{margin-bottom:30px;margin-top:-20px;margin-left:9%;}
      .rig{font-size: 18px;
      }
     .centre{
       padding-left: 45%;
     }
-    .centre1{margin-left:27%;}
+    .centre1{margin-left:25.5%;}
     .centre2{padding-left:43%;}
     .res1{margin-left: 38%;}
+    @media only screen and  (max-width: 400px){
+
+    .cenbut{  margin-bottom:30px;margin-top:-20px;margin-left:35%;width:30%;}
+    }
+    @media only screen and  (max-width: 900px){
+
+    .cenbut{  margin-bottom:30px;margin-top:-20px;margin-left:35%;width:30%;}
+    }
     @media only screen and  (max-width: 900px){
       .centre{
         padding-left: 32%;    }
@@ -141,7 +150,7 @@ padding-right: 8px;
       <br>
 
   </div><br>
-  <div style="margin-bottom:30px;margin-top:-20px;margin-left:9%;">
+  <div class="cenbut">
     <a class="button active res1"  href="./teampage.php">JOIN TEAM</a>
 </div>
 <div class="tab-wrap centre1" style="padding-top: 15vh;">

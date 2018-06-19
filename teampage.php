@@ -78,6 +78,21 @@
          font-size:20px;
          }
       </style>
+      <style>
+
+      .resp{margin-left:39%;}
+      @media only screen and  (max-width: 900px){
+
+        .resp{margin-left:31%;}
+      }
+      @media only screen and  (max-width: 400px){
+
+        .resp{margin-left:29%;}
+      }
+
+          /* padding-right: 10%;} */
+
+      </style>
    </head>
    <body style="background-color: #fefdf4" >
       <?php include 'includes/nav.php' ?>
@@ -120,39 +135,33 @@
          <!-- Right Column -->
          <div class="w3-twothird" >
             <div class="w3-container w3-card w3-white w3-margin-bottom" style="border-radius:5px;">
+               <div class="main-heading-content text-center">
+                  <h2 class=" w3-padding-16">Description<span>.</span></h2>
+               </div>
+               <div class="w3-container" style="margin-top:-20px">
+                  <p><?php echo $description; ?></p>
+                  <hr style="border-color:#3A6EE8">
+               </div>
+               <?php
+                  if(!empty($_SESSION['user']) && $_SESSION['team'] == 'false') {
+                            $sql = "SELECT * from team_members where uid = '" . $_SESSION['user_id'] . "' AND team_id = '$team_id'";
+                            $result = $conn->query($sql);
+                            if($result->num_rows > 0) {
+                                $rows = $result->fetch_assoc();
+                                if($rows['status'] == 'ACCEPTED') {
+                                    echo '<div class="resp"><button class="button active" onclick="leaveTeam()">Leave</button></div>';
+                                } else {
+                                    echo '<div class="resp"><button class="button active" onclick="joinTeam()">Join</button></div>';
+                                }
+                            } else {
+                                echo '<div class="resp"><button class="button active" onclick="joinTeam()">Join</button></div>';
+                            }
+                        }
 
-              <?php
-                 if($_SESSION["team"] == "true") {
-                     if($_SESSION['user_id'] == $_GET['id']) {
-                         // Show private content
-                         ?>
-
-
-                         <ul class="nav nav-pills padInLaptop">
-                            <li class="active"><a data-toggle="pill" href="#about-menu">About</a></li>
-                            <!-- <li><a data-toggle="pill" href="#feed-menu">Feed</a></li> -->
-                            <li><a data-toggle="pill" href="#notif-menu" onClick="loadNotifs()">Notifications</a></li>
-                            <li><a data-toggle="pill" href="#request-menu" onClick="loadRequests()">Requests</a></li>
-                            <a href="./editteam.php" style="margin-top:5px;margin-left:10px;" class="btn btn-primary">Edit</a>
-                            <!-- <a data-toggle="pill" href="./editteam.php">Edit</a> -->
-                         </ul>
-                         <div id="about-menu" class="tab-pane tab-pane fade in active">
-                         <div class="main-heading-content text-center"><br></br><br></br>
-                            <h2 class=" w3-padding-16">Description<span>.</span></h2>
-                         </div>
-                         <div class="w3-container" style="margin-top:-20px">
-                            <p><?php echo $description; ?></p>
-                            <hr style="border-color:#3A6EE8">
-                         </div>
-                       </div>
-                       <div id="request-menu" style="margin-top:-100px;" class="tab-pane fade">
-                          <div class="row">
-                             <div id="requestList" onload="countRequests()">
-                                <!-- Notification list -->
-                             </div>
-                          </div>
-                          <br><br>
-                       </div>
+                   ?>
+               <!-- End Grid -->
+            </div>
+            <div >
                <div id="feed-menu" class="tab-pane fade">
                   <div class="row">
                      <div id="feedList" onload="loadFeed()">
@@ -171,46 +180,30 @@
                </div>
 
                <?php
-                  }
-                  } else {
-                  // Show public content
-                     if(!empty($_SESSION['user']) && $_SESSION['team'] == 'false') {
-                       ?>
+                  if(!empty($_SESSION['user']) && $_SESSION['team'] == 'false') {
+                            $sql = "SELECT * from team_members where uid = '" . $_SESSION['user_id'] . "' AND team_id = '$team_id'";
+                            $result = $conn->query($sql);
+                            if($result->num_rows > 0) {
+                                $rows = $result->fetch_assoc();
+                                if($rows['status'] == 'ACCEPTED') {
+                                    echo '<div class="resp"><button class="button active" onclick="leaveTeam()">Leave</button></div>';
+                                } else {
+                                    echo '<div class="resp"><button class="button active" onclick="joinTeam()">Join Team</button></div>';
+                                }
+                            } else {
+                                echo '<div class="resp"><button class="button active" onclick="joinTeam()">Join</button></div>';
+                            }
+                        }
 
-                       <div class="main-heading-content text-center">
-                          <h2 class=" w3-padding-16">Description<span>.</span></h2>
-                       </div>
-                       <div class="w3-container" style="margin-top:-20px">
-                          <p><?php echo $description; ?></p>
-                          <hr style="border-color:#3A6EE8">
-                       </div>
-                       <?php
-                               $sql = "SELECT * from team_members where uid = '" . $_SESSION['user_id'] . "' AND team_id = '$team_id'";
-                               $result = $conn->query($sql);
-                               if($result->num_rows > 0) {
-                                   $rows = $result->fetch_assoc();
-                                   if($rows['status'] == 'ACCEPTED') {
-                                       echo '<center><button class="button active" onclick="leaveTeam()">Leave</button></center>';
-                                   } else {
-                                       echo '<center><button class="button active" onclick="joinTeam()">Join</button></center>';
-                                   }
-                               } else {
-                                   echo '<center><button class="button active" onclick="joinTeam()">Join</button></center>';
-                               }
-                           }
-                           else {
-                             echo'
-                             <div class="main-heading-content text-center"><br></br><br></br>
-                                <h2 class=" w3-padding-16">Description<span>.</span></h2>
-                             </div>
-                             <div class="w3-container" style="margin-top:-20px">
-                                <p>'. $description.' </p>
-                                <hr style="border-color:#3A6EE8">
-                             </div>';
-                           }
-
-                      ?>
-               <!-- End Grid -->
+                   ?>
+               <div id="feed-menu" class="tab-pane fade">
+                  <div class="row">
+                     <div id="feedList" onload="loadFeed()">
+                        <!--  Feed list -->
+                     </div>
+                  </div>
+                  <br><br>
+               </div>
             </div>
 
 

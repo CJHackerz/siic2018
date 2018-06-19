@@ -186,12 +186,12 @@ padding-right: 8px;
                               $achievements=$row['achievements'];
                               $experience=$row['experience'];
                               $description=$row['description'];
-                              echo "<p>Address :$address</p>";
-                              echo "<p>Skills :$skills</p>";
-                              echo "<p>Hobbies :$hobbies</p>";
-                              echo "<p>Achievements :$achievements</p>";
-                              echo "<p>Experience :$experience</p>";
-                              echo "<p>Description :$description</p>";
+                              echo "<p>Address : $address</p>";
+                              echo "<p>Skills : $skills</p>";
+                              echo "<p>Hobbies : $hobbies</p>";
+                              echo "<p>Achievements : $achievements</p>";
+                              echo "<p>Experience : $experience</p>";
+                              echo "<p>Description : $description</p>";
 
 
                               ?>
