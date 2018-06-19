@@ -26,6 +26,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="shortcut icon" href="img/favicon.ico">
     <title>Edit Profile|SIIC</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -110,7 +111,7 @@
           <br><br>
           <h6>Upload a different photo</h6>
 
-          <input type="file" class="form-control">
+          <input type="file" accept=".jpeg, .jpg, .png" name="profile_avatar" id="profile_img"/>
             </div>
           </div>
           </div>
