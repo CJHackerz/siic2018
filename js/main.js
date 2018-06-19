@@ -59,7 +59,7 @@
     new WOW().init();
 
     /*----------------------------------
-    COUNTUP JS ACTIVE 
+    COUNTUP JS ACTIVE
     ------------------------------------*/
     $('.counter').counterUp({
         delay: 10,
@@ -218,7 +218,7 @@
         open = false;
     });
     /* ---------------------------------------------
-    HOMEPAGE THREE SLIDER MAIN SECTION 
+    HOMEPAGE THREE SLIDER MAIN SECTION
     ------------------------------------------------*/
 
     $(".slider-wrapper").owlCarousel({

@@ -17,6 +17,11 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
   else{
     echo "hello";
   }
+    $user_password              =   test_input($_POST['team_password']);
+    $options = [
+      'cost' => 12,
+                ];
+    $team_passs = password_hash("$user_password", PASSWORD_BCRYPT, $options);
     $team_desc              =   test_input($_POST['team_desc']);
     $team_email             =   test_input($_POST['team_email']);
     $team_passs              =   md5(test_input($_POST['team_password']));

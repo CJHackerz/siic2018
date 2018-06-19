@@ -103,6 +103,7 @@
          cursor:pointer;
          }
          
+
       </style>
    </head>
    <body>
@@ -145,9 +146,9 @@
          </div>
          <!-- End Slider Area -->
          <!-- Start Main Content Wrapper -->
-         <div class="main-content-wrapper">
-            <div id="about" class="content-section-area ptb-120">
-               <div class="container" style="background-color:#fefdf4;">
+         <div class="main-content-wrapper" style="background-color:#fefdf4; " >
+            <div id="about" class="content-section-area ptb-120" >
+               <div class="container" >
                   <div class="row">
                      <div class="col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
                         <div class="main-heading-content text-center">
@@ -162,7 +163,7 @@
             </div>
             <!-- Start Portfolio Area -->
             <div id="portfolio" class="content-section-area ptb-120 gray-bg">
-               <div class="container">
+               <div class="container" style="margin-top:-220px;">
                   <div class="row">
                      <div class="col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
                         <div class="main-heading-content text-center">
@@ -173,7 +174,7 @@
                   <!-- Start portfolio Wrapper -->
                   <div class="row portfolio-content  ">
                      <div class="col-lg-12 ">
-                        <div class="col-lg-6 col-md-6 col-sm-12 effect1 " style="height:220px;;">
+                        <div class="col-lg-6 col-md-6 col-sm-12 effect1 " style="height:220px; border:10px solid #fefdf4">
                            <div class="portfolio-details" onclick="window.location='teams.php'">
                               <div class="portfolio-details-inner" style="padding:15% 34%">
                                  <h4><a href="javascript:void(0)">Tech Teams</a></h4>
@@ -183,7 +184,7 @@
                               </div>
                            </div>
                         </div>
-                        <div class="col-lg-6 col-md-6 col-sm-12  effect2" style=" height:220px;; ">
+                        <div class="col-lg-6 col-md-6 col-sm-12  effect2 " style=" height:220px;border:10px solid #fefdf4; ">
                            <div class="portfolio-details" onclick="window.location='newStartup.php'">
                               <div class="portfolio-details-inner" style="padding:15% 34%">
                                  <h4><a href="javascript:void(0)">SIIC Start-ups</a></h4>
@@ -195,7 +196,7 @@
                         </div>
                      </div>
                      <div class="col-lg-12">
-                        <div class="col-lg-8 col-md-8 col-sm-12  effect3" style="background-color:#84B79B; height:220px;;">
+                        <div class="col-lg-8 col-md-8 col-sm-12  effect3 " style="background-color:#84B79B; height:220px;border:10px solid #fefdf4;">
                            <div class="portfolio-details">
                               <div class="portfolio-details-inner" style="padding:11% 34%">
                                  <h4><a href="javascript:void(0)" >SIIC Facilities</a></h4>
@@ -205,7 +206,7 @@
                               </div>
                            </div>
                          </div>
-                           <div class="col-lg-4  col-md-4 col-sm-12  effect4" style="background-color:#7E7582; height:220px;;">
+                           <div class="col-lg-4  col-md-4 col-sm-12  effect4 " style="background-color:#7E7582; height:220px;border:10px solid #fefdf4;">
 
                                        <div class="portfolio-details" onclick="window.location='announcements.php'">
                                               <div class="portfolio-details-inner"style="padding:25% 25%">
@@ -218,7 +219,7 @@
                            </div>
                        </div>
                        <div class="col-lg-12 ">
-                           <div class="col-lg-6 col-md-6 col-sm-12 effect5" style="background-color:#7E97CF; height:220px;;">
+                           <div class="col-lg-6 col-md-6 col-sm-12 effect5 " style="background-color:#7E97CF; height:220px;border:10px solid #fefdf4;">
                              <div class="portfolio-details">
                                                 <div class="portfolio-details-inner" style="padding:15% 25%">
                                                     <h4><a href="javascript:void(0)" >Achievements</a></h4>
@@ -229,7 +230,7 @@
                                             </div>
                            </div>
 
-                        <div class="col-lg-6 col-md-6 col-sm-12  effect6" style="background-color:#C4ABA4; height:220px;;">
+                        <div class="col-lg-6 col-md-6 col-sm-12  effect6 " style="background-color:#C4ABA4; height:220px;border:10px solid #fefdf4;">
                            <div class="portfolio-details">
                               <div class="portfolio-details-inner" style="padding:13% 34%">
                                  <h4><a href="javascript:void(0)">Learn</a></h4>
@@ -241,7 +242,7 @@
                         </div>
                      </div>
                      <div class="col-lg-12">
-                        <div class="col-lg-8 col-md-8 col-sm-12  effect7" style="background-color:#84B79B; height:220px;;">
+                        <div class="col-lg-8 col-md-8 col-sm-12  effect7 " style="background-color:#84B79B; height:220px;border:10px solid #fefdf4;">
                            <div class="portfolio-details" onclick="window.location='index.php#contact'">
                               <div class="portfolio-details-inner" style="padding:13% 34%">
                                  <h4><a href="javascript:void(0)" >Feedback</a></h4>
@@ -252,7 +253,7 @@
                            </div>
                          </div>
 
-                           <div class="col-lg-4  col-md-4 col-sm-12 effect8" style="background-color:#7E7582; height:220px;;">
+                           <div class="col-lg-4  col-md-4 col-sm-12 effect8 " style="background-color:#7E7582; height:220px;border:10px solid #fefdf4;">
 
                              <div class="portfolio-details" onclick="window.location='insights.php'">
 
@@ -293,7 +294,7 @@
                            <div class="get-in-tuch">
                               <h2>Get In Touch<span>.</span></h2>
                               <ul class="address-line">
-                                 <li><i class="fa fa-map-marker"></i>SIIC Address</li>
+                                 <li><i class="fa fa-map-marker"></i>5th Floor, Basic Engineering Block<br> SRM Institute of Science and Technology</li>
                                  <li><i class="fa fa-user"></i>Nikunj Panchal</li>
                                  <li><i class="fa fa-envelope"></i>manager@srmiic.com</li>
                                  <li><i class="fa fa-phone"></i>+91 8148606827</li>

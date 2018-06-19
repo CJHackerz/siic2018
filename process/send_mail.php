@@ -11,7 +11,7 @@
             # Make the call to the client.
             $result = $mgClient->sendMessage($domain, array(
                 'from'    => $_POST['name'].' '.$_POST['email'],
-                'to'      => 'gupta.mohit0210@gmail.com',
+                'to'      => 'manager@srmiic.com',
                 'subject' => 'Mail from SIIC contact form',
                 'text'    => $_POST['message']
             ));

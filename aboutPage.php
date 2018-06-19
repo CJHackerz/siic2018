@@ -17,6 +17,23 @@
       body{
            background-color: #fefdf4;
       }
+
+      .core-team{
+
+          padding-bottom:7rem;
+
+      }
+
+      .board-of-advisory{
+          padding-bottom:7rem;
+      }
+
+      #careers{
+          margin-bottom:-15rem;
+      }
+
+
+
       </style>
    </head>
    <body>
@@ -89,6 +106,9 @@
                      </div>
                   </div>
                </article>
+
+
+
             </div>
             <div class="col-md-5 col-sm-5 col-md-offset-1 ">
                <center>
@@ -98,6 +118,99 @@
                </center>
             </div>
          </div>
+
+<!-- Board of Advisory -->
+
+
+        <div id="board" class="content-section ptb-100 text-center">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
+                     <div class="main-heading-content text-center">
+                        <h2>Board of Advisory<span>.</span></h2>
+                     </div>
+                  </div>
+               </div>
+               </div>
+         </div>
+
+
+               <div class="row board-of-advisory" align="center">
+                  <div class="team-wrapper">
+                     <div class="col-md-4 col-sm-4">
+                        <div class="team-item">
+                           <div class="team-thumb">
+                              <img class="img-responsive" src="./img/boa/vicechancellor.jpg" alt="">
+                           </div>
+
+
+                           <div class="team-content">
+                              <h3>Professor Prabir K. Bagchi</h3>
+                              <span class="position">Vice Chancellor</span>
+                           </div>
+
+
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+
+
+
+
+
+               <div class="row board-of-advisory" align="center">
+                  <div class="team-wrapper">
+                     <div class="col-md-4 col-sm-4">
+                        <div class="team-item">
+                           <div class="team-thumb">
+                              <img class="img-responsive" src="./img/boa/campuslife.jpg" alt="">
+                           </div>
+
+
+                           <div class="team-content">
+                              <h3>Mr.V. Thirumurugan</h3>
+                              <span class="position">Associate Director Campus Life</span>
+                           </div>
+
+
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+
+
+
+
+               <div class="row board-of-advisory"  align="center">
+                  <div class="team-wrapper">
+                     <div class="col-md-4 col-sm-4">
+                        <div class="team-item">
+                           <div class="team-thumb">
+                              <img class="img-responsive DOA" src="./img/boa/gopal.jpg" alt="" width="400">
+                           </div>
+
+
+                           <div class="team-content">
+                              <h3>Dr. T.V. Gopal</h3>
+                              <span class="position">Director of Admissions</span>
+                           </div>
+
+
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+
+
+
+
+
+
+
          <!-- Start creative team -->
          <div id="team" class="content-section ptb-100 text-center">
             <div class="container">
@@ -108,7 +221,7 @@
                      </div>
                   </div>
                </div>
-               <div class="row" align="center">
+               <div class="row core-team" align="center">
                   <div class="team-wrapper">
                      <div class="col-md-4 col-sm-4">
                         <div class="team-item">
@@ -126,17 +239,216 @@
                                  </li>
                               </ul>
                            </div>
+
+
                            <div class="team-content">
                               <h3>Nikunj Panchal</h3>
-                              <span class="position">CEO</span>
+                              <span class="position">Chief Executive Officer</span>
                            </div>
+
+
                         </div>
                      </div>
                   </div>
                </div>
+
+
+                <div class="row core-team" align="center">
+                  <div class="team-wrapper">
+                     <div class="col-md-4 col-sm-4">
+                        <div class="team-item">
+                           <div class="team-thumb">
+                              <img class="img-responsive" src="./img/team/cmo.jpg" alt="">
+                              <ul class="team-social">
+                                 <li>
+                                    <a href="#" target="_blank"> <i class="fa fa-facebook"></i></a>
+                                 </li>
+                                 <li>
+                                    <a href="#" target="_blank"> <i class="fa fa-linkedin"></i></a>
+                                 </li>
+                                 <li>
+                                    <a href="#" target="_blank"> <i class="fa fa-envelope"></i></a>
+                                 </li>
+                              </ul>
+                           </div>
+
+
+                           <div class="team-content">
+                              <h3>Sayan Bera</h3>
+                              <span class="position">Chief Marketing Officer</span>
+                           </div>
+
+
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+
+
+
+
+
+
+               <div class="row core-team" align="center">
+                  <div class="team-wrapper">
+                     <div class="col-md-4 col-sm-4">
+                        <div class="team-item">
+                           <div class="team-thumb">
+                              <img class="img-responsive" src="./img/team/coo.jpg" alt="">
+                              <ul class="team-social">
+                                 <li>
+                                    <a href="#" target="_blank"> <i class="fa fa-facebook"></i></a>
+                                 </li>
+                                 <li>
+                                    <a href="#" target="_blank"> <i class="fa fa-linkedin"></i></a>
+                                 </li>
+                                 <li>
+                                    <a href="#" target="_blank"> <i class="fa fa-envelope"></i></a>
+                                 </li>
+                              </ul>
+                           </div>
+
+
+                           <div class="team-content">
+                              <h3>Vanthian Balasubramanian</h3>
+                              <span class="position">Chief Operations Officer</span>
+                           </div>
+
+
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+
+
+
+               <div class="row" align="center">
+                  <div class="team-wrapper">
+                     <div class="col-md-4 col-sm-4">
+                        <div class="team-item">
+                           <div class="team-thumb">
+                              <img class="img-responsive" src="./img/team/cbo.jpg" alt="">
+                              <ul class="team-social">
+                                 <li>
+                                    <a href="#" target="_blank"> <i class="fa fa-facebook"></i></a>
+                                 </li>
+                                 <li>
+                                    <a href="#" target="_blank"> <i class="fa fa-linkedin"></i></a>
+                                 </li>
+                                 <li>
+                                    <a href="#" target="_blank"> <i class="fa fa-envelope"></i></a>
+                                 </li>
+                              </ul>
+                           </div>
+
+
+                           <div class="team-content">
+                              <h3>Pal Patel</h3>
+                              <span class="position">Chief Brand Officer</span>
+                           </div>
+
+
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+<!-- Careers -->
+
+
+
+        <div id="careers" class="content-section ptb-100 text-center">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
+                     <div class="main-heading-content text-center">
+                        <h2>Careers<span>.</span></h2>
+                     </div>
+                     <h4>JOIN US:</h4>
+                     <br>
+                     <h5>Technical:</h5>
+
+                     <h6>The master in the campus is  hiring the best techies to turn them into the best minds.</h6>
+
+                     <ul>
+
+                        <li>Server</li>
+                        <li>Back End</li>
+
+                     </ul>
+                     <br>
+                     <br>
+
+                     <h5>Design:</h5>
+
+                     <h6>Looking for a challenging job to develope your designing skills, we are here to help you out</h6>
+
+                     <ul>
+
+                        <li>Graphics</li>
+                        <li>UI/UX</li>
+
+                     </ul>
+                     <br>
+                     <br>
+
+                     <h5>Content:</h5>
+
+                     <h6>We welcome explorers, and brainy storytellers</h6>
+
+                     <ul>
+
+                        <li>Writers</li>
+                        <li>Editors</li>
+
+                     </ul>
+                     <br>
+                     <br>
+
+
+                      <h5>Publicity:</h5>
+
+                     <h6>Do you live at Facebook, Twitter, Instagram? If yes, then join us.</h6>
+
+                     <ul>
+
+                        <li>Social media marketer</li>
+                        <li>SEO</li>
+
+                     </ul>
+                     <br>
+                     <br>
+
+
+
+                     <h5>Business:</h5>
+
+                     <h6>We invite the intellects to work with utmost freedom.</h6>
+
+                     <ul>
+
+                        <li>HR</li>
+                        <li>Admin</li>
+                        <li>Front Office</li>
+                        <li>Accounts</li>
+
+                     </ul>
+                     <br>
+
+                  </div>
+               </div>
             </div>
-         </div>
+        </div>
+
+
+
+
          <!-- End creative team -->
+
+         </div>
+         </div>
          <?php include 'includes/footer.php' ?>
          <!-- End Main Content Wrapper -->
       </div>

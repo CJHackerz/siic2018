@@ -15,7 +15,11 @@
     <link rel="stylesheet" href="css/signIn.css">
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-
+    <style media="screen">
+    body{
+         background-color: #fefdf4;
+    }
+    </style>
 </head>
 <body>
     <!-- Start Main Wrapper -->

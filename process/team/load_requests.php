@@ -13,9 +13,9 @@ if($result->num_rows > 0) {
     while($row = $result->fetch_assoc()) {
 
                 echo
-                            '<div class="well" id="' . $row['email'] . '">
+                            '<div style="margin-top:-370px;position:relative" class="well" id="' . $row['email'] . '">
                                 <div class="row">
-                                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12" >
                                         <a href="./viewProfile.php?uid=' . $row['email'] . '">' . $row['name'] . '</a> wants to join your team
                                     </div>
                                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 pull-right">

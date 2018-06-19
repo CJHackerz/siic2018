@@ -11,7 +11,8 @@ h1 {
 }
 
 label, p, a, h1, div {
-  font-family: Roboto, sans-serif;
+  font-family: Montserrat;
+  color: #000;
 }
 
 .tab-wrap {

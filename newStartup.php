@@ -86,7 +86,7 @@
                           echo '<div class="alert alert-danger" role="alert">Invalid Extension </div>';
                       }
                       if($_GET['error'] == 'size') {
-                          echo '<div class="alert alert-danger" role="alert">Size of the file should be less than 2 mb </div>';
+                          echo '<div class="alert alert-danger" role="alert">Size of the file should be less than 4 mb </div>';
                       }
                   }
               ?>
@@ -102,27 +102,14 @@
       </div>
       </div>
       </div>
-      <hr>
-      <center>
-      <label style="padding-top:10rem"for="startup_datetime">Setup an appointment using calendly! After doing so submit your form.</label><br/>
-      <!-- Calendly inline widget begin -->
-      <center>
-      <div class="calendly-inline-widget" data-url="https://calendly.com/siic/score" style="min-width:320px;height:300px;"></div>
-      <script type="text/javascript" src="https://calendly.com/assets/external/widget.js"></script>
-      <!-- Calendly inline widget end -->
+      <br>
       </div>
-      <script
-         src="https://code.jquery.com/jquery-3.3.1.js"
-         integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-         crossorigin="anonymous"></script>
-      <!--form ends-->
+      </div>
       <!-- Start Footer Section -->
       <?php
          include './includes/footer.php'
          ?>
       <!-- end Footer Section -->
-      <!-- End Main Content Wrapper -->
-      </div>
       <!-- End Main Wrapper -->
       <!-- ALL JQUERY  -->
       <script src="js/vendor/jquery-1.12.0.min.js"></script>

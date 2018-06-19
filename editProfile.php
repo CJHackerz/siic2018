@@ -26,6 +26,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="shortcut icon" href="img/favicon.ico">
     <title>Edit Profile|SIIC</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -110,7 +111,7 @@
           <br><br>
           <h6>Upload a different photo</h6>
 
-          <input type="file" class="form-control">
+          <input type="file" accept=".jpeg, .jpg, .png" name="profile_avatar" id="profile_img"/>
             </div>
           </div>
           </div>
@@ -191,7 +192,8 @@
           <div class="form-group">
             <label class="col-lg-3 control-label">Description:</label>
             <div class="col-lg-8">
-            <textarea cols="80" rows="10" class="form-control" name="profile_description" id="profile_description" value="<?php echo $desc ?>"></textarea>
+            <!-- <textarea cols="80" rows="10" class="form-control" name="profile_description" id="profile_description" value="<?php echo $desc ?>"></textarea> -->
+            <input class="form-control" type="text" name="profile_description" value="<?php echo $desc ?>">
           </div>
           </div>
 
@@ -205,9 +207,7 @@
           </div>
         </form>
       </div>
-  </div>
-</div>
-<hr>
+  </div><br>
 <script
   src="https://code.jquery.com/jquery-3.3.1.js"
   integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
