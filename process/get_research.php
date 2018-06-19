@@ -72,6 +72,6 @@ if($result->num_rows > 0) {
         echo '</div>';
     }
 } else {
-    echo '<p>No Research Form added yet.</p>';
+    echo '<p><h6 style="text-align:center;">No Research Form added yet.</h6></p>';
 }
 ?>

@@ -192,7 +192,7 @@
             <label class="col-lg-3 control-label">Description:</label>
             <div class="col-lg-8">
             <!-- <textarea cols="80" rows="10" class="form-control" name="profile_description" id="profile_description" value="<?php echo $desc ?>"></textarea> -->
-            <input class="form-control" type="text" style="height:150px;width:350px;" name="profile_description" value="<?php echo $desc ?>">
+            <input class="form-control" type="text" name="profile_description" value="<?php echo $desc ?>">
           </div>
           </div>
 
@@ -206,8 +206,7 @@
           </div>
         </form>
       </div>
-  </div>
-<hr>
+  </div><br>
 <script
   src="https://code.jquery.com/jquery-3.3.1.js"
   integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="

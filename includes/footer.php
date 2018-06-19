@@ -12,13 +12,14 @@
 </style>
 <!-- Start Footer Section -->
 <div class="clearfix"></div>
+<a href="https://webarchsrm.com" target="_blank">
 <div class="footer ptb-30 text-center">
    <div class="container">
       <div class="row">
          <div>
-             <a href="https://webarchsrm.com" target="_blank"><img src="./img/weblogo.png" height="47px" width="175px"></a>
+             <img src="./img/weblogo.png" height="47px" width="175px">
          </div>
       </div>
    </div>
-</div>
+</div></a>
 <!-- end Footer Section -->

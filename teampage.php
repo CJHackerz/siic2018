@@ -91,12 +91,12 @@
                <div class="w3-display-container" >
                   <ul class="list-group list-group-flush">
                      <li class="list-group-item">
-                        <div style="padding: 0px 0px 0px 0px;" align="center" class='team_image_hover'><br></br><br></br>
+                        <div style="padding: 0px 0px 0px 0px;" align="center" class='team_image_hover'>
                            <img class="img-thumbnail" src="./teams/img/<?php echo $logo; ?>" alt="Team Logo"; height="100px" width="100%">
                            <div style="font-size: 30px; text-align: center;" class='social_media_icons'>
-                              <a href="<?php echo $fb; ?>" style="color:#3b5998"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                              <a href="#" style="color:#007bb5;"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                              <a href="<?php echo $website; ?>" style="color:#333;"><i class="fa fa-globe" aria-hidden="true" style="color: #fff;"></i></a>
+                              <a href="<?php $fb; ?>" style="color:#3b5998" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                              <a href="#" style="color:#007bb5;" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                              <a href="<?php $website; ?>" style="color:#333;" target="_blank"><i class="fa fa-globe" aria-hidden="true" style="color: #fff;"></i></a>
                               <!--<i class="fa fa-phone" aria-hidden="true"></i>-->
                            </div>
                         </div>
@@ -104,7 +104,7 @@
                   </ul>
                </div>
                <div class="w3-container" >
-                  <p><i class="fa fa-envelope fa-fw w3-margin-right "style="color:#3A6EE8; margin-top:20px;" ></i><?php echo $team_email; ?></p>
+                  <a href="mailto:<?php $team_email;?>"><i class="fa fa-envelope fa-fw w3-margin-right "style="color:#3A6EE8; margin-top:20px;" ></i><?php echo $team_email; ?></a><br><br>
                   <p><i class="fa fa-phone fa-fw w3-margin-right " style="color:#3A6EE8"></i><?php echo $contact; ?></p>
                   <hr style="border-color:#3A6EE8">
                   <div class="main-heading-content text-center" >
@@ -177,7 +177,7 @@
                      if(!empty($_SESSION['user']) && $_SESSION['team'] == 'false') {
                        ?>
 
-                       <div class="main-heading-content text-center"><br></br><br></br>
+                       <div class="main-heading-content text-center">
                           <h2 class=" w3-padding-16">Description<span>.</span></h2>
                        </div>
                        <div class="w3-container" style="margin-top:-20px">
