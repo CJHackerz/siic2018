@@ -247,6 +247,9 @@
                             <a href="project.php"><i class="fa fa-trello fa-fw"></i> Projects</a>
                         </li>
                         <li>
+                            <a href="research.php"><i class="fa fa-trello fa-fw"></i> Researches</a>
+                        </li>
+                        <li>
                             <a href="startup.php"><i class="fa fa-road fa-fw"></i> Startups</a>
                         </li>
                         <li>
