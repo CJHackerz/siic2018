@@ -53,7 +53,7 @@
                <div class="row">
                   <div class="col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
                      <div class="main-heading-content text-center">
-                        <h2>100+ Teams<span>.</span></h2>
+                        <h2>Teams<span>.</span></h2>
                         <p>Here are the following teams that can be joined. </p>
                      </div>
                   </div>
@@ -68,7 +68,7 @@
                               <article class="blog-post">
                                   <div class="post-thumbnail">
                                       <a href="./teampage.php?id=' . $row['team_id'] . '">
-                                          <img class="img-responsive" src="./teams/srm-robocon.jpg" alt="">
+                                          <img class="img-responsive" src="./teams/img/' . $row['logo'] . '" alt="">
                                   </div>
                                   <div class="post-content">
                                       <div class="post-content-inner" style="width:100%; height:5rem;">

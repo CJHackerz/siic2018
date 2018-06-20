@@ -220,8 +220,8 @@
                                 </div>';
                             }
                         }
-<<<<<<< HEAD
-                    }
+
+                    
                     else
                     {
                       echo "No teams joined";
@@ -230,11 +230,6 @@
 
                  </div>
              </div>
-=======
-                        ?>
-                  </div>
-               </div>
->>>>>>> f22b22905d5f19e64a923d73996893b0c53db543
            </div>
                <!--
                   <div id="menu3" class="tab-pane fade">
