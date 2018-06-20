@@ -25,10 +25,9 @@
             height:25rem;
             width:50rem;
         }
-
       @media only screen and (max-width: 800px) {
-        .post-thumbnail{
-            height:20rem;
+        .img-responsive{
+            height:35rem;
             width:40rem;
         }
     }
