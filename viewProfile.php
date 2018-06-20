@@ -94,7 +94,7 @@
     .centre{
       padding-left: 45%;
     }
-    .centre1{margin-left:27%;}
+    .centre1{margin-left:15.5%;}
     .centre2{padding-left:43%;}
     .res1{margin-left: 38%;}
     @media only screen and  (max-width: 900px){
@@ -148,7 +148,7 @@ padding-right: 8px;
 
   </div><br>
 
-<div class="tab-wrap centre1" style="padding-top: 15vh;">
+<div class="tab-wrap centre1" style="padding-top: 15vh; padding-left:20%;">
 
     <div class="tab-label-content " id="tab1-content" >
       <label for="tab1" class="rig"><a data-toggle="pill" class="xyz but" href="#menu2" >About</label></a>
@@ -215,8 +215,7 @@ padding-right: 8px;
 
             </div>
             <div id="menu3" class="tab-pane fade ">
-              <div class="panel panel-info">
-              <div class="panel-heading"><strong>Joined Teams</strong></div>
+
 
                <div class="panel-body">
 
@@ -250,7 +249,6 @@ padding-right: 8px;
 
                  </div>
              </div>
-           </div>
 
 
 <!--
