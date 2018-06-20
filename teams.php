@@ -25,10 +25,16 @@
             height:25rem;
             width:50rem;
         }
+
       @media only screen and (max-width: 800px) {
-        .img-responsive{
-            height:35rem;
+        .post-thumbnail{
+            height:20rem;
             width:40rem;
+        }
+
+        .img-responsive{
+            height:20rem;
+            width:60%;
         }
     }
       </style>
@@ -62,7 +68,7 @@
                               <article class="blog-post">
                                   <div class="post-thumbnail">
                                       <a href="./teampage.php?id=' . $row['team_id'] . '">
-                                          <img class="img-responsive" src="./teams/img/' . $row['logo'] . '" alt="">
+                                          <img class="img-responsive" src="./teams/srm-robocon.jpg" alt="">
                                   </div>
                                   <div class="post-content">
                                       <div class="post-content-inner" style="width:100%; height:5rem;">

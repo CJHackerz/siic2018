@@ -21,7 +21,7 @@
                             <ul class="main-menu ">
                                 <li><a href="aboutPage.php">About</a></li>
                                 <li><a href="announcements.php">Announcements</a></li>
-                                  <li><a href="./forum"style="font-size:14px;padding-left:5px">Forum</a></li>
+                                  <li><a href="#"style="font-size:14px;padding-left:5px">Forum</a></li>
                                   <li><a href="./freelance.php"style="font-size:14px">Freelance</a></li>
                                 <li><a href="index.php#contact">Contact</a></li>
                                 <!--<li><a href="blog.php">Blog</a></li>-->
@@ -63,7 +63,7 @@
                         <ul class="main-menu ">
                             <li><a href="aboutPage.php">About</a></li>
                               <li><a href="announcements.php">Announcements</a></li>
-                                <li><a href="./forum">Forum</a></li>
+                                <li><a href="#">Forum</a></li>
                                 <li><a href="./freelance.php">Freelance</a></li>
                             <li><a href="index.php#contact">Contact</a></li>
                             <!--<li><a href="blog.php">Blog</a></li>-->
