@@ -240,7 +240,7 @@ padding-right: 8px;
     <input type="hidden" id="uid" value="<?php echo $user;?>">
     <!-- Core JavaScript Files -->
     <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <!-- <script src="js/bootstrap.min.js"></script> -->
   <script src="js/jquery.sticky.js"></script>
     <script src="js/jquery.easing.min.js"></script>
   <script src="js/jquery.scrollTo.js"></script>
