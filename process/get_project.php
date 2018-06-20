@@ -6,24 +6,24 @@ $user = $_GET['id'];
 $sql = "SELECT * from project where user='$user' order by timestamp desc";
 $result = $conn->query($sql);
 
- // $sql1 = "SELECT * from project where user = '$user'";
- // $result1 = $conn->query($sql);
- // $row1 = $result1->fetch_assoc();
- // $pid=$row1['project_id'];
- //
- //    if (isset($_GET['pid'])) {
- //    $pid=$_GET['pid'];
- //    $sql = "SELECT * from project where project_id = '$pid'";
- //    $result = $conn->query($sql);
- //    $row = $result->fetch_assoc();
- //    $project_title=$row['project_title'];
- //    // $project_report=$row['project_report'];
- //    $project_requirement=$row['project_requirement'];
- //    $project_bp=$row['project_bp'];
- //    $project_user=$row['user'];
- //    $timestamp=$row['timestamp'];
- //  }
- //
+ $sql1 = "SELECT * from project where user = '$user'";
+ $result1 = $conn->query($sql);
+ $row1 = $result1->fetch_assoc();
+ $pid=$row1['project_id'];
+
+    if (isset($_GET['pid'])) {
+    $pid=$_GET['pid'];
+    $sql = "SELECT * from project where project_id = '$pid'";
+    $result = $conn->query($sql);
+    $row = $result->fetch_assoc();
+    $project_title=$row['project_title'];
+    // $project_report=$row['project_report'];
+    $project_requirement=$row['project_requirement'];
+    $project_bp=$row['project_bp'];
+    $project_user=$row['user'];
+    $timestamp=$row['timestamp'];
+  }
+
 
 
 if($result->num_rows > 0) {
@@ -40,9 +40,7 @@ if($result->num_rows > 0) {
             echo        '<div class="panel panel-success">
                             <div class="panel-heading">
                                 Accepted
-                                <div class="pull-right">
-                                    <button class="btn btn-success" onclick="viewInstructions()">Instructions</button>
-                                </div>
+
                             </div>';
         } else if($row['project_status'] == 'rejected') {
             echo        '<div class="panel panel-danger">
