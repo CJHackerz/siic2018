@@ -32,35 +32,30 @@ if($result->num_rows > 0) {
                     '<div class="panel-footer">' .
                         $row['timestamp'] .
                         '<div class="pull-right">' .
-                        '<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">open</button>'.
-                        '<div id="myModal" class="modal fade" role="dialog">'.
-                        '<div class="modal-dialog">'.
-                        '<div class="modal-content">'.
-                        '<button type="button" class="close" data-dismiss="modal">&times;</button>';
-                        $row1=mysqli_fetch_array($result);
-      if($row1)
-      {
-      ?>
-      <form method="get" action"get_research.php">
-        <pre>
-      <label>Research ID</label></br>
-      <input type="text" value="<?php echo"$row1[0]"?>" name="t1"/></br>
-      <label>Research Title</label></br>
-      <input type="text" value="<?php echo"$row1[1]"?>" name="t2"/></br>
-      <label>Research Report</label></br>
-      <input type="text" value="<?php echo"$row1[2]"?>" name="t3"/></br>
-      <label>Research requirement</label></br>
-      <input type="text" value="<?php echo"$row1[3]"?>" name="t4"/></br>
-      <label>User</label></br>
-      <input type="text" value="<?php echo"$row1[4]"?>" name="t5"/></br>
-      <label>Research status</label></br>
-      <input type="text" value="<?php echo"$row1[6]"?>" name="t7"/></br>
-    </pre>
-  </form>
-      <?php
-    }
-    ?>
-    <?php
+                        '<button class="btn btn-primary" data-toggle="modal" data-target="#viewModal" style="padding-left:10px;">View</button></tr>' .
+                      '</div>' .
+                  '</div>' .
+              '</div>';
+
+                        echo    '<div class="modal fade" id="viewModal" tabindex="-1" role="dialog" aria-hidden="true">' .
+                                                                      '<div class="modal-dialog">' .
+                                                                          '<div class="modal-content">' .
+                                                                               '<div class="modal-header">' .
+                                                              '<h2 class="modal-title" id="exampleModalLabel" style="text-align:left;">' . $row['research_title'] . '</h2>' .
+              '<h5 class="modal-title" id="exampleModalLabel" style="text-align:left;">' . $row['timestamp'] .'</h5>' .
+
+              '</div>' .
+            '<div class="modal-body">' .
+            '<h5 style="text-align:left;">Project Requirement- ' . $row['research_requirement'] . '</h5>' .
+            '<br>' .
+            '</div>' .
+            '<div class="modal-footer">' .
+             '<a class="btn btn-primary" href="./uploads/project/<?php echo $project_bp; ?>">Project Report </a>' .
+            '</div>' .
+          '</div>' .
+        '</div>' .
+      '</div>' ;
+
         echo
                       '<span style="margin-left:5px;"><button type="button" class="btn btn-primary" data-dismiss="modal">Close</button></span>'.
                         '</div>'.
