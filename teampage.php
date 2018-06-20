@@ -1,18 +1,12 @@
 <?php
    include './process/connect.php';
    include './process/utils.php';
-
      $user = get_user();
-
    if(isset($_GET["id"])) {
        session_start();
-
        $team_id = $_GET["id"];
-
        $sql = "SELECT * from teams where team_id = '$team_id'";
-
        $result = $conn->query($sql);
-
        $row = $result->fetch_assoc();
        $team_email     = $row['team_email'];
        $team_name      = $row["team_name"];
@@ -21,7 +15,6 @@
        $contact        = $row['contact'];
        $website        = $row['website'];
        $fb             = $row['fb'];
-
        if (strpos($website, 'http') === false) {
            $website = 'http://' . $website;
        }
@@ -78,23 +71,8 @@
          font-size:20px;
          }
       </style>
-      <style>
-
-      .resp{margin-left:39%;}
-      @media only screen and  (max-width: 900px){
-
-        .resp{margin-left:31%;}
-      }
-      @media only screen and  (max-width: 400px){
-
-        .resp{margin-left:29%;}
-      }
-
-          /* padding-right: 10%;} */
-
-      </style>
    </head>
-   <body style="background-color: #fefdf4" >
+   <body style="background-color:#F4F9FE" >
       <?php include 'includes/nav.php' ?>
       <!-- Page Container -->
       <div class="w3-content w3-margin-top" style="max-width:1400px; position:relative; top:90px;">
@@ -106,12 +84,12 @@
                <div class="w3-display-container" >
                   <ul class="list-group list-group-flush">
                      <li class="list-group-item">
-                        <div style="padding: 0px 0px 0px 0px;" align="center" class='team_image_hover'>
+                        <div style="padding: 0px 0px 0px 0px;" align="center" class='team_image_hover'><br></br><br></br>
                            <img class="img-thumbnail" src="./teams/img/<?php echo $logo; ?>" alt="Team Logo"; height="100px" width="100%">
                            <div style="font-size: 30px; text-align: center;" class='social_media_icons'>
-                              <a href="<?php $fb; ?>" style="color:#3b5998" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                              <a href="#" style="color:#007bb5;" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                              <a href="<?php $website; ?>" style="color:#333;" target="_blank"><i class="fa fa-globe" aria-hidden="true" style="color: #fff;"></i></a>
+                              <a href="<?php echo $fb; ?>" style="color:#3b5998"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                              <a href="#" style="color:#007bb5;"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                              <a href="<?php echo $website; ?>" style="color:#333;"><i class="fa fa-globe" aria-hidden="true" style="color: #fff;"></i></a>
                               <!--<i class="fa fa-phone" aria-hidden="true"></i>-->
                            </div>
                         </div>
@@ -119,7 +97,7 @@
                   </ul>
                </div>
                <div class="w3-container" >
-                  <a href="mailto:<?php $team_email;?>"><i class="fa fa-envelope fa-fw w3-margin-right "style="color:#3A6EE8; margin-top:20px;" ></i><?php echo $team_email; ?></a><br><br>
+                  <p><i class="fa fa-envelope fa-fw w3-margin-right "style="color:#3A6EE8; margin-top:20px;" ></i><?php echo $team_email; ?></p>
                   <p><i class="fa fa-phone fa-fw w3-margin-right " style="color:#3A6EE8"></i><?php echo $contact; ?></p>
                   <hr style="border-color:#3A6EE8">
                   <div class="main-heading-content text-center" >
@@ -135,33 +113,39 @@
          <!-- Right Column -->
          <div class="w3-twothird" >
             <div class="w3-container w3-card w3-white w3-margin-bottom" style="border-radius:5px;">
-               <div class="main-heading-content text-center">
-                  <h2 class=" w3-padding-16">Description<span>.</span></h2>
-               </div>
-               <div class="w3-container" style="margin-top:-20px">
-                  <p><?php echo $description; ?></p>
-                  <hr style="border-color:#3A6EE8">
-               </div>
-               <?php
-                  if(!empty($_SESSION['user']) && $_SESSION['team'] == 'false') {
-                            $sql = "SELECT * from team_members where uid = '" . $_SESSION['user_id'] . "' AND team_id = '$team_id'";
-                            $result = $conn->query($sql);
-                            if($result->num_rows > 0) {
-                                $rows = $result->fetch_assoc();
-                                if($rows['status'] == 'ACCEPTED') {
-                                    echo '<div class="resp"><button class="button active" onclick="leaveTeam()">Leave</button></div>';
-                                } else {
-                                    echo '<div class="resp"><button class="button active" onclick="joinTeam()">Join</button></div>';
-                                }
-                            } else {
-                                echo '<div class="resp"><button class="button active" onclick="joinTeam()">Join</button></div>';
-                            }
-                        }
 
-                   ?>
-               <!-- End Grid -->
-            </div>
-            <div >
+              <?php
+                 if($_SESSION["team"] == "true") {
+                     if($_SESSION['user_id'] == $_GET['id']) {
+                         // Show private content
+                         ?>
+
+
+                         <ul class="nav nav-pills padInLaptop">
+                            <li class="active"><a data-toggle="pill" href="#about-menu">About</a></li>
+                            <!-- <li><a data-toggle="pill" href="#feed-menu">Feed</a></li> -->
+                            <li><a data-toggle="pill" href="#notif-menu" onClick="loadNotifs()">Notifications</a></li>
+                            <li><a data-toggle="pill" href="#request-menu" onClick="loadRequests()">Requests</a></li>
+                            <a href="./editteam.php" style="margin-top:5px;margin-left:10px;" class="btn btn-primary">Edit</a>
+                            <!-- <a data-toggle="pill" href="./editteam.php">Edit</a> -->
+                         </ul>
+                         <div id="about-menu" class="tab-pane tab-pane fade in active">
+                         <div class="main-heading-content text-center"><br></br><br></br>
+                            <h2 class=" w3-padding-16">Description<span>.</span></h2>
+                         </div>
+                         <div class="w3-container" style="margin-top:-20px">
+                            <p><?php echo $description; ?></p>
+                            <hr style="border-color:#3A6EE8">
+                         </div>
+                       </div>
+                       <div id="request-menu" style="margin-top:-100px;" class="tab-pane fade">
+                          <div class="row">
+                             <div id="requestList" onload="countRequests()">
+                                <!-- Notification list -->
+                             </div>
+                          </div>
+                          <br><br>
+                       </div>
                <div id="feed-menu" class="tab-pane fade">
                   <div class="row">
                      <div id="feedList" onload="loadFeed()">
@@ -180,34 +164,51 @@
                </div>
 
                <?php
-                  if(!empty($_SESSION['user']) && $_SESSION['team'] == 'false') {
-                            $sql = "SELECT * from team_members where uid = '" . $_SESSION['user_id'] . "' AND team_id = '$team_id'";
-                            $result = $conn->query($sql);
-                            if($result->num_rows > 0) {
-                                $rows = $result->fetch_assoc();
-                                if($rows['status'] == 'ACCEPTED') {
-                                    echo '<div class="resp"><button class="button active" onclick="leaveTeam()">Leave</button></div>';
-                                } else {
-                                    echo '<div class="resp"><button class="button active" onclick="joinTeam()">Join Team</button></div>';
-                                }
-                            } else {
-                                echo '<div class="resp"><button class="button active" onclick="joinTeam()">Join</button></div>';
-                            }
-                        }
+                  }
+                  } else {
+                  // Show public content
+                     if(!empty($_SESSION['user']) && $_SESSION['team'] == 'false') {
+                       ?>
 
-                   ?>
-               <div id="feed-menu" class="tab-pane fade">
-                  <div class="row">
-                     <div id="feedList" onload="loadFeed()">
-                        <!--  Feed list -->
-                     </div>
-                  </div>
-                  <br><br>
-               </div>
+                       <div class="main-heading-content text-center"><br></br><br></br>
+                          <h2 class=" w3-padding-16">Description<span>.</span></h2>
+                       </div>
+                       <div class="w3-container" style="margin-top:-20px">
+                          <p><?php echo $description; ?></p>
+                          <hr style="border-color:#3A6EE8">
+                       </div>
+                       <?php
+                               $sql = "SELECT * from team_members where uid = '" . $_SESSION['user_id'] . "' AND team_id = '$team_id'";
+                               $result = $conn->query($sql);
+                               if($result->num_rows > 0) {
+                                   $rows = $result->fetch_assoc();
+                                   if($rows['status'] == 'ACCEPTED') {
+                                       echo '<center><button class="button active" onclick="leaveTeam()">Leave</button></center>';
+                                   } else {
+                                       echo '<center><button class="button active" onclick="joinTeam()">Join</button></center>';
+                                   }
+                               } else {
+                                   echo '<center><button class="button active" onclick="joinTeam()">Join</button></center>';
+                               }
+                           }
+                           else {
+                             echo'
+                             <div class="main-heading-content text-center"><br></br><br></br>
+                                <h2 class=" w3-padding-16">Description<span>.</span></h2>
+                             </div>
+                             <div class="w3-container" style="margin-top:-20px">
+                                <p>'. $description.' </p>
+                                <hr style="border-color:#3A6EE8">
+                             </div>';
+                           }
+                      ?>
+               <!-- End Grid -->
             </div>
 
 
-
+            <?php
+               }
+               ?>
          </div>
          <input type="hidden" id="uid" value="<?php echo $_SESSION['user'];?>">
        <input type="hidden" id="tid" value="<?php echo $_GET['id'];?>">
@@ -230,7 +231,7 @@
             if($_GET["stat"] === 'nc') {
             ?>
         <script>
-            swal("Success", "Congratulations you have created a new team!", "success");
+            swal("Success", "Congratulations you have created a new team!", "success")
         </script>
     <?php
             }
@@ -241,10 +242,8 @@
         $( document ).ready(function() {
             var uid = $("#uid").val();
             var tid = $("#tid").val();
-
             loadRequests();
         });
-
         function joinTeam() {
             var uid = $("#uid").val();
             var tid = $("#tid").val();
@@ -304,7 +303,6 @@
         // function countRequests() {
         //     console.log('countNotifs : ');
         // }
-
         function loadRequests() {
             var tid = $("#tid").val();
             console.log("Loading requests");
@@ -323,7 +321,6 @@
                 }
             });
         }
-
         function acceptRequest(accept_email) {
             console.log(accept_email);
             $.ajax({
@@ -344,7 +341,6 @@
                 }
             });
         }
-
         function rejectRequest(reject_email) {
             console.log(reject_email);
             $.ajax({
