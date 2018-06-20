@@ -221,10 +221,10 @@
                             }
                         }
 
-                    
+
                     else
                     {
-                      echo "No teams joined";
+                      echo "<center>No teams joined yet</center>";
                     }
                     ?>
 

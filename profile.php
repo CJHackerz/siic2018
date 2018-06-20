@@ -59,7 +59,7 @@
         body{
         background-color:  #fefdf4;
     }
-    }*/
+    }
 @media only screen and  (max-width: 767px) {
 #bt{
     margin-left: 0%;
