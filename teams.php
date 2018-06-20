@@ -25,7 +25,6 @@
             height:25rem;
             width:50rem;
         }
-
       @media only screen and (max-width: 800px) {
         .img-responsive{
             height:35rem;

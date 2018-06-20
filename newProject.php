@@ -41,10 +41,14 @@
 
 @media only screen and (max-width: 800px) {
     #project_bp {
-        padding-left:40%;
+        padding-left:30%;
     }
     .sub-btn{
-        padding-right:25%;
+        margin-left:-65%;
+    }
+    .file_input{
+        padding-left:8%;
+        padding-right:8%;
     }
 }
 

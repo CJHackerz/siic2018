@@ -32,6 +32,20 @@
           margin-bottom:-15rem;
       }
 
+      .board-of-advisory{
+
+      }
+
+      @media only screen and (max-width: 800px) {
+          .career-list{
+              margin-right:3rem;
+          }
+          .career-title{
+              margin-right:3rem;
+          }
+
+    }
+
 
 
       </style>
@@ -136,8 +150,8 @@
 
 
                <div class="row board-of-advisory" align="center">
-                  <div class="team-wrapper">
-                     <div class="col-md-4 col-sm-4">
+                  <div class="team-wrapper" style="margin-left:5%; margin-right:5%; margin-top:-70px;">
+                     <div class=" col-md-4 col-sm-12" >
                         <div class="team-item">
                            <div class="team-thumb">
                               <img class="img-responsive" src="./img/boa/vicechancellor.jpg" alt="">
@@ -152,17 +166,7 @@
 
                         </div>
                      </div>
-                  </div>
-               </div>
-
-
-
-
-
-
-               <div class="row board-of-advisory" align="center">
-                  <div class="team-wrapper">
-                     <div class="col-md-4 col-sm-4">
+                     <div class="col-md-4 col-sm-12" >
                         <div class="team-item">
                            <div class="team-thumb">
                               <img class="img-responsive" src="./img/boa/campuslife.jpg" alt="">
@@ -177,16 +181,7 @@
 
                         </div>
                      </div>
-                  </div>
-               </div>
-
-
-
-
-
-               <div class="row board-of-advisory"  align="center">
-                  <div class="team-wrapper">
-                     <div class="col-md-4 col-sm-4">
+                     <div class="col-md-4 col-sm-12">
                         <div class="team-item">
                            <div class="team-thumb">
                               <img class="img-responsive DOA" src="./img/boa/gopal.jpg" alt="" width="400">
@@ -211,6 +206,10 @@
 
 
 
+
+
+
+
          <!-- Start creative team -->
          <div id="team" class="content-section ptb-100 text-center">
             <div class="container">
@@ -223,7 +222,7 @@
                </div>
                <div class="row core-team" align="center">
                   <div class="team-wrapper">
-                     <div class="col-md-4 col-sm-4">
+                     <div class="col-md-3 col-sm-12">
                         <div class="team-item">
                            <div class="team-thumb">
                               <img class="img-responsive" src="./img/team/ceo.jpg" alt="">
@@ -249,13 +248,7 @@
 
                         </div>
                      </div>
-                  </div>
-               </div>
-
-
-                <div class="row core-team" align="center">
-                  <div class="team-wrapper">
-                     <div class="col-md-4 col-sm-4">
+                     <div class="col-md-3 col-sm-12">
                         <div class="team-item">
                            <div class="team-thumb">
                               <img class="img-responsive" src="./img/team/cmo.jpg" alt="">
@@ -281,18 +274,7 @@
 
                         </div>
                      </div>
-                  </div>
-               </div>
-
-
-
-
-
-
-
-               <div class="row core-team" align="center">
-                  <div class="team-wrapper">
-                     <div class="col-md-4 col-sm-4">
+                     <div class="col-md-3 col-sm-122">
                         <div class="team-item">
                            <div class="team-thumb">
                               <img class="img-responsive" src="./img/team/coo.jpg" alt="">
@@ -318,15 +300,7 @@
 
                         </div>
                      </div>
-                  </div>
-               </div>
-
-
-
-
-               <div class="row" align="center">
-                  <div class="team-wrapper">
-                     <div class="col-md-4 col-sm-4">
+                     <div class="col-md-3 col-sm-12">
                         <div class="team-item">
                            <div class="team-thumb">
                               <img class="img-responsive" src="./img/team/cbo.jpg" alt="">
@@ -355,6 +329,7 @@
                   </div>
                </div>
 
+
 <!-- Careers -->
 
 
@@ -363,9 +338,10 @@
             <div class="container">
                <div class="row">
                   <div class="col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
-                     <div class="main-heading-content text-center">
+                     <div class="main-heading-content text-center career-title">
                         <h2>Careers<span>.</span></h2>
                      </div>
+                     <div class="career-list">
                      <h4>JOIN US:</h4>
                      <br>
                      <h5>Technical:</h5>
@@ -436,6 +412,8 @@
 
                      </ul>
                      <br>
+
+                     </div>
 
                   </div>
                </div>
