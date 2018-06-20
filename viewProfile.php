@@ -3,6 +3,10 @@
     include './process/utils.php';
     $user = get_user();
     $user_email = $_GET["uid"];
+    if($user != $user_email)
+    {
+      header('Location: ./profile.php');
+    }
 
 
 
@@ -245,6 +249,10 @@ padding-right: 8px;
                                 </article>
                             </div>';
                         }
+                    }
+                    else
+                    {
+                      echo "No teams joined";
                     }
                     ?>
 
