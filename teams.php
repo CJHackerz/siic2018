@@ -27,9 +27,14 @@
         }
 
       @media only screen and (max-width: 800px) {
-        .img-responsive{
-            height:35rem;
+        .post-thumbnail{
+            height:20rem;
             width:40rem;
+        }
+
+        .img-responsive{
+            height:20rem;
+            width:60%;
         }
     }
       </style>
@@ -48,7 +53,7 @@
                <div class="row">
                   <div class="col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
                      <div class="main-heading-content text-center">
-                        <h2>100+ Teams<span>.</span></h2>
+                        <h2>Teams<span>.</span></h2>
                         <p>Here are the following teams that can be joined. </p>
                      </div>
                   </div>
