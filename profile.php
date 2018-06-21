@@ -28,7 +28,7 @@
     <meta name="author" content="">
 
     <link rel="shortcut icon" href="img/favicon.ico">
-    <title>SIIC - Profile</title>
+    <title>Profile</title>
 
 
 

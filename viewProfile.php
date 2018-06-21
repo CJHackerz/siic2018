@@ -31,7 +31,7 @@
       <meta name="description" content="">
       <meta name="author" content="">
       <link rel="shortcut icon" href="img/favicon.ico">
-      <title>SIIC - Profile</title>
+      <title>Profile</title>
       <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
       <!-- All STYLESHEET CSS -->
       <link rel="stylesheet" href="css/element.css">

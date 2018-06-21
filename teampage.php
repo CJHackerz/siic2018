@@ -25,7 +25,7 @@
 <!DOCTYPE html>
 <html>
    <head>
-      <title>SIIC</title>
+      <title>Team Profile</title>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -79,7 +79,7 @@
    <body>
       <?php include 'includes/nav.php' ?>
       <!-- Page Container -->
-      <div class="w3-content w3-margin-top" style="max-width:1400px; position:relative; top:50px;">
+      <div class="w3-content w3-margin-top" style="max-width:1400px; position:relative; top:70px;">
       <!-- The Grid -->
       <div class="w3-row-padding" >
          <!-- Left Column -->
@@ -91,8 +91,8 @@
                         <div style="padding: 0px 0px 0px 0px;" align="center" class='team_image_hover'>
                            <img class="img-thumbnail" src="./teams/img/<?php echo $logo; ?>" alt="Team Logo"; height="100px" width="100%">
                            <div style="font-size: 30px; text-align: center;" class='social_media_icons'>
-                              <a href="<?php echo $fb; ?>" style="color:#3b5998"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                              <a href="#" style="color:#007bb5;"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                              <a href="<?php echo $fb; ?>" style="color:#3A6EE8"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                              <a href="#" style="color:#3A6EE8;"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                               <a href="<?php echo $website; ?>" style="color:#333;"><i class="fa fa-globe" aria-hidden="true" style="color: #fff;"></i></a>
                               <!--<i class="fa fa-phone" aria-hidden="true"></i>-->
                            </div>
@@ -101,9 +101,9 @@
                   </ul>
                </div>
                <div class="w3-container" >
-                  <p><i class="fa fa-envelope fa-fw w3-margin-right "style="color:#3A6EE8; margin-top:20px;" ></i><a href="mailto:<?php $team_email; ?>"><?php echo $team_email; ?></a></p>
-                  <p><i class="fa fa-phone fa-fw w3-margin-right " style="color:#3A6EE8"></i><?php echo $contact; ?></p>
-                  <hr style="border-color:#3A6EE8">
+                  <p><i class="fa fa-envelope fa-fw w3-margin-right "style="color:#EEAC58; margin-top:20px;" ></i><a href="mailto:<?php echo $team_email; ?>"><?php echo $team_email; ?></a></p>
+                  <p><i class="fa fa-phone fa-fw w3-margin-right " style="color:#EEAC58"></i><?php echo $contact; ?></p>
+                  <hr style="border-color:#EEAC58">
                   <div class="main-heading-content text-center" >
                      <h3><?php echo $team_name;?></h3>
                   </div>
@@ -139,7 +139,7 @@
                          </div>
                          <div class="w3-container" style="margin-top:-20px">
                             <p><?php echo $description; ?></p>
-                            <hr style="border-color:#3A6EE8">
+                            <hr style="border-color:#EEAC58">
                          </div>
                        </div>
                        <div id="request-menu" style="margin-top:-100px;" class="tab-pane fade">
@@ -179,7 +179,7 @@
                        </div>
                        <div class="w3-container" style="margin-top:-20px">
                           <p><?php echo $description; ?></p>
-                          <hr style="border-color:#3A6EE8">
+                          <hr style="border-color:#EEAC58">
                        </div>
                        <?php
                                $sql = "SELECT * from team_members where uid = '" . $_SESSION['user_id'] . "' AND team_id = '$team_id'";
@@ -202,7 +202,7 @@
                              </div>
                              <div class="w3-container" style="margin-top:-20px">
                                 <p>'. $description.' </p>
-                                <hr style="border-color:#3A6EE8">
+                                <hr style="border-color:#EEAC58">
                              </div>';
                            }
                       ?>
