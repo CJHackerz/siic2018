@@ -28,7 +28,7 @@
     <meta name="author" content="">
 
     <link rel="shortcut icon" href="img/favicon.ico">
-    <title>SIIC - Profile</title>
+    <title>Profile</title>
 
 
 
@@ -142,7 +142,7 @@ padding-right: 8px;
 
 <div class="main-wrapper">
 <div align="center">
- <ul style="padding-top: 20vh;width: 100%;">
+ <ul style="padding-top: 25vh;width: 100%;">
 
         <img id="st" style="height: 150px; width: 150px;" class="img-thumbnail" src="./img/profiles/<?php echo $profile_avatar;?>" alt="Profile Image" /></ul>
     </div><br>

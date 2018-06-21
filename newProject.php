@@ -10,11 +10,11 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>New Project|SIIC</title>
+    <title>New Project</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Favicon Icon Add -->
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.html">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
     <!-- All STYLESHEET CSS -->
     <link rel="stylesheet" href="css/element.css">
     <link rel="stylesheet" href="style.css">
@@ -93,7 +93,7 @@
           <div class="form-group">
             <label for="project_requirements" class="col-lg-3 control-label">Requirements</label>
             <div class="col-lg-8">
-            <textarea cols="80" rows="10" class="form-control bootsy_text_area" placeholder="Requirements" name="project_requirement" id="project_requirements" required></textarea>
+            <textarea cols="80" rows="10" class="form-control bootsy_text_area" placeholder="Requirements" name="project_requirement" id="project_requirement" required></textarea>
             </div>
 
 
@@ -116,7 +116,7 @@
         </form>
       </div>
   </div>
-</div>
+</div><br>
          <!--form ends-->
 
        <?php
