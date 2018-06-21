@@ -251,9 +251,10 @@
             </div>
          </div>
       </div>
+</div>
 
+<?php include 'includes/footer.php';?>
    <!-- <input type="hidden" id="uid" value="<?php echo $user;?>"> -->
-   <?php include 'includes/footer.php';?>
    <!-- wrapper ends -->
    <!-- Core JavaScript Files -->
    <script type="text/javascript" src="js/hp_js.js"></script>
