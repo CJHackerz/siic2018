@@ -151,7 +151,6 @@
       <!--  <div class="slide"></div> -->
    </div>
    <div class="container">
-   <div class="panel panel-default" >
       <div class="panel-body">
          <div class="tab-content">
             <div id="menu2" class="tab-pane fade in active">
@@ -245,7 +244,7 @@
             </div>
          </div>
       </div>
-   </div>
+
    <!-- <input type="hidden" id="uid" value="<?php echo $user;?>"> -->
    <?php include 'includes/footer.php';?>
    <!-- wrapper ends -->

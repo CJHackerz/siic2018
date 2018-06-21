@@ -79,7 +79,7 @@
    <body>
       <?php include 'includes/nav.php' ?>
       <!-- Page Container -->
-      <div class="w3-content w3-margin-top" style="max-width:1400px; position:relative; top:70px;">
+      <div class="w3-content w3-margin-top" style="max-width:1400px; position:relative; top:90px;">
       <!-- The Grid -->
       <div class="w3-row-padding" >
          <!-- Left Column -->

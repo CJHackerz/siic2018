@@ -89,7 +89,7 @@ if($_SERVER['REQUEST_METHOD'] == 'GET'){
 
         <div class="panel panel-default">
         <div class="panel-body">
-            <h2><?php echo $startup_title; ?></h2>
+            <h4><?php echo $startup_title; ?></h4>
             <small><?php echo $timestamp;?></small>
             <hr>
             <a class="btn btn-primary" href="./uploads/startup/<?php echo $startup_bp; ?>">Startup Report</a>
@@ -109,7 +109,6 @@ if($_SERVER['REQUEST_METHOD'] == 'GET'){
      ?>
      <style>
         .footer {
-        position: fixed;
         left: 0;
         bottom: 0;
         width: 100%;
