@@ -157,7 +157,7 @@ padding-right: 8px;
 </div>
 </div>
 <div class="main-wrapper">
-<div class="tab-wrap centre1" style="padding-top: 15vh;">
+<div class="tab-wrap centre1" style="padding-top: 20vh;">
 
     <div class="tab-label-content " id="tab1-content" >
       <label for="tab1" class="rig"><a data-toggle="pill" class="xyz but" href="#menu2" >Project</label></a>
@@ -175,7 +175,6 @@ padding-right: 8px;
   </div>
 </div>
    <!--  <div class="slide"></div> -->
-
 
     <div class="container">
         <div class="panel panel-default" >
