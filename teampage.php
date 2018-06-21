@@ -189,10 +189,10 @@
                                    if($rows['status'] == 'ACCEPTED') {
                                        echo '<center><button class="button active" onclick="leaveTeam()">Leave</button></center>';
                                    } else {
-                                       echo '<center><button class="button active" onclick="joinTeam()">Join</button></center>';
+                                       echo '<center><button class="button active" onclick="joinTeam()">Join</button></center><br>';
                                    }
                                } else {
-                                   echo '<center><button class="button active" onclick="joinTeam()">Join</button></center>';
+                                   echo '<center><button class="button active" onclick="joinTeam()">Join</button></center><br>';
                                }
                            }
                            else {
