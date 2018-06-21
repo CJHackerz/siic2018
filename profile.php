@@ -336,7 +336,5 @@ padding-right: 8px;
     </script>
 
 </script>
-<!-- nav bar drop down script -->
-<script src="js/plugins.js"></script>
 </body>
 </html>

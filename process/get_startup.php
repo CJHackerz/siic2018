@@ -54,7 +54,7 @@ if($result->num_rows > 0) {
                     '<div class="panel-footer">' .
                         $row['timestamp'] .
                         '<div class="pull-right">' .
-                            '<button class="btn btn-primary">View</button>'.
+                            '<button class="btn btn-primary" data-toggle="modal" data-target="#viewModal" style="padding-left:10px;">View</button></tr>'.
                         '</div>' .
                     '</div>' .
                 '</div>';
@@ -67,10 +67,11 @@ if($result->num_rows > 0) {
       '<h5 class="modal-title" id="exampleModalLabel" style="text-align:left;">' . $row['timestamp'] .'</h5>' .
 
       '</div>' .
+      '<div class="modal-body">' .
     '<br>' .
     '</div>' .
     '<div class="modal-footer">' .
-     '<a class="btn btn-primary" href="./uploads/startup/<?php echo $startup_bp; ?>">startup Report </a>' .
+     '<a class="btn btn-primary" href="./uploads/startup/<?php echo $startup_bp; ?>">Startup Report </a>' .
     '</div>' .
   '</div>' .
 '</div>' .
