@@ -234,7 +234,7 @@ padding-right: 8px;
 <script src="js/vendor/jquery-1.12.0.min.js"></script>
     <script src="js/minix-map.js"></script>
     <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
+      <script src="js/main.js"></script>
 
     <input type="hidden" id="uid" value="<?php echo $user;?>">
     <!-- Core JavaScript Files -->
