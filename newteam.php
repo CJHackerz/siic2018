@@ -85,16 +85,17 @@
         <!-- FORM -->
         <div class="col-md-8 personal-info">
 
-        <form class="form-horizontal" role="form" id="new_research" enctype="multipart/form-data" action="./dev/admin/process/process_new_team.php" accept-charset="UTF-8" method="post">
-      <!--
-                                // if($_SERVER['REQUEST_METHOD'] == 'GET') {
-                                //     if(isset($_GET['status'])) {
-                                //         if($_GET['status'] == 'email_conf') {
-                                //             echo '<p style="color:red">This Email is already in use</p>';
+        <form class="form-horizontal new_research" id="new_research" enctype="multipart/form-data" action="./dev/admin/process/process_new_team.php" accept-charset="UTF-8" method="post">
+      
+        <?php
+                                if($_SERVER['REQUEST_METHOD'] == 'GET') {
+                                    if(isset($_GET['status'])) {
+                                        if($_GET['status'] == 'email_conf') {
+                                            echo '<p style="color:red">This Email is already in use</p>';
                                         }
                                     }
                                 }
-        ?> -->
+        ?>
           <!-- <div class="form-group">
           <div class="col-lg-5 control-label">
           <label for="">Are you registering as a Team or a Startup?</label>
@@ -116,60 +117,60 @@
 
 
           <div class="form-group">
-            <label class="col-lg-3 control-label"placeholder="Title" type="text" name="team_name" id="project_title">Team/Startup name</label>
+            <label class="col-lg-3 control-label" for="team_name">Team/Startup name</label>
             <div class="col-lg-8">
-              <input class="form-control" type="text" placeholder="Enter Startup Title" required>
+              <input class="form-control" type="text" name="team_name" id="team_name" placeholder="Enter Title" required>
             </div>
           </div>
 
           <div class="form-group">
-            <label class="col-lg-3 control-label"placeholder="Title" type="text" name="team_id" id="project_title">Team Id</label>
+            <label class="col-lg-3 control-label">Team Id</label>
             <div class="col-lg-8">
-              <input class="form-control" type="text" placeholder="Enter Startup Title" required>
+              <input class="form-control" type="text" name="team_id" id="team_id" placeholder="Enter Team ID" required>
             </div>
           </div>
 
 
 
           <div class="form-group">
-            <label for="project_requirements" class="col-lg-3 control-label">Description</label>
+            <label for="team_desc" class="col-lg-3 control-label">Description</label>
             <div class="col-lg-8">
-            <textarea cols="80" rows="10" class="form-control bootsy_text_area" placeholder="Write about your teams history, goals and achievements" name="team_requirement" id="project_requirements" required></textarea>
+            <textarea cols="80" rows="10" class="form-control bootsy_text_area" name="team_desc" id="team_desc" placeholder="Write about your teams history, goals and achievements" required></textarea>
             </div>
             </div>
 
             <div class="form-group">
-            <label class="col-lg-3 control-label"placeholder="Title" type="text" name="team_link" id="project_title">Website Link</label>
+            <label class="col-lg-3 control-label" for="team_website">Website Link</label>
             <div class="col-lg-8">
-              <input class="form-control" type="text">
+              <input class="form-control" name="team_website" id="team_website" type="text">
             </div>
           </div>
 
           <div class="form-group">
-            <label class="col-lg-3 control-label" type="text" name="team_fb_link" id="team_fb_link" required>Facebook Link</label>
+            <label class="col-lg-3 control-label">Facebook Link</label>
             <div class="col-lg-8">
-              <input class="form-control" type="text">
+              <input class="form-control" name="team_fb" id="team_fb" type="text" required>
             </div>
           </div>
 
           <div class="form-group">
-            <label class="col-lg-3 control-label"placeholder="Title" type="text" name="team_contact" id="team_contact" required>Contact no</label>
+            <label class="col-lg-3 control-label">Contact no</label>
             <div class="col-lg-8">
-              <input class="form-control" type="text">
+              <input class="form-control" type="text" name="team_contact" id="team_contact" required/>
             </div>
           </div>
 
           <div class="form-group">
-            <label class="col-lg-3 control-label"placeholder="Title" type="text" name="team_email" id="team_email" required>Team/Startup Email</label>
+            <label class="col-lg-3 control-label">Team/Startup Email</label>
             <div class="col-lg-8">
-              <input class="form-control" type="text" placeholder="This is the email you will use to access your team account">
+              <input class="form-control" type="text" placeholder="This is the email you will use to access your team account"name="team_email" id="team_email" value="" required/>
             </div>
           </div>
 
           <div class="form-group">
-            <label class="col-lg-3 control-label"placeholder="Title" type="password" name="team_password" id="team_password" required>Password</label>
+            <label class="col-lg-3 control-label">Password</label>
             <div class="col-lg-8">
-              <input class="form-control" type="password">
+              <input class="form-control"  type="password" name="team_password" id="team_password" value="" required/>
             </div>
           </div>
 
@@ -179,7 +180,7 @@
           <div class="form-group text-center create-button" style="padding-left:25%">
             <label class="col-md-4 control-label"></label>
             <div class="col-md-8">
-              <input type="Submit" class="btn btn-primary" value="Create">
+              <input type="Submit" name="commit" value="Create" class="btn btn-primary" value="Create">
               <span></span>
               <input type="reset" class="btn btn-default" value="Cancel">
             </div>
