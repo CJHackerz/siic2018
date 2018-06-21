@@ -31,7 +31,7 @@
       <meta name="description" content="">
       <meta name="author" content="">
       <link rel="shortcut icon" href="img/favicon.ico">
-      <title>SIIC - Profile</title>
+      <title>Profile</title>
       <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
       <!-- All STYLESHEET CSS -->
       <link rel="stylesheet" href="css/element.css">
@@ -107,7 +107,8 @@
          @media only screen and  (max-width: 400px){
          .centre{
          margin-left: -4%;  }
-         .centre1{padding-left: 0%;}
+         .centre1{padding-left: 0%;
+         margin-left: -0%;}
          .centre2{margin-left: -4%;}
          .res1{
          width: 100%;

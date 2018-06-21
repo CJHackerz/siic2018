@@ -176,7 +176,7 @@ padding-right: 8px;
 </div>
    <!--  <div class="slide"></div> -->
 
-    <div class="container" style="margin-top:-20px;">
+    <div class="container" style="margin-top:-20px;" >
         <div class="panel panel-default" >
             <div class="panel-body">
                 <div class="tab-content">

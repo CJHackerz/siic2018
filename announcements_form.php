@@ -10,11 +10,11 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Announcement Form|SIIC</title>
+    <title>Announcement Form</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Favicon Icon Add -->
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.html">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
     <!-- All STYLESHEET CSS -->
     <link rel="stylesheet" href="css/element.css">
     <link rel="stylesheet" href="style.css">
@@ -23,7 +23,7 @@
 
     <style>
     body{
-        background-color: #f4f9fe;
+        background-color: #fefdf4;
     }
         .personal-info{
             align:center;
@@ -41,10 +41,10 @@
 
 @media only screen and (max-width: 800px) {
     #project_bp {
-        padding-left:40%;
+        padding-left:30%;
     }
     .sub-btn{
-        padding-right:25%;
+        margin-left:-75%;
     }
 }
 
@@ -139,7 +139,7 @@
       </div>
   </div>
 </div>
-<hr>
+<br>
 <script
   src="https://code.jquery.com/jquery-3.3.1.js"
   integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
