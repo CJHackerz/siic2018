@@ -90,7 +90,7 @@ if($_SERVER['REQUEST_METHOD'] == 'GET'){
 
         <div class="panel panel-default">
         <div class="panel-body">
-            <h2><?php echo $project_title; ?></h2>
+            <h4><?php echo $project_title; ?></h4>
             <small><?php echo $timestamp;?></small>
             <hr>
             <h6>Requirements : </h6><p><?php echo $project_requirement; ?></p>

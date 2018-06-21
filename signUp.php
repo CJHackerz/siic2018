@@ -109,7 +109,7 @@
                     <option value="others">Others</option>
                 </select>
                 <input type="number" name="profile_year" min="1" max="5" id="profile_year" placeholder="Year[1-5]" required/>
-                <input type="date" name="profile_dob" id="profile_dob" placeholder="Date Of Birth" required/>
+                <input placeholder="Date of Birth" type="text" onfocus="(this.type='date')"  id="date" required/>
                 <input type="button" name="" class="next action-button" value="Next" required />
                 <p>Already have an account? <a href="./signIn.php" style="text-decoration: none; color:green;"><strong>Sign in</strong></a></p>
               </fieldset>
