@@ -79,6 +79,11 @@
          } */
       </style>
       <style>
+      @media only screen and  (max-width: 400px){
+
+.cls{width:100%;}
+
+      }
          .but{
          border-bottom: 3px solid #F5BA54;
          padding-bottom: 12px;
@@ -94,7 +99,7 @@
          @media only screen and  (max-width: 900px){
          .centre{
          padding-left: 32%;    }
-         .centre1{margin-left:12%;}
+         .centre1{margin-left:2%;}
          .centre2{padding-left: 24%;}
          .res1{
          width: 100%;
@@ -151,8 +156,8 @@
       </div>
       <!--  <div class="slide"></div> -->
    </div>
-   <div class="container">
-   <div class="panel panel-default" >
+   <div class="container cls" >
+   <div class="panel panel-default"  >
       <div class="panel-body">
          <div class="tab-content">
             <div id="menu2" class="tab-pane fade in active">
