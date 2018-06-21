@@ -32,6 +32,20 @@
           margin-bottom:-15rem;
       }
 
+      .board-of-advisory{
+
+      }
+
+      @media only screen and (max-width: 800px) {
+          .career-list{
+              margin-right:3rem;
+          }
+          .career-title{
+              margin-right:3rem;
+          }
+
+    }
+
 
 
       </style>
@@ -324,9 +338,10 @@
             <div class="container">
                <div class="row">
                   <div class="col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
-                     <div class="main-heading-content text-center">
+                     <div class="main-heading-content text-center career-title">
                         <h2>Careers<span>.</span></h2>
                      </div>
+                     <div class="career-list">
                      <h4>JOIN US:</h4>
                      <br>
                      <h5>Technical:</h5>
@@ -397,6 +412,8 @@
 
                      </ul>
                      <br>
+
+                     </div>
 
                   </div>
                </div>

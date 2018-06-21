@@ -59,7 +59,7 @@
         body{
         background-color:  #fefdf4;
     }
-    }*/
+    }
 @media only screen and  (max-width: 767px) {
 #bt{
     margin-left: 0%;
@@ -153,11 +153,11 @@ padding-right: 8px;
   </div><br>
 
   <div class="cenbut tab-pane ">
-    <a class="button active "   href="./teampage.php">JOIN TEAM</a>
+    <a class="button active "   href="./teams.php">JOIN TEAM</a>
 </div>
 </div>
 <div class="main-wrapper">
-<div class="tab-wrap centre1" style="padding-top: 15vh;">
+<div class="tab-wrap centre1" style="padding-top: 20vh;">
 
     <div class="tab-label-content " id="tab1-content" >
       <label for="tab1" class="rig"><a data-toggle="pill" class="xyz but" href="#menu2" >Project</label></a>
@@ -175,7 +175,6 @@ padding-right: 8px;
   </div>
 </div>
    <!--  <div class="slide"></div> -->
-
 
     <div class="container">
         <div class="panel panel-default" >
@@ -240,7 +239,7 @@ padding-right: 8px;
     <input type="hidden" id="uid" value="<?php echo $user;?>">
     <!-- Core JavaScript Files -->
     <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <!-- <script src="js/bootstrap.min.js"></script> -->
   <script src="js/jquery.sticky.js"></script>
     <script src="js/jquery.easing.min.js"></script>
   <script src="js/jquery.scrollTo.js"></script>
@@ -336,7 +335,5 @@ padding-right: 8px;
     </script>
 
 </script>
-<!-- nav bar drop down script -->
-<script src="js/plugins.js"></script>
 </body>
 </html>

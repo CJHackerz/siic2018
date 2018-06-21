@@ -40,9 +40,7 @@ if($result->num_rows > 0) {
             echo        '<div class="panel panel-success">
                             <div class="panel-heading">
                                 Accepted
-                                <div class="pull-right">
-                                    <button class="btn btn-success" onclick="viewInstructions()">Instructions</button>
-                                </div>
+
                             </div>';
         } else if($row['project_status'] == 'rejected') {
             echo        '<div class="panel panel-danger">
@@ -57,31 +55,10 @@ if($result->num_rows > 0) {
                     '<div class="panel-footer">' .
                         $row['timestamp'] .
                         '<div class="pull-right">' .
-
-                          '<button class="btn btn-primary" data-toggle="modal" data-target="#viewModal" style="padding-left:10px;">View</button></tr>' .
+                          "<a class='btn btn-primary' href='./project.php?pid=$pid' name='test_btn'>View</a>".
                         '</div>' .
                     '</div>' .
                 '</div>';
-
-                  echo    '<div class="modal fade" id="viewModal" tabindex="-1" role="dialog" aria-hidden="true">' .
-                                                                '<div class="modal-dialog">' .
-                                                                    '<div class="modal-content">' .
-                                                                         '<div class="modal-header">' .
-                                                        '<h2 class="modal-title" id="exampleModalLabel" style="text-align:left;">' . $row['project_title'] . '</h2>' .
-        '<h5 class="modal-title" id="exampleModalLabel" style="text-align:left;">' . $row['timestamp'] .'</h5>' .
-
-        '</div>' .
-      '<div class="modal-body">' .
-      '<h5 style="text-align:left;">Project Requirement- ' . $row['project_requirement'] . '</h5>' .
-      '<br>' .
-      '</div>' .
-      '<div class="modal-footer">' .
-       '<a class="btn btn-primary" href="./uploads/project/<?php echo $project_bp; ?>">Project Report </a>' .
-      '</div>' .
-    '</div>' .
-  '</div>' .
-'</div>' ;
-
 
         echo '</div>';
     }

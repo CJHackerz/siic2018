@@ -158,12 +158,12 @@
                                                                         <a class="btn btn-primary" type="button" target="_blank" href="../../../uploads/project/' . $row['research_bp'] . '">Download Business Plan</a>
 
                                                                        ';
-                                                                  if($row['project_status'] == 'accepted') {
+                                                                  if($row['research_status'] == 'accepted') {
                                                                       echo '<button class="btn btn-success" type="submit" name="accept" disabled>Accept</button>';
                                                                   } else {
                                                                       echo '<button class="btn btn-success" type="submit" name="accept">Accept</button>';
                                                                   }
-                                                                  if($row['project_status'] == 'rejected') {
+                                                                  if($row['research_status'] == 'rejected') {
                                                                       echo '<button class="btn btn-danger" type="submit" name="reject" disabled>Reject</button>';
                                                                   } else {
                                                                       echo '<button class="btn btn-danger" type="submit" name="reject">Reject</button>';

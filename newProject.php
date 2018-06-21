@@ -41,10 +41,14 @@
 
 @media only screen and (max-width: 800px) {
     #project_bp {
-        padding-left:40%;
+        padding-left:30%;
     }
     .sub-btn{
-        padding-right:25%;
+        margin-left:-65%;
+    }
+    .file_input{
+        padding-left:8%;
+        padding-right:8%;
     }
 }
 
@@ -113,13 +117,6 @@
       </div>
   </div>
 </div>
-<hr>
-<script
-  src="https://code.jquery.com/jquery-3.3.1.js"
-  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-  crossorigin="anonymous">
-</script>
-
          <!--form ends-->
 
        <?php

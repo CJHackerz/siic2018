@@ -9,7 +9,7 @@
    <head>
       <meta charset="utf-8">
       <meta http-equiv="x-ua-compatible" content="ie=edge">
-      <title>New Project|SIIC</title>
+      <title>New Research|SIIC</title>
       <meta name="description" content="">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <!-- Favicon Icon Add -->
@@ -70,12 +70,12 @@
                   </div>
                </div>
                <div class="form-group">
-                  <label for="project_requirements" class="col-lg-3 control-label">Report</label>
+                  <label for="research_requirements" class="col-lg-3 control-label">Report</label>
                   <div class="col-lg-8">
                      <textarea cols="80" rows="10" class="form-control bootsy_text_area" name="research_report" id="research_report" placeholder="Enter Research Report details" required></textarea>
                   </div>
                   <div class="form-group">
-                     <label for="project_requirements" class="col-lg-3 control-label">Requirements</label>
+                     <label for="research_requirements" class="col-lg-3 control-label">Requirements</label>
                      <div class="col-lg-8">
                         <textarea cols="80" rows="10" class="form-control bootsy_text_area" name="research_requirement" id="research_requirement" placeholder="Enter Research Requirements" required></textarea>
                      </div>

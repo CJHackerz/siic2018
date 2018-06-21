@@ -29,18 +29,22 @@
              .file_input {
              padding-left:50%;
              }
-             #project_bp {
+             #startup_bp {
              padding-left:30%;
              }
              }
              @media only screen and (max-width: 800px) {
-             #project_bp {
-             padding-left:25%;
-             }
-             .sub-btn{
-             padding-right:25%;
-             }
-         }
+                #startup_bp {
+        padding-left:30%;
+    }
+    .sub-btn{
+        margin-left:-65%;
+    }
+    .file_input{
+        padding-left:8%;
+        padding-right:8%;
+    }
+                }
       </style>
    </head>
    <body>
@@ -70,13 +74,13 @@
          <div class="col-md-8 personal-info">
             <form class="form-horizontal" role="form" id="new_startup" enctype="multipart/form-data" action="./process/process_new_startup.php" accept-charset="UTF-8" method="post">
                <div class="form-group">
-                  <label class="col-lg-3 control-label"placeholder="Title" type="text" name="project_title" id="project_title">Title</label>
+                  <label class="col-lg-3 control-label"placeholder="Title" type="text">Title</label>
                   <div class="col-lg-8">
-                     <input class="form-control" type="text" placeholder="Enter Startup Title" required>
+                     <input class="form-control" type="text"  name="startup_title" id="startup_title" placeholder="Enter Startup Title" required>
                   </div>
                   <div class="form-group text-center col-lg-13 file_input" >
-                     <label for="project_bp" class="control-label">Upload your Start up idea (4MB File Size Limit)(pdf, ppt, doc, docx)</label><br/>
-                     <input type="file" accept=".pdf, .ppt, .doc, .docx" name="project_bp" id="project_bp" required/><br/>
+                     <label for="startup_bp" class="control-label">Upload your Start up idea (4MB File Size Limit)(pdf, ppt, doc, docx)</label><br/>
+                     <input type="file" accept=".pdf, .ppt, .doc, .docx" name="startup_bp" id="startup_bp" required/><br/>
                   </div>
                </div>
          </div>
