@@ -56,7 +56,7 @@ if($result->num_rows > 0) {
                     '<div class="panel-footer">' .
                         $row['timestamp'] .
                         '<div class="pull-right">' .
-                          "<a class='btn btn-primary' href='./project.php?pid=$pid' name='test_btn'>View</a>".
+                          "<a class='btn btn-primary btnp' href='./project.php?pid=$pid' name='test_btn'>View</a>".
                         '</div>' .
                     '</div>' .
                 '</div>';

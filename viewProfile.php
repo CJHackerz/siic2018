@@ -107,7 +107,8 @@
          @media only screen and  (max-width: 400px){
          .centre{
          margin-left: -4%;  }
-         .centre1{padding-left: 0%;}
+         .centre1{padding-left: 0%;
+         margin-left: -0%;}
          .centre2{margin-left: -4%;}
          .res1{
          width: 100%;
