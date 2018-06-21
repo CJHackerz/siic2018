@@ -30,6 +30,7 @@ if($result->num_rows > 0) {
     echo '<ul class="list-group">';
 
     while($row = $result->fetch_assoc()) {
+        $pid = $row['project_id'];
         echo '<div class="col-md-4 col-xs-12">';
         if($row['project_status'] == 'unread') {
             echo        '<div class="panel panel-default">
