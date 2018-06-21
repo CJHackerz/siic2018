@@ -77,7 +77,7 @@
       <!-- Page Container -->
       <div class="w3-content w3-margin-top" style="max-width:1400px; position:relative; top:90px;">
       <!-- The Grid -->
-      <div class="w3-row-padding" >
+      <div class="w3-row-padding" style="overflow-x: hidden">
          <!-- Left Column -->
          <div class="w3-third">
             <div class="w3-white w3-text-grey w3-card-4" style="border-radius:5px;">
