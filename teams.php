@@ -21,22 +21,33 @@
       body{
           background-color:  #fefdf4;
       }
+
+      .under-row{
+          padding-bottom:30px;
+      }
+      @media only screen and (min-width: 800px) {
        .img-responsive{
             height:25rem;
             width:50rem;
         }
 
-      @media only screen and (max-width: 800px) {
-        .post-thumbnail{
-            height:20rem;
-            width:40rem;
+        .post-content-inner{
+            width:100%; 
+            height:5rem;
         }
+      }
 
-        .img-responsive{
-            height:20rem;
-            width:60%;
-        }
+        @media only screen and (max-width: 800px) {
+         .img-responsive{
+         height:20rem;
+         width:40rem;
+         }
+         }
     }
+
+    
+
+
       </style>
    </head>
    <body style="background-color: #fefdf4;">
@@ -64,14 +75,14 @@
                   if($result->num_rows > 0) {
                       while ($row = $result->fetch_assoc()) {
                           echo        ' <div class="row-teams">
-                          <div class="col-md-3 col-sm-6" style="padding-bottom:30px;">
+                          <div class="col-md-3 col-sm-6 under-row">
                               <article class="blog-post">
                                   <div class="post-thumbnail">
                                       <a href="./teampage.php?id=' . $row['team_id'] . '">
                                           <img class="img-responsive" src="./teams/img/' . $row['logo'] . '" alt="">
                                   </div>
                                   <div class="post-content">
-                                      <div class="post-content-inner" style="width:100%; height:5rem;">
+                                      <div class="post-content-inner">
                                           <center><h3 ><a href="#">'.$row['team_name'].'</a></h3></center>
                                       </div>
                                   </div>
