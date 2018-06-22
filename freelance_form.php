@@ -71,6 +71,7 @@
       .inputBox{
       height: 40px;
       font-size: 15px;
+
       }
       .inlineTxt{
       display: inline;
@@ -290,10 +291,13 @@
                      <input type="button" name="" class="next action-button" value="Next" required />
                   </fieldset>
                   <fieldset>
-                     <h2 class="fs-title">Freelance Form</h2>
-                     <h3 class="fs-subtitle">Step 2 out of 3</h3>
+                    <center>   <h2 class="fs-title">Freelance Form</h2></center>
+                       <h3 class="fs-subtitle">Step2  out of 3</h3>
+                       <br>
+
                      <label>3D MODELLING, ANALYSIS AND SIMULATION:</label>
-                     <select id="3D Modelling, Analysis & Simulation" name="skills_threeD[]" placeholder="3D Modelling, Analysis & Simulation" class="js-example-placeholder-multiple" multiple="multiple" style="width:90%;" tabindex="4">
+                     <select id="3D Modelling, Analysis & Simulation" name="skills_threeD[]" placeholder="3D Modelling, Analysis & Simulation" class="js-example-placeholder-multiple" multiple="multiple" style="width:90%; padding-right:20%;" tabindex="4">
+
                         <option value="Fusion 360">Fusion 360</option>
                         <option value="Catia">Catia</option>
                         <option value="SolidWorks">SolidWorks</option>
