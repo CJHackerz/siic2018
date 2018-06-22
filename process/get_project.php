@@ -31,7 +31,7 @@ if($result->num_rows > 0) {
 
     while($row = $result->fetch_assoc()) {
         $pid = $row['project_id'];
-        echo '<div class="col-md-4 col-xs-12">';
+        echo '<div class="col-md-4  " >';
         if($row['project_status'] == 'unread') {
             echo        '<div class="panel panel-default">
                             <div class="panel-heading">
@@ -56,7 +56,7 @@ if($result->num_rows > 0) {
                     '<div class="panel-footer">' .
                         $row['timestamp'] .
                         '<div class="pull-right">' .
-                          "<a class='btn btn-primary btnp' href='./project.php?pid=$pid' name='test_btn'>View</a>".
+                          "<a class='btn btn-primary' href='./project.php?pid=$pid' name='test_btn'>View</a>".
                         '</div>' .
                     '</div>' .
                 '</div>';

@@ -127,7 +127,7 @@
             <div class="col-md-5 col-sm-5 col-md-offset-1 ">
                <center>
                   <p>
-                     " It's indeed a great pleasure for me to announce about initiative SRM Innovation and Incubation center. This initiative is taken in order to develop and awaken the student's talents and feed them with the required support and facilities. I'm sure that SIIC will bring out the entrepreneurial skills and also to develop them for their future endeavors. "
+                     " It's indeed a great pleasure for me to announce about initiative SRM Innovation and Incubation centre. This initiative is taken in order to develop and awaken the student's talents and feed them with the required support and facilities. I'm sure that SIIC will bring out the entrepreneurial skills and also to develop them for their future endeavors. "
                   </p>
                </center>
             </div>
@@ -174,7 +174,7 @@
 
 
                            <div class="team-content">
-                              <h3>Mr.V. Thirumurugan</h3>
+                              <h3>Mr. V. Thirumurugan</h3>
                               <span class="position">Associate Director Campus Life</span>
                            </div>
 

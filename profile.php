@@ -80,6 +80,12 @@
 } */
     </style>
     <style>
+    @media only screen and  (max-width: 400px){
+  .btnp{margin-top:-20px;
+  background-color: white;0}
+
+  }
+
     .but{
        border-bottom: 3px solid #F5BA54;
        padding-bottom: 12px;
@@ -92,14 +98,18 @@
     }
     .centre1{margin-left:25.5%;}
     .centre2{padding-left:43%;}
-    .res1{margin-left: 38%;}
+
+
     @media only screen and  (max-width: 900px){
 
     .cenbut{  margin-bottom:30px;margin-top:-20px;margin-left:35%;width:100%;}
+
     }
     @media only screen and  (max-width: 400px){
 
     .cenbut{  margin-bottom:30px;margin-top:-20px;margin-left: 33%;width:100%}
+
+
     }
 
     @media only screen and  (max-width: 900px){
@@ -129,8 +139,21 @@ padding-right: 12px;
 padding-right: 8px;
   }
     }
-    </style>
+    .wid{
+  width:100%;
 
+    }
+    </style>
+<style>
+.res1{margin-left: 38%;
+}
+@media only screen and  (max-width: 400px){
+  .res1{ margin-left: 10%;width:80%; }
+  }
+  @media only screen and  (max-width: 900px){
+    .res1{ margin-left: 15%;width:70%; }
+    }
+</style>
 </head>
 
 <body>
@@ -176,16 +199,16 @@ padding-right: 8px;
 </div>
    <!--  <div class="slide"></div> -->
 
-    <div class="container" style="margin-top:-20px;" >
+    <div class="container wid" style="margin-top:-20px; " >
         <div class="panel panel-default" >
             <div class="panel-body">
-                <div class="tab-content">
+                <div class="tab-content ">
 
 
                     <div id="menu2" class="tab-pane fade in active">
                         <!--<h3>Project</h3>-->
 
-                        <a class="button active res1" data-method="get" href="./newProject.php">Apply for Projects</a>
+                        <a class=" res1 button active "   data-method="get" href="./newProject.php">Apply for Projects</a>
                         <br><br><br>
                         <div class="row">
                             <div id="projectList">
