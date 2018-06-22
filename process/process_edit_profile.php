@@ -47,10 +47,11 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
       $count=count($errors);
 
       if(empty($file_name) && $file_size==0) {
+        $profile_avatar ='images.jpg';
           $sql = "UPDATE user_profiles set name = '$profile_name', register_no = '$profile_register',
                   dept = '$profile_department', year = '$profile_year', description = '$profile_description',
                   dob = '$profile_dob', address = '$profile_address', skills = '$profile_skills', hobbies = '$profile_hobbies',
-                  achievements = '$profile_achievements', experience = '$profile_experience' WHERE email='$user' ";
+                  achievements = '$profile_achievements', experience = '$profile_experience', avatar  = '$profile_avatar' WHERE email='$user' ";
 
           if($conn->query($sql)) {
                 header('Location: ../profile.php');
