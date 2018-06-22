@@ -13,11 +13,11 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>New Team|SIIC</title>
+    <title>New Team</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Favicon Icon Add -->
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.html">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
     <!-- All STYLESHEET CSS -->
     <link rel="stylesheet" href="css/element.css">
     <link rel="stylesheet" href="style.css">
@@ -86,7 +86,7 @@
         <div class="col-md-8 personal-info">
 
         <form class="form-horizontal new_research" id="new_research" enctype="multipart/form-data" action="./dev/admin/process/process_new_team.php" accept-charset="UTF-8" method="post">
-      
+
         <?php
                                 if($_SERVER['REQUEST_METHOD'] == 'GET') {
                                     if(isset($_GET['status'])) {

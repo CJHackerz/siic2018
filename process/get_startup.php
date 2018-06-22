@@ -27,6 +27,7 @@ if($result->num_rows > 0) {
     echo '<ul class="list-group">';
 
     while($row = $result->fetch_assoc()) {
+        $pid = $row['startup_id'];
         echo '<div class="col-md-4 col-xs-12">';
         if($row['startup_status'] == 'unread') {
             echo        '<div class="panel panel-default">
@@ -54,28 +55,10 @@ if($result->num_rows > 0) {
                     '<div class="panel-footer">' .
                         $row['timestamp'] .
                         '<div class="pull-right">' .
-                            '<button class="btn btn-primary" data-toggle="modal" data-target="#viewModal" style="padding-left:10px;">View</button></tr>'.
+                            "<a class='btn btn-primary' href='./startup.php?pid=$pid' name='test_btn'>View</a>".
                         '</div>' .
                     '</div>' .
                 '</div>';
-
-                echo    '<div class="modal fade" id="viewModal" tabindex="-1" role="dialog" aria-hidden="true">' .
-                                                              '<div class="modal-dialog">' .
-                                                                  '<div class="modal-content">' .
-                                                                       '<div class="modal-header">' .
-                                                      '<h2 class="modal-title" id="exampleModalLabel" style="text-align:left;">' . $row['startup_title'] . '</h2>' .
-      '<h5 class="modal-title" id="exampleModalLabel" style="text-align:left;">' . $row['timestamp'] .'</h5>' .
-
-      '</div>' .
-      '<div class="modal-body">' .
-    '<br>' .
-    '</div>' .
-    '<div class="modal-footer">' .
-     '<a class="btn btn-primary" href="./uploads/startup/<?php echo $startup_bp; ?>">Startup Report </a>' .
-    '</div>' .
-  '</div>' .
-'</div>' .
-'</div>' ;
 
         echo '</div>';
     }

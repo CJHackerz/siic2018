@@ -48,7 +48,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Sign In|SIIC</title>
+    <title>Reset Password</title>
 
     <!-- css -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -59,7 +59,6 @@
     <link href="css/style.css" rel="stylesheet">
 	<link href="color/default.css" rel="stylesheet">
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
-    <link rel="icon" href="./favicon.ico" type="image/x-icon">
 
 </head>
 

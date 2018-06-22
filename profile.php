@@ -28,7 +28,7 @@
     <meta name="author" content="">
 
     <link rel="shortcut icon" href="img/favicon.ico">
-    <title>SIIC - Profile</title>
+    <title>Profile</title>
 
 
 
@@ -142,7 +142,7 @@ padding-right: 8px;
 
 <div class="main-wrapper">
 <div align="center">
- <ul style="padding-top: 20vh;width: 100%;">
+ <ul style="padding-top: 25vh;width: 100%;">
 
         <img id="st" style="height: 150px; width: 150px;" class="img-thumbnail" src="./img/profiles/<?php echo $profile_avatar;?>" alt="Profile Image" /></ul>
     </div><br>
@@ -157,7 +157,7 @@ padding-right: 8px;
 </div>
 </div>
 <div class="main-wrapper">
-<div class="tab-wrap centre1" style="padding-top: 15vh;">
+<div class="tab-wrap centre1" style="padding-top: 20vh;">
 
     <div class="tab-label-content " id="tab1-content" >
       <label for="tab1" class="rig"><a data-toggle="pill" class="xyz but" href="#menu2" >Project</label></a>
@@ -176,8 +176,7 @@ padding-right: 8px;
 </div>
    <!--  <div class="slide"></div> -->
 
-
-    <div class="container">
+    <div class="container" style="margin-top:-20px;" >
         <div class="panel panel-default" >
             <div class="panel-body">
                 <div class="tab-content">
@@ -235,7 +234,7 @@ padding-right: 8px;
 <script src="js/vendor/jquery-1.12.0.min.js"></script>
     <script src="js/minix-map.js"></script>
     <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
+      <script src="js/main.js"></script>
 
     <input type="hidden" id="uid" value="<?php echo $user;?>">
     <!-- Core JavaScript Files -->

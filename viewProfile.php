@@ -31,7 +31,7 @@
       <meta name="description" content="">
       <meta name="author" content="">
       <link rel="shortcut icon" href="img/favicon.ico">
-      <title>SIIC - Profile</title>
+      <title>Profile</title>
       <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
       <!-- All STYLESHEET CSS -->
       <link rel="stylesheet" href="css/element.css">
@@ -79,6 +79,11 @@
          } */
       </style>
       <style>
+      @media only screen and  (max-width: 400px){
+
+.cls{width:100%;}
+
+      }
          .but{
          border-bottom: 3px solid #F5BA54;
          padding-bottom: 12px;
@@ -94,7 +99,7 @@
          @media only screen and  (max-width: 900px){
          .centre{
          padding-left: 32%;    }
-         .centre1{margin-left:12%;}
+         .centre1{margin-left:2%;}
          .centre2{padding-left: 24%;}
          .res1{
          width: 100%;
@@ -107,7 +112,8 @@
          @media only screen and  (max-width: 400px){
          .centre{
          margin-left: -4%;  }
-         .centre1{padding-left: 0%;}
+         .centre1{padding-left: 0%;
+         margin-left: -0%;}
          .centre2{margin-left: -4%;}
          .res1{
          width: 100%;
@@ -150,8 +156,8 @@
       </div>
       <!--  <div class="slide"></div> -->
    </div>
-   <div class="container">
-   <div class="panel panel-default" >
+   <div class="container cls" >
+   <div class="panel panel-default"  >
       <div class="panel-body">
          <div class="tab-content">
             <div id="menu2" class="tab-pane fade in active">
@@ -245,9 +251,10 @@
             </div>
          </div>
       </div>
-   </div>
+</div>
+
+<?php include 'includes/footer.php';?>
    <!-- <input type="hidden" id="uid" value="<?php echo $user;?>"> -->
-   <?php include 'includes/footer.php';?>
    <!-- wrapper ends -->
    <!-- Core JavaScript Files -->
    <script type="text/javascript" src="js/hp_js.js"></script>

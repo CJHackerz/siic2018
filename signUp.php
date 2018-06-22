@@ -10,7 +10,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>SIIC - Sign Up</title>
+    <title>Sign Up</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Favicon Icon Add -->
@@ -40,6 +40,15 @@
     .upload-picture{
         padding-right:67%;
     }
+}
+   input[type="date"]:before {
+content: attr(placeholder) !important;
+color: #aaa;
+margin-right: 0.5em;
+}
+input[type="date"]:focus:before,
+input[type="date"]:valid:before {
+content: "";
 }
    </style>
 </head>
