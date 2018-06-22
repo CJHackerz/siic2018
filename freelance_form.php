@@ -1,7 +1,3 @@
-<?php
-   session_start();
-   if(isset($_SESSION['user'])) {
-   ?>
 <!doctype html>
 <html class="no-js" lang="zxx">
    <head>
@@ -686,7 +682,3 @@
 
    </script>
 </html>
-<?php }
-else {
-    header("Location: ./signIn.php");
-} ?>

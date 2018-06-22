@@ -138,7 +138,7 @@ content: "";
                 <h2 class="fs-title" style="font-family: 'Open Sans', sans-serif;">Create your Account</h2>
                 <h3 class="fs-subtitle" style="font-family: 'Open Sans', sans-serif;">Step 3 out of 3</h3>
 
-                <textarea name="profile_description" id="profile_description" placeholder="Description/Bio" required></textarea>
+                <textarea name="profile_description" id="profile_description" maxlength="250" placeholder="Description/Bio" required></textarea>
                 <input type="text" class="email-adjust" name="user_email" id="user_email" placeholder="Email" required />
                 <span class="email-link">@srmuniv.edu.in</span>
                 <input type="password" name="user_password" placeholder="Password" id="user_password" required/>
