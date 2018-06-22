@@ -168,12 +168,16 @@
                         $sql = "SELECT * from user_profiles where email = '$user_email'";
                         $result = $conn->query($sql);
                         $row = $result->fetch_assoc();
+                        $dept=$row['dept'];
+                        $year=$row['year'];
                         $address=$row['address'];
                         $skills=$row['skills'];
                         $hobbies=$row['hobbies'];
                         $achievements=$row['achievements'];
                         $experience=$row['experience'];
                         $description=$row['description'];
+                        echo "<p>Department : $dept</p>";
+                        echo "<p>Year : $year</p>";
                         echo "<p>Address : $address</p>";
                         echo "<p>Skills : $skills</p>";
                         echo "<p>Hobbies : $hobbies</p>";

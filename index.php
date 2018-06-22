@@ -294,7 +294,7 @@
                            <div class="get-in-tuch">
                               <h2>Get In Touch<span>.</span></h2>
                               <ul class="address-line">
-                                 <li><i class="fa fa-map-marker"></i>5th Floor, Basic Engineering Block<br> SRM Institute of Science and<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Technology</li>
+                                 <li><i class="fa fa-map-marker"></i>5th Floor, Basic Engineering Block<br> SRM IST</li>
                                  <li><i class="fa fa-user"></i>Nikunj Panchal</li>
                                  <li><i class="fa fa-envelope"></i>manager@srmiic.com</li>
                                  <li><i class="fa fa-phone"></i>+91 8148606827</li>
