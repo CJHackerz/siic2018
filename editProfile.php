@@ -109,7 +109,7 @@
            <div class="text-center">
           <img src="./img/profiles/<?php echo $profile_avatar;?>" style="height: 100px; width: 100px;" class="avatar img-circle" alt="avatar" >
           <br><br>
-          <h6>Upload a different photo</h6>
+          <p style="font-weight: bold; color: #000;">Upload a different photo</p>
 
           <input type="file" accept=".jpeg, .jpg, .png" name="profile_avatar" id="profile_img"/>
             </div>
