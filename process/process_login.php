@@ -48,7 +48,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
           $_SESSION["user"]       = $user_email;
           $_SESSION["user_id"]    = $row["uid"];
           $_SESSION["team"]       = "false";
-          setcookie('user',$_SESSION['user'],time() + (86400*7));
+          setcookie('useremail',$_SESSION['user'],time() + (86400*7),"/");
           header('Location: ../profile.php');
         }
         else {
@@ -95,7 +95,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
               $_SESSION["user"]       = $user_email;
               $_SESSION["user_id"]    = $row["team_id"];
               $_SESSION["team"]       = "true";
-              setcookie('user',$_SESSION['user'],time() + (86400*7));
+              setcookie('useremail',$_SESSION['user'],time() + (86400*7),"/");
               header('Location: ../teampage.php?id=' . $row['team_id']);
             }
             else {
