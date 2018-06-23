@@ -12,7 +12,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>SIIC - Sign In</title>
+    <title>Sign In</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Favicon Icon Add -->
@@ -69,6 +69,7 @@
 
                 <input type="submit" name="" class="next action-button" value="SUBMIT" required />
                 <p>Don't have an account? <a href="./signUp.php" style="text-decoration: none; color:#53a846;"><strong>Register here</strong></a></p>
+                <p>Forgot Password? <a href="./resetpassword.php" style="text-decoration: none; color:#53a846;"><strong>Click Here</strong></a></p>
               </fieldset>
 
             </form>
@@ -80,7 +81,6 @@
     <?php include 'includes/footer.php' ?>
     <style>
        .footer {
-       position: fixed;
        left: 0;
        bottom: 0;
        width: 100%;

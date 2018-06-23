@@ -7,7 +7,7 @@
    <head>
       <meta charset="utf-8">
       <meta http-equiv="x-ua-compatible" content="ie=edge">
-      <title>SIIC</title>
+      <title>Insights</title>
       <meta name="description" content="">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <!-- Favicon Icon Add -->
@@ -153,22 +153,6 @@
                                     <div class="post-content">
                                     <div class="post-content-inner" style="width:100%; height:5rem;">
                                     <center><h3 ><a href="#">Rudra</a></h3></center>
-                                    </div>
-                                    </div>
-                              </div>
-                              </a>
-                              </article>
-                           </div>
-                           <div class="row-teams">
-                              <div class="col-md-3 col-sm-6" style="padding-bottom:30px; padding-top:30px;">
-                                 <article class="blog-post">
-                                    <div class="post-thumbnail">
-                                       <a href="javascript:void(0)">
-                                          <img class="img-responsive" src="img/insights/next_tech.png" alt="">
-                                    </div>
-                                    <div class="post-content">
-                                    <div class="post-content-inner" style="width:100%; height:5rem;">
-                                    <center><h3 ><a href="#">Next-Tech</a></h3></center>
                                     </div>
                                     </div>
                               </div>

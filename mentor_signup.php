@@ -14,7 +14,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Sign Up|SIIC</title>
+    <title>Mentor Sign Up</title>
 
     <!-- css -->
     <link rel="stylesheet" href="css/bootstrap.min.css">

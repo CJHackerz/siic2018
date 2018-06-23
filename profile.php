@@ -28,7 +28,7 @@
     <meta name="author" content="">
 
     <link rel="shortcut icon" href="img/favicon.ico">
-    <title>SIIC - Profile</title>
+    <title>Profile</title>
 
 
 
@@ -80,6 +80,12 @@
 } */
     </style>
     <style>
+    @media only screen and  (max-width: 400px){
+  .btnp{margin-top:-20px;
+  background-color: white;0}
+
+  }
+
     .but{
        border-bottom: 3px solid #F5BA54;
        padding-bottom: 12px;
@@ -92,14 +98,18 @@
     }
     .centre1{margin-left:25.5%;}
     .centre2{padding-left:43%;}
-    .res1{margin-left: 38%;}
+
+
     @media only screen and  (max-width: 900px){
 
     .cenbut{  margin-bottom:30px;margin-top:-20px;margin-left:35%;width:100%;}
+
     }
     @media only screen and  (max-width: 400px){
 
     .cenbut{  margin-bottom:30px;margin-top:-20px;margin-left: 33%;width:100%}
+
+
     }
 
     @media only screen and  (max-width: 900px){
@@ -129,8 +139,21 @@ padding-right: 12px;
 padding-right: 8px;
   }
     }
-    </style>
+    .wid{
+  width:100%;
 
+    }
+    </style>
+<style>
+.res1{margin-left: 38%;
+}
+@media only screen and  (max-width: 400px){
+  .res1{ margin-left: 10%;width:80%; }
+  }
+  @media only screen and  (max-width: 900px){
+    .res1{ margin-left: 15%;width:70%; }
+    }
+</style>
 </head>
 
 <body>
@@ -142,7 +165,7 @@ padding-right: 8px;
 
 <div class="main-wrapper">
 <div align="center">
- <ul style="padding-top: 20vh;width: 100%;">
+ <ul style="padding-top: 25vh;width: 100%;">
 
         <img id="st" style="height: 150px; width: 150px;" class="img-thumbnail" src="./img/profiles/<?php echo $profile_avatar;?>" alt="Profile Image" /></ul>
     </div><br>
@@ -157,7 +180,7 @@ padding-right: 8px;
 </div>
 </div>
 <div class="main-wrapper">
-<div class="tab-wrap centre1" style="padding-top: 15vh;">
+<div class="tab-wrap centre1" style="padding-top: 20vh;">
 
     <div class="tab-label-content " id="tab1-content" >
       <label for="tab1" class="rig"><a data-toggle="pill" class="xyz but" href="#menu2" >Project</label></a>
@@ -176,17 +199,16 @@ padding-right: 8px;
 </div>
    <!--  <div class="slide"></div> -->
 
-
-    <div class="container">
+    <div class="container wid" style="margin-top:-20px; " >
         <div class="panel panel-default" >
             <div class="panel-body">
-                <div class="tab-content">
+                <div class="tab-content ">
 
 
                     <div id="menu2" class="tab-pane fade in active">
                         <!--<h3>Project</h3>-->
 
-                        <a class="button active res1" data-method="get" href="./newProject.php">Apply for Projects</a>
+                        <a class=" res1 button active "   data-method="get" href="./newProject.php">Apply for Projects</a>
                         <br><br><br>
                         <div class="row">
                             <div id="projectList">
@@ -235,7 +257,7 @@ padding-right: 8px;
 <script src="js/vendor/jquery-1.12.0.min.js"></script>
     <script src="js/minix-map.js"></script>
     <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
+      <script src="js/main.js"></script>
 
     <input type="hidden" id="uid" value="<?php echo $user;?>">
     <!-- Core JavaScript Files -->
@@ -336,7 +358,5 @@ padding-right: 8px;
     </script>
 
 </script>
-<!-- nav bar drop down script -->
-<script src="js/plugins.js"></script>
 </body>
 </html>

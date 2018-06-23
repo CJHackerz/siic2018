@@ -1,13 +1,9 @@
-<?php
-   session_start();
-   if(isset($_SESSION['user'])) {
-   ?>
 <!doctype html>
 <html class="no-js" lang="zxx">
    <head>
       <meta charset="utf-8">
       <meta http-equiv="x-ua-compatible" content="ie=edge">
-      <title>SIIC - Sign Up</title>
+      <title>Freelance Form</title>
       <meta name="description" content="">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <!-- Favicon Icon Add -->
@@ -23,6 +19,12 @@
       <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.4.2/chosen.css">
    </head>
    <style type="text/css">
+    @media only screen and  (min-width: 400px)
+    {
+
+.tes{ height:70px; margin-left:5%; width:89%;}
+
+    }
       .researchClass{
       font-family: 'Dosis', sans-serif;
       }
@@ -69,6 +71,7 @@
       .inputBox{
       height: 40px;
       font-size: 15px;
+
       }
       .inlineTxt{
       display: inline;
@@ -123,12 +126,12 @@
                      <h3 class="fs-subtitle">Step 1 out of 1</h3>
                      <br>
 
-                        <label for="skills_email">Email Address:</label>
+                        <label for="skills_email">Email Address : </label>
 
-                    <input type="email" name="skills_email" class="form-control" id="email"  placeholder="Enter Your Email Address" required style="width:90%">
+                    <input type="email" name="skills_email" class="form-control tes" id="email"   placeholder="Enter Your Email Address" required style="width:90%">
 
                      <br>
-                     <label>ARTS       :</label>&nbsp&nbsp&nbsp&nbsp
+                     <label>ARTS  &nbsp&nbsp&nbsp&nbsp :</label>&nbsp&nbsp&nbsp&nbsp
                      <select id="arts" name="skills_arts[]" placeholder="Arts" class="js-example-placeholder-multiple" multiple="multiple" style="width:90%;" tabindex="4">
                         <option value="Singing">Singing</option>
                         <option value="Dancing">Dancing</option>
@@ -288,10 +291,13 @@
                      <input type="button" name="" class="next action-button" value="Next" required />
                   </fieldset>
                   <fieldset>
-                     <h2 class="fs-title">Freelance Form</h2>
-                     <h3 class="fs-subtitle">Step 2 out of 3</h3>
+                    <center>   <h2 class="fs-title">Freelance Form</h2></center>
+                       <h3 class="fs-subtitle">Step2  out of 3</h3>
+                       <br>
+
                      <label>3D MODELLING, ANALYSIS AND SIMULATION:</label>
-                     <select id="3D Modelling, Analysis & Simulation" name="skills_threeD[]" placeholder="3D Modelling, Analysis & Simulation" class="js-example-placeholder-multiple" multiple="multiple" style="width:90%;" tabindex="4">
+                     <select id="3D Modelling, Analysis & Simulation" name="skills_threeD[]" placeholder="3D Modelling, Analysis & Simulation" class="js-example-placeholder-multiple" multiple="multiple" style="width:90%; padding-right:20%;" tabindex="4">
+
                         <option value="Fusion 360">Fusion 360</option>
                         <option value="Catia">Catia</option>
                         <option value="SolidWorks">SolidWorks</option>
@@ -680,7 +686,3 @@
 
    </script>
 </html>
-<?php }
-else {
-    header("Location: ./signIn.php");
-} ?>
