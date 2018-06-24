@@ -42,7 +42,7 @@
                                       if($_GET['error'] == 'pass_match') {
                                           echo '<div class="alert alert-danger" role="alert">Username or Password incorrect </div>';
                                       }
-                                      
+
                                   }
                               ?>
          <?php
@@ -50,7 +50,7 @@
              $authkey    = $_GET['authkey'];
              $uid        = $_GET['uid'];
              if(isset($_GET['reset'])) {
-                 $result = $conn->query("SELECT * from user where authkey = '$authkey' and uid = '$uid'");
+                 $result = $conn->query("SELECT * from users where authkey = '$authkey' and uid = '$uid'");
 
                  if($result->num_rows > 0) {
                      ?>
@@ -92,6 +92,9 @@
                      echo '<h1 align="center" style="font-size: 50px; padding: 100px;">Invalid Credentials</h1>';
                  }
              }
+         }
+         else {
+             header('Location ./404.php');
          }
 
          ?>
