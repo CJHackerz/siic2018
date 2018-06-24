@@ -184,17 +184,31 @@
                      <div class="col-md-4 col-sm-12">
                         <div class="team-item">
                            <div class="team-thumb">
-                              <img class="img-responsive DOA" src="./img/boa/gopal.jpg" alt="" width="400">
+                              <img class="img-responsive DOA" src="./img/boa/dean.jpg" alt="" width="400">
                            </div>
 
 
                            <div class="team-content">
-                              <h3>Dr. T.V. Gopal</h3>
-                              <span class="position">Director of Admissions</span>
+                              <h3>DR. D. KINGSLY JEBA SINGH</h3>
+                              <span class="position">Dean</span>
                            </div>
 
-
+                       </div>
                         </div>
+                        <div class="col-md-4 col-sm-12">
+                           <div class="team-item">
+                              <div class="team-thumb">
+                                 <img class="img-responsive DOA" src="./img/boa/gopal.jpg" alt="" width="400">
+                              </div>
+
+
+                              <div class="team-content">
+                                 <h3>Dr. T.V. Gopal</h3>
+                                 <span class="position">Director of Admissions</span>
+                              </div>
+
+
+                           </div>
                      </div>
                   </div>
                </div>
@@ -225,6 +239,59 @@
                      <div class="col-md-3 col-sm-12">
                         <div class="team-item">
                            <div class="team-thumb">
+                              <img class="img-responsive" src="./img/team/hod.jpg" alt="">
+                              <ul class="team-social">
+                                 <li>
+                                    <a href="#" target="_blank"> <i class="fa fa-facebook"></i></a>
+                                 </li>
+                                 <li>
+                                    <a href="#" target="_blank"> <i class="fa fa-linkedin"></i></a>
+                                 </li>
+                                 <li>
+                                    <a href="#" target="_blank"> <i class="fa fa-envelope"></i></a>
+                                 </li>
+                              </ul>
+                           </div>
+
+
+                           <div class="team-content">
+                              <h3>Dr. Shantanu Patil</h3>
+                              <span class="position">Professor and Head of Department</span>
+                           </div>
+
+
+                        </div>
+                     </div>
+
+                     <div class="col-md-3 col-sm-122">
+                        <div class="team-item">
+                           <div class="team-thumb">
+                              <img class="img-responsive" src="./img/team/sa.jpg" alt="">
+                              <ul class="team-social">
+                                 <li>
+                                    <a href="#" target="_blank"> <i class="fa fa-facebook"></i></a>
+                                 </li>
+                                 <li>
+                                    <a href="#" target="_blank"> <i class="fa fa-linkedin"></i></a>
+                                 </li>
+                                 <li>
+                                    <a href="#" target="_blank"> <i class="fa fa-envelope"></i></a>
+                                 </li>
+                              </ul>
+                           </div>
+
+
+                           <div class="team-content">
+                              <h3>Mr. ANANTH KUMAR</h3>
+                              <span class="position">System Architect , SRM Application Development</span>
+                           </div>
+
+
+                        </div>
+                     </div>
+                     <div class="col-md-3 col-sm-12">
+                        <div class="team-item">
+                           <div class="team-thumb">
                               <img class="img-responsive" src="./img/team/ceo.jpg" alt="">
                               <ul class="team-social">
                                  <li>
@@ -243,84 +310,6 @@
                            <div class="team-content">
                               <h3>Nikunj Panchal</h3>
                               <span class="position">Chief Executive Officer</span>
-                           </div>
-
-
-                        </div>
-                     </div>
-                     <div class="col-md-3 col-sm-12">
-                        <div class="team-item">
-                           <div class="team-thumb">
-                              <img class="img-responsive" src="./img/team/cmo.jpg" alt="">
-                              <ul class="team-social">
-                                 <li>
-                                    <a href="#" target="_blank"> <i class="fa fa-facebook"></i></a>
-                                 </li>
-                                 <li>
-                                    <a href="#" target="_blank"> <i class="fa fa-linkedin"></i></a>
-                                 </li>
-                                 <li>
-                                    <a href="#" target="_blank"> <i class="fa fa-envelope"></i></a>
-                                 </li>
-                              </ul>
-                           </div>
-
-
-                           <div class="team-content">
-                              <h3>Sayan Bera</h3>
-                              <span class="position">Chief Marketing Officer</span>
-                           </div>
-
-
-                        </div>
-                     </div>
-                     <div class="col-md-3 col-sm-122">
-                        <div class="team-item">
-                           <div class="team-thumb">
-                              <img class="img-responsive" src="./img/team/coo.jpg" alt="">
-                              <ul class="team-social">
-                                 <li>
-                                    <a href="#" target="_blank"> <i class="fa fa-facebook"></i></a>
-                                 </li>
-                                 <li>
-                                    <a href="#" target="_blank"> <i class="fa fa-linkedin"></i></a>
-                                 </li>
-                                 <li>
-                                    <a href="#" target="_blank"> <i class="fa fa-envelope"></i></a>
-                                 </li>
-                              </ul>
-                           </div>
-
-
-                           <div class="team-content">
-                              <h3>Vanthian Balasubramanian</h3>
-                              <span class="position">Chief Operations Officer</span>
-                           </div>
-
-
-                        </div>
-                     </div>
-                     <div class="col-md-3 col-sm-12">
-                        <div class="team-item">
-                           <div class="team-thumb">
-                              <img class="img-responsive" src="./img/team/cbo.jpg" alt="">
-                              <ul class="team-social">
-                                 <li>
-                                    <a href="#" target="_blank"> <i class="fa fa-facebook"></i></a>
-                                 </li>
-                                 <li>
-                                    <a href="#" target="_blank"> <i class="fa fa-linkedin"></i></a>
-                                 </li>
-                                 <li>
-                                    <a href="#" target="_blank"> <i class="fa fa-envelope"></i></a>
-                                 </li>
-                              </ul>
-                           </div>
-
-
-                           <div class="team-content">
-                              <h3>Pal Patel</h3>
-                              <span class="position">Chief Brand Officer</span>
                            </div>
 
 

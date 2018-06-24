@@ -13,6 +13,8 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
   $result1 = $conn->query($sql1);
     if($result1->num_rows > 0) {
         $row1 = $result1->fetch_assoc();
+        if($row1['status'] == 'set')
+        {
         if($row1['reset'] == 0)
       {
         $encrypt_pass = md5($user_password);
@@ -20,7 +22,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
         {
           $authkey=md5(uniqid());
           $uid = $row1['uid'];
-          $sql2 = "INSERT INTO users(authkey) values('$authkey')";
+          $sql2 = "UPDATE users set authkey='$authkey' where email ='$user_email'";
           $result = $mgClient->sendMessage($domain, array(
             'from'    =>    'SRMIIC NoReply <noreply@srmiic.com>',
             'to'      =>    $user_email,
@@ -48,13 +50,16 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
           $_SESSION["user"]       = $user_email;
           $_SESSION["user_id"]    = $row["uid"];
           $_SESSION["team"]       = "false";
-          setcookie('useremail',$_SESSION['user'],time() + (86400*7),"/");
+          setcookie('useremail',$_SESSION['user'],time() + (86400*7));
           header('Location: ../profile.php');
         }
         else {
           header('Location: ../signIn.php?error=true');
         }
       }
+    }else{
+      header('Location: ../signIn.php?error=not_validate');
+    }
     } else {
         $sql1 = "SELECT * from teams where team_email = '$user_email'";
         $result1 = $conn->query($sql1);
@@ -67,7 +72,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
             {
               $authkey=md5(uniqid());
               $uid = $row1['uid'];
-              $sql2 = "INSERT INTO users(authkey) values('$authkey')";
+              $sql2 = "UPDATE teams(authkey) set authkey='$authkey' where team_email='$user_email'";
               $result = $mgClient->sendMessage($domain, array(
                 'from'    =>    'SRMIIC NoReply <noreply@srmiic.com>',
                 'to'      =>    $user_email,
@@ -95,7 +100,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
               $_SESSION["user"]       = $user_email;
               $_SESSION["user_id"]    = $row["team_id"];
               $_SESSION["team"]       = "true";
-              setcookie('useremail',$_SESSION['user'],time() + (86400*7),"/");
+              setcookie('useremail',$_SESSION['user'],time() + (86400*7));
               header('Location: ../teampage.php?id=' . $row['team_id']);
             }
             else {
