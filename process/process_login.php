@@ -13,6 +13,8 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
   $result1 = $conn->query($sql1);
     if($result1->num_rows > 0) {
         $row1 = $result1->fetch_assoc();
+        if($row1['status'] == 'set')
+        {
         if($row1['reset'] == 0)
       {
         $encrypt_pass = md5($user_password);
@@ -55,6 +57,9 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
           header('Location: ../signIn.php?error=true');
         }
       }
+    }else{
+      header('Location: ../signIn.php?error=not_validate');
+    }
     } else {
         $sql1 = "SELECT * from teams where team_email = '$user_email'";
         $result1 = $conn->query($sql1);
