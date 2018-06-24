@@ -19,6 +19,9 @@
     body{
          background-color: #fefdf4;
     }
+    .ti-arrow-up:before {
+        content: none;
+    }
     </style>
 </head>
 <body>
@@ -42,7 +45,7 @@
                                       if($_GET['error'] == 'pass_match') {
                                           echo '<div class="alert alert-danger" role="alert">Username or Password incorrect </div>';
                                       }
-                                      
+
                                   }
                               ?>
          <?php
@@ -50,7 +53,7 @@
              $authkey    = $_GET['authkey'];
              $uid        = $_GET['uid'];
              if(isset($_GET['reset'])) {
-                 $result = $conn->query("SELECT * from user where authkey = '$authkey' and uid = '$uid'");
+                 $result = $conn->query("SELECT * from users where authkey = '$authkey' and uid = '$uid'");
 
                  if($result->num_rows > 0) {
                      ?>
@@ -84,12 +87,12 @@
                      $sql = "UPDATE users set status = 'set' where uid = '$uid'";
 
                      if($conn->query($sql)) {
-                         echo '<h1 align="center" style="font-size: 50px; padding: 100px;">Email Verification Successful!<br> You may continue to login to your account</h1>';
+                         echo '<h3 align="center" style="padding-top: 100px;">Email Verification Successful!<br> You may continue to login to your account</h3>';
                      } else {
-                         echo '<h1 align="center" style="font-size: 50px; padding: 100px;">Unable to process please try again later</h1>';
+                         echo '<h3 align="center" style="padding-top: 100px;">Unable to process please try again later</h3>';
                      }
                  } else {
-                     echo '<h1 align="center" style="font-size: 50px; padding: 100px;">Invalid Credentials</h1>';
+                     echo '<h3 align="center" style="padding-top: 100px;">Invalid Credentials</h3>';
                  }
              }
          }
