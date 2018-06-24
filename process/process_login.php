@@ -22,7 +22,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
         {
           $authkey=md5(uniqid());
           $uid = $row1['uid'];
-          $sql2 = "INSERT INTO users(authkey) values('$authkey')";
+          $sql2 = "UPDATE users set authkey='$authkey' where email ='$user_email'";
           $result = $mgClient->sendMessage($domain, array(
             'from'    =>    'SRMIIC NoReply <noreply@srmiic.com>',
             'to'      =>    $user_email,
@@ -72,7 +72,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
             {
               $authkey=md5(uniqid());
               $uid = $row1['uid'];
-              $sql2 = "INSERT INTO users(authkey) values('$authkey')";
+              $sql2 = "UPDATE teams(authkey) set authkey='$authkey' where team_email='$user_email'";
               $result = $mgClient->sendMessage($domain, array(
                 'from'    =>    'SRMIIC NoReply <noreply@srmiic.com>',
                 'to'      =>    $user_email,
