@@ -135,6 +135,9 @@
                         <label for="skills_email">Email Address : </label>
 
                     <input type="email" name="skills_email" class="form-control tes" id="email"   placeholder="Enter Your Email Address" required style="width:90%">
+                    <input type="text" name="skills_name" class="form-control tes" id="name"   placeholder="Enter Your Name" required style="width:90%">
+                    <input type="text" name="skills_dept" class="form-control tes" id="dept"   placeholder="Enter Your Department" required style="width:90%">
+                    <input type="number" name="skills_contactno" class="form-control tes" id="contactno"   placeholder="Enter Your Contact No." required style="width:90%">
 
                      <br>
                      <label>ARTS  &nbsp&nbsp&nbsp&nbsp :</label>&nbsp&nbsp&nbsp&nbsp
