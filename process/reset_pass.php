@@ -23,7 +23,7 @@ if($_SERVER["REQUEST_METHOD"] == 'POST') {
 
 
         $conn->query("UPDATE users set password = '$pass' where email = '$user'");
-        $conn->query("UPDATE user_resets set valid = 0 where email = '$user'");
+        $conn->query("UPDATE user_resets set valid = 0 where email = '$user' and reset_key='$key'");
 
         $arrData = [
             'status'    => 200,
