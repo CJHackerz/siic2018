@@ -69,7 +69,6 @@
 
                 <input type="submit" name="" class="next action-button" value="SUBMIT" required />
                 <p>Don't have an account? <a href="./signUp.php" style="text-decoration: none; color:#53a846;"><strong>Register here</strong></a></p>
-                <p>Forgot Password? <a href="./resetpassword.php" style="text-decoration: none; color:#53a846;"><strong>Click Here</strong></a></p>
               </fieldset>
 
             </form>
