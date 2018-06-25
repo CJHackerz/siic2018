@@ -14,7 +14,8 @@
 	// Get number of startup
 	$startup_count = $conn->query('SELECT COUNT(*) from project')->fetch_assoc();
 	// Get number of feedbacks
-	$fb_count = $conn->query('SELECT COUNT(*) from user_profiles')->fetch_assoc();
+	$fb_count = $conn->query("SELECT COUNT(*) from   user_profiles
+WHERE   timestamp >= NOW() - INTERVAL 1 DAY")->fetch_assoc();
 
 ?>
 
