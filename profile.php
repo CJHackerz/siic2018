@@ -83,9 +83,7 @@
     @media only screen and  (max-width: 400px){
   .btnp{margin-top:-20px;
   background-color: white;0}
-
   }
-
     .but{
        border-bottom: 3px solid #F5BA54;
        padding-bottom: 12px;
@@ -98,20 +96,12 @@
     }
     .centre1{margin-left:25.5%;}
     .centre2{padding-left:43%;}
-
-
     @media only screen and  (max-width: 900px){
-
     .cenbut{  margin-bottom:30px;margin-top:-20px;margin-left:35%;width:100%;}
-
     }
     @media only screen and  (max-width: 400px){
-
     .cenbut{  margin-bottom:30px;margin-top:-20px;margin-left: 33%;width:100%}
-
-
     }
-
     @media only screen and  (max-width: 900px){
       .centre{
         padding-left: 32%;    }
@@ -138,12 +128,10 @@ padding-right: 12px;
   .rig{font-size: 16px;
 padding-right: 8px;
   }
-  .wid{
-width:100%;
-
-  }
     }
-  
+    .wid{
+  width:100%;
+    }
     </style>
 <style>
 .res1{margin-left: 38%;
