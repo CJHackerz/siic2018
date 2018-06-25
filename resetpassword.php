@@ -20,7 +20,7 @@
         if($result->num_rows > 0) {
             $row = $result->fetch_assoc();
             $reset_key = md5(uniqid());
-            if($conn->query("UPDATE users set authkey = '$reset_key', reset = 0 where email = '$reset_email'")){
+            if($conn->query("INSERT INTO user_resets(email, reset_key) VALUES('$reset_email', '$reset_key')")){
 
                 # Instantiate the client.
                 $mgClient = new Mailgun('key-28f57d982d256aa39f2fa195678151b3');
@@ -30,7 +30,7 @@
                     'from'    =>    'SRMIIC NoReply <noreply@srmiic.com>',
                     'to'      =>    'Hello User <' . $reset_email . '>',
                     'subject' =>    'Reset Password',
-                    'html'    =>    '<a href="www.srmiic.com/verify.php?authkey=' . $reset_key . '&uid=' . $row['uid'] . '&reset=true">Click here to change your password</a>'
+                    'html'    =>    '<a href="www.srmiic.com/process_resetpassword.php?authkey=' . $reset_key . '&uid=' . $row['uid'] . '&reset=true">Click here to change your password</a>'
                 ));
 
                 $reset = true;
