@@ -198,12 +198,29 @@ body{
 
 
     <!-- Core JavaScript Files -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
     <script src="js/vendor/jquery-1.12.0.min.js"></script>
     <script src="js/minix-map.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
-
+    <?php
+       if(isset($_GET['submission'])) {
+           if($_GET['submission'] == 'success') {
+       ?>
+    <script type="text/javascript">
+       swal("Announcement Submitted !", "Wait for Admin's approval to get it posted.", "success");
+    </script>
+    <?php
+       } else {
+       ?>
+    <script type="text/javascript">
+       swal("Oops!", "Announcement not sent !", "error");
+    </script>
+    <?php
+       }
+       }
+       ?>
 </body>
 
 </html>
