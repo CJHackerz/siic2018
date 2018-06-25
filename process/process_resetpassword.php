@@ -67,22 +67,6 @@
                      <?php
                  }
 
-             } else {
-                 $sql = "SELECT * FROM users where authkey = '$authkey' AND uid = '$uid' AND status = 'unset'";
-
-                 $result = $conn->query($sql);
-
-                 if($result->num_rows > 0) {
-                     $sql = "UPDATE users set status = 'set' where uid = '$uid'";
-
-                     if($conn->query($sql)) {
-                         echo '<h1 align="center" style="font-size: 50px; padding: 100px;">Email Verification Successful!<br> You may continue to login to your account</h1>';
-                     } else {
-                         echo '<h1 align="center" style="font-size: 50px; padding: 100px;">Unable to process please try again later</h1>';
-                     }
-                 } else {
-                     echo '<h1 align="center" style="font-size: 50px; padding: 100px;">Invalid Credentials</h1>';
-                 }
              }
          }
 
@@ -157,7 +141,7 @@
             } else {
                 $.ajax({
                     type : 'POST',
-                    url:  './process/reset_pass.php',
+                    url:  './reset_pass.php',
                     dataType : 'json',
                     data:  {
                         uid     : uid,
