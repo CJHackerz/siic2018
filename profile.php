@@ -138,11 +138,12 @@ padding-right: 12px;
   .rig{font-size: 16px;
 padding-right: 8px;
   }
-    }
-    .wid{
-  width:100%;
+  .wid{
+width:100%;
 
+  }
     }
+  
     </style>
 <style>
 .res1{margin-left: 38%;
