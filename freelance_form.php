@@ -132,7 +132,7 @@
                      <h3 class="fs-subtitle">Step 1 out of 1</h3>
                      <br>
 
-                        <label for="skills_email">Email Address : </label>
+                        <label for="skills_email">Contact details : </label>
 
                     <input type="email" name="skills_email" class="form-control tes" id="email"   placeholder="Enter Your Email Address" required style="width:90%">
                     <input type="text" name="skills_name" class="form-control tes" id="name"   placeholder="Enter Your Name" required style="width:90%">
