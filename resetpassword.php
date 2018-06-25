@@ -30,7 +30,7 @@
                     'from'    =>    'SRMIIC NoReply <noreply@srmiic.com>',
                     'to'      =>    'Hello User <' . $reset_email . '>',
                     'subject' =>    'Reset Password',
-                    'html'    =>    '<a href="www.srmiic.com/process_resetpassword.php?authkey=' . $reset_key . '&uid=' . $row['email'] . '&reset=true">Click here to change your password</a>'
+                    'html'    =>    '<a href="www.srmiic.com/process/process_resetpassword.php?authkey=' . $reset_key . '&uid=' . $row['email'] . '&reset=true">Click here to change your password</a>'
                 ));
 
                 $reset = true;
