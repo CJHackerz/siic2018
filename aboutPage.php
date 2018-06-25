@@ -27,9 +27,6 @@
       .board-of-advisory{
           padding-bottom:7rem;
       }
-      .ptb-120 {
-          padding: 0px 0; 
-    }
       #careers{
           margin-bottom:-15rem;
       }
