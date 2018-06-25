@@ -50,8 +50,8 @@
           $result = $mgClient->sendMessage($domain, array(
             'from'    =>    'SRMIIC NoReply <noreply@srmiic.com>',
             'to'      =>    'Hello User <' . $email . '>',
-            'subject' =>    'Welcome to SRMIIC Mentor!',
-            'html'    =>    '<p>Thank you for registering for Be your own Prodigy! Your password is :' . $pass .'. This password maybe reuired later. You will be notified once it is ready! Thanks again!'
+            'subject' =>    'Welcome to SRMIIC Freelancing!',
+            'html'    =>    '<p>Thank you for registering for Be your own Prodigy! Your password is :' . $pass .'. Save this password as it will be required later.'
           ));
         } else {
           header('Location: ../_error/500.php?sql_failed');
