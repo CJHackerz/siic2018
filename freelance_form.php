@@ -555,6 +555,8 @@
                         <option value="Bosch">Bosch</option>
                      </select>
                      <br /><br />
+                      <label>MECHANICAL:</label> <br>
+                      <textarea rows="5" cols="10" name="skills_field" placeholder="Enter here" class="form-control tes">
                      <input type="button" name="previous" class="previous action-button" value="Previous" />
                      <input type="submit" name="commit" class="submit action-button" value="Submit" />
                   </fieldset>
