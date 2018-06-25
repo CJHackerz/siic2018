@@ -51,7 +51,7 @@
                              <div class="col-md-6">
                                  <div class="panel panel-default devise-bs">
                                      <div class="panel-body">
-                                         <h1>Reset Password</h1>
+                                         <h3>Reset Password</h3>
                                          <label>Enter New password</label>
                                          <input type="password" id="pass1" class="form-control"></input>
                                          <label>Retype password</label>
