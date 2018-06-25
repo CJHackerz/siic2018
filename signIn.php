@@ -54,7 +54,7 @@
                                         echo '<div class="alert alert-danger" role="alert">Username or Password incorrect </div>';
                                     }
                                     if($_GET['error'] == 'not_validate') {
-                                        echo '<div class="alert alert-info" role="alert">Please Verify your email </div>';
+                                        echo '<div class="alert alert-info" role="alert">Please verify your email </div>';
                                     }
                                 }
                             ?>

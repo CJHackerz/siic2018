@@ -87,7 +87,7 @@
                      $sql = "UPDATE users set status = 'set' where uid = '$uid'";
 
                      if($conn->query($sql)) {
-                         echo '<h3 align="center" style="padding-top: 100px;">Email Verification Successful!<br> You may continue to login to your account</h3>';
+                         echo '<h3 align="center" style="padding-top: 100px;">Email Verification Successful!<br> You may continue to log in to your account</h3>';
                      } else {
                          echo '<h3 align="center" style="padding-top: 100px;">Unable to process please try again later</h3>';
                      }

@@ -159,7 +159,7 @@
 
 
                            <div class="team-content">
-                              <h3>Professor Prabir K. Bagchi</h3>
+                              <h3>Dr. Sandeep Sancheti</h3>
                               <span class="position">Vice Chancellor</span>
                            </div>
 
@@ -239,7 +239,7 @@
                      <div class="col-md-3 col-sm-12">
                         <div class="team-item">
                            <div class="team-thumb">
-                              <img class="img-responsive" src="./img/team/hod.jpg" alt="">
+                              <img class="img-responsive" src="./img/team/hod.png" alt="">
                               <ul class="team-social">
                                  <li>
                                     <a href="#" target="_blank"> <i class="fa fa-facebook"></i></a>
@@ -256,7 +256,7 @@
 
                            <div class="team-content">
                               <h3>Dr. Shantanu Patil</h3>
-                              <span class="position">Professor and Head of Department</span>
+                              <span class="position">Professor and Head, Department of Translational Medicine and Research</span>
                            </div>
 
 
@@ -283,7 +283,7 @@
 
                            <div class="team-content">
                               <h3>Mr. ANANTH KUMAR</h3>
-                              <span class="position">System Architect , SRM Application Development</span>
+                              <span class="position">System Architect, SRM Application Development</span>
                            </div>
 
 
@@ -292,7 +292,7 @@
                      <div class="col-md-3 col-sm-12">
                         <div class="team-item">
                            <div class="team-thumb">
-                              <img class="img-responsive" src="./img/team/ceo.jpg" alt="">
+                              <img class="img-responsive" src="./img/team/manager.png" alt="">
                               <ul class="team-social">
                                  <li>
                                     <a href="https://www.facebook.com/nikunj7panchal" target="_blank"> <i class="fa fa-facebook"></i></a>
@@ -309,7 +309,7 @@
 
                            <div class="team-content">
                               <h3>Nikunj Panchal</h3>
-                              <span class="position">Chief Executive Officer</span>
+                              <span class="position">Manager-Ecosystem Development, SIIC</span>
                            </div>
 
 
@@ -329,6 +329,7 @@
                   <div class="col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
                      <div class="main-heading-content text-center career-title">
                         <h2>Careers<span>.</span></h2>
+                        <h5>Interested candidates can send their resume at manager@srmiic.com</h5>
                      </div>
                      <div class="career-list">
                      <h4>JOIN US:</h4>
