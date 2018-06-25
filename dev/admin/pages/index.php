@@ -14,7 +14,7 @@
 	// Get number of startup
 	$startup_count = $conn->query('SELECT COUNT(*) from project')->fetch_assoc();
 	// Get number of feedbacks
-	$fb_count = $conn->query('SELECT COUNT(*) from feedback')->fetch_assoc();
+	$fb_count = $conn->query('SELECT COUNT(*) from user_profiles')->fetch_assoc();
 
 ?>
 
@@ -143,7 +143,7 @@
                                 </div>
                                 <div class="col-xs-9 text-right">
                                     <div class="huge"><?php echo $fb_count['COUNT(*)']; ?></div>
-                                    <div>Feedbacks issued</div>
+                                    <div>Registered Users</div>
                                 </div>
                             </div>
                         </div>
