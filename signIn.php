@@ -54,7 +54,7 @@
                                         echo '<div class="alert alert-danger" role="alert">Username or Password incorrect </div>';
                                     }
                                     if($_GET['error'] == 'not_validate') {
-                                        echo '<div class="alert alert-info" role="alert">Please Verify your email </div>';
+                                        echo '<div class="alert alert-info" role="alert">Please verify your email </div>';
                                     }
                                 }
                             ?>
@@ -69,6 +69,7 @@
 
                 <input type="submit" name="" class="next action-button" value="SUBMIT" required />
                 <p>Don't have an account? <a href="./signUp.php" style="text-decoration: none; color:#53a846;"><strong>Register here</strong></a></p>
+                <p>Forgot Password? <a href="#" style="text-decoration: none; color:#53a846;"><strong>Click here</strong></a></p>
               </fieldset>
 
             </form>

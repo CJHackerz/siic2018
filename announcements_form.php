@@ -111,7 +111,7 @@
 
           <div class="form-group text-center col-lg-13 file_input" >
           <label for="project_bp" class="control-label">Image if any (Maximum size of 2MB)(JPEG, JPG, PNG)</label><br/>
-                    <input type="file" accept=".jpg, .jpeg, .png" name="project_bp" id="project_bp" required/><br/>
+                    <input type="file" accept=".jpg, .jpeg, .png" name="project_bp" id="project_bp"/><br/>
           </div>
           </div>
           </div>

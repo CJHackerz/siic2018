@@ -339,7 +339,7 @@
    </body>
    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
    <script async defer
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD81iwuCfGQVC8_rhwNYRaJBadTfuZNDyI&callback=initMap"></script>
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBRcrTvaHbAPiENnONslXgvjs9SVbWqRVw&callback=initMap"></script>
    <script>
       $('#sticky-header').removeClass('sticky');
       $(window).on('scroll', function() {
@@ -388,7 +388,7 @@
     if (isset($_GET['isset'])) {
       if($_GET['isset']=='new_user'){
         ?>
-        	<script type="text/javascript">swal("Confirmation email has been sent to your email","", "success");</script>
+        	<script type="text/javascript">swal("Confirmation mail has been sent to your email","", "success");</script>
         <?php
       }elseif ($_GET['isset']=='new_mentor') {
           ?>
