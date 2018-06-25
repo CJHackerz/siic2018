@@ -28,7 +28,7 @@
     @media only screen and  (min-width: 400px)
     {
 
-.tes{ height:70px; margin-left:5%; width:89%;}
+.tes{ height:70px; width:89%;}
 
     }
       .researchClass{
@@ -555,8 +555,8 @@
                         <option value="Bosch">Bosch</option>
                      </select>
                      <br /><br />
-                      <label>MECHANICAL:</label> <br>
-                      <textarea rows="5" cols="10" name="skills_field" placeholder="Enter here" class="form-control tes">
+                     <label>Briefly explain your expertise in above fields.</label> <br>
+                      <textarea name="skills_field" placeholder="Also explain about services you could offer to clients" class="form-control tes"></textarea>
                      <input type="button" name="previous" class="previous action-button" value="Previous" />
                      <input type="submit" name="commit" class="submit action-button" value="Submit" />
                   </fieldset>

@@ -35,7 +35,7 @@
         <div class="main-content-wrapper">
             <!-- multistep form -->
             <div id="msform" style="padding-bottom:0%;">
-            <form role="form" style="margin-top:15%;" class="new_user" id="new_user" action="./process/process_resetpassword.php" enctype="multipart/form-data" accept-charset="UTF-8" method="post">
+            <form role="form" style="margin-top:15%;" class="new_user" id="new_user" action="./password_reset.php" enctype="multipart/form-data" accept-charset="UTF-8" method="post">
               <div id="page-content-wrapper">
          <?php
          if($_SERVER['REQUEST_METHOD'] == 'GET') {
@@ -48,7 +48,7 @@
                      ?>
                      <div class="container">
                          <div class="row">
-                             <div class="col-md-6 col-md-offset-3">
+                             <div class="col-md-6">
                                  <div class="panel panel-default devise-bs">
                                      <div class="panel-body">
                                          <h1>Reset Password</h1>
@@ -141,7 +141,7 @@
             } else {
                 $.ajax({
                     type : 'POST',
-                    url:  './reset_pass.php',
+                    url:  './process/reset_pass.php',
                     dataType : 'json',
                     data:  {
                         uid     : uid,
