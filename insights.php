@@ -75,7 +75,7 @@
                            </div>
                            <div class="post-content">
                            <div class="post-content-inner" style="width:100%; height:5rem;">
-                           <center><h3 ><a href="#">UAV</a></h3></center>
+                           <center><h3 ><a href="#">SRM UAV</a></h3></center>
                            </div>
                            </div>
                            </a>
@@ -120,7 +120,7 @@
                                     </div>
                                     <div class="post-content">
                                     <div class="post-content-inner" style="width:100%; height:5rem;">
-                                    <center><h3 ><a href="#">SCRO</a></h3></center>
+                                    <center><h3 ><a href="#">SRM SCRO</a></h3></center>
                                     </div>
                                     </div>
                               </div>
@@ -152,7 +152,7 @@
                                     </div>
                                     <div class="post-content">
                                     <div class="post-content-inner" style="width:100%; height:5rem;">
-                                    <center><h3 ><a href="#">Rudra</a></h3></center>
+                                    <center><h3 ><a href="#">Team Rudra</a></h3></center>
                                     </div>
                                     </div>
                               </div>
@@ -168,7 +168,7 @@
                                     </div>
                                     <div class="post-content">
                                     <div class="post-content-inner" style="width:100%; height:5rem;">
-                                    <center><h3 ><a href="#">Robocon</a></h3></center>
+                                    <center><h3 ><a href="#">SRM Team Robocon</a></h3></center>
                                     </div>
                                     </div>
                               </div>
@@ -184,7 +184,7 @@
                                     </div>
                                     <div class="post-content">
                                     <div class="post-content-inner" style="width:100%; height:5rem;">
-                                    <center><h3 ><a href="#">Humanoid</a></h3></center>
+                                    <center><h3 ><a href="#">Team Humanoid</a></h3></center>
                                     </div>
                                     </div>
                               </div>
@@ -200,7 +200,7 @@
                                     </div>
                                     <div class="post-content">
                                     <div class="post-content-inner" style="width:100%; height:5rem;">
-                                    <center><h3 ><a href="#">Hybrutos</a></h3></center>
+                                    <center><h3 ><a href="#">HYBRUTOS RACING</a></h3></center>
                                     </div>
                                     </div>
                               </div>
@@ -216,7 +216,7 @@
                                     </div>
                                     <div class="post-content">
                                     <div class="post-content-inner" style="width:100%; height:5rem;">
-                                    <center><h3 ><a href="#">Canoe</a></h3></center>
+                                    <center><h3 ><a href="#">SRM Concrete Canoe Racing Team</a></h3></center>
                                     </div>
                                     </div>
                               </div>
@@ -232,7 +232,7 @@
                                     </div>
                                     <div class="post-content">
                                     <div class="post-content-inner" style="width:100%; height:5rem;">
-                                    <center><h3 ><a href="#">Conrods</a></h3></center>
+                                    <center><h3 ><a href="#">The Conrods Off-Road Racing</a></h3></center>
                                     </div>
                                     </div>
                               </div>
@@ -264,7 +264,7 @@
                                     </div>
                                     <div class="post-content">
                                     <div class="post-content-inner" style="width:100%; height:5rem;">
-                                    <center><h3 ><a href="#">AUV</a></h3></center>
+                                    <center><h3 ><a href="#">SRM AUV</a></h3></center>
                                     </div>
                                     </div>
                               </div>
@@ -280,7 +280,7 @@
                                     </div>
                                     <div class="post-content">
                                     <div class="post-content-inner" style="width:100%; height:5rem;">
-                                    <center><h3 ><a href="#">ASV</a></h3></center>
+                                    <center><h3 ><a href="#">SRM ASV</a></h3></center>
                                     </div>
                                     </div>
                               </div>
@@ -344,7 +344,7 @@
                                     </div>
                                     <div class="post-content">
                                     <div class="post-content-inner" style="width:100%; height:5rem;">
-                                    <center><h3 ><a href="#">4Ze</a></h3></center>
+                                    <center><h3 ><a href="#">4ze Racing</a></h3></center>
                                     </div>
                                     </div>
                               </div>
@@ -360,7 +360,7 @@
                                     </div>
                                     <div class="post-content">
                                     <div class="post-content-inner" style="width:100%; height:5rem;">
-                                    <center><h3 ><a href="#">Elecruiser</a></h3></center>
+                                    <center><h3 ><a href="#">The Elecruiser</a></h3></center>
                                     </div>
                                     </div>
                               </div>
@@ -392,7 +392,7 @@
                                     </div>
                                     <div class="post-content">
                                     <div class="post-content-inner" style="width:100%; height:5rem;">
-                                    <center><h3 ><a href="#">Aura Labs</a></h3></center>
+                                    <center><h3 ><a href="#">AURA Labs</a></h3></center>
                                     </div>
                                     </div>
                               </div>
@@ -488,7 +488,7 @@
                                     </div>
                                     <div class="post-content">
                                     <div class="post-content-inner" style="width:100%; height:5rem;">
-                                    <center><h3 ><a href="#">Team Etros</a></h3></center>
+                                    <center><h3 ><a href="#">Team ETROS</a></h3></center>
                                     </div>
                                     </div>
                               </div>
@@ -520,7 +520,7 @@
                                     </div>
                                     <div class="post-content">
                                     <div class="post-content-inner" style="width:100%; height:5rem;">
-                                    <center><h3 ><a href="#">GEN-Y</a></h3></center>
+                                    <center><h3 ><a href="#">Club Gen-y</a></h3></center>
                                     </div>
                                     </div>
                               </div>
@@ -536,7 +536,7 @@
                                     </div>
                                     <div class="post-content">
                                     <div class="post-content-inner" style="width:100%; height:5rem;">
-                                    <center><h3 ><a href="#">Gen Hybrid</a></h3></center>
+                                    <center><h3 ><a href="#">GenHybridLabs</a></h3></center>
                                     </div>
                                     </div>
                               </div>
@@ -552,7 +552,7 @@
                                     </div>
                                     <div class="post-content">
                                     <div class="post-content-inner" style="width:100%; height:5rem;">
-                                    <center><h3 ><a href="#">Hindi Semantic Search Engine</a></h3></center>
+                                    <center><h3 ><a href="#">SRM Hindi Semantic Search Engine</a></h3></center>
                                     </div>
                                     </div>
                               </div>
@@ -712,7 +712,7 @@
                                     </div>
                                     <div class="post-content">
                                     <div class="post-content-inner" style="width:100%; height:5rem;">
-                                    <center><h3 ><a href="#">Recon Subsea</a></h3></center>
+                                    <center><h3 ><a href="#">RECON SUBSEA</a></h3></center>
                                     </div>
                                     </div>
                               </div>
@@ -856,7 +856,7 @@
                                     </div>
                                     <div class="post-content">
                                     <div class="post-content-inner" style="width:100%; height:5rem;">
-                                    <center><h3 ><a href="#">Tech-a-Mania</a></h3></center>
+                                    <center><h3 ><a href="#">TECH-A-MANIA</a></h3></center>
                                     </div>
                                     </div>
                               </div>
@@ -920,7 +920,7 @@
                                     </div>
                                     <div class="post-content">
                                     <div class="post-content-inner" style="width:100%; height:5rem;">
-                                    <center><h3 ><a href="#">Zipy Rides</a></h3></center>
+                                    <center><h3 ><a href="#">Zipy rides</a></h3></center>
                                     </div>
                                     </div>
                               </div>

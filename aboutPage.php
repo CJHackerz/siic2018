@@ -27,13 +27,11 @@
       .board-of-advisory{
           padding-bottom:7rem;
       }
-
+      .ptb-120 {
+          padding: 0px 0; 
+    }
       #careers{
           margin-bottom:-15rem;
-      }
-
-      .board-of-advisory{
-
       }
 
       @media only screen and (max-width: 800px) {
@@ -96,43 +94,11 @@
                            <p>YOU. The mere fact that you have taken time to explore us is testimony enough that you have what we are looking for: aspirations. And trust us, we are here to nurture your aspirations. So come join us as we take a leap of faith into the future.
                            </p>
                         </div>
-                        <div class="main-heading-content text-center">
-                           <h2>Director's Message<span>.</span></h2>
-                        </div>
                      </div>
                   </div>
                </div>
             </div>
          </div>
-         <div class="row">
-            <div class="col-md-4 col-sm-5 col-md-offset-1 " style="margin-top:-100px;">
-               <article class="blog-post">
-                  <div class="post-thumbnail">
-                     <a href="#">
-                     <img class="img-responsive" src="./img/boa/director.jpg" alt="">
-                     </a>
-                  </div>
-                  <div class="post-content">
-                     <div class="post-content-inner">
-                        <center>
-                           <h3>Dr. C. Muthamizhchelvan</h3>
-                        </center>
-                     </div>
-                  </div>
-               </article>
-
-
-
-            </div>
-            <div class="col-md-5 col-sm-5 col-md-offset-1 ">
-               <center>
-                  <p>
-                     " It's indeed a great pleasure for me to announce about initiative SRM Innovation and Incubation centre. This initiative is taken in order to develop and awaken the student's talents and feed them with the required support and facilities. I'm sure that SIIC will bring out the entrepreneurial skills and also to develop them for their future endeavors. "
-                  </p>
-               </center>
-            </div>
-         </div>
-
 <!-- Board of Advisory -->
 
 
@@ -159,12 +125,43 @@
 
 
                            <div class="team-content">
-                              <h3>Professor Prabir K. Bagchi</h3>
+                              <h3>Dr. Sandeep Sancheti</h3>
                               <span class="position">Vice Chancellor</span>
                            </div>
 
 
                         </div>
+                     </div>
+
+                     <div class=" col-md-4 col-sm-12" >
+                        <div class="team-item">
+                           <div class="team-thumb">
+                              <img class="img-responsive" src="./img/boa/director.jpg" alt="">
+                           </div>
+
+
+                           <div class="team-content">
+                              <h3>DR. C. MUTHAMIZHCHELVAN</h3>
+                              <span class="position">Director, E&T</span>
+                           </div>
+
+
+                        </div>
+                     </div>
+                        <div class="col-md-4 col-sm-12">
+                           <div class="team-item">
+                              <div class="team-thumb">
+                                 <img class="img-responsive DOA" src="./img/boa/gopal.jpg" alt="" width="400">
+                              </div>
+
+
+                              <div class="team-content">
+                                 <h3>Dr. T.V. Gopal</h3>
+                                 <span class="position">Director of Admissions</span>
+                              </div>
+
+
+                           </div>
                      </div>
                      <div class="col-md-4 col-sm-12" >
                         <div class="team-item">
@@ -195,21 +192,6 @@
 
                        </div>
                         </div>
-                        <div class="col-md-4 col-sm-12">
-                           <div class="team-item">
-                              <div class="team-thumb">
-                                 <img class="img-responsive DOA" src="./img/boa/gopal.jpg" alt="" width="400">
-                              </div>
-
-
-                              <div class="team-content">
-                                 <h3>Dr. T.V. Gopal</h3>
-                                 <span class="position">Director of Admissions</span>
-                              </div>
-
-
-                           </div>
-                     </div>
                   </div>
                </div>
 
@@ -239,7 +221,7 @@
                      <div class="col-md-3 col-sm-12">
                         <div class="team-item">
                            <div class="team-thumb">
-                              <img class="img-responsive" src="./img/team/hod.jpg" alt="">
+                              <img class="img-responsive" src="./img/team/hod.png" alt="">
                               <ul class="team-social">
                                  <li>
                                     <a href="#" target="_blank"> <i class="fa fa-facebook"></i></a>
@@ -256,7 +238,7 @@
 
                            <div class="team-content">
                               <h3>Dr. Shantanu Patil</h3>
-                              <span class="position">Professor and Head of Department</span>
+                              <span class="position">Professor and Head, Department of Translational Medicine and Research</span>
                            </div>
 
 
@@ -283,7 +265,7 @@
 
                            <div class="team-content">
                               <h3>Mr. ANANTH KUMAR</h3>
-                              <span class="position">System Architect , SRM Application Development</span>
+                              <span class="position">System Architect, SRM Application Development</span>
                            </div>
 
 
@@ -292,7 +274,7 @@
                      <div class="col-md-3 col-sm-12">
                         <div class="team-item">
                            <div class="team-thumb">
-                              <img class="img-responsive" src="./img/team/ceo.jpg" alt="">
+                              <img class="img-responsive" src="./img/team/manager.png" alt="">
                               <ul class="team-social">
                                  <li>
                                     <a href="https://www.facebook.com/nikunj7panchal" target="_blank"> <i class="fa fa-facebook"></i></a>
@@ -309,7 +291,7 @@
 
                            <div class="team-content">
                               <h3>Nikunj Panchal</h3>
-                              <span class="position">Chief Executive Officer</span>
+                              <span class="position">Manager-Ecosystem Development, SIIC</span>
                            </div>
 
 
@@ -329,6 +311,7 @@
                   <div class="col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
                      <div class="main-heading-content text-center career-title">
                         <h2>Careers<span>.</span></h2>
+                        <h5>Interested candidates can send their resume at manager@srmiic.com</h5>
                      </div>
                      <div class="career-list">
                      <h4>JOIN US:</h4>

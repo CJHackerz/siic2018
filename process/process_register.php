@@ -43,7 +43,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
             'from'    =>    'SRMIIC NoReply <noreply@srmiic.com>',
             'to'      =>    'Hello User <' . $user_email . '>',
             'subject' =>    'Welcome to SRMIIC! Please verify your email',
-            'html'    =>    '<p>Thank you for registering for SRM Innovation and Incubation Center! Please click on the link below to continue</p><a href="www.srmiic.com/confirmation_mail.php?authkey=' . $authkey . '&uid=' . $uid . '">Click Here to Verify</a>'
+            'html'    =>    '<p>Thank you for registering for SRM Innovation and Incubation Centre! Please click on the link below to continue.</p><a href="www.srmiic.com/confirmation_mail.php?authkey=' . $authkey . '&uid=' . $uid . '">Click Here to Verify</a>'
         ));
         // session_start();
         // $_SESSION["user"]       =   $user_email;
@@ -104,7 +104,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
             //         echo $e . "<br />";
             //     }
             }
-        
+
         else {
             $profile_avatar ='images.jpg';
             $sql = "INSERT INTO user_profiles(uid, email, name,avatar, register_no, dept,year,dob, description, address, skills, hobbies, achievements, experience)
