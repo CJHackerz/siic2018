@@ -117,7 +117,7 @@
                      <div class=" col-md-4 col-sm-12" >
                         <div class="team-item">
                            <div class="team-thumb">
-                              <img class="img-responsive" src="./img/boa/vicechancellor.jpg" alt="">
+                              <img class="img-responsive" src="./img/boa/vicechancellor.jpg" alt="" width="400">
                            </div>
 
 
@@ -133,7 +133,7 @@
                      <div class=" col-md-4 col-sm-12" >
                         <div class="team-item">
                            <div class="team-thumb">
-                              <img class="img-responsive" src="./img/boa/director.jpg" alt="">
+                              <img class="img-responsive" src="./img/boa/director.jpg" alt="" width="400">
                            </div>
 
 
@@ -163,13 +163,13 @@
                      <div class="col-md-4 col-sm-12" >
                         <div class="team-item">
                            <div class="team-thumb">
-                              <img class="img-responsive" src="./img/boa/campuslife.jpg" alt="">
+                              <img class="img-responsive DOA" src="./img/boa/dean.jpg" alt="" width="400">
                            </div>
 
 
                            <div class="team-content">
-                              <h3>Mr. V. Thirumurugan</h3>
-                              <span class="position">Associate Director Campus Life</span>
+                              <h3>DR. D. KINGSLY JEBA SINGH</h3>
+                              <span class="position">Dean</span>
                            </div>
 
 
@@ -178,13 +178,13 @@
                      <div class="col-md-4 col-sm-12">
                         <div class="team-item">
                            <div class="team-thumb">
-                              <img class="img-responsive DOA" src="./img/boa/dean.jpg" alt="" width="400">
+                              <img class="img-responsive" src="./img/boa/campuslife.jpg" alt="" width="400">
                            </div>
 
 
                            <div class="team-content">
-                              <h3>DR. D. KINGSLY JEBA SINGH</h3>
-                              <span class="position">Dean</span>
+                              <h3>Mr. V. THIRUMURUGAN</h3>
+                              <span class="position">Associate Director Campus Life</span>
                            </div>
 
                        </div>
@@ -218,7 +218,7 @@
                      <div class="col-md-3 col-sm-12">
                         <div class="team-item">
                            <div class="team-thumb">
-                              <img class="img-responsive" src="./img/team/hod.png" alt="">
+                              <img class="img-responsive" src="./img/team/hod.png" alt="" width="400">
                               <ul class="team-social">
                                  <li>
                                     <a href="#" target="_blank"> <i class="fa fa-facebook"></i></a>
@@ -245,7 +245,7 @@
                      <div class="col-md-3 col-sm-122">
                         <div class="team-item">
                            <div class="team-thumb">
-                              <img class="img-responsive" src="./img/team/sa.jpg" alt="">
+                              <img class="img-responsive" src="./img/team/sa.jpg" alt="" width="400">
                               <ul class="team-social">
                                  <li>
                                     <a href="#" target="_blank"> <i class="fa fa-facebook"></i></a>
@@ -261,7 +261,7 @@
 
 
                            <div class="team-content">
-                              <h3>Mr. ANANTH KUMAR</h3>
+                              <h3>Mr. Ananth Kumar</h3>
                               <span class="position">System Architect, SRM Application Development</span>
                            </div>
 
@@ -271,7 +271,7 @@
                      <div class="col-md-3 col-sm-12">
                         <div class="team-item">
                            <div class="team-thumb">
-                              <img class="img-responsive" src="./img/team/manager.png" alt="">
+                              <img class="img-responsive" src="./img/team/manager.png" alt="" width="400">
                               <ul class="team-social">
                                  <li>
                                     <a href="https://www.facebook.com/nikunj7panchal" target="_blank"> <i class="fa fa-facebook"></i></a>
