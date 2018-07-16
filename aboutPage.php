@@ -138,7 +138,7 @@
 
 
                            <div class="team-content">
-                              <h3>DR. C. MUTHAMIZHCHELVAN</h3>
+                              <h3>Dr. C. Muthamizhchelvan</h3>
                               <span class="position">Director, E&T</span>
                            </div>
 
@@ -168,7 +168,7 @@
 
 
                            <div class="team-content">
-                              <h3>DR. D. KINGSLY JEBA SINGH</h3>
+                              <h3>Dr. D. Kingsly Jeba Singh</h3>
                               <span class="position">Dean</span>
                            </div>
 
@@ -183,7 +183,7 @@
 
 
                            <div class="team-content">
-                              <h3>Mr. V. THIRUMURUGAN</h3>
+                              <h3>Mr. V. Thirumurugan</h3>
                               <span class="position">Associate Director Campus Life</span>
                            </div>
 
