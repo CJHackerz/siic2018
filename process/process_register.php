@@ -43,7 +43,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
             'from'    =>    'SRMIIC NoReply <noreply@srmiic.com>',
             'to'      =>    'Hello User <' . $user_email . '>',
             'subject' =>    'Welcome to SRMIIC! Please verify your email',
-            'html'    =>    '<p>Thank you for registering for SRM Innovation and Incubation Center! Please click on the link below to continue</p><a href="www.srmiic.com/verify.php?authkey=' . $authkey . '&uid=' . $uid . '">Click Here to Verify</a>'
+            'html'    =>    '<p>Thank you for registering for SRM Innovation and Incubation Centre! Please click on the link below to continue.</p><a href="www.srmiic.com/confirmation_mail.php?authkey=' . $authkey . '&uid=' . $uid . '">Click Here to Verify</a>'
         ));
         // session_start();
         // $_SESSION["user"]       =   $user_email;
@@ -78,9 +78,11 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
                 $errors[] ='File size must be less than 2MB';
             }
             $count=count($errors);
-            $profile_avatar = $uid . "." . $file_ext;
+            // $profile_avatar = $uid . "." . $file_ext;
             // If no errors in file
+            $profile_avatar = $uid . "." . $file_ext;
             if ($count == 0) {
+                // $profile_avatar = $uid . "." . $file_ext;
                 $sql = "INSERT INTO user_profiles(uid, email, name, avatar, register_no, dept, year, dob, description, address, skills, hobbies, achievements, experience)
                         VALUES('$uid', '$user_email', '$profile_name', '$profile_avatar', '$profile_register', '$profile_department', $profile_year, '$profile_dob', '$profile_description', '$profile_address', '$profile_skills', '$profile_hobbies', '$profile_achievements', '$profile_experience')";
                 if($conn->query($sql)) {
@@ -89,21 +91,24 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
                     } else {
                         $flag = 1;
                     }
+                }
                 } else {
-                    $sql = "INSERT INTO user_profiles(uid, email, name, register_no, dept,year,dob, description, address, skills, hobbies, achievements, experience)
-                            VALUES('$uid', '$user_email', '$profile_name', '$profile_register', '$profile_department', $profile_year, '$profile_dob', '$profile_description', '$profile_address', '$profile_skills', '$profile_hobbies', '$profile_achievements', '$profile_experience')";
+                     $profile_avatar ='images.jpg';
+                    $sql = "INSERT INTO user_profiles(uid, email, name,avatar, register_no, dept,year,dob, description, address, skills, hobbies, achievements, experience)
+                            VALUES('$uid', '$user_email', '$profile_name','$profile_avatar', '$profile_register', '$profile_department', $profile_year, '$profile_dob', '$profile_description', '$profile_address', '$profile_skills', '$profile_hobbies', '$profile_achievements', '$profile_experience')";
                     $conn->query($sql);
                     $flag = 1;
                 }
-            }else {
-                foreach ($errors as $e) {
-                    echo $e . "<br />";
-                }
+            // else {
+            //     foreach ($errors as $e) {
+            //         echo $e . "<br />";
+            //     }
             }
-        }
+
         else {
-            $sql = "INSERT INTO user_profiles(uid, email, name, register_no, dept,year,dob, description, address, skills, hobbies, achievements, experience)
-                    VALUES('$uid', '$user_email', '$profile_name', '$profile_register', '$profile_department', $profile_year, '$profile_dob', '$profile_description', '$profile_address', '$profile_skills', '$profile_hobbies', '$profile_achievements', '$profile_experience')";
+            $profile_avatar ='images.jpg';
+            $sql = "INSERT INTO user_profiles(uid, email, name,avatar, register_no, dept,year,dob, description, address, skills, hobbies, achievements, experience)
+                    VALUES('$uid', '$user_email', '$profile_name','$profile_avatar', '$profile_register', '$profile_department', $profile_year, '$profile_dob', '$profile_description', '$profile_address', '$profile_skills', '$profile_hobbies', '$profile_achievements', '$profile_experience')";
             if($conn->query($sql)){
                 $flag = 1;
             }

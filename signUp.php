@@ -80,7 +80,7 @@ content: "";
               <fieldset >
                 <h2 class="fs-title" style="font-family: 'Open Sans', sans-serif;">Create your account</h2>
                 <h3 class="fs-subtitle" style="font-family: 'Open Sans', sans-serif;">This is step 1</h3>
-                <label class="upload-picture">Upload your picture (less than 2MB)</label>
+                <label class="upload-picture">Upload your picture (less than 2MB) (jpg, jpeg, png)</label>
                 <input type="file" accept=".jpeg, .jpg, .png" name="profile_avatar" id="profile_avatar" value="Select your profile Photo">
                 <input type="text" name="profile_name" id="profile_name" placeholder="Name" required>
                 <!-- <input type="text" placeholder="test123"> -->
@@ -117,7 +117,7 @@ content: "";
                     <option value="College of Medicine">College of Medicine, Dental and Health Science</option>
                     <option value="others">Others</option>
                 </select>
-                <input type="number" name="profile_year" min="1" max="5" id="profile_year" placeholder="Year[1-5]" required/>
+                <input type="number" name="profile_year" min="1" max="5" id="profile_year" placeholder="Year (1-5)" required/>
                 <input type="date" name="profile_dob" id="profile_dob" placeholder="Date Of Birth" required/>
                 <input type="button" name="" class="next action-button" value="Next" required />
                 <p>Already have an account? <a href="./signIn.php" style="text-decoration: none; color:green;"><strong>Sign in</strong></a></p>
@@ -138,7 +138,7 @@ content: "";
                 <h2 class="fs-title" style="font-family: 'Open Sans', sans-serif;">Create your Account</h2>
                 <h3 class="fs-subtitle" style="font-family: 'Open Sans', sans-serif;">Step 3 out of 3</h3>
 
-                <textarea name="profile_description" id="profile_description" placeholder="Description/Bio" required></textarea>
+                <textarea name="profile_description" id="profile_description" maxlength="250" placeholder="Description/Bio" required></textarea>
                 <input type="text" class="email-adjust" name="user_email" id="user_email" placeholder="Email" required />
                 <span class="email-link">@srmuniv.edu.in</span>
                 <input type="password" name="user_password" placeholder="Password" id="user_password" required/>

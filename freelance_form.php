@@ -1,7 +1,9 @@
 <?php
-   session_start();
-   if(isset($_SESSION['user'])) {
-   ?>
+    include './process/connect.php';
+    include './process/utils.php';
+
+    $user = get_user();
+?>
 <!doctype html>
 <html class="no-js" lang="zxx">
    <head>
@@ -26,7 +28,7 @@
     @media only screen and  (min-width: 400px)
     {
 
-.tes{ height:70px; margin-left:5%; width:89%;}
+.tes{ height:70px; width:89%;}
 
     }
       .researchClass{
@@ -75,6 +77,7 @@
       .inputBox{
       height: 40px;
       font-size: 15px;
+
       }
       .inlineTxt{
       display: inline;
@@ -129,9 +132,12 @@
                      <h3 class="fs-subtitle">Step 1 out of 1</h3>
                      <br>
 
-                        <label for="skills_email">Email Address : </label>
+                        <label for="skills_email">Contact details : </label>
 
                     <input type="email" name="skills_email" class="form-control tes" id="email"   placeholder="Enter Your Email Address" required style="width:90%">
+                    <input type="text" name="skills_name" class="form-control tes" id="name"   placeholder="Enter Your Name" required style="width:90%">
+                    <input type="text" name="skills_dept" class="form-control tes" id="dept"   placeholder="Enter Your Department" required style="width:90%">
+                    <input type="number" name="skills_contactno" class="form-control tes" id="contactno"   placeholder="Enter Your Contact No." required style="width:90%">
 
                      <br>
                      <label>ARTS  &nbsp&nbsp&nbsp&nbsp :</label>&nbsp&nbsp&nbsp&nbsp
@@ -294,10 +300,13 @@
                      <input type="button" name="" class="next action-button" value="Next" required />
                   </fieldset>
                   <fieldset>
-                     <h2 class="fs-title">Freelance Form</h2>
-                     <h3 class="fs-subtitle">Step 2 out of 3</h3>
+                    <center>   <h2 class="fs-title">Freelance Form</h2></center>
+                       <h3 class="fs-subtitle">Step2  out of 3</h3>
+                       <br>
+
                      <label>3D MODELLING, ANALYSIS AND SIMULATION:</label>
-                     <select id="3D Modelling, Analysis & Simulation" name="skills_threeD[]" placeholder="3D Modelling, Analysis & Simulation" class="js-example-placeholder-multiple" multiple="multiple" style="width:90%;" tabindex="4">
+                     <select id="3D Modelling, Analysis & Simulation" name="skills_threeD[]" placeholder="3D Modelling, Analysis & Simulation" class="js-example-placeholder-multiple" multiple="multiple" style="width:90%; padding-right:20%;" tabindex="4">
+
                         <option value="Fusion 360">Fusion 360</option>
                         <option value="Catia">Catia</option>
                         <option value="SolidWorks">SolidWorks</option>
@@ -546,6 +555,8 @@
                         <option value="Bosch">Bosch</option>
                      </select>
                      <br /><br />
+                     <label>Briefly explain your expertise in above fields.</label> <br>
+                      <textarea name="skills_field" placeholder="Also explain about services you could offer to clients" class="form-control tes"></textarea>
                      <input type="button" name="previous" class="previous action-button" value="Previous" />
                      <input type="submit" name="commit" class="submit action-button" value="Submit" />
                   </fieldset>
@@ -686,7 +697,3 @@
 
    </script>
 </html>
-<?php }
-else {
-    header("Location: ./signIn.php");
-} ?>

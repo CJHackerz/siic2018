@@ -19,9 +19,6 @@
     body{
          background-color: #fefdf4;
     }
-    .ti-arrow-up:before {
-        content: none;
-    }
     </style>
 </head>
 <body>
@@ -38,22 +35,14 @@
         <div class="main-content-wrapper">
             <!-- multistep form -->
             <div id="msform" style="padding-bottom:0%;">
-            <form role="form" style="margin-top:15%;" class="new_user" id="new_user" action="./process/process_verify.php" enctype="multipart/form-data" accept-charset="UTF-8" method="post">
+            <form role="form" style="margin-top:15%;" class="new_user" id="new_user" action="./process/process_resetpassword.php" enctype="multipart/form-data" accept-charset="UTF-8" method="post">
               <div id="page-content-wrapper">
-                <?php
-                                  if(isset($_GET['error'])) {
-                                      if($_GET['error'] == 'pass_match') {
-                                          echo '<div class="alert alert-danger" role="alert">Username or Password incorrect </div>';
-                                      }
-
-                                  }
-                              ?>
          <?php
          if($_SERVER['REQUEST_METHOD'] == 'GET') {
              $authkey    = $_GET['authkey'];
              $uid        = $_GET['uid'];
              if(isset($_GET['reset'])) {
-                 $result = $conn->query("SELECT * from users where authkey = '$authkey' and uid = '$uid'");
+                 $result = $conn->query("SELECT * from user_resets where reset_key = '$authkey' and email = '$uid'");
 
                  if($result->num_rows > 0) {
                      ?>
@@ -78,26 +67,7 @@
                      <?php
                  }
 
-             } else {
-                 $sql = "SELECT * FROM users where authkey = '$authkey' AND uid = '$uid' AND status = 'unset'";
-
-                 $result = $conn->query($sql);
-
-                 if($result->num_rows > 0) {
-                     $sql = "UPDATE users set status = 'set' where uid = '$uid'";
-
-                     if($conn->query($sql)) {
-                         echo '<h3 align="center" style="padding-top: 100px;">Email Verification Successful!<br> You may continue to log in to your account</h3>';
-                     } else {
-                         echo '<h3 align="center" style="padding-top: 100px;">Unable to process please try again later</h3>';
-                     }
-                 } else {
-                     echo '<h3 align="center" style="padding-top: 100px;">Invalid Credentials</h3>';
-                 }
              }
-         }
-         else {
-             header('Location ./404.php');
          }
 
          ?>
@@ -171,7 +141,7 @@
             } else {
                 $.ajax({
                     type : 'POST',
-                    url:  './process/reset_pass.php',
+                    url:  './reset_pass.php',
                     dataType : 'json',
                     data:  {
                         uid     : uid,

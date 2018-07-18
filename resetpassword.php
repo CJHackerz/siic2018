@@ -18,6 +18,7 @@
 
         $result = $conn->query("SELECT * FROM users where email = '$reset_email'");
         if($result->num_rows > 0) {
+            $row = $result->fetch_assoc();
             $reset_key = md5(uniqid());
             if($conn->query("INSERT INTO user_resets(email, reset_key) VALUES('$reset_email', '$reset_key')")){
 
@@ -28,8 +29,8 @@
                 $result = $mgClient->sendMessage($domain, array(
                     'from'    =>    'SRMIIC NoReply <noreply@srmiic.com>',
                     'to'      =>    'Hello User <' . $reset_email . '>',
-                    'subject' =>    'Reset Email',
-                    'html'    =>    '<a href="www.srmiic.com/verify.php?authkey=' . $reset_key . '&uid=' . $reset_email . '&reset=true">Click here to change your password</a>'
+                    'subject' =>    'Reset Password',
+                    'html'    =>    '<a href="www.srmiic.com/password_reset.php?authkey=' . $reset_key . '&uid=' . $row['email'] . '&reset=true">Click here to change your password</a>'
                 ));
 
                 $reset = true;
@@ -38,156 +39,111 @@
         }
     }
 ?>
-
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html class="no-js" lang="zxx">
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Reset Password</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon Icon Add -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <!-- All STYLESHEET CSS -->
+    <link rel="stylesheet" href="css/element.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 
-    <!-- css -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-	<link href="css/nivo-lightbox.css" rel="stylesheet" />
-	<link href="css/nivo-lightbox-theme/default/default.css" rel="stylesheet" type="text/css" />
-	<link href="css/animations.css" rel="stylesheet" />
-    <link href="css/style.css" rel="stylesheet">
-	<link href="color/default.css" rel="stylesheet">
-    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <style>
+    body{
+        background-color:  #fefdf4;
+    }
+        .personal-info{
+            align:center;
+        }
 
+
+
+@media only screen and (max-width: 800px) {
+    .container-fluid{
+        padding-left:20%;
+        padding-right:20%;
+    }
+}
+.ti-arrow-up:before {
+    content: none;
+}
+
+    </style>
 </head>
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-custom" style="padding: 0px;">
-    <div id="wrapper">
-        <div class="overlay"></div>
-<?php
-require "process/connect.php";
-require "includes/nav.php";
-?>
-
-    <!-- /Navigation -->
-<div id="page-content-wrapper">
-<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
-<style>
- .researchClass{
-  font-family: 'Dosis', sans-serif;
- }
-  .form-control{
-    font-size: 14px;
-    line-height: 1.6em;
-    border: 1px solid #eee;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    border-radius: 2px;
-    border-left: 4px solid #ffc400;
-  }
-
-  .form-control:focus{
-
-    background-color: #F5F5F5;
-    border: 1px solid #ffc400;
-    border-left: 4px solid #ffc400;
-    box-shadow:none;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    -webkit-transition: border 0.5s; /* Safari */
-    transition: border 0.5s;
-  }
-  hr{
-    width: 10%;
-    height: 8px;
-    background-color: #ffc400;
-  }
-  textarea:focus, input:focus{
-    outline: none;
-}
-
-.rightBtn{
-  float: right;
-  background-color: #ffc400;
-   border: 2px solid #ffc400;
-}
-.rightBtn:active{
-  background-color: #ffab00;
-  border: 2px solid #ffc400;
-}
-.rightBtn:hover{
-  background-color: #ffab00;
-  border: 2px solid #ffc400;
-}
-
-footer{
-  display: none;
-}
-.inputBox{
-  height: 40px;
-  font-size: 15px;
-}
-
-.inlineTxt{
-  display: inline;
-}
-.rightInlineTxt{
-  float: right;
-}
-</style>
-<br>
-<center> <h4>Reset</h4> </center>
-<center style="margin-top: -10px;"><hr></center>
-
-<div style="padding: 10px;" class="researchClass">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 col-md-offset-3">
-                <div class="panel panel-default devise-bs">
-                    <div class="panel-body">
-                        <form role="form" class="new_user" id="new_user" action="./resetpassword.php" accept-charset="UTF-8" method="post">
-                            <?php
-                                if(isset($reset)) {
-                                    if($reset == true) {
-                                        echo '<div class="alert alert-success" role="alert">An Email has been sent to your account</div>';
-                                    } else {
-                                        echo '<div class="alert alert-danger" role="alert">Invalid email </div>';
-                                    }
-                                }
-                            ?>
-                            <div class="form-group">
-                                <label for="user_email">Email <span class="required">*</span></label>
-                                <input autofocus="autofocus" class="form-control inputBox" type="email" value="" name="user_email" id="user_email" required/>
-                            </div>
-                            <input type="submit" value="Reset" class="btn btn-primary rightBtn" />
-                        </form>
+<body>
+<!-- NAV BAR -->
+    <?php
+        require "process/connect.php";
+        include './includes/nav.php';
+    ?>
+<!-- NAV BAR ENDS -->
+<div class="main-content-wrapper">
+    <div id="about" class="content-section-area pt-120 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
+                    <div class="main-heading-content text-center">
+                        <h2>Reset Password<span>.</span></h2>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
 </div>
+    <!-- Start Main Wrapper -->
+    <div class="container">
+
+        <div class="panel panel-default">
+        <div class="panel-body">
+            <form role="form" class="new_user" id="new_user" action="./resetpassword.php" accept-charset="UTF-8" method="post">
+                <?php
+                    if(isset($reset)) {
+                        if($reset == true) {
+                            echo '<div class="alert alert-success" role="alert">An Email has been sent to your account</div>';
+                        } else {
+                            echo '<div class="alert alert-danger" role="alert">Invalid email </div>';
+                        }
+                    }
+                ?>
+                <div class="form-group">
+                    <label for="user_email">Email <span class="required"></span></label>
+                    <input autofocus="autofocus" class="form-control inputBox" type="email" value="" name="user_email" id="user_email" style="border: 1px solid #EEAC58" required/>
+                </div>
+                <center><input type="submit" value="Reset" class="btn btn-primary rightBtn" /></center>
+            </form>
+        </div>
+    </div>
+        <!-- End Main Content Wrapper -->
+    </div>
+    <!-- End Main Wrapper -->
+    <!-- ALL JQUERY  -->
+    <script src="js/vendor/jquery-1.12.0.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDdRm-dm4ImhzWxMOy1_TyY6cQ3ZnVpw9E"></script>
+    <script src="js/minix-map.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <?php
+         include './includes/footer.php'
+     ?>
+     <style>
+        .footer {
+            position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color:#333;
+        color: white;
+        text-align: center;
+        }
+     </style>
 </body>
-
-<?php include 'includes/footer.php';?>
-</div><!-- Page content wrapper ends -->
-</div><!-- wrapper ends -->
-    <!-- Core JavaScript Files -->
-    <script src="./js/jquery.min.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
-	<script src="./js/jquery.sticky.js"></script>
-    <script src="./js/jquery.easing.min.js"></script>
-	<script src="./js/jquery.scrollTo.js"></script>
-	<script src="./js/jquery.appear.js"></script>
-	<script src="./js/stellar.js"></script>
-	<script src="./js/nivo-lightbox.min.js"></script>
-
-    <script src="./js/custom.js"></script>
-	<script src="./js/css3-animate-it.js"></script>
-    <script src="contactform/contactform.js"></script>
-    <script src="js/sidenav.js"></script>
-
-
 </html>

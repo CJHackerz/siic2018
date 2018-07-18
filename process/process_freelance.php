@@ -8,7 +8,7 @@
   $domain = "mail.srmiic.com";
 
   if($_SERVER['REQUEST_METHOD'] == 'POST') {
-    
+
       $email =  $_POST['skills_email'];
       $arts = implode(",",$_POST['skills_arts']);
       $media =  implode(",",$_POST['skills_media']);
@@ -29,7 +29,7 @@
       $interior =  implode(",",$_POST['skills_interior']);
       $trainer = implode(",",$_POST['skills_trainer']);
       $certifiedby =  implode(",",$_POST['skills_certifiedby']);
-      $field =  implode(",",$_POST['skills_field']);
+      $field =  $_POST['skills_field'];
       $name = $_POST['skills_name'];
       $dept = $_POST['skills_dept'];
       $contactno = $_POST['skills_contactno'];
@@ -50,8 +50,8 @@
           $result = $mgClient->sendMessage($domain, array(
             'from'    =>    'SRMIIC NoReply <noreply@srmiic.com>',
             'to'      =>    'Hello User <' . $email . '>',
-            'subject' =>    'Welcome to SRMIIC Mentor!',
-            'html'    =>    '<p>Thank you for registering for Be your own Prodigy! Your password is :' . $pass .'. The mentor site is currently under construction. You will be notified once it is ready! Thanks again!'
+            'subject' =>    'Welcome to SRMIIC Freelancing!',
+            'html'    =>    '<p>Thank you for registering for Be your own Prodigy! Your password is :' . $pass .'. Save this password as it will be required later.'
           ));
         } else {
           header('Location: ../_error/500.php?sql_failed');

@@ -176,7 +176,7 @@
                      <div class="col-lg-12 ">
                         <div class="col-lg-6 col-md-6 col-sm-12 effect1 " style="height:220px; border:10px solid #fefdf4">
                            <div class="portfolio-details" onclick="window.location='teams.php'">
-                              <div class="portfolio-details-inner" style="padding:15% 34%">
+                              <div class="portfolio-details-inner">
                                  <h4><a href="javascript:void(0)">Tech Teams</a></h4>
                                  <ul class="portfolio-category">
                                     <li><a href="javascript:void(0)">We make mind blowing stuffs and amazing techies.</a></li>
@@ -186,7 +186,7 @@
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12  effect2 " style=" height:220px;border:10px solid #fefdf4; ">
                            <div class="portfolio-details" onclick="window.location='newStartup.php'">
-                              <div class="portfolio-details-inner" style="padding:15% 34%">
+                              <div class="portfolio-details-inner">
                                  <h4><a href="javascript:void(0)">SIIC Start-ups</a></h4>
                                  <ul class="portfolio-category">
                                     <li><a href="javascript:void(0)">We are developing Zero cool products for incredible people.</a></li>
@@ -198,7 +198,7 @@
                      <div class="col-lg-12">
                         <div class="col-lg-8 col-md-8 col-sm-12  effect3 " style="background-color:#84B79B; height:220px;border:10px solid #fefdf4;">
                            <div class="portfolio-details">
-                              <div class="portfolio-details-inner" style="padding:11% 34%">
+                              <div class="portfolio-details-inner">
                                  <h4><a href="javascript:void(0)" >SIIC Facilities</a></h4>
                                  <ul class="portfolio-category">
                                     <li><a href="javascript:void(0)">We have top notch world class facilities to serve you with.</a></li>
@@ -209,7 +209,7 @@
                            <div class="col-lg-4  col-md-4 col-sm-12  effect4 " style="background-color:#7E7582; height:220px;border:10px solid #fefdf4;">
 
                                        <div class="portfolio-details" onclick="window.location='announcements.php'">
-                                              <div class="portfolio-details-inner"style="padding:25% 25%">
+                                              <div class="portfolio-details-inner">
                                                   <h4><a href="javascript:void(0)" >Announcements</a></h4>
                                                   <ul class="portfolio-category">
                                                       <li><a href="javascript:void(0)">Something Important!!</a></li>
@@ -221,7 +221,7 @@
                        <div class="col-lg-12 ">
                            <div class="col-lg-6 col-md-6 col-sm-12 effect5 " style="background-color:#7E97CF; height:220px;border:10px solid #fefdf4;">
                              <div class="portfolio-details">
-                                                <div class="portfolio-details-inner" style="padding:15% 25%">
+                                                <div class="portfolio-details-inner">
                                                     <h4><a href="javascript:void(0)" >Achievements</a></h4>
                                                     <ul class="portfolio-category">
                                                         <li><a href="javascript:void(0)">Catch a glimpse of our milestones.</a></li>
@@ -232,7 +232,7 @@
 
                         <div class="col-lg-6 col-md-6 col-sm-12  effect6 " style="background-color:#C4ABA4; height:220px;border:10px solid #fefdf4;">
                            <div class="portfolio-details">
-                              <div class="portfolio-details-inner" style="padding:13% 34%">
+                              <div class="portfolio-details-inner" >
                                  <h4><a href="javascript:void(0)">Learn</a></h4>
                                  <ul class="portfolio-category">
                                     <li><a href="javascript:void(0)">Explore projects and guidances from innovators</a></li>
@@ -244,7 +244,7 @@
                      <div class="col-lg-12">
                         <div class="col-lg-8 col-md-8 col-sm-12  effect7 " style="background-color:#84B79B; height:220px;border:10px solid #fefdf4;">
                            <div class="portfolio-details" onclick="window.location='index.php#contact'">
-                              <div class="portfolio-details-inner" style="padding:13% 34%">
+                              <div class="portfolio-details-inner" >
                                  <h4><a href="javascript:void(0)" >Feedback</a></h4>
                                  <ul class="portfolio-category">
                                     <li><a href="javascript:void(0)">Help us to serve you better.</a></li>
@@ -257,7 +257,7 @@
 
                              <div class="portfolio-details" onclick="window.location='insights.php'">
 
-                                               <div class="portfolio-details-inner"  style="padding:23% 34%">
+                                               <div class="portfolio-details-inner"  >
 
                                                    <h4><a href=" javascript:void(0)" >Insights</a></h4>
                                                    <ul class="portfolio-category">
@@ -294,7 +294,7 @@
                            <div class="get-in-tuch">
                               <h2>Get In Touch<span>.</span></h2>
                               <ul class="address-line">
-                                 <li><i class="fa fa-map-marker"></i>5th Floor, Basic Engineering Block<br> SRM Institute of Science and Technology</li>
+                                 <li><i class="fa fa-map-marker"></i>5th Floor, Basic Engineering Block<br> SRM IST</li>
                                  <li><i class="fa fa-user"></i>Nikunj Panchal</li>
                                  <li><i class="fa fa-envelope"></i>manager@srmiic.com</li>
                                  <li><i class="fa fa-phone"></i>+91 8148606827</li>
@@ -339,7 +339,7 @@
    </body>
    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
    <script async defer
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD81iwuCfGQVC8_rhwNYRaJBadTfuZNDyI&callback=initMap"></script>
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBRcrTvaHbAPiENnONslXgvjs9SVbWqRVw&callback=initMap"></script>
    <script>
       $('#sticky-header').removeClass('sticky');
       $(window).on('scroll', function() {
@@ -388,7 +388,7 @@
     if (isset($_GET['isset'])) {
       if($_GET['isset']=='new_user'){
         ?>
-        	<script type="text/javascript">swal("Confirmation email has been sent to your email","", "success");</script>
+        	<script type="text/javascript">swal("Confirmation mail has been sent to your email","", "success");</script>
         <?php
       }elseif ($_GET['isset']=='new_mentor') {
           ?>
