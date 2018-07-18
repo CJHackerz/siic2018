@@ -67,7 +67,8 @@
                 <!-- <input type="text" placeholder="test123"> -->
                 <input type="password" name="user_password" placeholder="Password" required />
 
-                <input type="submit" name="" class="next action-button" value="SUBMIT" required />
+               <input type="submit" name=""  class="next action-button" value="SUBMIT" required />
+              &nbsp;&nbsp;&nbsp;<a href="./resetpassword.php" style="text-decoration: none; color:#53a846;"><strong style="border-left:5px;">forgotten password?</strong></a>
                 <p>Don't have an account? <a href="./signUp.php" style="text-decoration: none; color:#53a846;"><strong>Register here</strong></a></p>
               </fieldset>
 

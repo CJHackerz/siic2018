@@ -39,8 +39,8 @@
               <div id="page-content-wrapper">
          <?php
          if($_SERVER['REQUEST_METHOD'] == 'GET') {
-             $authkey    = $_GET['authkey'];
-             $uid        = $_GET['uid'];
+             // $authkey    = $_GET['authkey'];
+             // $uid        = $_GET['uid'];
              if(isset($_GET['reset'])) {
                  $result = $conn->query("SELECT * from user_resets where reset_key = '$authkey' and email = '$uid'");
 
